@@ -20,11 +20,14 @@
 
 In config.json, the following values are accepted:
 
-Alex, Elliott, Shane, and Sebastian: default, variant1, disabled
-All Others: default, disabled
+Alex, Elliott, Shane, and Sebastian: Adarin, Adarin Variant, Dialogue Only, Disabled
+Harvey, Sam: Adarin, Dialogue Only, Disabled
+Shane: Exrenkon, Lydomia, Dialogue Only, Disabled
+Willy: Bajel, Dialogue Only, Disabled
+Wizard: CreepyKat, Dialogue Only, Disabled
 
-The "default" and, where applicable, "variant1" options will enable changes to that character.
-The "disabled" option will disable any changes related to this character.
+I highly recommend using the Generic Mod Config Menu mod to edit these values:
+https://https://www.nexusmods.com/stardewvalley/mods/5098
 
 === CREDITS ===
 

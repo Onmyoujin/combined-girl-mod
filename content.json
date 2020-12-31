@@ -2,28 +2,44 @@
 	"Format": "1.19.0",
 	"ConfigSchema": {
 		"Alex": {
-			"AllowValues": "default, variant1, dialogue, disabled"
+			"AllowValues": "Adarin, Adarin Variant, Dialogue Only, Disabled",
+			"Default": "Adarin",
+			"Description": "Alex's gender and portrait options."
 		},
 		"Elliott": {
-			"AllowValues": "default, variant1, dialogue, disabled"
+			"AllowValues": "Adarin, Adarin Variant, Dialogue Only, Disabled",
+			"Default": "Adarin",
+			"Description": "Elliott's gender and portrait options."
 		},
 		"Harvey": {
-			"AllowValues": "default, dialogue, disabled"
+			"AllowValues": "Adarin, Dialogue Only, Disabled",
+			"Default": "Adarin",
+			"Description": "Harvey's gender and portrait options."
 		},
 		"Sam": {
-			"AllowValues": "default, dialogue, disabled"
+			"AllowValues": "Adarin, Dialogue Only, Disabled",
+			"Default": "Adarin",
+			"Description": "Sam's gender and portrait options."
 		},
 		"Sebastian": {
-			"AllowValues": "default, variant1, dialogue, disabled"
+			"AllowValues": "Adarin, Adarin Variant, Dialogue Only, Disabled",
+			"Default": "Adarin",
+			"Description": "Sebastian's gender and portrait options."
 		},
 		"Shane": {
-			"AllowValues": "default, variant1, dialogue, disabled"
+			"AllowValues": "Exrenkon, Lydomia, Dialogue Only, Disabled",
+			"Default": "Exrenkon",
+			"Description": "Shane's gender and portrait options."
 		},
 		"Willy": {
-			"AllowValues": "default, dialogue, disabled"
+			"AllowValues": "Bajel, Dialogue Only, Disabled",
+			"Default": "Bajel",
+			"Description": "Willy's gender and portrait options."
 		},
 		"Wizard": {
-			"AllowValues": "default, dialogue, disabled"
+			"AllowValues": "CreepyKat, Dialogue Only, Disabled",
+			"Default": "CreepyKat",
+			"Description": "The Wizard's gender and portrait options."
 		}
 	},
 	"Changes": [
@@ -32,7 +48,7 @@
 			"Target": "Portraits/Alex",
 			"FromFile": "assets/Portraits/Alex/{{Alex}}.png",
 			"When": {
-				"Alex": "default, variant1"
+				"Alex": "Adarin, Adarin Variant"
 			}
 		},	
 
@@ -41,7 +57,7 @@
 			"Target": "Portraits/Elliott",
 			"FromFile": "assets/Portraits/Elliott/{{Elliott}}.png",
 			"When": {
-				"Elliott": "default, variant1"
+				"Elliott": "Adarin, Adarin Variant"
 			}
 		},
 		
@@ -50,7 +66,7 @@
 			"Target": "Portraits/Harvey",
 			"FromFile": "assets/Portraits/Harvey/{{Harvey}}.png",
 			"When": {
-				"Harvey": "default"
+				"Harvey": "Adarin"
 			}
 		},
 		
@@ -59,7 +75,7 @@
 			"Target": "Portraits/Sam",
 			"FromFile": "assets/Portraits/Sam/{{Sam}}.png",
 			"When": {
-				"Sam": "default"
+				"Sam": "Adarin"
 			}
 		},
 		
@@ -68,7 +84,7 @@
 			"Target": "Portraits/Sebastian",
 			"FromFile": "assets/Portraits/Sebastian/{{Sebastian}}.png",
 			"When": {
-				"Sebastian": "default, variant1"
+				"Sebastian": "Adarin, Adarin Variant"
 			}
 		},
 		
@@ -77,7 +93,7 @@
 			"Target": "Portraits/Shane",
 			"FromFile": "assets/Portraits/Shane/{{Shane}}.png",
 			"When": {
-				"Shane": "default, variant1"
+				"Shane": "Exrenkon, Lydomia"
 			}
 		},
 		
@@ -86,7 +102,7 @@
 			"Target": "Portraits/Willy",
 			"FromFile": "assets/Portraits/Willy/{{Willy}}.png",
 			"When": {
-				"Willy": "default"
+				"Willy": "Bajel"
 			}
 		},
 		
@@ -95,7 +111,7 @@
 			"Target": "Portraits/Wizard",
 			"FromFile": "assets/Portraits/Wizard/{{Wizard}}.png",
 			"When": {
-				"Wizard": "default"
+				"Wizard": "CreepyKat"
 			}
 		},
 		
@@ -106,7 +122,7 @@
 			"FromFile": "assets/LooseSprites/Sebastian/default.png",
 			"ToArea": { "X": 405, "Y": 1852, "Width": 47, "Height": 35 },
 			"When": {
-				"Sebastian": "default, variant1"
+				"Sebastian": "Adarin, Adarin Variant"
 			}
 		},
 		
@@ -117,7 +133,7 @@
 			"FromFile": "assets/LooseSprites/Shane/default.png",
 			"ToArea": { "X": 533, "Y": 1850, "Width": 26, "Height": 41 },
 			"When": {
-				"Shane": "default, variant1"
+				"Shane": "Exrenkon, Lydomia"
 			}
 		},
 		
@@ -126,7 +142,7 @@
 			"Target": "Characters/Alex",
 			"FromFile": "assets/Characters/Alex/{{Alex}}.png",
 			"When": {
-				"Alex": "default, variant1"
+				"Alex": "Adarin, Adarin Variant"
 			}
 		},	
 
@@ -135,7 +151,7 @@
 			"Target": "Characters/Elliott",
 			"FromFile": "assets/Characters/Elliott/{{Elliott}}.png",
 			"When": {
-				"Elliott": "default, variant1"
+				"Elliott": "Adarin, Adarin Variant"
 			}
 		},
 		
@@ -144,7 +160,7 @@
 			"Target": "Characters/Harvey",
 			"FromFile": "assets/Characters/Harvey/{{Harvey}}.png",
 			"When": {
-				"Harvey": "default"
+				"Harvey": "Adarin"
 			}
 		},
 		
@@ -153,7 +169,7 @@
 			"Target": "Characters/Sam",
 			"FromFile": "assets/Characters/Sam/{{Sam}}.png",
 			"When": {
-				"Sam": "default"
+				"Sam": "Adarin"
 			}
 		},
 		
@@ -162,7 +178,7 @@
 			"Target": "Characters/Sebastian",
 			"FromFile": "assets/Characters/Sebastian/{{Sebastian}}.png",
 			"When": {
-				"Sebastian": "default, variant1"
+				"Sebastian": "Adarin, Adarin Variant"
 			}
 		},
 		
@@ -171,7 +187,7 @@
 			"Target": "Characters/Shane",
 			"FromFile": "assets/Characters/Shane/{{Shane}}.png",
 			"When": {
-				"Shane": "default, variant1"
+				"Shane": "Exrenkon, Lydomia"
 			}
 		},
 		
@@ -180,7 +196,7 @@
 			"Target": "Characters/Shane_JojaMart",
 			"FromFile": "assets/Characters/Shane/{{Shane}}_jojamart.png",
 			"When": {
-				"Shane": "default, variant1"
+				"Shane": "Exrenkon, Lydomia"
 			}
 		},
 		
@@ -189,7 +205,7 @@
 			"Target": "Characters/ClothesTherapyCharacters",
 			"FromFile": "assets/Characters/ClothesTherapyCharacters/default.png",
 			"When": {
-				"Shane": "default, variant1"
+				"Shane": "Exrenkon, Lydomia"
 			}
 		},
 		
@@ -198,7 +214,7 @@
 			"Target": "Characters/Willy",
 			"FromFile": "assets/Characters/Willy/{{Willy}}.png",
 			"When": {
-				"Willy": "default"
+				"Willy": "Bajel"
 			}
 		},
 		
@@ -207,15 +223,29 @@
 			"Target": "Characters/Wizard",
 			"FromFile": "assets/Characters/Wizard/{{Wizard}}.png",
 			"When": {
-				"Wizard": "default"
+				"Wizard": "CreepyKat"
 			}
 		},
 		
 		{
 			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"Entries": {
+				"Resort_Leaving": "I'm gonna ask Winnie if we can take the scenic route back.",
+				"Resort": "Bummer... Winnie says we have to stay on the beach...$s#$b#And I brought my sword and everything...$s"
+			},
+			"When": {
+				"Willy":"Bajel, Dialogue Only"
+			}
+		},
+
+		{
+			"Action": "EditData",
 			"Target": "Characters/Dialogue/Alex",
 			"Entries": {
 				"Introduction": "Oh, hey. So you're the new guy, huh? Cool.^Hey, you're the new girl, huh? I think we're going to get along great. I'm Alexa.#$e#I'll see you around.",
+				"Resort_Chair": "Aren't you hot in that outfit? You gotta get some ocean breeze goin'!^Aren't you hot in that outfit? C'mon, girl... It's the beach!",
+				"Resort_Towel_2": "Phew, it feels good to finally get these curves a little sunlight.#$e#Kind of a shame to have them hidden away all the time back home.",
 				"Tue": "The beach is a cool place to hang out and soak up some rays.#e#You gotta spend some time in the sun or else you'll get all pale.#$e#Hey, do you wanna hang out with me at the beach some time? Do you wear trunks or briefs?$s^*sigh*... I wish there were more guys in this town, know what I mean?",
 				"Fri": "Hey, what's up farmer guy? Did you get new pants? You're doing something right.^Hey, it's farm girl.#e#Oh, I almost forgot! It's my day for doing push-ups!#e#Every time I do push-ups I try to do one more than last time. Pretty cool strategy, huh?",
 				"Sat": "My arms are really sore, but that's the sign of progress for a girl like me.#e#I must've done a thousand push-ups yesterday.",
@@ -225,7 +255,7 @@
 				"fall_Wed": "Hey, I want to ask you something.^Hey, can I ask you something?#$e#$q 54/55 fall_Wed_01_old#What do you think about my haircut?^Do you think the guys like my haircut?#$r 54 30 fall_Wed_01_01#It looks very fashionable.#$r 55 -30 fall_Wed_01_02#It looks like some kind of fungal growth."
 			},
 			"When": {
-				"Alex": "default, variant1, dialogue"
+				"Alex": "Adarin, Adarin Variant, Dialogue Only"
 			}
 		},
 		
@@ -236,7 +266,7 @@
 				"winter_Sat": "There's some weird people living in this town.#$e#...like that girl Sabrina. Why does she wear black all the time?#$e#I don't get it."
 			},
 			"When": {
-				"Sebastian": "default, dialogue"
+				"Sebastian": "Adarin, Adarin Variant, Dialogue Only"
 			}
 		},
 		
@@ -244,10 +274,21 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Caroline",
 			"Entries": {
+				"Resort_Entering": "Winnie gave us each a piece of her fish jerky. I'm still chewing on it."
+			},
+			"When": {
+				"Willy": "Bajel, Dialogue Only"
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Caroline",
+			"Entries": {
 				"Mon8": "#$1 Caroline23#When we first moved to Pelican Town I would take secret walks to the Wizardess' tower. She used to show me some very... *ahem* fun spells. Don't tell Pierre, he has jealousy issues.#$e#Abigail was born about a year after we moved to Pelican Town. I wonder if she'll ever experience life outside the valley?"
 			},
 			"When": {
-				"Wizard": "default, dialogue"
+				"Wizard": "CreepyKat, Dialogue Only"
 			}
 		},
 		
@@ -256,13 +297,25 @@
 			"Target": "Characters/Dialogue/Elliott",
 			"Entries": {
 				"Introduction": "Ah, the new farmer we've all been expecting... and whose arrival has sparked many a conversation!#$b#I'm Elayne... I live in the little cabin by the beach. It's a pleasure to meet you.",
-				"event_boat1": "... I was worried you might not feel this way about me.$l^So am I.$l"
+				"Wed8": "Sorry, I'm feeling morose today.$s#$e#I wish there was more certainty about the future.$s#$e#I don't want to grow old as a lonely hermitess on this beach...$s",
+				"event_boat1": "So am I.$l^... I was worried you might not feel this way about another woman.$l"
 			},
 			"When": {
-				"Elliott": "default, variant1, dialogue"
+				"Elliott": "Adarin, Adarin Variant, Dialogue Only"
 			}
 		},
 		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Emily",
+			"Entries": {
+				"summer_Sat": "Don't overwork yourself or you might end up in Harley's clinic!"
+			},
+			"When": {
+				"Harvey": "Adarin, Dialogue Only"
+			}
+		},
+
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Evelyn",
@@ -271,7 +324,7 @@
 				"fall_Sat": "Are you friends with Alexa?#$e#Sometimes she worries me sick."
 			},
 			"When": {
-				"Alex": "default, variant1, dialogue"
+				"Alex": "Adarin, Adarin Variant, Dialogue Only"
 			}
 		},
 		
@@ -285,7 +338,7 @@
 				"Wed8": "I wish my legs worked so I could play catch with Alexa.$s#$e#That'll never happen.$s"
 			},
 			"When": {
-				"Alex": "default, variant1, dialogue"
+				"Alex": "Adarin, Adarin Variant, Dialogue Only"
 			}
 		},
 		
@@ -299,7 +352,7 @@
 				"winter_Sun6": "Um, if you see Alexa could you tell her I'm busy today?#$e#Thanks."
 			},
 			"When": {
-				"Alex": "default, variant1, dialogue"
+				"Alex": "Adarin, Adarin Variant, Dialogue Only"
 			}
 		},
 		
@@ -310,7 +363,7 @@
 				"Introduction": "It's a pleasure to meet you. I'm Harley, the local doctor.#$e#I perform regular check-ups and medical procedures for all the residents of Pelican Town. It's rewarding work.#$e#I hope you'll find your own work equally rewarding, in time.$h"
 			},
 			"When": {
-				"Harvey": "default, dialogue"
+				"Harvey": "Adarin, Dialogue Only"
 			}
 		},
 		
@@ -322,7 +375,7 @@
 				"Sun10": "Did you know Shania's my godmother? She was a friend of my parents.$s#$e#...they died.*sniff*$s"
 			},
 			"When": {
-				"Shane": "default, variant1, dialogue"
+				"Shane": "Exrenkon, Lydomia, Dialogue Only"
 			}
 		},
 		
@@ -332,11 +385,12 @@
 			"Entries": {
 				"Thu6": "Where does all the time go? *sigh*#$e#I remember when Sam was a little baby wearing diapers. She was such a cute little kid.$s#$e#Don't tell her I said that.$h#$e#You must really like talking to me, huh?",
 				"fall_Thu": "Maybe I've spoiled the kids a bit. They've never had to do any chores.#$e#I guess I want them to be able to enjoy their childhood while they still can. Well, Sam's basically a woman now, though.#$b#I hope she hasn't grown up to be lazy. That won't do.$s#$e#Being a parent isn't very easy.",
+				"fall_Thu_inlaw_Sam": "Is Sam just bumming around the farm, or is she contributing?",
 				"winter_Thu": "Sam makes a lot of noise with that music of hers. I hope it doesn't disturb the neighbors.",
 				"winter_Thu_inlaw_Sam": "How's Sam doing? I have to admit, there's less cooking and cleaning to do since she moved out..."
 			},
 			"When": {
-				"Sam": "default, dialogue"
+				"Sam": "Adarin, Dialogue Only"
 			}
 		},
 		
@@ -348,10 +402,22 @@
 				"Thu": "Are you friends with my daughter?#$e#You probably know her better than I do...$s"
 			},
 			"When": {
-				"Sam": "default, dialogue"
+				"Sam": "Adarin, Dialogue Only"
 			}
 		},
 		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Leah",
+			"Entries": {
+				"Resort_Entering": "Don't tell anyone, but Winnie let me steer the boat for a few minutes.$h",
+				"Resort_Wander": "Mmm, I bet the trees around here would make for an interesting medium to work with.#$e#Though Winnie probably wouldn't be happy with me if I dragged a bunch of logs onto her ship!$h"
+			},
+			"When": {
+				"Willy":"Bajel, Dialogue Only"
+			}
+		},
+
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Marnie",
@@ -360,7 +426,7 @@
 				"Fri4": "#$1 marnieLike#I think someone in town has taken a liking to me. *teehee*$k$h#$e#I would be so lonely if Shania ever moved out."
 			},
 			"When": {
-				"Shane": "default, variant1, dialogue"
+				"Shane": "Exrenkon, Lydomia, Dialogue Only"
 			}
 		},
 		
@@ -371,7 +437,7 @@
 				"Indoor_Night_Sebastian": "#$c .5#I may be a reclusive girl, but I'm always happy when you're around.$h#$e#Hi, @. Good to see you. It's comforting when you're around.$h"
 			},
 			"When": {
-				"Sebastian": "default, variant1, dialogue"
+				"Sebastian": "Adarin, Adarin Variant, Dialogue Only"
 			}
 		},
 		
@@ -382,7 +448,7 @@
 				"winter_Sam": "I've given up on being a musician. I want to spend my time focused on our family!"
 			},
 			"When": {
-				"Sam": "default, dialogue"
+				"Sam": "Adarin, Dialogue Only"
 			}
 		},
 		
@@ -393,7 +459,7 @@
 				"Bad_9": "I wonder if I could've done better... I was very good friends with Sabrina before we met. She was probably the one...$s"
 			},
 			"When": {
-				"Sebastian": "default, variant1, dialogue"
+				"Sebastian": "Adarin, Adarin Variant, Dialogue Only"
 			}
 		},
 		
@@ -413,7 +479,7 @@
 				"summer_1": "Summer's a very energetic time of year, and my body feels it too! I feel solid."
 			},
 			"When": {
-				"Alex": "default, variant1, dialogue"
+				"Alex": "Adarin, Adarin Variant, Dialogue Only"
 			}
 		},
 		
@@ -426,10 +492,10 @@
 				"Indoor_Night_2": "I never had much success growing plants in my old beach house. Hopefully I can pick up a thing or two by watching you.#$e#In this respect, you are the master and I only a humble apprentice.",
 				"OneKid_3": "Caring for babies isn't exactly my strong suit... but I'll do my best to be a good mother.",
 				"TwoKids_1": "I was carrying %kid1 earlier, and I could've sworn I heard a \"Ma...ma\".$h",
-				"fall_26": "Would you still love me if I guzzled two gallons of pumpkin ale at the Spirit's Eve festival? Sometimes a woman likes to get wild..."
+				"fall_26": "Would you still love me if I guzzled two gallons of pumpkin ale at the Spirit's Eve festival? Sometimes a girl likes to get wild..."
 			},
 			"When": {
-				"Elliott": "default, variant1, dialogue"
+				"Elliott": "Adarin, Adarin Variant, Dialogue Only"
 			}
 		},
 		
@@ -443,7 +509,7 @@
 				"summer_1": "Make sure you don't get sunburnt, dear! It's very dangerous for your skin.$8#$e#As your wife and doctor, I consider your health and safety my top priority!"
 			},
 			"When": {
-				"Harvey": "default, dialogue"
+				"Harvey": "Adarin, Dialogue Only"
 			}
 		},
 		
@@ -451,11 +517,11 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/MarriageDialogueMaru",
 			"Entries": {
-				"spring_22": "If my sister wasn't such a hermit I'd invite her over for dinner sometime.",
+				"spring_22": "If my sister wasn't such a hermitess I'd invite her over for dinner sometime.",
 				"summer_20": "I wonder if my sister will ever have the courage to ask Abigail out?"
 			},
 			"When": {
-				"Sebastian": "default, variant1, dialogue"
+				"Sebastian": "Adarin, Adarin Variant, Dialogue Only"
 			}
 		},
 		
@@ -466,7 +532,7 @@
 				"Rainy_Day_1": "I wonder if Maru and Dr. Harley will ever get together? I'm sure Harley likes her...#$e3#I think Maru will have to make the first move, though.$h"
 			},
 			"When": {
-				"Harvey": "default, dialogue"
+				"Harvey": "Adarin, Dialogue Only"
 			}
 		},
 		
@@ -478,7 +544,7 @@
 				"spring_12": "Are you excited for tomorrow's festival? It'll be cool to see Sabrina again."
 			},
 			"When": {
-				"Sebastian": "default, variant1, dialogue"
+				"Sebastian": "Adarin, Adarin Variant, Dialogue Only"
 			}
 		},
 		
@@ -490,7 +556,7 @@
 				"TwoKids_3": "I never thought I'd become the homemaker type, but I'm really satisfied with what we've built here. Life is going great.$l"
 			},
 			"When": {
-				"Sam": "default, dialogue"
+				"Sam": "Adarin, Dialogue Only"
 			}
 		},
 		
@@ -504,7 +570,7 @@
 				"spring_23": "Oh... tomorrow's the flower dance, isn't it? Do we have to go?#$e#I hate wearing that ridiculous dress. Why does Lewis make us do this?$s"
 			},
 			"When": {
-				"Sebastian": "default, variant1, dialogue"
+				"Sebastian": "Adarin, Adarin Variant, Dialogue Only"
 			}
 		},
 		
@@ -515,7 +581,7 @@
 				"fall_15": "The Stardew Valley Fair is a little crowded for my tastes... but I'll just hang out with Sam. It'll be good to catch up with her.#$e#You should play some carnival games, though! Don't worry about me.$7"
 			},
 			"When": {
-				"Sam": "default, dialogue"
+				"Sam": "Adarin, Dialogue Only"
 			}
 		},
 		
@@ -530,10 +596,22 @@
 				"Good_6": "Ah... this is the life. No responsibilities, Tunnelers game tonight, fridge stocked with all the goodies a girl could need.$h"
 			},
 			"When": {
-				"Shane": "default, variant1, dialogue"
+				"Shane": "Exrenkon, Lydomia, Dialogue Only"
 			}
 		},
 		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			"Entries": {
+				"Resort_Entering": "Winnie mentioned that you helped fix the boat. Thanks for doing that!",
+				"Resort_Shore": "I wonder if Winnie would let me bring my telescope here sometime...#The sky is so clear here, I bet I could spot Pelican Town out in the horizon.#Maybe I'd even see you running around %farm Farm!"
+			},
+			"When": {
+				"Willy":"Bajel, Dialogue Only"
+			}
+		},
+
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Maru",
@@ -544,7 +622,7 @@
 				"Event_Hospital_3": "You're right. I should just tell her the truth.%fork$u"
 			},
 			"When": {
-				"Harvey": "default, dialogue"
+				"Harvey": "Adarin, Dialogue Only"
 			}
 		},
 		
@@ -556,21 +634,33 @@
 				"summer_Tue4": "Sabrina hardly ever talks to me. I wonder if she even likes me at all?#$e#It's sad, I want to have a sister but she doesn't act like one."
 			},
 			"When": {
-				"Sebastian": "default, dialogue"
+				"Sebastian": "Adarin, Adarin Variant, Dialogue Only"
 			}
 		},
 		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Pam",
+			"Entries": {
+				"Resort": "Heh... Winnie gave us each a piece of her fish jerky on the ride over. Delicious!"
+			},
+			"When": {
+				"Willy":"Bajel, Dialogue Only"
+			}
+		},
+
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Robin",
 			"Entries": {
 				"Fri": "You've met my daughter Sabrina, right? She lives downstairs.#$e#She's a little shy, but I'm sure she'll warm up to you if you're nice to her.",
-				"Fri_inlaw_Sebastian": "I miss my Sebby... she was always a little misunderstood, but I believed in her.",
+				"Fri_inlaw_Sebastian": "I miss my Rina... she was always a little misunderstood, but I believed in her.",
 				"Fri4": "#$1 RobinSeb#I found an ashtray in Sabrina's room, and it smelled really weird. Should I be worried about this?#$e#Sometimes I worry about Sabrina... she doesn't have many friends and doesn't really seem to care about her future very much...#$e#I would talk to her about it but she never opens up to me.",
-				"Fri4_inlaw_Sebastian": "Sabrina told me she's trying to quit smoking! I'm really proud of her."
+				"Fri4_inlaw_Sebastian": "Sabrina told me she's trying to quit smoking! I'm really proud of her.",
+				"winter_Fri_inlaw_Sebastian": "I think the farm life is really healthy for Rina."
 			},
 			"When": {
-				"Sebastian": "default, variant1, dialogue"
+				"Sebastian": "Adarin, Adarin Variant, Dialogue Only"
 			}
 		},
 		
@@ -578,10 +668,11 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sam",
 			"Entries": {
-				"Mon8": "I'll tell you a secret... my name 'Sam' is short for 'Samantha'.$l#$e#Most people don't know that so keep it on mute."
+				"Mon8": "I'll tell you a secret... my name 'Sam' is short for 'Samantha'.$l#$e#Most people don't know that so keep it on mute.",
+				"Wed10": "@. Um... I just wanted to say... You look nice today.$10^Hey girl. You look like you're full of energy today!"
 			},
 			"When": {
-				"Sam": "default, dialogue"
+				"Sam": "Adarin, Dialogue Only"
 			}
 		},
 		
@@ -589,10 +680,11 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sam",
 			"Entries": {
+				"Resort_Towel_2": "Maybe I should learn to play the ukelele.#$e#Abby on the congas and Sabrina on the steel drums... 'The Pelicans of Paradise'...$s#$e#What's the matter, you look worried.$h",
 				"Wed6": "I've been friends with Sabrina for a while. She's a pretty cool girl.#$e#If you two weren't around I wouldn't really have any friends in town."
 			},
 			"When": {
-				"Sebastian": "default, variant1, dialogue"
+				"Sebastian": "Adarin, Adarin Variant, Dialogue Only"
 			}
 		},
 		
@@ -603,10 +695,32 @@
 				"fall_26": "Tonight, after everyone is asleep, that weird old woman who lives in the woods will set up the haunted maze. She always makes sure no one is around to see her working."
 			},
 			"When": {
-				"Wizard": "default, dialogue"
+				"Wizard": "CreepyKat, Dialogue Only"
 			}
 		},
 		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sebastian",
+			"Entries": {
+				"Resort_Shore": "You think Winnie would let me lug a jet ski out here?#$b#...Nah.$h"
+			},
+			"When": {
+				"Willy": "Bajel, Dialogue Only"
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sebastian",
+			"Entries": {
+				"winter_Wed": "%Sabrina seems lost in thought..."
+			},
+			"When": {
+				"Sebastian":"Adarin, Adarin Variant, Dialogue Only"
+			}
+		},
+
 		{
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Shane",
@@ -615,7 +729,7 @@
 				"JojaMart": "%Shania's hard at work. She doesn't seem interested in talking."
 			},
 			"When": {
-				"Shane": "default, variant1, dialogue"
+				"Shane": "Exrenkon, Lydomia, Dialogue Only"
 			}
 		},
 		
@@ -626,7 +740,7 @@
 				"event_room1": "Okay... that'll require a great script. Maybe I'll ask Elayne for advice next time I see her at the saloon.$s"
 			},
 			"When": {
-				"Elliott": "default, variant1, dialogue"
+				"Elliott": "Adarin, Adarin Variant, Dialogue Only"
 			}
 		},
 		
@@ -637,7 +751,7 @@
 				"Mon": "I wanna be just like my big sister when I grow up!$h#$e#Okay! Bye!"
 			},
 			"When": {
-				"Sam": "default, dialogue"
+				"Sam": "Adarin, Dialogue Only"
 			}
 		},
 		
@@ -648,7 +762,7 @@
 				"Sam0": "I'm going to be really happy as your wife, @.$l#$e#I'm excited."
 			},
 			"When": {
-				"Sam": "default, dialogue"
+				"Sam": "Adarin, Dialogue Only"
 			}
 		},
 		
@@ -659,7 +773,7 @@
 				"Willy": "adult/neutral/neutral/neutral/female/not-datable/null/Town/summer 24/Elliott ''/FishShop 5 4/Winnie"
 			},
 			"When": {
-				"Willy": "default, dialogue"
+				"Willy": "Bajel, Dialogue Only"
 			}
 		},
 		
@@ -670,7 +784,7 @@
 				"Elliott": "adult/polite/neutral/neutral/female/datable/Leah/Town/fall 5/Willy ''/ElliottHouse 1 5/Elayne"
 			},
 			"When": {
-				"Elliott": "default, variant1, dialogue"
+				"Elliott": "Adarin, Adarin Variant, Dialogue Only"
 			}
 		},
 		
@@ -681,7 +795,7 @@
 				"Harvey": "adult/polite/shy/positive/female/datable/Maru/Town/winter 14//HarveyRoom 13 4/Harley"
 			},
 			"When": {
-				"Harvey": "default, dialogue"
+				"Harvey": "Adarin, Dialogue Only"
 			}
 		},
 		
@@ -694,7 +808,7 @@
 				"George": "adult/rude/neutral/negative/male/not-datable/Evelyn/Town/fall 24/Evelyn 'wife' Alex 'granddaughter'/JoshHouse 16 22/George"
 			},
 			"When": {
-				"Alex": "default, variant1, dialogue"
+				"Alex": "Adarin, Adarin Variant, Dialogue Only"
 			}
 		},
 		
@@ -707,7 +821,7 @@
 				"Kent": "adult/neutral/shy/negative/male/not-datable/Jodi/Town/spring 4/Jodi 'wife' Sam 'daughter' Vincent 'son'/SamHouse 22 5/Kent"
 			},
 			"When": {
-				"Sam": "default, dialogue"
+				"Sam": "Adarin, Dialogue Only"
 			}
 		},
 		
@@ -720,7 +834,7 @@
 				"Robin": "adult/neutral/outgoing/positive/female/not-datable/Demetrius/Town/fall 21/Demetrius 'husband' Maru 'youngest_daughter' Sebastian 'eldest_daughter'/ScienceHouse 21 4/Robin"
 			},
 			"When": {
-				"Sebastian": "default, variant1, dialogue"
+				"Sebastian": "Adarin, Adarin Variant, Dialogue Only"
 			}
 		},
 		
@@ -732,7 +846,7 @@
 				"Marnie": "adult/polite/outgoing/positive/female/not-datable/Lewis/Town/fall 18/Lewis '' Shane 'eldest_niece' Jas 'youngest_niece'/AnimalShop 12 14/Marnie"
 			},
 			"When": {
-				"Shane": "default, variant1, dialogue"
+				"Shane": "Exrenkon, Lydomia, Dialogue Only"
 			}
 		},
 		
@@ -743,7 +857,7 @@
 				"Wizard": "adult/rude/neutral/negative/female/not-datable/null/Other/winter 17//WizardHouse 3 17/Wizardess"
 			},
 			"When": {
-				"Wizard": "default, dialogue"
+				"Wizard": "CreepyKat, Dialogue Only"
 			}
 		},
 		
@@ -757,7 +871,7 @@
 				"123": "ItemDelivery/Staff Of Power/The Wizardess is creating a staff of phenomenal power. Who knows what it's for. She needs an iridium bar to finish it./Bring Wizardess an Iridium Bar./Wizard 337/-1/5000/-1/true/Ah, precious iridium. You've done well, @. You have my gratitude. Now, leave."
 			},
 			"When": {
-				"Wizard": "default, dialogue"
+				"Wizard": "CreepyKat, Dialogue Only"
 			}
 		},
 		
@@ -770,7 +884,7 @@
 				"124": "ItemDelivery/Catch a Lingcod/Winnie is challenging you to catch a Lingcod./Bring Winnie a Lingcod./Willy 707/-1/550/-1/true/Hey, that's a real lunker! You've certainly got the angler's blood in you.$h"
 			},
 			"When": {
-				"Willy": "default, dialogue"
+				"Willy": "Bajel, Dialogue Only"
 			}
 		},
 		
@@ -780,10 +894,10 @@
 			"Entries": {
 				"3910674/f Shane 1000": "shaneTheme/-2000 -2000/farmer 18 18 1 Marnie 21 14 0 Jas 25 16 2 Shane -1000 -1000 2/skippable/specificTemporarySprite shanePassedOut/viewport 22 8 true/pause 2000/speak Marnie \"Shania?\"/pause 2000/doAction 21 13/pause 500/move Marnie 0 -7 1/textAboveHead Marnie \"Oh dear...\"/doAction 21 13/removeTile 21 13 Buildings/removeTile 21 12 Front/move farmer 3 0 0/faceDirection Jas 3 true/move farmer 0 -10 1/faceDirection Marnie 2/pause 500/speak Marnie \"@... Can you do something? She's out cold.$s\"/pause 500/faceDirection farmer 0/pause 500/faceDirection farmer 1/move farmer 3 0 0/faceDirection Marnie 1 true/move farmer 0 -1 1/pause 1000/speak Shane \"buhhh...$7\"/pause 2000/specificTemporarySprite waterShane/pause 250/playSound wateringCan/pause 1000/specificTemporarySprite waterShaneDone/warp Shane 25 7/textAboveHead Shane \"Whaa..?!\"/jump Shane/shake Shane 2000/showFrame Shane 18/pause 3000/showFrame Shane 0/move farmer -1 0 1/faceDirection Shane 3/speak Marnie \"Shania! What's the matter with you? All you do anymore is mope around your room and drink beer!$s\"/move Jas -4 0 0 true/pause 200/faceDirection Shane 2 true/pause 50/faceDirection Shane 1/emote Shane 12/shake Shane 1000/textAboveHead Shane \"...\"/pause 1500/speak Shane \"You wouldn't understand...\"/pause 1000/textAboveHead Marnie \"I'm worried...\"/move Jas 0 -8 1/speak Marnie \"What's your plan? Don't you ever think about the future?\"/faceDirection Shane 0/textAboveHead Shane \"Plan?\"/pause 2000/speak Shane \"Hopefully I won't be around long enough to need a 'plan'...\"/jump Jas/pause 500/shake Jas 10000/speed Jas 4/textAboveHead Jas \"...*sob*...\"/move Jas 0 10 2 true/faceDirection Marnie 2/emote Marnie 28 true/faceDirection farmer 3/faceDirection Shane 1 true/pause 50/faceDirection Shane 2/pause 600/move Marnie 0 10 2 true/pause 1000/textAboveHead Shane \"Jas...\"/pause 500/faceDirection farmer 1/pause 400/showFrame Shane 19/pause 1000/textAboveHead Shane \"I'm sorry...\"/pause 3000/faceDirection Shane 1 true/showFrame Shane 4/pause 500/showFrame Shane 35/playSound thudStep/shake Shane 4000/pause 2000/end",
 				"3910974/f Shane 1700/e 3910975/p Shane": "shaneTheme/-2000 -2000/farmer -1000 -1000 1 Marnie 12 14 2 Jas 25 16 3 Shane -1000 -1000 0/skippable/showFrame Jas 22/viewport 13 14 clamp true/pause 2000/playSound doorClose/warp Shane 13 19/move Shane 0 -3 0/pause 500/speak Marnie \"Hi Shania... you look unusually happy today.\"/pause 1000/speak Shane \"You're right... I haven't felt this light since I was a kid.$h\"/emote Marnie 8/move Marnie 1 0 2/speak Marnie \"Let me guess... Gus had a clearance sale on canned beer?$u\"/pause 500/playSound shwip/faceDirection Shane 1 true/pause 50/faceDirection Shane 2 true/pause 500/textAboveHead Shane \"Good one...\"/pause 500/showFrame Shane 19/pause 1000/speak Shane \"No, actually. I've been drinking sparkling water instead of beer... and I feel great!$h\"/pause 500/showFrame Shane 0/pause 200/faceDirection Shane 1 true/pause 50/faceDirection Shane 0/speak Shane \"You know, I sometimes forget that I really do have friends, people that care about me.#$b#And it's okay for me to rely on them... it doesn't make me weak.\"/pause 500/emote Marnie 32/viewport move 1 0 6000/move Shane 4 0 2/textAboveHead Marnie \"She looks sharp!\"/move Shane 0 2 1/move Shane 4 0 0/move Shane 0 -2 1/speak Shane \"Hi Jas. I've got something for you.$6\"/pause 500/showFrame Shane 26/specificTemporarySprite jasGift/playSound coin/pause 500/showFrame Shane 4/emote Jas 8 true/move Jas -2 0 3/pause 800/playSound woodWhack/specificTemporarySprite jasGiftOpen/pause 500/showFrame Jas 24/playSound yoba/pause 2000/speak Jas \"Th... These are real bunny-jewel slippers!!$h\"/pause 200/speed Jas 6/jump Jas/move Jas -1 0 3/showFrame Jas 23/positionOffset Jas -2 1/pause 10/positionOffset Jas -2 0/pause 10/positionOffset Jas -2 0/pause 10/positionOffset Jas -2 0/showFrame Shane 18/pause 10/positionOffset Jas -2 0/pause 10/positionOffset Jas -2 0/pause 10/positionOffset Jas -2 0/pause 10/positionOffset Jas -2 0/pause 10/positionOffset Jas -2 0/pause 10/positionOffset Jas -2 0/pause 10/positionOffset Jas -2 0/pause 10/positionOffset Jas -2 0/pause 10/positionOffset Jas -2 0/pause 10/positionOffset Jas -2 0/pause 10/positionOffset Jas -2 0/pause 10/positionOffset Jas -2 1/pause 2000/viewport -2000 -2000/playMusic none/pause 1000/speak Jas \"B... But these are so expensive!$3#$b#How did you afford them?$3\"/pause 1000/speak Shane \"I've cut back on an expensive habit. I have a lot more spending money now!$h\"/pause 1000/end",
-				"3900074/f Shane 2000/e 2118991/p Shane": "distantBanjo/27 14/farmer 22 15 1 Jas 30 14 2 Shane -1000 -1000 0/skippable/pause 1000/faceDirection Jas 3/pause 400/jump Jas/pause 1500/move farmer 8 0 0/faceDirection Jas 2/pause 500/speak Jas \"Aunt Shania's in the barn. She said... Uh... Shee said to tell you she wants to show you something.\"/pause 500/faceDirection Jas 0/pause 500/playSound doorClose/warp Jas -1000 -1000/pause 800/move farmer 0 -1 0/playSound doorClose/warp farmer -1000 -1000/pause 1600/globalFade/viewport -2000 -2000/changeToTemporaryMap MarnieBarn false/viewport -2000 -2000/addTemporaryActor White_Chicken 16 16 8 5 2 false Animal chicken1/addTemporaryActor Blue_Chicken 16 16 8 9 3 false Animal chicken2/addTemporaryActor Blue_Chicken 16 16 7 7 1 false Animal chicken3/addTemporaryActor Blue_Chicken 16 16 14 11 3 false Animal chicken4/addTemporaryActor Blue_Chicken 16 16 9 11 2 false Animal chicken5/warp Shane 5 3/faceDirection Shane 0/animate Shane false true 500 32 33/viewport 7 3 true/pause 500/move chicken5 -1 0 2 true/pause 1000/move chicken2 3 0 1 true/pause 1500/move chicken4 0 1 2 true/pause 1000/speak Shane \"That should do it...$6\"/pause 500/stopAnimation Shane/pause 500/faceDirection Shane 3 true/pause 50/faceDirection Shane 2/pause 1000/move Shane 0 1 2/move Shane 3 0 2/pause 1000/showFrame Shane 30/pause 500/playSound coin/showFrame Shane 29/warp chicken1 -100 -100/pause 500/showFrame Shane 28/move chicken3 0 -1 0 true/pause 1000/move chicken4 0 -1 0/pause 1000/speak Shane \"It's the perfect home for you hens...$8#$b#We'll have the best eggs in the whole valley!$8#$b#Fresh and healthy, with rich golden yolks. Not like those pale, sickly Joja eggs...$8\"/move chicken2 -1 0 2/pause 1000/move chicken3 0 1 2/emote Shane 28/pause 1500/move chicken4 -1 0 3 true/pause 500/move chicken3 1 0 1 true/move chicken2 1 0 1 true/pause 500/speak Shane \"...*sigh*...$9#$b#...You know, Charlie... I was thinking... $9#$b#A girl like me is always teetering on the edge of despair... know what I mean?$9#$b#...But you and the other hens are going to keep me upright from now on... I know it.$9#$b#...$9#$b#What's wrong... too much pressure? *chuckle*$8\"/pause 500/playSound doorClose/warp Jas 3 8/move Jas 0 -1 0/move Jas 0 -3 1 true/pause 500/warp farmer 3 8/playSound doorClose/move farmer 0 -3 1 false/pause 1000/showFrame Shane 29/pause 500/move chicken2 0 -1 0 true/showFrame Shane 30/warp chicken1 8 5/playSound thudStep/pause 500/move chicken3 -1 0 3/showFrame Shane 0/faceDirection chicken3 2/pause 1000/faceDirection Shane 3/speak Shane \"Hey, @... so, what do you think?$h\"/animate chicken1 false true 500 16 17/pause 500/animate chicken4 false true 700 16 17/advancedMove chicken2 false 0 -4 -2 0/move farmer 2 0 1/advancedMove chicken3 false -1 0 0 -2/move farmer 0 -1 1/move farmer 2 0 2/faceDirection Shane 2/speak Shane \"My special blue hens... I've been raising them in secret for the last few months.$6\"/faceDirection Shane 3/speak Shane \"I... Well, I won't be living here forever, and I wanted to pass something on to Jas. I've been teaching her how to care for them.$6#$b#...I want to feel like I'm not just a leech on the world. I want to contribute somehow, even in a small way like this.\"/move Jas 3 0 2/faceDirection Shane 2/pause 2000/showFrame Shane 19/pause 500/pause 1000/end"
+				"3900074/f Shane 2000/e 2118991/p Shane": "distantBanjo/27 14/farmer 22 15 1 Jas 30 14 2 Shane -1000 -1000 0/skippable/pause 1000/faceDirection Jas 3/pause 400/jump Jas/pause 1500/move farmer 8 0 0/faceDirection Jas 2/pause 500/speak Jas \"Aunt Shania's in the barn. She said... Uh... She said to tell you she wants to show you something.\"/pause 500/faceDirection Jas 0/pause 500/playSound doorClose/warp Jas -1000 -1000/pause 800/move farmer 0 -1 0/playSound doorClose/warp farmer -1000 -1000/pause 1600/globalFade/viewport -2000 -2000/changeToTemporaryMap MarnieBarn false/viewport -2000 -2000/addTemporaryActor White_Chicken 16 16 8 5 2 false Animal chicken1/addTemporaryActor Blue_Chicken 16 16 8 9 3 false Animal chicken2/addTemporaryActor Blue_Chicken 16 16 7 7 1 false Animal chicken3/addTemporaryActor Blue_Chicken 16 16 14 11 3 false Animal chicken4/addTemporaryActor Blue_Chicken 16 16 9 11 2 false Animal chicken5/warp Shane 5 3/faceDirection Shane 0/animate Shane false true 500 32 33/viewport 7 3 true/pause 500/move chicken5 -1 0 2 true/pause 1000/move chicken2 3 0 1 true/pause 1500/move chicken4 0 1 2 true/pause 1000/speak Shane \"That should do it...$6\"/pause 500/stopAnimation Shane/pause 500/faceDirection Shane 3 true/pause 50/faceDirection Shane 2/pause 1000/move Shane 0 1 2/move Shane 3 0 2/pause 1000/showFrame Shane 30/pause 500/playSound coin/showFrame Shane 29/warp chicken1 -100 -100/pause 500/showFrame Shane 28/move chicken3 0 -1 0 true/pause 1000/move chicken4 0 -1 0/pause 1000/speak Shane \"It's the perfect home for you hens...$8#$b#We'll have the best eggs in the whole valley!$8#$b#Fresh and healthy, with rich golden yolks. Not like those pale, sickly Joja eggs...$8\"/move chicken2 -1 0 2/pause 1000/move chicken3 0 1 2/emote Shane 28/pause 1500/move chicken4 -1 0 3 true/pause 500/move chicken3 1 0 1 true/move chicken2 1 0 1 true/pause 500/speak Shane \"...*sigh*...$9#$b#...You know, Charlie... I was thinking... $9#$b#A girl like me is always teetering on the edge of despair... know what I mean?$9#$b#...But you and the other hens are going to keep me upright from now on... I know it.$9#$b#...$9#$b#What's wrong... too much pressure? *chuckle*$8\"/pause 500/playSound doorClose/warp Jas 3 8/move Jas 0 -1 0/move Jas 0 -3 1 true/pause 500/warp farmer 3 8/playSound doorClose/move farmer 0 -3 1 false/pause 1000/showFrame Shane 29/pause 500/move chicken2 0 -1 0 true/showFrame Shane 30/warp chicken1 8 5/playSound thudStep/pause 500/move chicken3 -1 0 3/showFrame Shane 0/faceDirection chicken3 2/pause 1000/faceDirection Shane 3/speak Shane \"Hey, @... so, what do you think?$h\"/animate chicken1 false true 500 16 17/pause 500/animate chicken4 false true 700 16 17/advancedMove chicken2 false 0 -4 -2 0/move farmer 2 0 1/advancedMove chicken3 false -1 0 0 -2/move farmer 0 -1 1/move farmer 2 0 2/faceDirection Shane 2/speak Shane \"My special blue hens... I've been raising them in secret for the last few months.$6\"/faceDirection Shane 3/speak Shane \"I... Well, I won't be living here forever, and I wanted to pass something on to Jas. I've been teaching her how to care for them.$6#$b#...I want to feel like I'm not just a leech on the world. I want to contribute somehow, even in a small way like this.\"/move Jas 3 0 2/faceDirection Shane 2/pause 2000/showFrame Shane 19/pause 500/pause 1000/end"
 			},
 			"When": {
-				"Shane": "default, variant1, dialogue"
+				"Shane": "Exrenkon, Lydomia, Dialogue Only"
 			}
 		},
 		
@@ -794,7 +908,7 @@
 				"1848481/f Elliott 2000/t 1300 1900/n elliottReading": "breezy/14 11/Elliott 14 9 2 Pierre 10 13 1 Caroline 11 13 3 Marnie 11 15 1 Lewis 12 15 3 Sebastian 11 17 2 Abigail 12 18 3 Sam 10 18 1 Leah 15 15 0 Emily 16 16 2 Clint 15 17 1 Jodi 19 13 2 Robin 20 14 3 Demetrius 20 11 3 Maru 10 10 1 Penny 11 9 1 Gus 18 16 0 Shane 19 16 0 Willy 21 11 3 farmer 6 14 1/skippable/move farmer 6 0 0/move farmer 0 -1 0/move Elliott 0 4 3/faceDirection farmer 1/speak Elliott \"@, you made it!$h#$b#I feel so relieved to be done with my book... it's like an elephant's been lifted off my shoulders.\"/pause 800/faceDirection Elliott 2/pause 500/faceDirection Elliott 1/pause 500/faceDirection Elliott 3/pause 500/speak Elliott \"Well, I'd better get started with the reading... Wish me luck.$8\"/pause 700/move Elliott 0 -4 2/faceDirection farmer 0/pause 500/faceDirection Elliott 1/faceDirection Elliott 2/faceDirection Elliott 3/faceDirection Elliott 2/speak Elliott \"Good afternoon, everyone.\"/pause 500/faceDirection Caroline 0 true/faceDirection Emily 0 true/textAboveHead Emily \"Hi!\"/faceDirection Abigail 0/faceDirection Sebastian 0 true/faceDirection Lewis 0/faceDirection Sam 0 true/faceDirection Marnie 0/faceDirection Pierre 0 true/faceDirection Jodi 0/faceDirection Clint 0/speak Elliott \"Ever since I was a young girl, I've dreamt of becoming a writer.#$b#When the time came for me to leave home and start my own life, I moved here. I was drawn to the peaceful beauty of the valley, and hoped that days of quiet reflection in this idyllic atmosphere would fan the literary flames.\"/showFrame Elliott 32/pause 200/showFrame Elliott 34/fork 958699 mysteryBook/fork 958700 romanceBook/speak Elliott \"After countless hours scribbling at my writing desk, I present to you my first novel: 'The Rise And Fall Of Planet Yazzo'... It's a sci-fi epic spanning thousands of years in an exotic planetary system.\"/animate Elliott false true 1000 33 33 34/pause 500/speak Elliott \"Chapter One.#$b#Commander Yutkin stepped through the golden archway as the airlock snapped shut behind him. Today was his first day on Planet Yazzo, and all 14 of the alliance delegates had been summoned to the Grand Spire...\"/playMusic none/globalFade/viewport -100 -100/pause 1000/warp Sebastian -1000 -1000/warp Sam -1000 -1000/warp Abigail -1000 -1000/warp Jodi -1000 -1000/warp Robin -1000 -1000/warp Demetrius -1000 -1000/warp Shane -1000 -1000/warp Maru -1000 -1000/warp Pierre -1000 -1000/warp Caroline -1000 -1000/viewport 14 11 true/pause 1000/speak Elliott \"...And as the 7th moon descended beneath the horizon, the planet of Yazzo would begin its sinister transformation... an event for which Commander Yutkin was completely unprepared.\"/stopAnimation Elliott/showFrame Elliott 34/pause 800/speak Elliott \"Well, that concludes my reading. I'll be selling signed copies of the book by the front desk. Thanks for listening!$h\"/faceDirection Lewis 3/faceDirection Marnie 1/faceDirection Emily 2 true/faceDirection Clint 1/move Elliott 0 4 3/faceDirection farmer 1/pause 600/speak Elliott \"Well, how was it?\"/emote farmer 32/speak Elliott \"Thanks. $h#$b#You know, I got the idea for making a sci-fi book from you. Do you remember?#$b#That's why I've dedicated this book to you...$l\"/move Elliott -1 0 3/emote Elliott 32/pause 1000/end"
 			},
 			"When": {
-				"Elliott": "default, variant1, dialogue"
+				"Elliott": "Adarin, Adarin Variant, Dialogue Only"
 			}
 		},
 
@@ -805,7 +919,7 @@
 				"733330/f Sam 750/w sunny/t 700 1500/z winter/y 1": "ocean/-1000 -1000/farmer 40 9 2 Sam 41 18 2 Vincent 43 22 2/skippable/animate Vincent false true 500 18 19/specificTemporarySprite beachStuff/viewport 42 19 true/move farmer 0 9 1/faceDirection Sam 3/speak Sam \"Hello @. Nice day, isn't it?\"/faceDirection farmer 2/faceDirection Sam 2/pause 800/speak Sam \"I'm just keeping an eye on my little brother. It's good for him to get some fresh air on a day like this.\"/pause 1700/speak Sam \"Our Dad used to take us to the beach on sunny days like this.$h\"/jump Vincent/stopAnimation Vincent/showFrame Vincent 0/pause 1000/move Vincent 0 -4 3/move Vincent -1 0 3/faceDirection Sam 1/faceDirection farmer 1/playMusic desolate/speak Vincent \"Sam...?$u\"/pause 900/speak Vincent \"Is Dad ever going to come home?$s\"/emote Sam 28/showFrame Sam 34/pause 800/speak Sam \"Of course, Vince. Dad's going to come back as soon as he possibly can.$7\"/pause 600/speak Vincent \"But I heard some grown-ups saying that... that all of our troops are getting shot to pieces.$s\"/showFrame Sam 35/pause 1500/speak Sam \"Don't believe everything you hear!$8\"/showFrame Sam 4/speak Sam \"Don't you remember how strong Dad is? He'd never let a pathetic Gotoro grunt get him like that! Don't you worry!$a#$b#And always remember that Mom and I are here to play with you if you ever feel lonely.\"/playMusic ocean/speak Vincent \"Okay!\"/jump Vincent/pause 1000/move Vincent 1 0 2/showFrame Sam 4 true/faceDirection Sam 2 true/move Vincent 0 4 2/animate Vincent false true 500 18 19/playSound sandyStep/pause 800/faceDirection Sam 3/pause 800/faceDirection Sam 2/faceDirection farmer 2/pause 1000/speak Sam \"To be honest, I have no idea if my old man will come back... We've all read the reports. Our soldiers are falling by the thousands.$s#$b#But what am I going to say to Vincent?$7\"/pause 1000/question null \"#It's best to be honest with kids.#You did the right thing. Kids should have hope.\"/emote Sam 40/pause 1000/splitSpeak Sam \"You think so?$7#$b#Maybe you're right... The world is a cruel place, but kids have to learn that one way or another.$s~Yeah... kids should play and have fun while they still have the chance.\"/pause 700/faceDirection Sam 3/faceDirection farmer 1/speak Sam \"Hey did I tell you the band's starting to come together?#$b#Yeah! It turns out Abigail's a pretty good drummer. And Sabrina seemed to really want her in the band...$h\"/pause 500/globalFade/viewport -1000 -1000/end"
 			},
 			"When": {
-				"Sebastian": "default, variant1, dialogue"
+				"Sebastian": "Adarin, Adarin Variant, Dialogue Only"
 			}
 		},
 		
@@ -816,7 +930,7 @@
 				"711130/t 600 1710/f Willy 1500": "ocean/30 34/farmer 27 35 1 Willy 30 34 2 Gus -10 -10 0/skippable/addConversationTopic willyCrabs/showFrame Willy 24/move farmer 3 0 0/showFrame Willy 0/pause 800/speak Willy \"Ah... it's a good thing you turned up, lad.^Ah... It's a good thing you turned up, miss.#$b#I've got a... a bit of a problem I could use a hand with...\"/faceDirection Willy 3/faceDirection Willy 0/pause 1000/faceDirection Willy 3 true/pause 100/faceDirection Willy 2/speak Willy \"Er... It'd be best if I just showed ya...\"/pause 600/faceDirection Willy 3 true/pause 100/faceDirection Willy 0/speak Willy \"Take a deep breath, now.\"/pause 300/playSound doorClose/warp Willy -100 -100/move farmer 0 -1 0/pause 500/playSound doorClose/warp farmer -100 -100/fade/viewport -1000 -1000/changeLocation FishShop/specificTemporarySprite willyCrabExperiment/warp Willy 5 7/faceDirection Willy 0/playMusic ragtime/pause 500/viewport 5 7 true/pause 5000/warp farmer 5 9/playSound doorClose/pause 100/jump farmer/pause 1000/emote farmer 16/faceDirection Willy 3 true/pause 100/faceDirection Willy 2/speak Willy \"As you can see...#$b#And smell... heh...#$b#The old girls 'ran wild' last night... heh...$h#$b#My experiment needs a little work...\"/move farmer 0 -1 0/move farmer 2 0 1/emote farmer 56/warp Gus 5 9/playSound doorClose/pause 100/jump Gus/pause 1000/speak Gus \"Hooo~... Back at it again, huh Winnie?$h\"/textAboveHead Willy \"Aye...\"/move Gus 0 -1 3/move Gus -2 0 3/pause 1000/speak Gus \"They look fresh all right...\"/faceDirection Willy 3/speak Willy \"Aye... These are the finest, meatiest crabs you'll ever set yer eyes on.$h#$b#They be a little too feisty, though...$s\"/pause 1000/emote Gus 40/pause 500/jump Gus/pause 1000/speak Gus \"I'll take the whole lot!$h#$b#With a discount for the extra labor, of course...\"/pause 2000/move farmer 1 0 0 true/move Gus -1 0 0 false/move farmer 0 -1 0 true/move Gus 0 -1 0 false/faceDirection Willy 0/pause 1000/playSound slimeHit/specificTemporarySprite removeSprite 3/pause 1000/playSound slimeHit/specificTemporarySprite removeSprite 1/pause 1000/playSound fishSlap/specificTemporarySprite removeSprite 2/pause 500/fade/viewport -1000 -1000/pause 1500/speak Gus \"Looks like we got 'em all...\"/pause 1000/speak Willy \"Goodbye, me sweet ladies...$s\"/pause 1000/speak Gus \"Psst... @... Don't tell Winnie, but I'll be doing a special on crab cakes at the saloon for the next few days...\"/pause 1000/end position 30 34"
 			},
 			"When": {
-				"Willy": "default, dialogue"
+				"Willy": "Bajel, Dialogue Only"
 			}
 		},
 		
@@ -827,7 +941,7 @@
 				"2118991/e 3910975/t 600 800": "continue/64 15/farmer 64 16 2 Shane 64 18 0/pause 1500/skippable/speak Shane \"Hey...\"/pause 500/faceDirection Shane 1/pause 500/faceDirection Shane 0/speak Shane \"Oh man... Uh... How do I say this?$s#$b#I'm really sorry about what happened at the cliffs. That was... embarrassing...\"/pause 500/speak Shane \"$q -1 null#  #$r -1 10 event_apologize1#I'm glad I was there to help.#$r -1 -10 event_apologize2#You needed a serious wake-up call.#$r -1 10 event_apologize3#I'm just happy you're still here.\"/pause 1000/faceDirection Shane 1/pause 1000/speak Shane \"I've decided I want to see a therapist. Harley got me in touch with a colleague of hers...$s\"/pause 500/faceDirection Shane 0/speak Shane \"Anyway... I just wanted to thank you for taking care of me. And I want you to know that I'm going to take things a little more seriously from now on.#$b#I don't want to be a burden on anyone...\"/pause 1000/faceDirection Shane 1 true/pause 50/faceDirection Shane 2/pause 500/showFrame Shane 19/pause 2000/end"
 			},
 			"When": {
-				"Harvey": "default, dialogue"
+				"Harvey": "Adarin, Dialogue Only"
 			}
 		},
 		
@@ -838,7 +952,7 @@
 				"choseFarming": "pause 500/question fork0 \"#The valley's soil is ideal for growing delicious vegetables.#The valley's air and grass are perfect for raising animals.\"/fork choseAnimals/animate Vincent false true 50 16 17/playSound dwop/pause 300/faceDirection Penny 2/pause 500/stopAnimation Vincent/speak Penny \"Yes, Vincent?\"/speak Vincent \"Um, Farmer @? If I eat your veggies will I grow up strong like my big sister Sam?#$b#She's so strong, I saw her lift Miss Penny clear off the ground last night when they were climbing into a tree.$h\"/showFrame Penny 27/jump Penny/pause 800/showFrame Penny 0/faceDirection farmer 3 true/emote Penny 12/speak Penny \"Vincent! It's not good to gossip!$a\"/switchEvent fieldTripEnd/"
 			},
 			"When": {
-				"Sam": "default, dialogue"
+				"Sam": "Adarin, Dialogue Only"
 			}
 		},
 		
@@ -849,7 +963,7 @@
 				"3910975/f Shane 1500/e 3910674/t 900 2000/w rainy": "echos/-2000 -2000/farmer 83 92 2 shane -3000 -3000 2 Harvey -3000 -3000 2/skippable/specificTemporarySprite shaneCliffs/viewport 83 99 clamp true/pause 1000/move farmer 0 5 2/pause 500/speak Shane \"...$7#$b#@...$7\"/pause 1000/showFrame farmer 4/pause 1000/speak Shane \"I... I'm sorry...*hic*$7#$b#...$7#$b#M... My life...$7#$b#It's a pathetic joke...$7#$b#Look at me...$7#$b#...$7#$b#Why do I even try? ...*sob*$7#$b#I'm too small and stupid to... to take control of my life...$7#$b#I'm just a p... piece of soiled garbage flittering in the wind... *bluurp*$7#$b#.........$7#$b#I've been coming here often lately... looking down... $7#$b#Here's a chance to finally take control of my life... These cliffs...$7#$b#...$7#$b#B... bu... *blaap*... but I'm too scared, too anxious. Just like always... $7\"/pause 1000/showFrame farmer 0/pause 2000/speak Shane \"@... All I do is work, sleep, and drink ...t... to dull the feelings of self-hatred.$7#$b#Why should I even go on? Tell me... T... Tell me why I shouldn't roll off this cliff right now...$7\"/pause 1000/showFrame farmer 0/pause 1000/question shaneCliffs \"#Because there's so much to live for!#Jas needs you. You're like a mother to her.#It would be a sin.#The decision is your own. Just know that I'm here for you.\"/pause 500/pause 500/pause 500/pause 1000/speak Shane \"@...$7\"/pause 500/showFrame farmer 4/pause 1000/speak Shane \"...I think you should take me to the hospital now.$7\"/pause 500/showFrame farmer 0/jump farmer/pause 1500/globalFade/viewport -1000 -1000/playMusic none/changeLocation Hospital/warp farmer 16 7/playMusic Hospital_Ambient/warp Harvey 16 6/faceDirection farmer 0/specificTemporarySprite shaneHospital/viewport 16 6 true/pause 2000/speak Harvey \"...I've pumped her stomach and re-hydrated her body. She's going to be okay.#$b#It's good that you brought her in, though.\"/faceDirection Harvey 1/emote Harvey 28/speak Harvey \"Too much alcohol is terrible for the body... but right now I'm most worried about her mental health...$s#$b#When she comes to, I'll have a chat with her about her treatment options. I know an excellent counselor in Zuzu City...\"/pause 500/faceDirection farmer 1/pause 1000/speak Harvey \"Life can be painful, sometimes...#$b#But there's always hope for a better future. You've got to believe in that.\"/pause 2000/end invisible Shane"
 			},
 			"When": {
-				"Shane": "default, variant1, dialogue"
+				"Shane": "Exrenkon, Lydomia, Dialogue Only"
 			}
 		},
 		
@@ -862,7 +976,7 @@
 				"571102/f Harvey 2000": "Hospital_Ambient/-100 -100/farmer -200 -2000 0 Harvey 4 5 0/skippable/changeLocation HarveyRoom/showFrame Harvey 23/viewport 5 6 true/pause 1000/speak Harvey \"Hello? Hello? Is anyone out there?$9\"/pause 1300/emote Harvey 40/speak Harvey \"This is Dr. H at... 52 North 43.5 East... Seeking aerial response...Anyone out there?$9\"/pause 2000/emote Harvey 40/pause 700/playSound newArtifact/message \"Copy.. Dr. H on the ground... this is Blackbird Fiver Fiver Zuzu. Anything to report?\"/showFrame Harvey 28/jump Harvey/pause 800/speak Harvey \"Someone's there!?$10#$b#Er... I mean!... Standard ground report: Wind at 3 Clicks, 36 Degrees North of West. Ground Temperature at 42 Kraggs. Humidity 53%. Dr. H out!$10\"/pause 300/playMusic kindadumbautumn/faceDirection Harvey 1 true/move Harvey 2 0 1/speak Harvey \"Yikes, my pulse is soaring...$7\"/pause 400/playSound doorClose/warp farmer 6 12/move farmer 0 -3 0/faceDirection Harvey 2/speak Harvey \"@!\"/question fork1 \"#Ask Harley why she's all flustered.#Pretend like everything's normal.\"/fork normal/pause 500/speak Harvey \"Ah, well... You see, I was just on my radio here... and I made contact with a real pilot!\"/emote Harvey 16/speak Harvey \"As a matter of fact, we can probably see him flying overhead right now!\"/move Harvey 0 1 3/move Harvey -3 0 0/move Harvey 0 -2 0/speak Harvey \"Quick, get over here!\"/speed farmer 4/move farmer 0 -3 3/speed farmer 4/move farmer -4 0 0/speed farmer 4/move farmer 0 -2 0/speed farmer 4/speak Harvey \"Look!\"/globalFade/cutscene plane/viewport -1000 -1000/speak Harvey \"As a kid, my dream was always to be a pilot.\"/pause 1000/speak Harvey \"...But with my bad eyesight and a crippling fear of heights, that dream started to fade away.$s\"/faceDirection Harvey 3/faceDirection farmer 1/viewport 5 6 true/pause 1600/emote farmer 28/speak Harvey \"It's okay... don't be sad.#$b#I've grown to accept my station in life. Not everyone can achieve their dreams... that's just the way the world is.\"/pause 1600/speak Harvey \"Hey, let me show you my model airplanes. I just finished the new TR-Starbird deluxe set.$h\"/advancedMove Harvey false 0 2 4 0/faceDirection farmer 2/globalFade .003/viewport -1000 -1000/pause 500/end"
 			},
 			"When": {
-				"Harvey": "default, dialogue"
+				"Harvey": "Adarin, Dialogue Only"
 			}
 		},
 		
@@ -873,7 +987,7 @@
 				"2119820/f Alex 1500/p Alex": "jaunty/-1000 -1000/farmer 10 10 0 Alex 13 6 2/skippable/showFrame Alex 28/animate Alex false true 100 28 29 30 31 32 32 31 30 29 28/viewport 13 6 true/pause 6500/stopAnimation Alex/pause 1000/doAction 10 9/move farmer 0 -3 1/move farmer 2 0 0/showFrame Alex 34 true/animate Alex false false 100 28 33 34/pause 600/speak Alex \"Oh! Hey... I was just doing my daily strength training routine.$6#$b#... sorry I have my workout clothes on.$6\"/pause 1000/emote Alex 40/speak Alex \"Uh... @? I've been meaning to talk to you about something...$8\"/emote farmer 8/pause 1000/speak Alex \"I've started to realize that... well, that I've been really rude towards you in the past. You know, about going pro and all that.$8\"/pause 1000/showFrame Alex 33/pause 1000/speak Alex \"I guess I might not actually be cut out for professional sports... maybe it was just a childish dream... you know?$8#$b#Anyway... I want to apologize to you for bragging and being annoying about it. I appreciate that you stayed friends with me through all that.$6\"/move farmer 1 0 0/pause 1000/jump farmer/pause 800/showFrame Alex 34/pause 800/emote Alex 32/pause 1200/showFrame Alex 29/pause 100/showFrame Alex 28/pause 100/showFrame Alex 29/pause 100/animate Alex false true 50 30 31 32 32 31 30/pause 3000/globalFade/viewport -1000 -1000/end"
 			},
 			"When": {
-				"Alex": "default, variant1, dialogue"
+				"Alex": "Adarin, Adarin Variant, Dialogue Only"
 			}
 		},
 		
@@ -884,7 +998,7 @@
 				"56/f Harvey 500/p George": "jaunty/16 18/farmer 9 24 0 George 16 18 1 Harvey 15 18 1/skippable/move farmer 0 -4 1/move farmer 1 0 1/speak Harvey \"Okay, George. I want you take a deep breath for me.\"/pause 700/speak Harvey \"Mmhmm... turn around, please.\"/pause 300/faceDirection George 2/faceDirection George 3/speak Harvey \"George, I'll be honest with you. You need to make some changes in your lifestyle if you want to stay healthy.#$b#I'd like you to reduce your sodium intake, and try to get some moderate exercise with your arms.\"/emote George 12/speak George \"Hmmph... I know what's best for me. Who do you think you are, telling me how to live my life?\"/pause 500/speak Harvey \"I'm your doctor, George. That's who I am...#$b#And I went to school for 8 years so I could learn how to help people stay healthy.\"/move farmer 0 -1 1/move farmer 5 0 0/faceDirection Harvey 2 true/faceDirection George 2/speak Harvey \"Oh!#$b#I'm sorry, but you shouldn't be here... these check-ups are supposed to be private.\"/faceDirection farmer 3/speak George \"Not so fast! I'd like to get a second opinion from this young man.^Not so fast! I'd like to get a second opinion from this young lady.\"/faceDirection farmer 1/speak Harvey \"Very well...\"/speak Harvey \"$q 84 null#@, what do you think George should do?#$r 84 40 event_george1#George should follow Dr. Harley's advice.#$r 85 -40 event_george2#George knows what's best for his own body.\"/faceDirection Harvey 1/faceDirection George 2/emote George 28/speak George \"Fine. I'll do what you say, doctor.\"/pause 500/faceDirection Harvey 2/speak Harvey \"$p 84#Thanks for your help, @. I appreciate it.$h|It's better not to give my patients mixed messages, @. Please remember that in the future.\"/end"
 			},
 			"When": {
-				"Harvey": "default, dialogue"
+				"Harvey": "Adarin, Dialogue Only"
 			}
 		},
 		
@@ -895,7 +1009,7 @@
 				"2123243/e 2111194": "EmilyTheme/-1000 -1000/farmer -2000 -2000 0 Emily 7 6 2 Lewis 3 7 1 Clint 11 9 3 Shane 8 8 0 Abigail 7 8 0 Robin 2 9 1/skippable/specificTemporarySprite ClothingTherapy/viewport 5 7 true/pause 2000/speak Emily \"Welcome to clothing therapy!\"/faceDirection Abigail 1/emote Robin 8 true/faceDirection Shane 3/pause 500/faceDirection Shane 0/faceDirection Abigail 0/pause 500/speak Emily \"You're probably wondering... what is clothing therapy?#$b#I'll try to explain.\"/move Emily 0 1 2/speak Emily \"So many of us are struggling with personal issues... things holding us back from living how we want.$u#$b#It's important to me that everyone has a free and happy life... so I came up with a new kind of therapy to help people achieve that.$u\"/move Emily 0 -1 2/pause 500/speak Emily \"It's based on the amazing power of self-expression. Self-expression is a wonderful healing tool, did you know that?\"/faceDirection Emily 3/pause 1000/speak Emily \"Behind this curtain, you'll find racks and racks of clothes. There's endless options to choose from.\"/faceDirection Emily 2/speak Emily \"Your job is simple: find the outfit that truly speaks to you, and put it on.#$b#Feel confident in yourself and your choice. You all have a unique style to share with the world!#$b#Shane, you're up first!$h\"/specificTemporarySprite curtainOpen/pause 1500/showFrame Shane 18/jump Shane/pause 1400/showFrame Shane 0/pause 1000/textAboveHead Shane \"Okay\"/move Shane 0 -1 0/move Shane -3 0 0/move Shane 0 -2 2/pause 1000/specificTemporarySprite curtainClose/pause 1000/playSound doorClose/warp farmer 4 11/move farmer 0 -1 0/speak Emily \"Ah, @. You're just in time. Just observe and keep an open mind... okay?\"/pause 1000/move farmer -1 0 0/warp Shane -1000 -1000/addTemporaryActor ClothesTherapyCharacters 16 32 5 5 2 true character/pause 3000/specificTemporarySprite curtainOpen/pause 1000/faceDirection Emily 3/move ClothesTherapyCharacters 0 2 2/textAboveHead Robin \"Wow...\"/pause 1000/move ClothesTherapyCharacters 0 2 2/faceDirection Abigail 3/textAboveHead Abigail \"Cool\"/pause 1000/faceDirection Emily 2/speak Emily \"Shania, it's a new side of you we've never known about. That's great!#$b#Now, go outside with confidence and show the world!\"/pause 1000/emote ClothesTherapyCharacters 40/pause 500/textAboveHead ClothesTherapyCharacters \"Sure\"/move ClothesTherapyCharacters 0 2 2/warp ClothesTherapyCharacters -1000 -1000/playSound doorClose/pause 2000/speak Emily \"Okay, everyone gets a turn!\"/faceDirection Abigail 0 true/move Robin 3 0 0/faceDirection Clint 2 true/textAboveHead Clint \"Oh no...\"/move Robin 0 -4 2/pause 1000/specificTemporarySprite curtainClose/pause 3000/warp Robin -1000 -1000/warp ClothesTherapyCharacters 5 5/changeYSourceRectOffset ClothesTherapyCharacters 128/textAboveHead ClothesTherapyCharacters \"Heehee\"/pause 1000/specificTemporarySprite curtainOpen/pause 1000/textAboveHead Lewis \"Oh my!\"/move ClothesTherapyCharacters 0 3 2/textAboveHead Emily \"Beautiful!\"/pause 1000/showFrame ClothesTherapyCharacters 5/specificTemporarySprite heart 5 8/pause 2000/textAboveHead ClothesTherapyCharacters \"Let's see what Demetrius thinks...\"/pause 1000/move ClothesTherapyCharacters 0 3 2/warp ClothesTherapyCharacters -1000 -1000/playSound doorClose/pause 2000/textAboveHead Lewis \"Why not...\"/move Lewis 2 0 0/move Lewis 0 -2 2/pause 1000/specificTemporarySprite curtainClose/faceDirection Emily 3/pause 2000/warp Lewis -1000 -1000/playSound shwip/warp ClothesTherapyCharacters 5 5/changeYSourceRectOffset ClothesTherapyCharacters 64/pause 1000/textAboveHead ClothesTherapyCharacters \"Hehe... not bad!\"/pause 2000/specificTemporarySprite curtainOpen/pause 1000/move ClothesTherapyCharacters 0 3 2/textAboveHead Emily \"Lookin' sharp!\"/faceDirection Emily 2/pause 3000/move ClothesTherapyCharacters 0 3 2/playSound doorClose/warp ClothesTherapyCharacters -1000 -1000/textAboveHead Abigail \"Me next!\"/move Abigail -2 0 0/move Abigail 0 -3 2/pause 2000/specificTemporarySprite curtainClose/pause 2000/warp Abigail -1000 -1000/warp ClothesTherapyCharacters 5 5/changeYSourceRectOffset ClothesTherapyCharacters 32/pause 3000/specificTemporarySprite curtainOpen/pause 1000/move ClothesTherapyCharacters 0 3 2/textAboveHead Emily \"Very nice!\"/pause 2000/showFrame ClothesTherapyCharacters 16/playSound clank/pause 1000/textAboveHead ClothesTherapyCharacters \"It's sweaty in here...\"/pause 3000/move ClothesTherapyCharacters 0 3 2/warp ClothesTherapyCharacters -1000 -1000/playSound doorClose/pause 1000/faceDirection Emily 3/pause 500/faceDirection Emily 2/pause 1000/speak Emily \"Clint? You're up!\"/pause 500/jump Clint/shake Clint 4000/pause 1000/textAboveHead Clint \"M...Me?\"/pause 2000/speak Clint \"*gulp*... Okay, Emily. I'll do it.$4\"/pause 1000/move Clint -6 0 0/move Clint 0 -4 2/pause 1000/faceDirection Emily 3/specificTemporarySprite curtainClose/pause 4000/warp Clint -1000 -1000/warp ClothesTherapyCharacters 5 5/changeYSourceRectOffset ClothesTherapyCharacters 96/pause 1000/specificTemporarySprite curtainOpen/pause 2000/move ClothesTherapyCharacters 0 3 2/faceDirection Emily 2/textAboveHead Emily \"Awww, cute!\"/pause 1600/showFrame ClothesTherapyCharacters 10/pause 800/speak Clint \"Aww? Cute? ...*sigh*...$7\"/pause 2000/move ClothesTherapyCharacters 0 3 2/warp ClothesTherapyCharacters -1000 -1000/playSound doorClose/move Emily 0 3 3/move farmer 0 -1 1/move farmer 1 0 1/speak Emily \"Well, that went very well!#$b#I just hope this experience helps everyone break out of their shells a bit.\"/move Emily -2 0 3 true/pause 200/positionOffset Emily 0 4/pause 300/positionOffset Emily 0 4/pause 300/positionOffset Emily 0 4/pause 300/positionOffset Emily 0 4/pause 2500/speak Emily \"@... um...$4\"/showFrame ClothesTherapyCharacters 11/playSound doorClose/warp ClothesTherapyCharacters 5 11/speak Clint \"I couldn't do it! I don't wanna break out of my shell!$6\"/faceDirection Emily 2 true/jump Emily/showFrame Emily 26/faceDirection farmer 2 true/pause 1600/showFrame Emily 0/speak Clint \"...Oh. I... I guess I'm interrupting something here, aren't I?$7\"/pause 1000/showFrame ClothesTherapyCharacters 0/pause 1500/showFrame ClothesTherapyCharacters 10/pause 1700/speak Clint \"I understand. I'll leave now... Congrats, @.$7\"/pause 1000/playSound doorClose/warp ClothesTherapyCharacters -1000 -1000/pause 1000/faceDirection Emily 3/emote Emily 8/pause 2000/end"
 			},
 			"When": {
-				"Shane": "default, variant1, dialogue"
+				"Shane": "Exrenkon, Lydomia, Dialogue Only"
 			}
 		},
 		
@@ -906,7 +1020,7 @@
 				"529952/C": "WizardSong/54 36/Wizard 54 36 0 farmer 50 40 1/addQuest 28/skippable/move farmer 1 0 0/move farmer 0 -4 1/faceDirection Wizard 3 true/move farmer 1 0 1/pause 800/faceDirection Wizard 0/pause 600/emote Wizard 40/pause 500/speak Wizard \"Ah... @. I've been waiting for you.\"/pause 800/faceDirection Wizard 3/pause 400/faceDirection Wizard 0/pause 400/speak Wizard \"Have I ever told you I used to be married?\"/pause 800/faceDirection Wizard 3 true/pause 50/faceDirection Wizard 2/pause 800/showFrame Wizard 18/pause 800/speak Wizard \"Strange, I know... for a woman like me. But it's true.\"/pause 500/showFrame Wizard 0/pause 800/faceDirection Wizard 3/speak Wizard \"My wife and I were together for many years, until... until I made a mistake that drove her away.\"/pause 400/faceDirection Wizard 0/speak Wizard \"Her anger and envy were so intense that she turned green and began flying around the countryside, cursing everything in her path...\"/pause 1000/speak Wizard \"When I found out, I sealed this passage to her home... fearing that an innocent villager might fall prey to her dark magic.\"/move Wizard -1 0 3/speak Wizard \"But now, it must be unsealed... for when we separated, she took my magic ink!#$b#I need that magic ink back!$h#$b#I would do this myself, but I... I can't see her again. That's why I need your help.\"/move Wizard 1 0 0/speak Wizard \"In order to unseal this passage, you'll need a dark talisman. Talk to Krobus, in the sewer... he should know where to find one.\"/pause 500/faceDirection Wizard 3/speak Wizard \"I'm counting on you... if you can retreive my magic ink I promise I'll make it worth your while... Now go!\"/pause 500/faceDirection Wizard 2/pause 500/showFrame Wizard 16/pause 500/playSound wand/warp Wizard -3000 -3000/specificTemporarySprite wizardWarp2/faceDirection farmer 2 true/showFrame farmer 94/pause 3000/showFrame farmer 0/specificTemporarySprite witchFlyby/pause 4000/end"
 			},
 			"When": {
-				"Wizard": "default, dialogue"
+				"Wizard": "CreepyKat, Dialogue Only"
 			}
 		},
 		
@@ -917,7 +1031,7 @@
 				"40/f Elliott 1000/p Gus/t 1500 2200": "playful/11 20/farmer 14 24 0 Elliott -30 -30 0 Clint 18 22 2 Marnie 9 22 3 Pam 7 18 1 Lewis 8 22 1 Pierre 4 22 2 Demetrius 3 23 1 Gus 14 18 2 Emily 16 18 3/skippable/move farmer 0 -3 3/faceDirection Pierre 1 true/move farmer -3 0 0/faceDirection Pierre 2 true/move farmer 0 -1 0/faceDirection Marnie 0 true/faceDirection Gus 3/speak Gus \"Hi. I'll take your order in a few moments.\"/faceDirection Gus 2/move Emily 2 0 1/faceDirection Marnie 3 true/pause 800/move Emily -2 0 0/pause 1000/faceDirection Clint 3 true/move Emily 2 0 1/warp Elliott 14 24/playSound doorClose/pause 500/move Elliott 0 -3 3/faceDirection farmer 2 true/move Elliott -2 0 0/move Elliott 0 -1 0/faceDirection farmer 1/faceDirection Elliott 3/speak Elliott \"Hello, @! What a pleasant surprise!#$b#I was just stopping in to relax after an eight hour writing session.$h\"/pause 400/faceDirection Elliott 1/speak Elliott \"Bartender! Two of your finest ales, please!^Bartender! Fetch me your finest ale. And bring some wine for my friend!\"/faceDirection Gus 3/faceDirection farmer 0/speak Gus \"...$u\"/move Gus 3 0 0/move Gus 0 -1 0/faceDirection Emily 2/playSound openBox/pause 400/playSound Milking/move Pam -6 0 0/move Gus 0 1 3/move Gus -5 0 2/faceDirection Elliott 0/pause 500/speak Gus \"There you go, miss.$u\"/pause 500/faceDirection Elliott 3/faceDirection farmer 1/speak Elliott \"$q 28376 null#Wait. I propose a toast! To...#$r 28376 25 event_toast4#To Pelican Town!#$r 28376 50 event_toast2#To our friendship!#$r 28376 -10 event_toast1#To my good health!#$r 28376 -50 event_toast3#To your doom!\"/faceDirection Elliott 2/faceDirection farmer 2/pause 900/showFrame Elliott 16/animate Elliott false false 120 16 17 18 19 19 18 18 19 19 18 18 19 19 18 18 19 19 18 18 17 16/pause 500/farmerEat 346/pause 900/pause 1100/stopAnimation farmer/faceDirection farmer 1/speak Elliott \"*Hic*... Strong stuff...$h\"/pause 800/animate Elliott false false 400 20 21 22 21 20 21 22 21 20 21 22 21 20 21 22 21 16/pause 1000/faceDirection farmer 1/pause 800/faceDirection farmer 2/animate farmer false true 100 102 103/pause 1000/globalFade/viewport -1000 -1000/pause 600/stopAnimation farmer/end warpOut"
 			},
 			"When": {
-				"Elliott": "default, variant1, dialogue"
+				"Elliott": "Adarin, Adarin Variant, Dialogue Only"
 			}
 		},
 		
@@ -928,7 +1042,7 @@
 				"97/f Clint 750/t 1900 2300/d Tue Wed Thu Fri Sat Sun": "none/4 18/farmer 14 24 0 Clint 4 19 2 Emily 10 11 0 Gus 15 18 1 Shane 7 18 1/skippable/move farmer 0 -3 3/emote Clint 28/pause 500/move Clint 0 -1 3/move Clint -3 0 0/pause 500/playSound openBox/pause 150/playSound shiny4/pause 400/playMusic desolate/move Clint 3 0 2/move Clint 0 1 2/move farmer -3 0 0/move farmer 0 -1 3/faceDirection Shane 2 true/move farmer -3 0 3/faceDirection Shane 1 true/move farmer -3 0 3/faceDirection Clint 1/speak Clint \"Hello, @... care to join me?\"/pause 400/faceDirection farmer 0/pause 800/faceDirection farmer 3/faceDirection Clint 2/speak Clint \"Let me just go ahead and tell you what's on my mind.$u#$b#I have terrible luck with women, @...*sigh*$s#$b#I'm a nice guy if you get to know me, I swear!$u\"/pause 500/faceDirection farmer 0/emote farmer 28/pause 500/faceDirection farmer 3/speak Clint \"The girls all seem to like you, @...^You're a girl, @...\"/speak Clint \"$q 211 null#Got any tips?^What advice can you give me?#$r 211 25 event_advice1#Impress women with your strength and charm#$r 211 25 event_advice1#Act crazy, to keep people guessing#$r 211 0 event_advice2#Just act natural... be yourself#$r 211 50 event_advice1#Treat women the same as men\"/speed Emily 4/move Emily -6 0 2/speed Emily 2/move Emily 0 4 2/doAction 4 16/playSound openBox/stopMusic/move Emily 0 3 1/move Emily 1 0 2/move Emily 0 1 3/pause 400/pause 700/speak Emily \"Hi Clint, what can I get for you tonight?$h\"/pause 600/faceDirection Clint 1/pause 200/speak Clint \"Yes!\"/pause 300/speak Clint \"Er.. I mean, I'll have the Big n' Cheesy. With extra sauce, please.$s#$b#...$u\"/faceDirection Clint 3/faceDirection Emily 2/pause 300/faceDirection Clint 2/speak Emily \"Hi @.\"/pause 300/faceDirection farmer 0/faceDirection Clint 1/speak Clint \"Er... *ahem* Th...Thanks, Emily. For... taking my order.#$b#Um, Emily? I was...*gulp*... I was wondering...$h\"/pause 300/faceDirection Emily 3/emote Emily 8/pause 400/speak Emily \"Yes, Clint?$u\"/pause 500/emote Clint 28/pause 1200/speak Clint \"... nevermind.$s\"/faceDirection Clint 0/playMusic sadpiano/pause 300/faceDirection Emily 2/pause 300/faceDirection Emily 3/pause 500/move Emily 0 -1 1/move Emily 1 0 1/faceDirection Shane 3/speak Emily \"Hi, Shania! Here's your beverage.$h\"/pause 300/faceDirection Shane 1/pause 400/addObject 8 17 346 1/playSound woodyStep/pause 400/faceDirection Shane 3/pause 300/faceDirection Clint 1/speak Shane \"Thanks, Emily!$h#$b#So... How's your shift coming along?\"/speak Emily \"It's fine! Thanks for asking, Shania!$h#$b#Do you have any new chicken stories for me?\"/pause 600/emote Clint 28/pause 500/faceDirection Clint 2/pause 800/speak Clint \"*sigh*$s#$b#I'm doomed...$s\"/end warpOut"
 			},
 			"When": {
-				"Shane": "default, variant1, dialogue"
+				"Shane": "Exrenkon, Lydomia, Dialogue Only"
 			}
 		},
 		
@@ -939,7 +1053,7 @@
 				"911526/f Alex 2500/t 1900 2200/n joshMessage": "gusviolin/-1000 -1000/farmer 5 5 1 Gus 10 6 2 Alex 9 5 3 Emily 9 17 2/skippable/showFrame 117/showFrame Alex 39/positionOffset farmer 12 8/positionOffset Alex -12 0/animate Gus false true 723 16 17/viewport 7 4 true/pause 23000/stopAnimation Gus/pause 1000/faceDirection Gus 3/speak Alex \"Thanks, Gus. That was great.\"/move Gus 0 1 1/move Gus 1 0 2/move Gus 0 1 2/doAction 11 9/move Gus 0 3 1/move Gus 12 0 3 true/speak Alex \"This is nice... I've never dined in here before.\"/pause 1000/emote Alex 40/speak Alex \"Um, anyway... I reserved this private room so we could talk...$l\"/warp Emily 11 11 true/playSound woodyStep/move Emily 0 -4 3/move Emily -4 0 0/move Emily 0 -1 0/speak Emily \"I've got a linguini with mushroom cream sauce for Mr. @.^I've got a kale and walnut salad for Ms. @.#$b#...and a grilled steak for Alexa.^And a grilled steak for Alexa.\"/playSound woodyHit/specificTemporarySprite joshDinner/speak Alex \"Thanks.\"/move Emily 4 0 2/move Emily 0 5 1/move Emily 11 0 1 true/speak Alex \"So, what I wanted to say was...$9\"/playMusic musicboxsong/speak Alex \"*gulp*$s\"/pause 600/speak Alex \"When I first met you, I thought you were really cute.$l^Well... when we first met, I was instantly drawn to you. It was confusing... I'd never felt that way about anyone.$l#$b#Normally, when I have a crush on someone, the feeling goes away pretty quick...$l^I kept telling myself 'You can't have these kinds of feelings for another girl'.$l\"/pause 800/speak Alex \"...But with you, it kept growing.$l^...But my heart was telling me something else.\"/pause 400/emote Alex 40/pause 600/question fork1 \"#I feel the same way.#I'm sorry... I don't feel that way about you.\"/pause 400/fork rejectJosh/speak Alex \"...$l#$b#I can't believe it took this long to say that to each other.$l\"/emote Alex 32/pause 800/animate Alex false false 400 40 41 41 40 41 41 40 41 41 40 41 41 40/pause 800/playSound eat/pause 800/playSound eat/pause 800/playSound eat/pause 800/playSound gulp/pause 400/speak Alex \"Mmm... this steak is outsanding. Can you smell that fragrant sauce?$10\"/eyes 1 -4000/animate Alex false false 400 40 41 41 40 41 41 40/pause 1000/specificTemporarySprite alexDiningDog/playSound dogWhining/pause 1000/globalFade/viewport -1000 -1000/pause 6000/end dialogue Alex \"...$l\""
 			},
 			"When": {
-				"Alex": "default, variant1, dialogue"
+				"Alex": "Adarin, Adarin Variant, Dialogue Only"
 			}
 		},
 		
@@ -950,7 +1064,7 @@
 				"195099/f Shane 2500/f Sebastian 2500/f Sam 2500/f Harvey 2500/f Alex 2500/f Elliott 2500/o Abigail/o Penny/o Leah/o Emily/o Maru/o Haley/o Shane/o Harvey/o Sebastian/o Sam/o Elliott/o Alex/e 911526/e 528052/e 9581348/e 43/e 384882/e 233104/i 446/k 195013": "playful/-1000 -1000/farmer 27 19 1 Sam 36 20 1 Sebastian 37 19 2 Harvey 39 19 2 Shane 40 17 2 Elliott 41 19 2 Alex 42 20 3/animate Shane false true 200 20 20 20 20 20 20 20 20 20 20 21 22 23 24 24 24 24 23 22 21 20 20 20 20/pause 1000/message \"For some reason, you decide to place your hand in your pocket...\"/pause 500/message \"You touch the rabbit's foot, and feel a sense of relief...\"/move farmer 5 0 1 true/viewport 37 19 true/move false/pause 500/faceDirection Sam 3 true/faceDirection Elliott 3 true/faceDirection Harvey 3 true/faceDirection Alex 3 true/faceDirection Shane 3 true/faceDirection Sebastian 3 true/textAboveHead Sam \"Hey!\"/textAboveHead Alex \"What's up?\"/textAboveHead Shane \"Oh, hey\"/pause 2000/move farmer 3 0 1/emote farmer 32/pause 500/speak Harvey \"You showed up just in time for the first ever Pelican Town 8-ball tournament!\"/pause 500/speak Elliott \"Don't worry, I've never played before, either.$h\"/pause 500/speak Shane \"It's easy, you just gotta put some mustard on the cue ball...$h\"/pause 500/fade/viewport -1000 -1000/pause 1500/message \"You played a round of pool with the group.\"/pause 1000/message \"Sebastian won, of course... but it was still a lot of fun!\"/pause 500/end"
 			},
 			"When": {
-				"Sebastian": "disabled"
+				"Sebastian": "Disabled"
 			}
 		},
 		
@@ -961,7 +1075,7 @@
 				"195099/f Shane 2500/f Sebastian 2500/f Sam 2500/f Harvey 2500/f Alex 2500/f Elliott 2500/o Abigail/o Penny/o Leah/o Emily/o Maru/o Haley/o Shane/o Harvey/o Sebastian/o Sam/o Elliott/o Alex/e 911526/e 528052/e 9581348/e 43/e 384882/e 233104/i 446/k 195013": "playful/-1000 -1000/farmer 27 19 1 Sam 36 20 1 Sebastian 37 19 2 Harvey 39 19 2 Shane 40 17 2 Elliott 41 19 2 Alex 42 20 3/animate Shane false true 200 20 20 20 20 20 20 20 20 20 20 21 22 23 24 24 24 24 23 22 21 20 20 20 20/pause 1000/message \"For some reason, you decide to place your hand in your pocket...\"/pause 500/message \"You touch the rabbit's foot, and feel a sense of relief...\"/move farmer 5 0 1 true/viewport 37 19 true/move false/pause 500/faceDirection Sam 3 true/faceDirection Elliott 3 true/faceDirection Harvey 3 true/faceDirection Alex 3 true/faceDirection Shane 3 true/faceDirection Sebastian 3 true/textAboveHead Sam \"Hey!\"/textAboveHead Alex \"What's up?\"/textAboveHead Shane \"Oh, hey\"/pause 2000/move farmer 3 0 1/emote farmer 32/pause 500/speak Harvey \"You showed up just in time for the first ever Pelican Town 8-ball tournament!\"/pause 500/speak Elliott \"Don't worry, I've never played before, either.$h\"/pause 500/speak Shane \"It's easy, you just gotta put some mustard on the cue ball...$h\"/pause 500/fade/viewport -1000 -1000/pause 1500/message \"You played a round of pool with the group.\"/pause 1000/message \"Sabrina won, of course... but it was still a lot of fun!\"/pause 500/end"
 			},
 			"When": {
-				"Sebastian": "default, variant1, dialogue"
+				"Sebastian": "Adarin, Adarin Variant, Dialogue Only"
 			}
 		},
 		
@@ -982,7 +1096,7 @@
 				"44/f Sam 500/p Sam": "sampractice/-1000 -1000/farmer 4 15 1 Sam 17 16 2 Sebastian 18 18 0/positionOffset Sebastian 32 -32/skippable/animate Sam false true 200 20 21/showFrame Sebastian 41/viewport 17 16 true/move farmer 8 0 0/pause 500/doAction 12 14/move farmer 0 -2 1/move farmer 4 0 2/pause 9000/stopAnimation Sam/showFrame Sebastian 8/pause 1000/faceDirection Sam 0/pause 800/speak Sam \"Oh, hi @! Sabrina and I were just having a little 'jam session'.\"/move farmer 0 3 1/faceDirection Sam 3/faceDirection Sebastian 3/speak Sam \"We're trying to start a band, but we still don't know what kind of music to make. There's too many possibilities.\"/pause 500/emote Sebastian 28/faceDirection Sam 2/pause 500/emote Sam 16/faceDirection Sam 3/speak Sam \"#$q 76 null#Say, @... what kind of music do you like?#$r 76 50 Event_band1#Cheerful pop music.#$r 77 50 Event_band2#Experimental noise rock.#$r 78 50 Event_band3#Hi-Energy dance music.#$r 79 50 Event_band4#Honky-tonky country music.\"/move Sam 0 2 1/speak Sam \"What do you say, Sabrina? Should we do this?\"/pause 300/faceDirection Sebastian 0/pause 300/faceDirection Sebastian 3/speak Sebastian \"...Okay.\"/pause 500/faceDirection Sam 0/move Sam 0 -2 3/speak Sam \"Thanks for the help, @. With my guitar skills, and Sabrina's wizardry on the synthesizer, we're gonna be a screaming success. I'm convinced of it!$h\"/faceDirection Sam 2/speak Sam \"Now I just need to find someone to play drums...$u\"/pause 500/end"
 			},
 			"When": {
-				"Sebastian": "default, variant1, dialogue"
+				"Sebastian": "Adarin, Adarin Variant, Dialogue Only"
 			}
 		},
 		
@@ -993,7 +1107,7 @@
 				"46/f Sam 1000/p Sam": "playful/7 4/farmer 7 12 0 Sam 7 5 0 Jodi 17 7 0/skippable/move farmer 0 -6 0/faceDirection Sam 2/pause 300/speak Sam \"Oh, hi @. I was just about to have a snack.\"/pause 500/speak Sam \"Here, let me get something for you.\"/faceDirection Sam 0/pause 500/playSound openBox/pause 500/faceDirection Sam 3/playSound dwop/specificTemporarySprite dropEgg/showFrame Sam 33/jump Sam/pause 1000/emote Sam 12/showFrame Sam 12/speak Sam \"Oh no... What a mess.$s\"/speed Jodi 4/move Jodi -10 0 0/speak Jodi \"What was that sound?\"/emote Jodi 16/speak Jodi \"*gasp*$s\"/move Jodi -1 0 0/move Jodi 0 -1 0/speak Jodi \"This is absolutely terrible! What happened?$u\"/speak Sam \"$q 80 null#...Tell her, @.$s#$r 80 -10 event_snack1#Sam dropped the snack as she was handing it to me.#$r 80 50 event_snack2#Sam handed me the snack and then I dropped it.#$r 81 -50 event_snack3#Sam dropped it on purpose. She thought it would be funny.\"/pause 300/speak Jodi \"$p 80#Thanks for telling me the truth, @. It's not such a big deal.|You did WHAT, Sam?! What's gotten into you?!$u\"/faceDirection Jodi 0/speak Sam \"I'm sorry about this, mom. I'll clean it up.$s\"/emote Jodi 20/speak Jodi \"Thanks, honey.$h\"/move Jodi 0 1 1/move Jodi 1 0 2 /faceDirection Sam 2 true/move Jodi 0 7 2 true/globalFade/viewport -1000 -1000/end dialogue Sam \"$p 81#I'm angry at you. I have no idea why you lied like that.$s|Sorry about what happened earlier.\""
 			},
 			"When": {
-				"Sam": "default, dialogue"
+				"Sam": "Adarin, Dialogue Only"
 			}
 		},
 		
@@ -1005,7 +1119,7 @@
 				"sebastianRoom": "resetVariable/move farmer 0 2 1/playSound mouseClick/move farmer 3 0 0/playSound mouseClick/move farmer 0 -1 0/playSound mouseClick/move farmer 0 -1 0/pause 500/faceDirection farmer 0/question fork1 \"#Ask her what she's working on.#Complement the decor in her room.\"/fork decor/pause 500/stopAnimation Sebastian/speak Sebastian \"I do freelance work as a programmer.\"/switchEvent enterRobin"
 			},
 			"When": {
-				"Sebastian": "default, variant1, dialogue"
+				"Sebastian": "Adarin, Adarin Variant, Dialogue Only"
 			}
 		},
 		
@@ -1016,8 +1130,8 @@
 				"enterRobin": "pause 500/playSound mouseClick/pause 100/playSound mouseClick/pause 500/playSound Pickup_Coin15/pause 300/emote Sebastian 40/speak Sebastian \"That was  an instant message from Sam... I guess she wants to hang out...#$b#Ugh, I don't really feel like going out today.$u\"/pause 500/playSound doorClose/warp Robin 1 1/move Robin 0 4 1/speak Robin \"Oh, hi @.\"/faceDirection farmer 3/move Robin 4 0 1/speak Robin \"Sebby, I know you don't like it when I come in here... but I ran into Abigail at the store and she said she was looking for you.\"/pause 200/emote Sebastian 28/speak Sebastian \"Did you tell her I'm working?\"/speak Robin \"I did... but she said she'd probably stop by anyway.\"/emote Sebastian 12/speak Sebastian \"*sigh*... No one takes my job seriously.$u#$b#No one ever bothers Maru when she's working at the clinic... does everyone think I'm just surfing the web all day?\"/faceDirection farmer 0 true/move Robin -4 0 0/move Robin 0 -4 0/warp Robin -100 -100/playSound doorClose/pause 500/faceDirection farmer 0/resetVariable/question fork1 \"#Ask him about his career goals.#Ask him why he doesn't want to see his friends.\"/fork noFriends/pause 500/speak Sebastian \"Well, I'm trying to save up so I can move out of here. Probably to the city or something.\"/emote Sebastian 40/speak Sebastian \"You know, If I'd gone to college I'd probably be making six figures right now... but I just don't want to be part of that corporate rat race, you know?#$b#Well, and I guess I just feel more comfortable hidden behind the computer than dealing with people face-to-face.$s\"/emote Sebastian 28/pause 600/playSound mouseClick/pause 100/playSound mouseClick/pause 300/speak Sebastian \"Well, I should get back to work... I need to get this module finished by tomorrow.\"/animate Sebastian false true 100 24 24 24 24 24 24 24 24 24 24 25 26 27 26 27 26 27 26 25 24 24/playSound keyboardTyping/pause 500/move farmer 0 2 3/move farmer -3 0 0/move farmer 0 -2 3/move farmer -5 0 0 true/globalFade/viewport -1000 -1000/pause 1000/end"
 			},
 			"When": {
-				"Sam": "default, dialogue",
-				"Sebastian": "disabled"
+				"Sam": "Adarin, Dialogue Only",
+				"Sebastian": "Disabled"
 			}
 		},
 		
@@ -1028,8 +1142,8 @@
 				"enterRobin": "pause 500/playSound mouseClick/pause 100/playSound mouseClick/pause 500/playSound Pickup_Coin15/pause 300/emote Sebastian 40/speak Sebastian \"That was  an instant message from Sam... I guess she wants to hang out...#$b#Ugh, I don't really feel like going out today.$u\"/pause 500/playSound doorClose/warp Robin 1 1/move Robin 0 4 1/speak Robin \"Oh, hi @.\"/faceDirection farmer 3/move Robin 4 0 1/speak Robin \"Sebby, I know you don't like it when I come in here... but I ran into Abigail at the store and she said she was looking for you.\"/pause 200/emote Sebastian 28/speak Sebastian \"Did you tell her I'm working?\"/speak Robin \"I did... but she said she'd probably stop by anyway.\"/emote Sebastian 12/speak Sebastian \"*sigh*... No one takes my job seriously.$u#$b#No one ever bothers Maru when she's working at the clinic... does everyone think I'm just surfing the web all day?\"/faceDirection farmer 0 true/move Robin -4 0 0/move Robin 0 -4 0/warp Robin -100 -100/playSound doorClose/pause 500/faceDirection farmer 0/resetVariable/question fork1 \"#Ask her about her career goals.#Ask her why she doesn't want to see her friends.\"/fork noFriends/pause 500/speak Sebastian \"Well, I'm trying to save up so I can move out of here. Probably to the city or something.\"/emote Sebastian 40/speak Sebastian \"You know, If I'd gone to college I'd probably be making six figures right now... but I just don't want to be part of that corporate rat race, you know?#$b#Well, and I guess I just feel more comfortable hidden behind the computer than dealing with people face-to-face.$s\"/emote Sebastian 28/pause 600/playSound mouseClick/pause 100/playSound mouseClick/pause 300/speak Sebastian \"Well, I should get back to work... I need to get this module finished by tomorrow.\"/animate Sebastian false true 100 24 24 24 24 24 24 24 24 24 24 25 26 27 26 27 26 27 26 25 24 24/playSound keyboardTyping/pause 500/move farmer 0 2 3/move farmer -3 0 0/move farmer 0 -2 3/move farmer -5 0 0 true/globalFade/viewport -1000 -1000/pause 1000/end"
 			},
 			"When": {
-				"Sam": "default, dialogue",
-				"Sebastian": "default, variant1, dialogue"
+				"Sam": "Adarin, Dialogue Only",
+				"Sebastian": "Adarin, Adarin Variant, Dialogue Only"
 			}
 		},
 		
@@ -1040,8 +1154,8 @@
 				"enterRobin": "pause 500/playSound mouseClick/pause 100/playSound mouseClick/pause 500/playSound Pickup_Coin15/pause 300/emote Sebastian 40/speak Sebastian \"That was  an instant message from Sam... I guess he wants to hang out...#$b#Ugh, I don't really feel like going out today.$u\"/pause 500/playSound doorClose/warp Robin 1 1/move Robin 0 4 1/speak Robin \"Oh, hi @.\"/faceDirection farmer 3/move Robin 4 0 1/speak Robin \"Sebby, I know you don't like it when I come in here... but I ran into Abigail at the store and she said she was looking for you.\"/pause 200/emote Sebastian 28/speak Sebastian \"Did you tell her I'm working?\"/speak Robin \"I did... but she said she'd probably stop by anyway.\"/emote Sebastian 12/speak Sebastian \"*sigh*... No one takes my job seriously.$u#$b#No one ever bothers Maru when she's working at the clinic... does everyone think I'm just surfing the web all day?\"/faceDirection farmer 0 true/move Robin -4 0 0/move Robin 0 -4 0/warp Robin -100 -100/playSound doorClose/pause 500/faceDirection farmer 0/resetVariable/question fork1 \"#Ask her about her career goals.#Ask her why she doesn't want to see her friends.\"/fork noFriends/pause 500/speak Sebastian \"Well, I'm trying to save up so I can move out of here. Probably to the city or something.\"/emote Sebastian 40/speak Sebastian \"You know, If I'd gone to college I'd probably be making six figures right now... but I just don't want to be part of that corporate rat race, you know?#$b#Well, and I guess I just feel more comfortable hidden behind the computer than dealing with people face-to-face.$s\"/emote Sebastian 28/pause 600/playSound mouseClick/pause 100/playSound mouseClick/pause 300/speak Sebastian \"Well, I should get back to work... I need to get this module finished by tomorrow.\"/animate Sebastian false true 100 24 24 24 24 24 24 24 24 24 24 25 26 27 26 27 26 27 26 25 24 24/playSound keyboardTyping/pause 500/move farmer 0 2 3/move farmer -3 0 0/move farmer 0 -2 3/move farmer -5 0 0 true/globalFade/viewport -1000 -1000/pause 1000/end"
 			},
 			"When": {
-				"Sam": "disabled",
-				"Sebastian": "default, variant1, dialogue"
+				"Sam": "Disabled",
+				"Sebastian": "Adarin, Adarin Variant, Dialogue Only"
 			}
 		},
 		
@@ -1052,7 +1166,7 @@
 				"noFriends": "pause 500/emote Sebastian 28/speak Sebastian \"*sigh*... I like having friends, I just need a lot of time alone to balance out the social stuff.$s#$b#Sam's the opposite... she goes crazy if she's alone for too long.#$b#Maybe that's why I like computers so much... They're engaging, straightforward, and unselfish. Quite the opposite of a lot of people I know.\"/pause 600/playSound mouseClick/pause 100/playSound mouseClick/pause 300/emote Sebastian 40/speak Sebastian \"Well, I should get back to work... I need to get this module finished by tomorrow.\"/pause 300/animate Sebastian false true 100 26 27/playSound keyboardTyping/pause 500/move farmer 0 2 3/move farmer -3 0 0/move farmer 0 -2 3/move farmer -5 0 0 true/globalFade/viewport -1000 -1000/pause 1000/end"
 			},
 			"When": {
-				"Sam": "default, dialogue"
+				"Sam": "Adarin, Dialogue Only"
 			}
 		},
 		
@@ -1063,7 +1177,7 @@
 				"45/f Sam 1500/t 1200 1600/w sunny": "breezy/-1000 -1000/farmer 20 93 3 Sam 12 90 2 Lewis 28 78 1/skippable/showFrame Sam 25/move Lewis 0 12 3 true/viewport 22 89 true/specificTemporarySprite samSkate1/null/pause 400/faceDirection farmer 1/showFrame Lewis 24/shake Lewis 8000/jump Lewis/showFrame Sam 35/specificTemporarySprite skateboardFly/jump Sam/pause 1000/speak Lewis \"Hey! What do you think you're doing? That's private property!$4\"/textAboveHead Lewis \"Sam!\"/pause 500/speak Sam \"Uh... Er... I... I'm sorry, sir.$8\"/showFrame Sam 4/emote Lewis 12/showFrame Lewis 12/pause 800/speak Lewis \"*sigh*... The youth these days... Sometimes I wonder if this town isn't doomed.$u\"/move farmer 0 -2 1/move farmer 6 0 1/faceDirection Sam 2/pause 500/move Lewis 0 1 3/speak Lewis \"You saw what happened, @. What do you have to say about this?\"/pause 600/question null \"#You're right, sir. Sam should respect private property.#Don't blame Sam. There's nowhere else for her to ride!#I'm staying out of this.\"/pause 500/splitSpeak Sam \"Fine! I just won't ride my skateboard ever again. Happy?$a~Exactly! If there was a park in town, I could ride there and everyone would be happy.~Hmmph. Alright.$a\"/faceDirection Lewis 2/emote Lewis 12/splitSpeak Lewis \"You're being difficult, Sam. I have no problem with you riding around town, just try not to cause any damage! It's that simple.~Hmmph. I thought you were more mature than this, @.$4~I'll let it slide this time, Sam. But I don't want to see you doing this anymore.\"/faceDirection Lewis 3/splitSpeak Lewis \"Got it?~Sam... I'm sorry I yelled at you. Just please try not to damage anything in the future. Got it?~Got it?\"/faceDirection Sam 1/pause 800/faceDirection Sam 0/emote Sam 28/pause 500/faceDirection Sam 1/speak Sam \"Yes, sir.$7\"/pause 600/move Lewis 0 -16 0 true/pause 800/faceDirection Sam 2/pause 800/speak Sam \"...Did you see that trick, though? That was rad.$u\"/faceDirection farmer 0/emote farmer 16/pause 800/end"
 			},
 			"When": {
-				"Sam": "default, dialogue"
+				"Sam": "Adarin, Dialogue Only"
 			}
 		},
 		
@@ -1074,7 +1188,7 @@
 				"191393/Hn ccFishTank/Hn ccBulletin/Hn ccPantry/Hn ccVault/Hn ccBoilerRoom/Hn ccCraftsRoom/Hl jojaFishTank/Hl jojaPantry/Hl jojaVault/Hl jojaBoilerRoom/Hl jojaCraftsRoom/Hl JojaMember/w sunny/H": "junimoStarSong/-1000 -1000/farmer -100 -100 0 Evelyn 56 21 0 Lewis 52 33 0 Morris -2000 -2000 0 Jas 62 16 2 Vincent 46 23 1 Emily -2000 -2000 0 Gus -2000 -2000 0 Caroline -2000 -2000 2 Robin -2000 -2000 2 Demetrius -2000 -2000 0 Clint -2000 -2000 0 Pierre -2000 -2000 1 Jodi -2000 -2000 3 Gunther -2000 -2000 0 Willy -2000 -2000 0 Pam -2000 -2000 3 George -2000 -2000 2/broadcastEvent/addConversationTopic cc_Complete/specificTemporarySprite ccCelebration/animate Jas false true 90 16 17 18 19/animate Evelyn true false 500 17 18 17 19 19 19 19/viewport 53 25 true/viewport move 0 -1 8000/move Vincent 1 0 2/move Vincent 0 1 1/move Lewis 0 -9 0 true/move Vincent 8 0 0 false/pause 1000/jump Vincent/pause 1000/speed Vincent 4/move Vincent 0 15 0/pause 3000/globalFade/viewport -1000 -1000/warp Lewis 32 22/warp Jas -2000 -2000/warp Evelyn -2000 -2000/warp Vincent -2000 -2000/warp Gunther 24 17/warp Gus 5 5 0/advancedMove Gus true -2 0 4 2000 4 0 4 3000 -2 0 4 2000/warp Pam 8 9/advancedMove Pam true 3 5000 1 0 0 -4 -1 0 4 1000 1 0 0 4 -1 0/warp Emily 16 19/advancedMove Emily true 2 0 2 8000 -2 0 4 3000/warp Pierre 23 10/warp Caroline 24 9/warp Jodi 25 10/warp Willy 40 10/advancedMove Willy true 2 0 4 3000 -3 0 4 3000 1 0 4 3000/warp George 42 18/warp Robin 10 25/advancedMove Robin false 1 0 2 2000 0 -13 16 0 0 -3/warp Clint 46 13/advancedMove Clint false -1 0 4 14000 10 0 0 6 7 0 0 -5/warp Demetrius 47 5/changeLocation CommunityCenter/viewport 7 10 true/viewport move 2 0 21500/pause 6000/move Lewis 0 -12 2/pause 10000/globalFade/viewport -1000 -1000/warp farmer 32 20/move farmer 0 -9 0 true/viewport 32 10 true/pause 5000/speak Lewis \"I'm not sure how you did it, @... but the community center has never looked better!$h#$b#You've done Pelican Town a great service. Everyone in town is pleased.$h\"/pause 800/emote Lewis 32/pause 1000/speak Lewis \"As a way of saying 'Thank You', I'd like to present you with this Town's greatest honor... The Stardew Hero Award. You've earned it!$h\"/pause 1000/awardFestivalPrize hero/null/itemAboveHead hero/null/pause 1000/faceDirection farmer 0/playMusic none/message \"VOICE: Grumble... Grumble...\"/pause 500/textAboveHead Lewis \"Who's that?\"/faceDirection farmer 2 true/move Lewis 1 0 2/move Lewis 0 1 2/pause 500/speak Morris \"Sales have been plummeting! Where have all my customers gone?$u\"/playSound doorClose/warp Morris 32 23/textAboveHead Lewis \"Ah, Morris.\"/move Morris 0 -9 2/pause 500/faceDirection Morris 1/pause 500/playSound dwop/faceDirection Morris 0 true/pause 50/faceDirection Morris 3/pause 500/showFrame Morris 19/shake Morris 1000/textAboveHead Morris \"Waa..?!\"/pause 500/speak Morris \"All my customers...Here?!?$s#$b#This isn't good...$s\"/move Pierre 0 4 1/textAboveHead Pierre \"How does it feel?\"/move Pierre 4 0 1/move Pierre 4 0 1/question fork1 \"#Let's be reasonable.#Let's settle this the old-fashioned way.\"/fork Punch/showFrame Morris 12/textAboveHead Morris \"Hmmph!\"/pause 1000/speak Morris \"It's of no consequence! I'll just run a 75%-off sale and all my customers will come crawling back to me, begging for forgiveness! You'll see!$h\"/pause 1000/speak Pierre \"No...not this time...$u\"/faceDirection Pierre 3/textAboveHead Pierre \"Gather 'round, everyone!\"/pause 1500/globalFade/viewport -1000 -1000/stopAdvancedMoves/warp Demetrius 35 14/faceDirection Clint 3/faceDirection Demetrius 3 true/warp Pam 28 15/faceDirection Pam 1 true/warp Gus 28 14/faceDirection Gus 1 true/warp Robin 36 15/faceDirection Robin 3/warp Emily 29 9/faceDirection Emily 2 true/warp Willy 35 16/faceDirection Willy 3 true/warp Jodi 36 9/faceDirection Jodi 2 true/warp Caroline 35 9/faceDirection Caroline 2 true/warp Clint 37 13/faceDirection Clint 3 true/warp Gunther 30 18/warp George 28 16/faceDirection George 1 true/viewport 32 10 true/faceDirection Pierre 2/faceDirection Pierre 3/faceDirection Pierre 0/faceDirection Pierre 3/pause 1000/speak Pierre \"I remember when I first moved to Pelican Town... This building was active and vibrant.#$b#We worked together to make the town a better place. There was a real sense of community.\"/pause 1000/playMusic musicboxsong/move Pierre 0 2 3/speak Pierre \"George, you always used to do the crossword puzzle while sipping coffee in the community kitchen. Remember?\"/pause 500/faceDirection George 2/pause 500/showFrame George 16/textAboveHead George \"The good ol' days.\"/move Pierre 0 -2 0/speak Pierre \"Emily, you wove that custom banner for the Stardew Valley Fair.#$b#I remember you working on that for years!$h\"/pause 1000/speak Emily \"It... It was a lot of fun... $s\"/move Pierre 0 1 1/textAboveHead Pierre \"Winnie!\"/pause 500/textAboveHead Willy \"Me?\"/pause 1000/speak Pierre \"Remember when your little crab experiment got out of hand?$h\"/pause 500/speak Willy \"Hehe... That I do. We showed up one morning and the place was crawlin' with 'em.$h\"/faceDirection Pierre 3/speak Pierre \"But Gus saved the day with a brilliant idea... A crab leg feast for the entire valley!\"/speak Gus \"I still dream of that garlic butter.\"/pause 100/textAboveHead Robin \"Mmmmm...\"/faceDirection Pierre 0/playMusic none/speak Pierre \"You see, everyone? Our community is what makes Pelican Town special.#$b#When JojaMart came to town we lost sight of that.$s#$b#But now, thanks to @, we have a second chance.#$b#I'm asking that you join me in boycotting JojaMart! We have the power to reclaim our old way of life!\"/jump Morris/showFrame Morris 19/pause 1000/textAboveHead Pierre \"Who's with me?\"/pause 3000/showFrame George 0/playMusic springtown/pause 4000/move George 1 0 1/speak George \"I've lived here too long to see this town go to ruin.#$b#You can count me in!$h\"/pause 500/shake Morris 5000/textAboveHead Demetrius \"I'm in.\"/pause 250/textAboveHead Jodi \"Boycott!\"/shake Morris 5000/faceDirection Morris 0 true/jump Morris/pause 500/textAboveHead Gus \"Me too!\"/pause 500/textAboveHead Gunther \"It's about time!\"/textAboveHead Robin \"No More Joja!\"/pause 2000/speak Morris \"I'm done for...$s\"/pause 2000/speed Morris 4/shake Morris 5000/move Morris 0 9 2/warp Morris -2000 -2000/playSound doorClose/faceDirection Robin 2 true/faceDirection Demetrius 2 true/pause 20/faceDirection Gunther 2 true/pause 30/faceDirection George 2 true/globalFade/viewport -9999 -9999/pause 4000/message \"Morris and his JojaMart cronies were never heard from again...\"/pause 2000/end position 52 20"
 			},
 			"When": {
-				"Willy": "default, dialogue"
+				"Willy": "Bajel, Dialogue Only"
 			}
 		},
 		
@@ -1085,7 +1199,7 @@
 				"112/n seenJunimoNote": "WizardSong/-1000 -1000/farmer 8 24 0 Wizard 10 15 2 Junimo -2000 -2000 2/skippable/addConversationTopic cc_Begin/showFrame Wizard 20/viewport 8 18 true/move farmer 0 -3 0/pause 2000/speak Wizard \"Ah... Come in.\"/pause 800/animate Wizard false false 100 20 21 22 0/playSound dwop/pause 1000/stopAnimation Wizard/move Wizard -2 0 3 false/move Wizard 0 2 2/pause 1500/speak Wizard \"I am Rasmodia... Seeker of the arcane truths.#$b#Mediary between physical and ethereal.#$b#Master of the seven elementals.#$b#Keeper of the sacred cha-... you get the point.\"/pause 1000/move Wizard 0 1 2/speak Wizard \"And you... @. The one whose arrival I have long foreseen.\"/pause 1500/speak Wizard \"Here, I'd like to show you something.\"/pause 500/faceDirection Wizard 1/playMusic none/pause 800/speak Wizard \"Behold!\"/playMusic clubloop/pause 1000/showFrame Wizard 19/playSound wand/screenFlash .8/warp Junimo 10 17/specificTemporarySprite junimoCage/pause 3000/shake Junimo 800/playSound junimoMeep1/pause 1000/shake Junimo 800/playSound junimoMeep1/pause 1000/faceDirection Wizard 1 true/showFrame Wizard 4/pause 2000/shake Junimo 800/playSound junimoMeep1/pause 1000/speak Wizard \"You've seen one before, haven't you?\"/move Wizard 0 -1 1/pause 1000/shake Junimo 800/playSound junimoMeep1/pause 1000/speak Wizard \"They call themselves the 'Junimos'...#$b#Mysterious spirits, these ones... For some reason, they refuse to speak with me.\"/pause 1000/playSound dwop/faceDirection Wizard 2 true/showFrame Wizard 16/pause 500/playSound wand/screenFlash .8/warp Junimo -3000 -3000/specificTemporarySprite junimoCageGone/playMusic WizardSong/pause 1000/showFrame Wizard 0/pause 500/speak Wizard \"I'm not sure why they've moved into the community center, but you have no reason to fear them.\"/pause 1000/move farmer 0 -1 0/emote farmer 48/pause 1000/speak Wizard \"Hmmm? You found a golden scroll written in an unknown language?#$b#Most interesting...\"/move Wizard 0 1 2/speak Wizard \"Stay here. I'm going to see for myself. I'll return shortly.\"/pause 1000/playSound shwip/faceDirection Wizard 3 true/pause 50/faceDirection Wizard 0 true/pause 50/faceDirection Wizard 1 true/pause 50/faceDirection Wizard 2 true/pause 50/showFrame Wizard 16/pause 500/playSound wand/warp Wizard -3000 -3000/specificTemporarySprite wizardWarp/pause 2000/faceDirection farmer 1/faceDirection farmer 3/faceDirection farmer 0/pause 2000/playSound dwop/faceDirection Wizard 0 true/faceDirection farmer 1 true/pause 50/faceDirection farmer 2/pause 1500/playSound doorClose/warp Wizard 8 24/faceDirection farmer 2 true/showFrame farmer 94/startJittering/move Wizard 0 -1 0/stopJittering/showFrame farmer 0/move Wizard 0 -2 0/speak Wizard \"I found the note...\"/move Wizard -2 0 3/pause 800/speak Wizard \"The language is obscure, but I was able to decipher it:\"/pause 1000/message \"We, the Junimo, are happy to aid you. In return, we ask for gifts of the valley. If you are one with the forest then you will see the true nature of this scroll.\"/pause 500/move Wizard 0 -2 3/faceDirection farmer 3 true/move Wizard -3 0 2/pause 1000/showFrame Wizard 18/emote Wizard 40/speak Wizard \"Hmm... 'One with the forest'... What do they mean?\"/pause 1000/speak Wizard \"...*sniff*...*sniff*...\"/pause 1500/showFrame Wizard 0/jump Wizard/pause 800/speak Wizard \"Ah-hah!$h\"/pause 800/faceDirection Wizard 1/speak Wizard \"Come here!$h\"/pause 500/move farmer -2 0 0/move farmer 0 -1 3/move farmer -2 0 3/move Wizard -1 0 2/move farmer -1 0 2/pause 500/speak Wizard \"My cauldron is bubbling with ingredients from the forest.$h#$b#Baby fern, moss grub, caramel-top toadstool... Can you smell it?$h\"/pause 500/showFrame Wizard 18/showFrame 96/pause 1000/speak Wizard \"Here. Drink up. Let the essence of the forest permeate your body.$h\"/pause 800/emote farmer 28/showFrame Wizard 19/pause 800/showFrame farmer 90/pause 1000/farmerEat 184/pause 4000/playSound gulp/animate farmer false true 350 104 105/pause 4000/specificTemporarySprite farmerForestVision/pause 7000/pause 19500/globalFade .008/specificTemporarySprite junimoCageGone2/viewport -1000 -1000/playMusic none/pause 2000/playSound reward/pause 300/message \"You've gained the power of forest magic! Now you can decipher the true meaning of the junimo scrolls.\"/end warpOut"
 			},
 			"When": {
-				"Wizard": "default, dialogue"
+				"Wizard": "CreepyKat, Dialogue Only"
 			}
 		},
 		
@@ -1096,7 +1210,7 @@
 				"Sam_spouse": "Sabrina's the same as always. Are you having fun at the festival?"
 			},
 			"When": {
-				"Sebastian": "default, variant1, dialogue"
+				"Sebastian": "Adarin, Adarin Variant, Dialogue Only"
 			}
 		},
 		
@@ -1107,7 +1221,7 @@
 				"Lewis": "Good evening, @. Have you ventured into the haunted maze yet? It's quite spooky.#$e#That strange woman who lives in the tower set it all up herself. She wouldn't let anyone near while she was working on it."
 			},
 			"When": {
-				"Wizard": "default, dialogue"
+				"Wizard": "CreepyKat, Dialogue Only"
 			}
 		},
 		
@@ -1118,7 +1232,7 @@
 				"Maru_spouse": "Harley keeps trying to talk to me, but all I want is a piece of this roast."
 			},
 			"When": {
-				"Harvey": "default, dialogue"
+				"Harvey": "Adarin, Dialogue Only"
 			}
 		},
 		
@@ -1129,7 +1243,7 @@
 				"Sam": "I wonder if they're poisonous?#$e#Maybe I shouldn't push Sabrina in the water after all...$h"
 			},
 			"When": {
-				"Sebastian": "default, variant1, dialogue"
+				"Sebastian": "Adarin, Adarin Variant, Dialogue Only"
 			}
 		},
 		
@@ -1142,7 +1256,7 @@
 				"Elliott": "I'm entering the ice fishing competition today. Why not?#$e#It's rare that Winnie ever loses, though."
 			},
 			"When": {
-				"Willy": "default, dialogue"
+				"Willy": "Bajel, Dialogue Only"
 			}
 		},
 		
@@ -1153,7 +1267,7 @@
 				"harvey_radio": "%Harley looks busy right now."
 			},
 			"When": {
-				"Harvey": "default, dialogue"
+				"Harvey": "Adarin, Dialogue Only"
 			}
 		},
 		
@@ -1164,7 +1278,7 @@
 				"shane_work": "%Shania's hard at work. She doesn't seem interested in talking."
 			},
 			"When": {
-				"Shane": "default, variant1, dialogue"
+				"Shane": "Exrenkon, Lydomia, Dialogue Only"
 			}
 		},
 		
@@ -1175,7 +1289,7 @@
 				"sam_work": "%Sam's on the clock... better not get her in trouble."
 			},
 			"When": {
-				"Sam": "default, dialogue"
+				"Sam": "Adarin, Dialogue Only"
 			}
 		},
 		
@@ -1209,7 +1323,7 @@
 				"SamHouse_Sam_Trash": "Looks like Sam cleans her trash bin regularly."
 			},
 			"When": {
-				"Sam": "default, dialogue"
+				"Sam": "Adarin, Dialogue Only"
 			}
 		},
 		
@@ -1220,7 +1334,7 @@
 				"ElliottHouse_ElliottBook_Filled": "'{0}' by Elayne ... Dedicated to {1}"
 			},
 			"When": {
-				"Elliott": "default, variant1, dialogue"
+				"Elliott": "Adarin, Adarin Variant, Dialogue Only"
 			}
 		},
 		
@@ -1234,7 +1348,7 @@
 				"ItemDeliveryQuest.cs.13446": "A paste of fresh {0} makes a wonderful tonic for {1}. If you find one, I could put it to good use.       -Dr. Harley "
 			},
 			"When": {
-				"Harvey": "default, dialogue"
+				"Harvey": "Adarin, Dialogue Only"
 			}
 		},
 		
@@ -1245,7 +1359,7 @@
 				"Event.cs.1625": "Aw, I gotta put on that dorky dress again? I thought now that we're married... Well, alright.$s"
 			},
 			"When": {
-				"Sam": "default, dialogue"
+				"Sam": "Adarin, Dialogue Only"
 			}
 		},
 		
@@ -1256,7 +1370,7 @@
 				"Utility.cs.5864_3": "Shania's Theme"
 			},
 			"When": {
-				"Shane": "default, variant1, dialogue"
+				"Shane": "Exrenkon, Lydomia, Dialogue Only"
 			}
 		},
 		
@@ -1272,7 +1386,7 @@
 				"SlayMonsterQuest.cs.13752": "The monsters known as {0} are throwing the elemental balance into disarray. I would like an adventurer to enter the mines and slay {1} of these {2}.  -M. Rasmodia, Wizardess"
 			},
 			"When": {
-				"Wizard": "default, dialogue"
+				"Wizard": "CreepyKat, Dialogue Only"
 			}
 		},
 		
@@ -1285,7 +1399,7 @@
 				"TitleMenu.cs.11726": "Elayne's latest sentence:"
 			},
 			"When": {
-				"Elliott": "default, variant1, dialogue"
+				"Elliott": "Adarin, Adarin Variant, Dialogue Only"
 			}
 		},
 		
@@ -1296,7 +1410,7 @@
 				"MapPage.cs.11093": "Home of George, Evelyn & Alexa"
 			},
 			"When": {
-				"Alex": "default, variant1, dialogue"
+				"Alex": "Adarin, Adarin Variant, Dialogue Only"
 			}
 		},
 		
@@ -1311,7 +1425,7 @@
 				"ItemDeliveryQuest.cs.13381": "...feel like {0} for some reason. Please bring to Sabrina at 24 Mountain Road."
 			},
 			"When": {
-				"Sebastian": "default, variant1, dialogue"
+				"Sebastian": "Adarin, Adarin Variant, Dialogue Only"
 			}
 		},
 		
@@ -1324,7 +1438,7 @@
 				"FishingQuest.cs.13251": "Trying to keep the art o' fishing alive... I'll pay {0}g to any fishing enthusiast who catches {1} {2}. Good luck!  -Winnie"
 			},
 			"When": {
-				"Willy": "default, dialogue"
+				"Willy": "Bajel, Dialogue Only"
 			}
 		},
 		
@@ -1403,7 +1517,7 @@
 				"AnimalShop.8": "Looks like she's using the radio as an alarm clock."
 			},
 			"When": {
-				"Shane": "default, variant1, dialogue"
+				"Shane": "Exrenkon, Lydomia, Dialogue Only"
 			}
 		},
 		
@@ -1417,7 +1531,7 @@
 				"JoshHouse.9": "It's Alexa's gridball helmet. Looks like she keeps it polished."
 			},
 			"When": {
-				"Alex": "default, variant1, dialogue"
+				"Alex": "Adarin, Adarin Variant, Dialogue Only"
 			}
 		},
 		
@@ -1430,7 +1544,7 @@
 				"ElliottHouse.6": "It looks like Elayne is trying to grow a bonsai tree. It looks cool so far!"
 			},
 			"When": {
-				"Elliott": "default, variant1, dialogue"
+				"Elliott": "Adarin, Adarin Variant, Dialogue Only"
 			}
 		},
 		
@@ -1443,7 +1557,7 @@
 				"Hospital.3": "It's probably not a good idea to stick your hands in there. It's full of used syringes, dirty swabs, and little nozzles that Harley stuck into people's ears."
 			},
 			"When": {
-				"Harvey": "default, dialogue"
+				"Harvey": "Adarin, Dialogue Only"
 			}
 		},
 		
@@ -1454,7 +1568,7 @@
 				"SamHouse.11": "It's Sam's computer. She's got an extensive library of computer games."
 			},
 			"When": {
-				"Sam": "default, dialogue"
+				"Sam": "Adarin, Dialogue Only"
 			}
 		},
 		
@@ -1466,7 +1580,7 @@
 				"ShaneCooking": "@,^I found this recipe in a magazine and I thought it sounded interesting. Feel free to give me a taste if you make it. hehe. ^   -Shania%item cookingRecipe %%"
 			},
 			"When": {
-				"Shane": "default, variant1, dialogue"
+				"Shane": "Exrenkon, Lydomia, Dialogue Only"
 			}
 		},
 		
@@ -1480,7 +1594,7 @@
 				"winter_5_2": "@,^I'm creating an enchanted staff of phenomenal power.^However, I'm missing something: an Iridium Bar.^I'm willing to pay 5x the market value for it. Bring it as soon as you can.^ -M. Rasmodia, Wizardess %item quest 123 %%"
 			},
 			"When": {
-				"Wizard": "default, dialogue"
+				"Wizard": "CreepyKat, Dialogue Only"
 			}
 		},
 		
@@ -1497,7 +1611,7 @@
 				"winter_13_2": "I've got another challenge for you: Catch me a Lingcod.^They don't go down easy, but I know you can do it.^  -Winnie%item quest 124 %%"
 			},
 			"When": {
-				"Willy": "default, dialogue"
+				"Willy": "Bajel, Dialogue Only"
 			}
 		},
 		
@@ -1509,7 +1623,7 @@
 				"elliottBoat": "Meet me at the docks on a sunny morning. I've got something in mind. ^   -Elayne"
 			},
 			"When": {
-				"Elliott": "default, variant1, dialogue"
+				"Elliott": "Adarin, Adarin Variant, Dialogue Only"
 			}
 		},
 		
@@ -1522,7 +1636,7 @@
 				"passedOut3_NotBilled": "@,^Someone dropped you off at the clinic last night. You'd passed out from exhaustion!^You've got to take better care of yourself and go to bed at a reasonable hour.^Since you have no money, I provided your medical care free of charge.^^-Dr. Harley"
 			},
 			"When": {
-				"Harvey": "default, dialogue"
+				"Harvey": "Adarin, Dialogue Only"
 			}
 		},
 		
@@ -1533,7 +1647,7 @@
 				"joshMessage": "@,^meet me at the saloon tonight after dark. ^   -Alexa"
 			},
 			"When": {
-				"Alex": "default, variant1, dialogue"
+				"Alex": "Adarin, Adarin Variant, Dialogue Only"
 			}
 		},
 		
@@ -1544,7 +1658,7 @@
 				"fall_25.002": "Excuse me, I have to say some things to Doctor Harley in private...$u"
 			},
 			"When": {
-				"Harvey": "default, dialogue"
+				"Harvey": "Adarin, Dialogue Only"
 			}
 		},
 		
@@ -1555,7 +1669,7 @@
 				"summer_25.001": "Doctor Harley, have you read the latest 'Biology and Medicine'? There's an article I think you'd be interested in."
 			},
 			"When": {
-				"Harvey": "default, dialogue"
+				"Harvey": "Adarin, Dialogue Only"
 			}
 		},
 		
@@ -1566,7 +1680,7 @@
 				"winter_18.001": "Can you show me how this tool works, Doctor Harley?"
 			},
 			"When": {
-				"Harvey": "default, dialogue"
+				"Harvey": "Adarin, Dialogue Only"
 			}
 		},
 		
@@ -1577,7 +1691,7 @@
 				"spring_11.002": "Doctor Harley? I'm worried about Vincent's height. Isn't he a little short for his age?"
 			},
 			"When": {
-				"Harvey": "default, dialogue"
+				"Harvey": "Adarin, Dialogue Only"
 			}
 		},
 		
@@ -1588,7 +1702,7 @@
 				"spring_16.001": "Do I look healthy, Doctor Harley?"
 			},
 			"When": {
-				"Harvey": "default, dialogue"
+				"Harvey": "Adarin, Dialogue Only"
 			}
 		},
 		
@@ -1599,7 +1713,7 @@
 				"fall_9.000": "Erm... Doctor Harley? This is completely confidential, right?"
 			},
 			"When": {
-				"Harvey": "default, dialogue"
+				"Harvey": "Adarin, Dialogue Only"
 			}
 		},
 		
@@ -1611,7 +1725,7 @@
 				"winter_18.002": "Erm... Doctor Harley? When you give her the shots, can we have two lollipops?"
 			},
 			"When": {
-				"Harvey": "default, dialogue"
+				"Harvey": "Adarin, Dialogue Only"
 			}
 		},
 		
@@ -1622,7 +1736,7 @@
 				"fall_11.000": "I gotta go visit Aunt Harley today... Great.$7"
 			},
 			"When": {
-				"Harvey": "default, dialogue"
+				"Harvey": "Adarin, Dialogue Only"
 			}
 		},
 		
@@ -1633,7 +1747,7 @@
 				"summer_4.000": "Dammit... I almost forgot. I have to go see Doctor Harley today."
 			},
 			"When": {
-				"Harvey": "default, dialogue"
+				"Harvey": "Adarin, Dialogue Only"
 			}
 		},
 		
@@ -1644,7 +1758,7 @@
 				"fall_11.001": "I'm a healthy girl, doc. Can I go now? This is boring."
 			},
 			"When": {
-				"Sam": "default, dialogue"
+				"Sam": "Adarin, Dialogue Only"
 			}
 		}
 	]
