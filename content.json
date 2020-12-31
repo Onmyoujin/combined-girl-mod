@@ -768,6 +768,116 @@
 		
 		{
 			"Action": "EditData",
+			"Target": "Data/ExtraDialogue",
+			"Entries": {
+				"PurchasedItem_1_QualityHigh_Willy": "Hey, {0}.#$b# So I stopped by Winnie's the other day and bought {1} {2}. I've never seen one so fresh! #$b#So I cooked it up for dinner last night, and it filled the house with a {3} smell.. It was a hit!$h#$b#She told me you caught it yourself... I'm impressed!#$e# Anyways...",
+				"PurchasedItem_1_QualityLow_Willy": "Hey, {0}.#$b# So I stopped by Winnie's the other day and bought {1} {2}. She said you caught it yourself! #$b#I cooked it up for dinner last night... and, uh... It filled the house with a {3} odor. I don't even want to know where you found that thing...$s#$e#Anyways...",
+				"PurchasedItem_3_QualityLow_Rude_Willy": "I went shopping last night and picked up {1} {2} on a 'chum-bucket' sale for only {3}g.#$e# It was {4}! No wonder Winnie was practically giving that {5} away...",
+				"PurchasedItem_4_Willy": "So I was at Winnie's other day and she showed me {1} {2} you brought in.#$e#I cooked it up for dinner with some lemon and a side of rice pilaf. Pretty good!$h",
+				"PurchasedItem_Pierre_QualityHigh_Willy": "Ahoy! Remember that {2} you brought in the other day? Well, I sizzled it up in me cabin last night...#$b#T'was the finest fish I've had since I was a wee lass!$h"
+			},
+			"When": {
+				"Willy": "Bajel, Dialogue Only"
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+				"Shane": "Hey,^I thought it would be fun to send you a letter. I don't really know what to write, though.^ Here, I've enclosed a treat for you. Don't tell anyone, but I snagged this from the back room of JojaMart ages ago.^Okay, see you soon. ^   -Shania %item object 215 1 206 1 %%",
+				"ShaneCooking": "@,^I found this recipe in a magazine and I thought it sounded interesting. Feel free to give me a taste if you make it. hehe. ^   -Shania%item cookingRecipe %%"
+			},
+			"When": {
+				"Shane": "Exrenkon, Lydomia, Dialogue Only"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+				"Wizard": "Greetings, young adept.^I have enclosed in this package an item of arcane significance. Use it wisely.   ^   -M. Rasmodia, Wizardess%item object 422 1 82 1 84 1 70 1 %%",
+				"wizardJunimoNote": "My sources tell me you've been poking around inside the old community center.^Why don't you pay me a visit?^My chambers are west of the forest lake, in the stone tower. I may have information concerning your... 'rat problem'.^   -M. Rasmodia, Wizardess %item quest 1 true %%",
+				"winter_12_1": "@-^I am resarching the forgotten art of shadow divination. I require an item known as 'Void Essence'. Bring it to me and you will be rewarded.^ -M. Rasmodia, Wizardess %item quest 111 %%",
+				"winter_5_2": "@,^I'm creating an enchanted staff of phenomenal power.^However, I'm missing something: an Iridium Bar.^I'm willing to pay 5x the market value for it. Bring it as soon as you can.^ -M. Rasmodia, Wizardess %item quest 123 %%",
+				"KrobusCrafting": "@, I'm not sure how the human message system works, so I asked the Wizardess to help me write this letter.^^I hope you are doing okay.^^I wanted to share this with you... it's notes on how my people build a certain item.^^   -Krobus%item craftingRecipe Dark_Sign %%[#]A letter from Krobus",
+				"WizardReward": "The specimen you delivered offered great insight into the machinations of the fell beings we call 'monsters'.^^I've formulated a pungent tincture that these beings find intoxicating. Use it with caution...^^   -M. Rasmodia, Wizardess%item craftingRecipe Monster_Musk %%[#]The Wizardess' Discovery",
+				"WizardReward2": "Thanks to the ectoplasm you delivered to me, I've made a major breakthrough in the field of arcane engineering.^^Enclosed, you'll find blueprints for a most useful machine...^^   -M. Rasmodia, Wizardess%item craftingRecipe Mini-Obelisk %%[#]The Wizardess' Breakthrough"
+			},
+			"When": {
+				"Wizard": "CreepyKat, Dialogue Only"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+				"WillyCooking": "Dear @,^I'd like to share an ol' cooking recipe my pappy used to make. It's important the fish is FRESH.  ^   -Winnie%item cookingRecipe %%",
+				"CF_Fish": "Dear @,^ Your angling skills surpass even my ol' Pappy's... I'm impressed. ^ This stardrop's been passed down for... oh, heck. Prob'ly a thousand years.^Seein' as I don't have any kids... I want you to have it.^^ -Winnie   ^  %item object 434 1 %%",
+				"fishing2": "I've got some new items in stock...^A deluxe fishing pole and some bait that you can attach to it!^You can use bait to make fish bite faster. Hope to see you soon! ^   -Winnie",
+				"fishing6": "Come by the shop and check out the new rods I'm selling.^They're the best money can buy... and you can customize them with different kinds of tackle!^Hope to see you soon! ^   -Winnie",
+				"spring_2_1": "Hello there,^Just got back from a fishing trip. You should come down to the beach some time.^I've got something for ya.^-Winnie %item quest 13 true %%",
+				"winter_2_1": "Hey, I've got a little challenge for you:^    Catch me a squid.^You can fish them from the ocean at night. They only show up in the winter, though.^   -Winnie%item quest 109 %%",
+				"winter_13_2": "I've got another challenge for you: Catch me a Lingcod.^They don't go down easy, but I know you can do it.^  -Winnie%item quest 124 %%",
+				"willyBackRoomInvitation": "@,^^I've unlocked the back room of the shop.^Come by when you have a chance.^There's something I want to show you.^^-Winnie[#]Winnie's Back Room Invitation",
+				"willyBugWadCutscene": "^^   -Winnie%item craftingRecipe Quality_Bobber %%[#]Winnie's Thank-you",
+				"willyHours": "Good news!^^The ol' boat is seaworthy once again, thanks to you!^^Stop by the back room whenever you want a ride.^^My shop is now open at 8AM every day, so you can get an early start.^^-Winnie[#]Winnie's Boat",
+				"WillyTropicalFish": "@,^^Congrats on a successful island fishing trip. I'm proud of ya!^^Here, take this special fish tank. It'll make a great piece in your house.^^-Winnie%item furniture 2312 %%[#]Winnie's Tropical Challenge",
+				"passedOutIsland": "@,^^You never showed up at the boat, so I went lookin' for ya.^^Found you sprawled out in the dirt, with a couple o' parrots pulling gold out of your pockets!^^Had to drag you all the way down to the boat. Me legs feel like two freshwater shrimp...^-Winnie",
+				"passedOutIsland_Leo": "Hi @,^^Last night, I found you slumbering in the dark.^It wasn't a very safe place, so the bird friends air-lifted you to your bed.^Please be careful from now on.^^-Leo^^P.S. Winnie helped me write this.",
+				"LeoCooking": "@,^Here's a food from my home, that me and my family enjoy. Hope you like it. ^^  -Leo^^P.S. Winnie helped me write this.%item cookingRecipe %%[#]Leo's Recipe"
+			},
+			"When": {
+				"Willy": "Bajel, Dialogue Only"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+				"elliottReading": "@,^I have great news... my novel is finished!! I'm giving a public reading this afternoon at the library. Hope to see you there! ^   -Elayne",
+				"elliottBoat": "Meet me at the docks on a sunny morning. I've got something in mind. ^   -Elayne",
+				"elliottLetter1": "@, my love,^^I've just arrived in Grampleton, to start the tour. I've forgotten how hectic the city is! The streets are packed with people... they either seem in a mad hurry, or lost in a daze, unaware of their surroundings. I miss Pelican Town already!^^I begin the tour this evening, at a local bookstore. I must admit, I'm becoming a bit nervous at the thought of public speaking... my stomach feels as if it's been twisted into a soft pretzel and doused with spicy cheese dip. Wish me luck!^^-Love, Elayne^^P.S. I hope you had a peaceful night, and weren't too scared all alone in that big house! %item conversationTopic ElliottGone2 0 %%[#]Letter From My Wife",
+				"elliottLetter2": "My dear @,^^The first reading went well, though the audience was a bit smaller than I'd hoped. Still, I sold enough copies of the book to pay for my (bug-infested) hotel room!^^In a few hours, I leave for Zuzu City. If yesterday's reading was a warm-up, this next one will be a true napalm blast...^^I miss you very much. Remember to eat well! Oh, and don't forget the leftover crab cakes I put in the fridge...^-Love, Elayne %item conversationTopic ElliottGone3 0 %%[#]Letter From My Wife 2",
+				"elliottLetter3": "My sweet @,^^Last night in Zuzu City was quite the experience! It seems there's a large literary scene here... a few dozen people showed up at my reading!^^I even signed a couple of autographs... it's strange to be seen as someone important. It's all a matter of framing, a grand illusion... for truly I am no one special. Only your devoted Elayne, as always.^^Currently I'm alone, in my hotel room, 'ingesting' a Joja Value Meal...^^Should this be called 'food'?^Or 'edible matter'?^I needn't long brood^It must be the latter^^I look forward to returning home soon. Hope you enjoyed the crab cakes.^^-Love, Elayne %item conversationTopic ElliottGone4 0 %%[#]Letter From My Wife 3",
+				"elliottLetter4": "In dreams, when graced with lofty view^I gaze upon the sunlit sea^What distant shores I've travelled to^But time now clouds my memory^^There is but one eternal place^Where I shall someday pass beyond^In Valley dear, where my love waits:^Our little home beside the pond^^-Elayne %item conversationTopic ElliottGone5 0 %%[#]Letter From My Wife 4",
+				"elliottLetter5": "My dear @,^^I won't bore you with any more details about my readings. They are mostly the same.^^I'm sure your time has been much more exciting! I can't wait to return and see what progress has been made.^^On these long travels between towns, I amuse myself by closing my eyes and envisioning the farm... I see kegs pulsing with sweet wine, a furnace ablaze with precious ore, and our little kitchen with the smell of cinnamon and nutmeg. There's a lot to enjoy!^^Just don't stay out too late in the mines, my love. It's dangerous in there! If you must go... bring plenty of food.^^-Love, Elayne %item conversationTopic ElliottGone6 0 %%[#]Letter From My Wife 5",
+				"elliottLetter6": "My dear @,^^This will be my last letter before I return home. I've had a fine trip... though nothing too exciting. It's been nice to meet people who enjoy my work, but I'm eager to return home.^^I look forward to the comfort of our little house, the satisfying farm work, a home-cooked meal, and most of all, cozying into the flannel sheets with you.^^See you soon!^-Love, Elayne %item conversationTopic ElliottGone7 0 %%[#]Letter From My Wife 6"
+			},
+			"When": {
+				"Elliott": "Adarin, Adarin Variant, Dialogue Only"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+				"harveyBalloon": "@,^I have a surprise for you. Meet me by the railroad tracks. ^   -Harley",
+				"passedOut3_Billed": "@,^Someone dropped you off at the clinic last night. You'd passed out from exhaustion!^You've got to take better care of yourself and go to bed at a reasonable hour.^I've billed you {0}g to cover your medical expenses.^^-Dr. Harley",
+				"passedOut3_NotBilled": "@,^Someone dropped you off at the clinic last night. You'd passed out from exhaustion!^You've got to take better care of yourself and go to bed at a reasonable hour.^Since you have no money, I provided your medical care free of charge.^^-Dr. Harley"
+			},
+			"When": {
+				"Harvey": "Adarin, Dialogue Only"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+				"joshMessage": "@,^meet me at the saloon tonight after dark. ^   -Alexa"
+			},
+			"When": {
+				"Alex": "Adarin, Adarin Variant, Dialogue Only"
+			}
+		},
+
+		{
+			"Action": "EditData",
 			"Target": "Data/NPCDispositions",
 			"Entries": {
 				"Willy": "adult/neutral/neutral/neutral/female/not-datable/null/Town/summer 24/Elliott ''/FishShop 5 4/Winnie"
@@ -890,6 +1000,300 @@
 		
 		{
 			"Action": "EditData",
+			"Target": "Data/SecretNotes",
+			"Entries": {
+				"2": "It's Sam's holiday shopping list^^Everyone's favorites^^Sabrina: Frozen Tear, Sashimi^Penny: Emerald, Poppy^Vincent: Grape, Cranberry Candy^Mom: Crispy Bass, Pancakes^Dad: Risotto, Roasted Hazelnuts^Me: Cactus, Maple Bar, Pizza%revealtasteSebastian84%revealtasteSebastian227%revealtastePenny60%revealtastePenny376%revealtasteVincent398%revealtasteVincent612%revealtasteJodi214%revealtasteJodi211%revealtasteKent649%revealtasteKent607%revealtasteSam90%revealtasteSam731%revealtasteSam206"
+			},
+			"When": {
+				"Sebastian": "Adarin, Adarin Variant, Dialogue Only"
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/SecretNotes",
+			"Entries": {
+				"7": "It's a page from someone's diary...^^...There are only a few 'older' prospects in town, and none of them are perfect! Harley is really anxious and weak, but I know she would make a loyal and devoted wife. She likes coffee and pickles.^^Elliott is a bit foppish and melodramatic, but he does have a nice chin. He likes crab cakes and pomegranates.^^Shane is messy and anti-social. But I think his gruff exterior is a defense mechanism, insulating his softness from the world. He likes Beer, Pizza, and Pepper Poppers.%revealtasteHarvey395%revealtasteHarvey342%revealtasteElliott732%revealtasteElliott637%revealtasteShane346%revealtasteShane206%revealtasteShane215"
+			},
+			"When": {
+				"Harvey": "Adarin, Dialogue Only",
+				"Elliott": "Disabled",
+				"Shane": "Disabled"
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/SecretNotes",
+			"Entries": {
+				"7": "It's a page from someone's diary...^^...There are only a few 'older' prospects in town, and none of them are perfect! Harvey is really anxious and weak, but I know he would make a loyal and devoted husband. He likes coffee and pickles.^^Elayne is a bit vain and melodramatic, but she does have a nice smile. She likes crab cakes and pomegranates.^^Shane is messy and anti-social. But I think his gruff exterior is a defense mechanism, insulating his softness from the world. He likes Beer, Pizza, and Pepper Poppers.%revealtasteHarvey395%revealtasteHarvey342%revealtasteElliott732%revealtasteElliott637%revealtasteShane346%revealtasteShane206%revealtasteShane215"
+			},
+			"When": {
+				"Harvey": "Disabled",
+				"Elliott": "Adarin, Adarin Variant, Dialogue Only",
+				"Shane": "Disabled"
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/SecretNotes",
+			"Entries": {
+				"7": "It's a page from someone's diary...^^...There are only a few 'older' prospects in town, and none of them are perfect! Harvey is really anxious and weak, but I know he would make a loyal and devoted husband. He likes coffee and pickles.^^Elliott is a bit foppish and melodramatic, but he does have a nice chin. He likes crab cakes and pomegranates.^^Shania is messy and anti-social. But I think her prickly exterior is a defense mechanism, insulating her softness from the world. She likes Beer, Pizza, and Pepper Poppers.%revealtasteHarvey395%revealtasteHarvey342%revealtasteElliott732%revealtasteElliott637%revealtasteShane346%revealtasteShane206%revealtasteShane215"
+			},
+			"When": {
+				"Harvey": "Disabled",
+				"Elliott": "Disabled",
+				"Shane": "Exrenkon, Lydomia, Dialogue Only"
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/SecretNotes",
+			"Entries": {
+				"7": "It's a page from someone's diary...^^...There are only a few 'older' prospects in town, and none of them are perfect! Harley is really anxious and weak, but I know she would make a loyal and devoted wife. She likes coffee and pickles.^^Elayne is a bit vain and melodramatic, but she does have a nice smile. She likes crab cakes and pomegranates.^^Shane is messy and anti-social. But I think his gruff exterior is a defense mechanism, insulating his softness from the world. He likes Beer, Pizza, and Pepper Poppers.%revealtasteHarvey395%revealtasteHarvey342%revealtasteElliott732%revealtasteElliott637%revealtasteShane346%revealtasteShane206%revealtasteShane215"
+			},
+			"When": {
+				"Harvey": "Adarin, Dialogue Only",
+				"Elliott": "Adarin, Adarin Variant, Dialogue Only",
+				"Shane": "Disabled"
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/SecretNotes",
+			"Entries": {
+				"7": "It's a page from someone's diary...^^...There are only a few 'older' prospects in town, and none of them are perfect! Harley is really anxious and weak, but I know she would make a loyal and devoted wife. She likes coffee and pickles.^^Elliott is a bit foppish and melodramatic, but he does have a nice chin. He likes crab cakes and pomegranates.^^Shania is messy and anti-social. But I think her prickly exterior is a defense mechanism, insulating her softness from the world. She likes Beer, Pizza, and Pepper Poppers.%revealtasteHarvey395%revealtasteHarvey342%revealtasteElliott732%revealtasteElliott637%revealtasteShane346%revealtasteShane206%revealtasteShane215"
+			},
+			"When": {
+				"Harvey": "Adarin, Dialogue Only",
+				"Elliott": "Disabled",
+				"Shane": "Exrenkon, Lydomia, Dialogue Only"
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/SecretNotes",
+			"Entries": {
+				"7": "It's a page from someone's diary...^^...There are only a few 'older' prospects in town, and none of them are perfect! Harvey is really anxious and weak, but I know he would make a loyal and devoted husband. He likes coffee and pickles.^^Elayne is a bit vain and melodramatic, but she does have a nice smile. She likes crab cakes and pomegranates.^^Shania is messy and anti-social. But I think her prickly exterior is a defense mechanism, insulating her softness from the world. She likes Beer, Pizza, and Pepper Poppers.%revealtasteHarvey395%revealtasteHarvey342%revealtasteElliott732%revealtasteElliott637%revealtasteShane346%revealtasteShane206%revealtasteShane215"
+			},
+			"When": {
+				"Harvey": "Disabled",
+				"Elliott": "Adarin, Adarin Variant, Dialogue Only",
+				"Shane": "Exrenkon, Lydomia, Dialogue Only"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/SecretNotes",
+			"Entries": {
+				"7": "It's a page from someone's diary...^^...There are only a few 'older' bachelorettes in town, and none of them are perfect! Harley is really anxious and weak, but I know she would make a loyal and devoted wife. She likes coffee and pickles.^^Elayne is a bit vain and melodramatic, but she does have a nice smile. She likes crab cakes and pomegranates.^^Shania is messy and anti-social. But I think her prickly exterior is a defense mechanism, insulating her softness from the world. She likes Beer, Pizza, and Pepper Poppers.%revealtasteHarvey395%revealtasteHarvey342%revealtasteElliott732%revealtasteElliott637%revealtasteShane346%revealtasteShane206%revealtasteShane215"
+			},
+			"When": {
+				"Harvey": "Adarin, Dialogue Only",
+				"Elliott": "Adarin, Adarin Variant, Dialogue Only",
+				"Shane": "Exrenkon, Lydomia, Dialogue Only"
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/SecretNotes",
+			"Entries": {
+				"9": "Alexa's Strength Training Diet:^^*Complete Breakfast^*Salmon Dinner^^(I've learned to love this food... I can feel the protein!!)%revealtasteAlex201%revealtasteAlex212"
+			},
+			"When": {
+				"Alex": "Adarin, Adarin Variant, Dialogue Only"
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/weapons",
+			"Entries": {
+				"25": "Alexa's Bat/The sweet spot is dented from Alexa's famous Grand Slam./1/3/1/-8/0/0/2/-1/-1/0/.02/3"
+			},
+			"When": {
+				"Alex": "Adarin, Adarin Variant, Dialogue Only"
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/weapons",
+			"Entries": {
+				"35": "Elayne's Pencil/Elayne used this to write her book. It's sharp!/1/3/1/308/0/0/1/-1/-1/0/.02/3"
+			},
+			"When": {
+				"Elliott": "Adarin, Adarin Variant, Dialogue Only"
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/weapons",
+			"Entries": {
+				"37": "Harley's Mallet/It brings back memories of Harley's clinic./1/3/1/308/0/0/2/-1/-1/0/.02/3"
+			},
+			"When": {
+				"Harvey": "Adarin, Dialogue Only"
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/weapons",
+			"Entries": {
+				"41": "Rina's Lost Mace/One of Sabrina's medieval replicas./1/3/1/308/0/0/2/-1/-1/0/.02/3"
+			},
+			"When": {
+				"Sebastian": "Adarin, Adarin Variant, Dialogue Only"
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/MoviesReactions",
+			"Fields": {
+				"Harvey": {
+					"Reactions": {
+						"spring_movie_1": {
+							"SpecialResponses": {
+								"DuringMovie": {
+									"Script": "/shake Harvey 3000/pause 500/message \"Harley is shaking!\""
+								}
+							}
+						},
+						"dislike": {
+							"SpecialResponses": {
+								"DuringMovie": {
+									"Script": "/shake Harvey 3000/pause 500/message \"Harley's blood pressure is skyrocketing!\""
+								}
+							}
+						}
+					}
+				}
+			},
+			"When": {
+				"Harvey": "Adarin, Dialogue Only"
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/MoviesReactions",
+			"Fields": {
+				"Sam": {
+					"Reactions": {
+						"summer_movie_1": {
+							"SpecialResponses": {
+								"DuringMovie": {
+									"Script": "/playSound reward/emote Sam 32/message Sam \"Sam can't contain her laughter!\""
+								}
+							}
+						},
+						"dislike": {
+							"SpecialResponses": {
+								"DuringMovie": {
+									"Script": "/message Sam \"Sam is playing her handheld video game system.\""
+								}
+							}
+						}
+					}
+				}
+			},
+			"When": {
+				"Sam": "Adarin, Dialogue Only"
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/MoviesReactions",
+			"Fields": {
+				"Sebastian": {
+					"Reactions": {
+						"love": {
+							"SpecialResponses": {
+								"DuringMovie": {
+									"Script": "/emote Sebastian 32/message \"Sabrina has a grin on her face.\""
+								}
+							}
+						}
+					}
+				}
+			},
+			"When": {
+				"Sebastian": "Adarin, Adarin Variant, Dialogue Only"
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/MoviesReactions",
+			"Fields": {
+				"Shane": {
+					"Reactions": {
+						"love": {
+							"SpecialResponses": {
+								"DuringMovie": {
+									"Script": "/message \"Shania's trying not to smile.\""
+								}
+							}
+						},
+						"dislike": {
+							"SpecialResponses": {
+								"DuringMovie": {
+									"Script": "/emote Shane 28/message \"Shania's slumped over...\""
+								}
+							}
+						}
+					}
+				}
+			},
+			"When": {
+				"Shane": "Exrenkon, Lydomia, Dialogue Only"
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/SpecialOrders",
+			"Fields": {
+				"Willy": {
+					"Requester": "Winnie"
+				},
+				"Willy2": {
+					"Requester": "Winnie"
+				}
+			},
+			"When": {
+				"Willy": "Bajel, Dialogue Only"
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/SpecialOrders",
+			"Fields": {
+				"Wizard": {
+					"Requester": "Wizardess"
+				},
+				"Wizard2": {
+					"Requester": "Wizardess"
+				}
+			},
+			"When": {
+				"Wizard": "CreepyKat, Dialogue Only"
+			}
+		},
+
+		{
+			"Action": "EditData",
 			"Target": "Data/Events/AnimalShop",
 			"Entries": {
 				"3910674/f Shane 1000": "shaneTheme/-2000 -2000/farmer 18 18 1 Marnie 21 14 0 Jas 25 16 2 Shane -1000 -1000 2/skippable/specificTemporarySprite shanePassedOut/viewport 22 8 true/pause 2000/speak Marnie \"Shania?\"/pause 2000/doAction 21 13/pause 500/move Marnie 0 -7 1/textAboveHead Marnie \"Oh dear...\"/doAction 21 13/removeTile 21 13 Buildings/removeTile 21 12 Front/move farmer 3 0 0/faceDirection Jas 3 true/move farmer 0 -10 1/faceDirection Marnie 2/pause 500/speak Marnie \"@... Can you do something? She's out cold.$s\"/pause 500/faceDirection farmer 0/pause 500/faceDirection farmer 1/move farmer 3 0 0/faceDirection Marnie 1 true/move farmer 0 -1 1/pause 1000/speak Shane \"buhhh...$7\"/pause 2000/specificTemporarySprite waterShane/pause 250/playSound wateringCan/pause 1000/specificTemporarySprite waterShaneDone/warp Shane 25 7/textAboveHead Shane \"Whaa..?!\"/jump Shane/shake Shane 2000/showFrame Shane 18/pause 3000/showFrame Shane 0/move farmer -1 0 1/faceDirection Shane 3/speak Marnie \"Shania! What's the matter with you? All you do anymore is mope around your room and drink beer!$s\"/move Jas -4 0 0 true/pause 200/faceDirection Shane 2 true/pause 50/faceDirection Shane 1/emote Shane 12/shake Shane 1000/textAboveHead Shane \"...\"/pause 1500/speak Shane \"You wouldn't understand...\"/pause 1000/textAboveHead Marnie \"I'm worried...\"/move Jas 0 -8 1/speak Marnie \"What's your plan? Don't you ever think about the future?\"/faceDirection Shane 0/textAboveHead Shane \"Plan?\"/pause 2000/speak Shane \"Hopefully I won't be around long enough to need a 'plan'...\"/jump Jas/pause 500/shake Jas 10000/speed Jas 4/textAboveHead Jas \"...*sob*...\"/move Jas 0 10 2 true/faceDirection Marnie 2/emote Marnie 28 true/faceDirection farmer 3/faceDirection Shane 1 true/pause 50/faceDirection Shane 2/pause 600/move Marnie 0 10 2 true/pause 1000/textAboveHead Shane \"Jas...\"/pause 500/faceDirection farmer 1/pause 400/showFrame Shane 19/pause 1000/textAboveHead Shane \"I'm sorry...\"/pause 3000/faceDirection Shane 1 true/showFrame Shane 4/pause 500/showFrame Shane 35/playSound thudStep/shake Shane 4000/pause 2000/end",
@@ -945,6 +1349,28 @@
 			}
 		},
 		
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Farm",
+			"Entries": {
+				"2118991/e 3910975/t 600 800": "continue/64 15/farmer 64 16 2 Shane 64 18 0/pause 1500/skippable/speak Shane \"Hey...\"/pause 500/faceDirection Shane 1/pause 500/faceDirection Shane 0/speak Shane \"Oh man... Uh... How do I say this?$s#$b#I'm really sorry about what happened at the cliffs. That was... embarrassing...\"/pause 500/speak Shane \"$q -1 null#  #$r -1 10 event_apologize1#I'm glad I was there to help.#$r -1 -10 event_apologize2#You needed a serious wake-up call.#$r -1 10 event_apologize3#I'm just happy you're still here.\"/pause 1000/faceDirection Shane 1/pause 1000/speak Shane \"I've decided I want to see a therapist. Harley got me in touch with a colleague of hers...$s\"/pause 500/faceDirection Shane 0/speak Shane \"Anyway... I just wanted to thank you for taking care of me. And I want you to know that I'm going to take things a little more seriously from now on.#$b#I don't want to be a burden on anyone...\"/pause 1000/faceDirection Shane 1 true/pause 50/faceDirection Shane 2/pause 500/showFrame Shane 19/pause 2000/end"
+			},
+			"When": {
+				"Harvey": "Adarin, Dialogue Only"
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/FarmHouse",
+			"Entries": {
+				"3917626/f Harvey 3500/O Harvey/t 2000 2400/p Harvey/L": "harveys_theme_jazz/-1000 -1000/farmer -100 -100 0 Harvey 7 14 0/skippable/ambientLight 0 0 0/makeInvisible 4 14 6 1/specificTemporarySprite harveyKitchenSetup/viewport 7 14 true/pause 3000/showFrame Harvey 19/playSound clank/shake Harvey 200/pause 450/playSound clank/shake Harvey 200/pause 450/playSound clank/shake Harvey 200/pause 750/showFrame Harvey 53/pause 100/playSound sipTea/pause 1000/textAboveHead Harvey \"Needs salt...\"/stopAnimation Harvey/pause 800/move Harvey -1 0 0/pause 2000/showFrame Harvey 19/playSound bubbles/pause 1000/playSound bubbles/pause 2000/stopAnimation Harvey/move Harvey 1 0 0/pause 2000/playSound furnace/specificTemporarySprite harveyKitchenFlame/pause 500/jump Harvey/pause 500/textAboveHead Harvey \"It's burning!\"/pause 500/speed Harvey 8/move Harvey -2 0 0/pause 100/speed Harvey 8/move Harvey 2 0 0/pause 100/speed Harvey 8/move Harvey -2 0 0/pause 100/speed Harvey 8/move Harvey 2 0 0/pause 3000/move Harvey 2 0 0/pause 500/showFrame Harvey 19/playSound openChest/pause 1000/textAboveHead Harvey \"Hmm...\"/pause 3000/stopAnimation Harvey/move Harvey -2 0 0/pause 500/showFrame Harvey 19/textAboveHead Harvey \"A little bit of this...\"/playSound dropItemInWater/pause 2000/stopAnimation Harvey/move Harvey -3 0 0/pause 1000/showFrame Harvey 19/playSound coin/pause 500/stopAnimation Harvey/move Harvey 3 0 0/pause 250/showFrame Harvey 19/pause 500/textAboveHead Harvey \"Some of this...\"/pause 600/playSound slosh/pause 2000/showFrame Harvey 53/pause 200/playSound sipTea/pause 2000/showFrame Harvey 4/jump Harvey/textAboveHead Harvey \"Presto!\"/pause 2000/warp farmer 12 20/playSound doorClose/move farmer 0 -1 0/pause 500/stopAnimation Harvey/faceDirection Harvey 2/speak Harvey \"Ah... You're right on time, @!$h#$b#Let me just set the table...\"/pause 300/fade/viewport -1000 -1000/pause 2000/playMusic none/pause 3000/makeInvisible 5 14 4 2/ambientLight 180 180 0/playMusic kindadumbautumn/showFrame Harvey 51/positionOffset Harvey -8 0/faceDirection farmer 1/showFrame 117/specificTemporarySprite harveyDinnerSet/pause 4000/speak Harvey \"You've been working so hard on the farm... I wanted to make you a special dinner.\"/emote farmer 20/speak Harvey \"It's my very own 'angel hair pasta primavera'... with clams!$h\"/animate Harvey false true 300 51 52/pause 300/playSound eat/pause 600/playSound eat/pause 600/playSound eat/pause 500/animate Harvey false true 100 51/quickQuestion #It tastes heavenly#It tastes healthy#It tastes watery#It tastes burnt#It tastes like your shampoo#It tastes like fungus(break)speak Harvey \"Heavenly, huh? That must be the 'angel hair'!$h#$b#I'm glad you like it! You deserve the best.$l\"(break)speak Harvey \"Oh yes, I forgot to mention... it's 'whole wheat' pasta. And it's brimming with fresh vegetables.#$b#It's important that you eat healthy food! I want you to live forever...$l\"(break)speak Harvey \"Oh... I see. I knew I needed to add more salt.$s#$b#Well, at least you'll be well hydrated.$s\"(break)emote Harvey 28\\speak Harvey \"Oh... I thought I gave myself the burnt one.$s#$b#Um, I lost track of one the pans and it caught fire... Sorry, dear.$s\"(break)jump Harvey\\pause 500\\speak Harvey \"Uhhh...! Heh. I guess a piece of my hair may have fallen into the pasta...$8#$b#Well! Extra fiber, right? Heh... (sorry honey)$8\"(break)jump Harvey\\pause 400\\speak Harvey \"Oh! Eh... Must've been the truffle oil I drizzled on top...$8#$b#You meant delicious, edible fungus... right honey? Of course... Heh.$8\"/pause 2000/animate Harvey false true 300 51 52/speak Harvey \"So, tell me about your day...\"/quickQuestion #I tended the farm#I dug around in the caves#I spent the day fishing#I socialized in town#I did a little of everything#I can't remember#I didn't do anything(break)speak Harvey \"Yes, I can still see the dirt in your hair! I really appreciate all the hard work you do, honey.\"(break)speak Harvey \"That sounds dangerous... are you sure that's safe?$8#$b#I don't want to see you on the operating table anytime soon...$s#$b#Although I have to say, I like how courageous you are...$l\"(break)speak Harvey \"A peaceful day by the water, huh? That sounds very relaxing.#$b#I'm glad you're having fun out there!$h\"(break)speak Harvey \"Ah, that's good. Having an active social life is healthy for the brain.#$b#But remember, I'm always here for you if you need someone to talk to!$l\"(break)speak Harvey \"That makes sense. There's lots to do in this valley! ...And I know how hard you work.#$b#Just remember to take breaks! When you're so busy, it's easy to get burnt out from exhaustion.\"(break)speak Harvey \"Ah... I have that problem, too. The boundary between days can blur together... it's hard to keep track of everything!\"(break)speak Harvey \"Took the day off, huh? I'm glad to hear it.#$b#Well, with a day off and a hearty dinner you'll be fully re-charged for tomorrow.\"/pause 1000/stopAnimation Harvey/showFrame Harvey 51/speak Harvey \"Whew... I'm stuffed! That was great...\"/emote farmer 20/pause 1000/playMusic nightTime/speak Harvey \"I'll take care of the dishes...\"/pause 400/emote farmer 60/pause 250/speak Harvey \"Don't feel bad... I like to do nice things for you! It makes me happy.\"/pause 1000/speak Harvey \"I know I say this a lot, but... marrying you was the best thing that ever happened to me!$l\"/emote farmer 20/pause 1000/fade/viewport -100 -100/end dialogue Harvey \"That was filling. I'm gonna sleep well...\""
+			},
+			"When": {
+				"Harvey": "Adarin, Dialogue Only"
+			}
+		},
+
 		{
 			"Action": "EditData",
 			"Target": "Data/Events/Forest",
@@ -1010,6 +1436,17 @@
 			},
 			"When": {
 				"Shane": "Exrenkon, Lydomia, Dialogue Only"
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Mountain",
+			"Entries": {
+				"384882/f Sebastian 2500/t 2000 2400": "nightTime/-1000 -1000/farmer 18 35 0 Sebastian -100 -100 0/skippable/specificTemporarySprite sebastianOnBike/viewport 17 28 clamp true/pause 1000/move farmer 0 -5 0/speak Sebastian \"Hey @. I was just about to head out.#$b#Hop on...I wanna show you something.\"/pause 1000/move farmer 0 -1 0/move farmer 1 0 0 true/globalFade/viewport -1000 -1000/warp farmer -100 -100/changeToTemporaryMap SebastianRide/ambientLight 0 0 0/specificTemporarySprite sebastianRide/viewport 15 8 true/pause 8000/globalFade/viewport -1000 -1000/changeToTemporaryMap SebastianMountain/ambientLight 0 0 0/warp farmer 15 18/warp Sebastian 16 18/positionOffset farmer 0 16/playMusic spaceMusic/viewport 15 14 clamp true/pause 10000/faceDirection Sebastian 3/speak Sebastian \"That's Zuzu City in the distance...\"/pause 600/faceDirection Sebastian 0/speak Sebastian \"I come here when I want to get away from everything and just... think.\"/pause 1000/faceDirection Sebastian 1/pause 600/animate Sebastian false true 110 16 17 18 19 20 21 21 21 21 21 21 21 21 22 23 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16 16/pause 1000/faceDirection farmer 1/pause 1800/faceDirection farmer 0/pause 800/speak Sebastian \"$q -1 null#So, what do you think?#$r -1 0 event_city1#It's beautiful.#$r -1 10 event_city2#It gives me a strange, sad feeling.#$r -1 -10 event_city3#Kind of ugly.#$r -1 0 event_city4#You should quit smoking.\"/stopAnimation Sebastian/pause 600/faceDirection Sebastian 0/pause 3000/speak Sebastian \"The city used to draw me in... but now I'm finding myself happier at home in the valley.\"/pause 500/pause 900/speak Sebastian \"I don't usually bring guys to this place... In fact, you're the only one.$l^@...?$s#$b#Um... I've never... felt anything like this with another girl before... But you're different.$l#$b#You know what I'm trying to say, don't you?$l\"/pause 700/faceDirection farmer 1/emote Sebastian 40/pause 800/faceDirection Sebastian 3/pause 2000/showFrame Sebastian 40/pause 600/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 100/positionOffset Sebastian -2 0/pause 100/showFrame 101/pause 4000/viewport move 1 -1 6000/pause 6000/globalFade/viewport -1000 -1000/changeLocation Mountain/pause 4000/end position 18 26"
+			},
+			"When": {
+				"Sebastian": "Adarin, Adarin Variant, Dialogue Only"
 			}
 		},
 		
@@ -1088,7 +1525,52 @@
 				"crying": "pause 100/faceDirection farmer 0/emote farmer 28/pause 1000/emote Harvey 12 true/emote Sebastian 12 true/emote Shane 12 true/emote Sam 12 true/emote Elliott 12 true/emote Alex 12 true/speak Harvey \"That's not going to work! You won't be preying on our sympathies this time!$a\"/speak Alex \"I'll assume this is just another act...$a^Typical...$a\"/pause 100/speak Sebastian \"You need to take responsibility for what you've done...$a\"/pause 1000/faceDirection Sam 2/playMusic none/speak Sam \"...I think we've come to a decision... isn't that right, everyone?$u\"/pause 500/speak Harvey \"...yes.$s\"/speak Sebastian \"Absolutely.$a\"/faceDirection Sam 3/pause 1000/jump Sam/jump Sebastian/jump Elliott/jump Shane/jump Alex/jump Harvey/pause 1000/jump Sam/jump Sebastian/jump Elliott/jump Shane/jump Alex/jump Harvey/pause 1000/jump Sam/jump Sebastian/jump Elliott/jump Shane/jump Alex/jump Harvey/pause 1000/speak Sam \"We're all giving you the cold shoulder!$a\"/faceDirection farmer 2 true/animate farmer false true 100 94/jump farmer/playSound slimedead/pause 2000/fade/viewport -2000 -2000/dump guys 4/end warpOut"
 			}
 		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Saloon",
+			"Entries": {
+				"wewereworried": "emote farmer 40/faceDirection Marnie 1/pause 1000/faceDirection Shane 2/emote Shane 12/speak Shane \"I'm your wife... you should trust me. I've always been honest with you about my problems.$a#$b#Look... I know I haven't been able to quit cold turkey... but, I'm trying my best... and I'm getting a lot healthier.#$b#My life is better now than it's ever been. I'm not in such a dark place anymore...\"/pause 500/emote Marnie 20 true/emote farmer 20 true/pause 1300/faceDirection Shane 0/speak Shane \"You know, when I'm playing this game, I become so focused that I can't think about anything else. It really helps when I've got 'the urge'...\"/faceDirection Shane 2/speak Shane \"Anyway... I'll just... eh... play ONE more round and head home. Okay?\"/pause 500/emote farmer 32/pause 1000/end dialogue Shane \"You guys must have been really confused when you came in and saw me in front of the arcade machine!$h\""
+			},
+			"When": {
+				"Shane": "Exrenkon, Lydomia, Dialogue Only"
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Saloon",
+			"Entries": {
+				"3917590/n saloonSportsRoom/O Alex": "distantBanjo/-100 -100/farmer 31 20 0 Alex 32 7 0 Shane 33 8 0 Gus 34 8 0 Kent 35 8 0 George 36 7 0/skippable/specificTemporarySprite gridballGameTV/viewport 34 7 true/move farmer 0 -13 1 true/pause 1000/textAboveHead Alex \"Big play!\"/pause 600/jump Gus/pause 2000/textAboveHead George \"Score!\"/pause 400/textAboveHead Alex \"There we go!\"/faceDirection Kent 3 true/faceDirection Gus 1 true/animate Gus false true 100 22/animate Kent false true 100 17/shake Gus 500/shake Kent 500/pause 500/textAboveHead George \"Atta boy!\"/pause 1000/stopAnimation Gus/stopAnimation Kent/faceDirection Kent 0 true/faceDirection Gus 0/pause 1000/faceDirection Alex 3/pause 400/speak Alex \"Hey, @! You made it!$h\"/faceDirection Alex 1/speak Alex \"So... what do you think?\"/pause 500/emote farmer 8/faceDirection Alex 3/speak Alex \"I've been thinking... You know how I used to dream of being an athlete someday?#$b#Well, my life ended up turning out a bit different... $9#$b#I'm happy, though, don't get me wrong!$h#$b#...But I thought it would be cool to have a place where we all could hang out and watch the Sunday game. Gus liked the idea so much he offered me part of his back room!#$b#This way, I get to keep part of 'the dream' alive, in a small way.\"/pause 500/emote farmer 32/pause 600/faceDirection George 3/speak George \"You did good, son. I could watch this at home, but coming here makes me feel young again!$h\"/faceDirection Alex 1/speak Alex \"Thanks, Grandpa.\"/pause 500/speak Kent \"I'm happy for an excuse to get out of the house, and take my mind off things.\"/faceDirection Alex 2/pause 100/textAboveHead Shane \"Same\"/pause 1200/speak Gus \"I'm having a lot of fun. And it's good for business!$h#$b#Though maybe not so good for Shane's liver...$s\"/pause 100/faceDirection Shane 2 true/animate Shane false true 100 18/jump Shane/pause 500/textAboveHead Shane \"Hey!\"/pause 500/emote Alex 32/pause 2000/fade/viewport -1000 -1000/pause 400/message \"It seems we have a new Sunday tradition.\"/pause 1000/message \"5,000g well spent!\"/pause 1000/end dialogue Alex \"Thanks again for the money, @. It was a fun project for me, and everyone seems happy with it!\""
+			},
+			"When": {
+				"Alex": "Adarin, Adarin Variant, Dialogue Only",
+				"Shane": "Disabled"
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Saloon",
+			"Entries": {
+				"3917590/n saloonSportsRoom/O Alex": "distantBanjo/-100 -100/farmer 31 20 0 Alex 32 7 0 Shane 33 8 0 Gus 34 8 0 Kent 35 8 0 George 36 7 0/skippable/specificTemporarySprite gridballGameTV/viewport 34 7 true/move farmer 0 -13 1 true/pause 1000/textAboveHead Alex \"Big play!\"/pause 600/jump Gus/pause 2000/textAboveHead George \"Score!\"/pause 400/textAboveHead Alex \"There we go!\"/faceDirection Kent 3 true/faceDirection Gus 1 true/animate Gus false true 100 22/animate Kent false true 100 17/shake Gus 500/shake Kent 500/pause 500/textAboveHead George \"Atta boy!\"/pause 1000/stopAnimation Gus/stopAnimation Kent/faceDirection Kent 0 true/faceDirection Gus 0/pause 1000/faceDirection Alex 3/pause 400/speak Alex \"Hey, @! You made it!$h\"/faceDirection Alex 1/speak Alex \"So... what do you think?\"/pause 500/emote farmer 8/faceDirection Alex 3/speak Alex \"I've been thinking... You know how I used to dream of being an athlete someday?#$b#Well, my life ended up turning out a bit different... $9#$b#I'm happy, though, don't get me wrong!$h#$b#...But I thought it would be cool to have a place where we all could hang out and watch the Sunday game. Gus liked the idea so much he offered me part of his back room!#$b#This way, I get to keep part of 'the dream' alive, in a small way.\"/pause 500/emote farmer 32/pause 600/faceDirection George 3/speak George \"You did good, son. I could watch this at home, but coming here makes me feel young again!$h\"/faceDirection Alex 1/speak Alex \"Thanks, Grandpa.\"/pause 500/speak Kent \"I'm happy for an excuse to get out of the house, and take my mind off things.\"/faceDirection Alex 2/pause 100/textAboveHead Shane \"Same\"/pause 1200/speak Gus \"I'm having a lot of fun. And it's good for business!$h#$b#Though maybe not so good for Shania's liver...$s\"/pause 100/faceDirection Shane 2 true/animate Shane false true 100 18/jump Shane/pause 500/textAboveHead Shane \"Hey!\"/pause 500/emote Alex 32/pause 2000/fade/viewport -1000 -1000/pause 400/message \"It seems we have a new Sunday tradition.\"/pause 1000/message \"5,000g well spent!\"/pause 1000/end dialogue Alex \"Thanks again for the money, @. It was a fun project for me, and everyone seems happy with it!\""
+			},
+			"When": {
+				"Shane": "Exrenkon, Lydomia, Dialogue Only"
+			}
+		},
 		
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Saloon",
+			"Entries": {
+				"3206194/n gusGiantOmelet": "distantBanjo/-1000 -1000/farmer -100 -100 02 Gus 10 21 2 Willy 13 21 3 Lewis 8 22 1 Robin 9 20 2 Pam 11 20 2 Marnie 9 23 0/skippable/specificTemporarySprite staticSprite LooseSprites\\\\Cursors2 145 193 32 28 10 20.75 8 .15/viewport 11 21 true/pause 3000/speak Gus \"Well, folks... once again, we're gathered for a very special occasion.\"/pause 500/speak Gus \"...A rare visit from a very dear friend...\"/pause 500/jump Gus/pause 400/speak Gus \"...My world-famous giant omelet!$h#$b#Zesty bell pepper, juicy tomato, rich mushroom, and tangy cheese... all enrobed in a blanket of rich, fluffy egg. Dig in, folks.\"/move Marnie 1 0 0/move Willy -1 0 3/move Lewis 1 0 1/showFrame Lewis 28/playSound coin/showFrame Willy 32/showFrame Robin 37/showFrame Pam 36/pause 600/shake Lewis 600/playSound eat/pause 600/shake Pam 600/playSound eat/pause 800/shake Robin 600/playSound eat/pause 600/shake Pam 400/playSound eat/pause 700/faceDirection Gus 1/speak Gus \"Winnie? What do you think?\"/pause 400/textAboveHead Willy \"Hmm...\"/pause 700/shake Willy 400/playSound eat/pause 600/shake Willy 400/playSound eat/pause 600/speak Willy \"The mushrooms are a tad chewier than last year...\"/pause 400/speak Gus \"Is that a good thing?$s\"/pause 400/playSound eat/shake Willy 400/pause 600/playSound eat/shake Willy 400/pause 600/playSound eat/shake Willy 400/pause 800/playSound gulp/pause 1300/textAboveHead Willy \"Aye, lad\"/pause 300/jump Gus/pause 400/emote Gus 32/pause 1000/speak Pam \"It's great Gus. And it tastes even better because it's on the house!$h\"/faceDirection Gus 2/speak Robin \"These eggs are so rich and yellow... Marnie, are these from your place?\"/faceDirection Gus 3/speak Gus \"Nope... You can thank @ over at %farm Farm!\"/emote Lewis 20 true/emote Marnie 20 true/emote Robin 20 true/emote Pam 20 true/emote Willy 20 true/pause 1000/speak Marnie \"Mmmm... %farm eggs.\"/pause 200/textAboveHead Lewis \"Mmph..\"/faceDirection Gus 2/viewport move 1 0 7000/pause 500/playSound eat/shake Robin 400/pause 1000/playSound eat/shake Lewis 400/pause 1000/playSound eat/shake Marnie 400/pause 1000/fade/viewport -1000 -1000/end"
+			},
+			"When": {
+				"Willy": "Bajel, Dialogue Only"
+			}
+		},
+
 		{
 			"Action": "EditData",
 			"Target": "Data/Events/SamHouse",
@@ -1191,7 +1673,30 @@
 				"Willy": "Bajel, Dialogue Only"
 			}
 		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Town",
+			"Entries": {
+				"3917584/f Shane 3500/O Shane/d Fri/t 800 1700": "distantBanjo/45 71/farmer 48 67 2 Marnie 52 71 0 Jas 51 71 0 Shane -100 -100 2/addConversationTopic shaneSaloon1 0/skippable/move farmer 0 3 2/warp Shane 45 71/playSound doorClose/faceDirection Marnie 3 true/faceDirection Jas 3 true/move Shane 0 1 2/pause 500/speak Shane \"Phew... that was fun.$h#$b#Haven't had a session like that in a while... *urp*\"/pause 500/emote Marnie 28 true/emote Jas 28 true/emote farmer 28 true/pause 1000/speak Shane \"Welp... I'm all sweaty. Better head back home.\"/advancedMove Shane false -10 0 0 -14 -10 0 0 -3 -10 0/move farmer 0 2 3 true/pause 3000/speak Marnie \"Oh no... this doesn't look good.$s\"/pause 500/faceDirection Jas 1/emote Jas 28/move Marnie 0 1 3 false/faceDirection Jas 2 true/move Marnie -3 0 3/faceDirection Jas 3 true/faceDirection farmer 1/speak Marnie \"@? You'd better keep your eye on her... next time you catch her coming out of the Saloon, you should say something...$s\"/pause 1000/faceDirection farmer 2 true/pause 100/faceDirection farmer 3/pause 1000/end dialogue Shane \"Is everything alright, @? You seem worried...\"",
+				"3917586/e 3917585/O Shane/A shaneSaloon2": "spring_day_ambient/45 71/farmer 47 71 1 Shane 37 72 1 Marnie 48 70 2/addWorldState shanePK/skippable/emote Shane 56 true/move Shane 8 0 0/pause 500/speak Shane \"Okay... I'm ready for another round!\"/pause 500/move Shane 0 -1 0/playSound doorClose/warp Shane -100 -100/pause 1000/faceDirection farmer 2 true/showFrame 0/emote farmer 12 true/emote Marnie 12/speak Marnie \"Alright... we've caught her in the act. Now let's confront her. Take a deep breath... $s\"/move farmer 0 1 3/move farmer -2 0 0/move farmer 0 -1 0/playSound doorClose/warp farmer -100 -100/move Marnie 0 2 3/move Marnie -3 0 0/move Marnie 0 -1 0/playSound doorClose/warp Marnie -100 -100/fade/viewport -1000 -1000/changeLocation Saloon/warp Shane 33 18/warp Marnie 18 21/warp farmer 19 21/faceDirection Marnie 1 true/faceDirection farmer 1 true/positionOffset farmer 0 16/advancedMove farmer false 6 0 0 -2 8 0 4 10/advancedMove Marnie false 6 0 0 -2 8 0 4 10/specificTemporarySprite shaneSaloonCola/playMusic none/pause 3000/viewport 33 18 true/pause 800/playSound Cowboy_gunshot/pause 200/emote Shane 52 true/playSound Cowboy_gunshot/pause 200/playSound Cowboy_gunshot/pause 200/playSound Cowboy_gunshot/pause 160/playSound cowboy_monsterhit/pause 140/playSound Cowboy_gunshot/pause 170/shake Shane 500/playSound cowboy_monsterhit/pause 200/playSound Cowboy_monsterDie/pause 500/playSound cowboy_gunload/pause 700/playSound Cowboy_gunshot/shake Shane 500/pause 200/playSound Cowboy_gunshot/pause 160/playSound cowboy_monsterhit/pause 140/playSound Cowboy_gunshot/pause 170/playSound cowboy_monsterhit/jump Shane/pause 200/playSound Cowboy_monsterDie/pause 500/playSound cowboy_dead/jump Shane/pause 500/textAboveHead Shane \"Arrgh!\"/pause 2000/playMusic distantBanjo/textAboveHead Shane \"So close...\"/pause 3000/faceDirection Shane 1 true/pause 100/faceDirection Shane 2/animate Shane false true 100 18/jump Shane/pause 500/stopAnimation Shane/showFrame Shane 0/emote Shane 16/speak Shane \"Oh, hey! Didn't know I had an audience.$h\"/faceDirection Marnie 1 true/faceDirection farmer 3/faceDirection Marnie 0 true/faceDirection farmer 0/speak Marnie \"Shania... this is what you've been doing in here?$s\"/pause 500/speak Shane \"Yeah! What did you think?$h\"/faceDirection Shane 1 true/pause 100/faceDirection Shane 0/speak Shane \"I'm completely addicted to this game...#$b#I can't help but play round after round...\"/pause 500/faceDirection Shane 1 true/pause 100/faceDirection Shane 2/pause 500/animate Shane false true 100 34/pause 500/speak Shane \"I've even reached the number three spot in the global leaderboards... you might say I'm one of the best.$h\"/pause 500/stopAnimation Shane/pause 100/move Marnie 0 -1 1/speak Marnie \"But... these cans...$s\"/pause 500/faceDirection Shane 3/pause 200/emote Shane 8/speak Shane \"Oh, that's just Joja Cola... Yeah, yeah, I know... It's bad for the teeth. But it helps me focus...\"/pause 1000/faceDirection Shane 2/pause 200/faceDirection Shane 3/faceDirection Shane 2/faceDirection Shane 3/speak Shane \"Wait... did you guys think I was drinking beer?$a\"/faceDirection Marnie 2/emote Marnie 28/faceDirection Shane 2/speak Shane \"@? I told you I hadn't been drinking...$a\"/question fork0 \"#We were worried...#I'm sorry, I should've believed you\"/fork wewereworried/emote farmer 40/faceDirection Marnie 1/pause 1000/faceDirection Shane 2/emote Shane 40/speak Shane \"...That's alright, @. You're just looking out for me. I get it.#$b#Look... I know I haven't been perfect... but, I'm trying my best... and I'm gonna keep trying. So you don't have to worry about me.#$b#My life is better now than it's ever been. I'm not in such a dark place anymore...\"/pause 500/emote Marnie 20 true/emote farmer 20 true/pause 1300/faceDirection Shane 0/speak Shane \"You know, when I'm playing this game, I become so focused that I can't think about anything else. It really helps when I've got 'the urge'...\"/faceDirection Shane 2/speak Shane \"Anyway... I'll just... eh... play ONE more round and head home. Okay?\"/pause 1000/emote farmer 32/pause 1000/end dialogue Shane \"You guys must have been really confused when you came in and saw me in front of the arcade machine!$h\""
+			},
+			"When": {
+				"Shane": "Exrenkon, Lydomia, Dialogue Only"
+			}
+		},
 		
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Town",
+			"Entries": {
+				"3917589/n gaveAlexMoney/O Alex/d Mon/d Tue/d Wed/d Thu/d Fri/d Sat": "continue/-1000 -1000/farmer 100 100 2/addWorldState saloonSportsRoom/addMailReceived saloonSportsRoom/message \"It's Sunday... I should swing by the saloon later and see what Alexa has been up to!\"/end"
+			},
+			"When": {
+				"Alex": "Adarin, Adarin Variant, Dialogue Only"
+			}
+		},
+
 		{
 			"Action": "EditData",
 			"Target": "Data/Events/WizardHouse",
@@ -1571,86 +2076,7 @@
 				"Sam": "Adarin, Dialogue Only"
 			}
 		},
-		
-		{
-			"Action": "EditData",
-			"Target": "Data/mail",
-			"Entries": {
-				"Shane": "Hey,^I thought it would be fun to send you a letter. I don't really know what to write, though.^ Here, I've enclosed a treat for you. Don't tell anyone, but I snagged this from the back room of JojaMart ages ago.^Okay, see you soon. ^   -Shania %item object 215 1 206 1 %%",
-				"ShaneCooking": "@,^I found this recipe in a magazine and I thought it sounded interesting. Feel free to give me a taste if you make it. hehe. ^   -Shania%item cookingRecipe %%"
-			},
-			"When": {
-				"Shane": "Exrenkon, Lydomia, Dialogue Only"
-			}
-		},
-		
-		{
-			"Action": "EditData",
-			"Target": "Data/mail",
-			"Entries": {
-				"Wizard": "Greetings, young adept.^I have enclosed in this package an item of arcane significance. Use it wisely.   ^   -M. Rasmodia, Wizardess%item object 422 1 82 1 84 1 70 1 %%",
-				"wizardJunimoNote": "My sources tell me you've been poking around inside the old community center.^Why don't you pay me a visit?^My chambers are west of the forest lake, in the stone tower. I may have information concerning your... 'rat problem'.^   -M. Rasmodia, Wizardess %item quest 1 true %%",
-				"winter_12_1": "@-^I am resarching the forgotten art of shadow divination. I require an item known as 'Void Essence'. Bring it to me and you will be rewarded.^ -M. Rasmodia, Wizardess %item quest 111 %%",
-				"winter_5_2": "@,^I'm creating an enchanted staff of phenomenal power.^However, I'm missing something: an Iridium Bar.^I'm willing to pay 5x the market value for it. Bring it as soon as you can.^ -M. Rasmodia, Wizardess %item quest 123 %%"
-			},
-			"When": {
-				"Wizard": "CreepyKat, Dialogue Only"
-			}
-		},
-		
-		{
-			"Action": "EditData",
-			"Target": "Data/mail",
-			"Entries": {
-				"WillyCooking": "Dear @,^I'd like to share an ol' cooking recipe my pappy used to make. It's important the fish is FRESH.  ^   -Winnie%item cookingRecipe %%",
-				"CF_Fish": "Dear @,^ Your angling skills surpass even my ol' Pappy's... I'm impressed. ^ This stardrop's been passed down for... oh, heck. Prob'ly a thousand years.^Seein' as I don't have any kids... I want you to have it.^^ -Winnie   ^  %item object 434 1 %%",
-				"fishing2": "I've got some new items in stock...^A deluxe fishing pole and some bait that you can attach to it!^You can use bait to make fish bite faster. Hope to see you soon! ^   -Winnie",
-				"fishing6": "Come by the shop and check out the new rods I'm selling.^They're the best money can buy... and you can customize them with different kinds of tackle!^Hope to see you soon! ^   -Winnie",
-				"spring_2_1": "Hello there,^Just got back from a fishing trip. You should come down to the beach some time.^I've got something for ya.^-Winnie %item quest 13 true %%",
-				"winter_2_1": "Hey, I've got a little challenge for you:^    Catch me a squid.^You can fish them from the ocean at night. They only show up in the winter, though.^   -Winnie%item quest 109 %%",
-				"winter_13_2": "I've got another challenge for you: Catch me a Lingcod.^They don't go down easy, but I know you can do it.^  -Winnie%item quest 124 %%"
-			},
-			"When": {
-				"Willy": "Bajel, Dialogue Only"
-			}
-		},
-		
-		{
-			"Action": "EditData",
-			"Target": "Data/mail",
-			"Entries": {
-				"elliottReading": "@,^I have great news... my novel is finished!! I'm giving a public reading this afternoon at the library. Hope to see you there! ^   -Elayne",
-				"elliottBoat": "Meet me at the docks on a sunny morning. I've got something in mind. ^   -Elayne"
-			},
-			"When": {
-				"Elliott": "Adarin, Adarin Variant, Dialogue Only"
-			}
-		},
-		
-		{
-			"Action": "EditData",
-			"Target": "Data/mail",
-			"Entries": {
-				"harveyBalloon": "@,^I have a surprise for you. Meet me by the railroad tracks. ^   -Harley",
-				"passedOut3_Billed": "@,^Someone dropped you off at the clinic last night. You'd passed out from exhaustion!^You've got to take better care of yourself and go to bed at a reasonable hour.^I've billed you {0}g to cover your medical expenses.^^-Dr. Harley",
-				"passedOut3_NotBilled": "@,^Someone dropped you off at the clinic last night. You'd passed out from exhaustion!^You've got to take better care of yourself and go to bed at a reasonable hour.^Since you have no money, I provided your medical care free of charge.^^-Dr. Harley"
-			},
-			"When": {
-				"Harvey": "Adarin, Dialogue Only"
-			}
-		},
-		
-		{
-			"Action": "EditData",
-			"Target": "Data/mail",
-			"Entries": {
-				"joshMessage": "@,^meet me at the saloon tonight after dark. ^   -Alexa"
-			},
-			"When": {
-				"Alex": "Adarin, Adarin Variant, Dialogue Only"
-			}
-		},
-		
+				
 		{
 			"Action": "EditData",
 			"Target": "Strings/schedules/Caroline",
