@@ -50,12 +50,30 @@
 			"When": {
 				"Alex": "Adarin, Adarin Variant"
 			}
-		},	
+		},
+
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Alex_Beach",
+			"FromFile": "assets/Portraits/Alex/{{Alex}}_Beach.png",
+			"When": {
+				"Alex": "Adarin, Adarin Variant"
+			}
+		},
 
 		{
 			"Action": "EditImage",
 			"Target": "Portraits/Elliott",
 			"FromFile": "assets/Portraits/Elliott/{{Elliott}}.png",
+			"When": {
+				"Elliott": "Adarin, Adarin Variant"
+			}
+		},
+
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Elliott_Beach",
+			"FromFile": "assets/Portraits/Elliott/Adarin_Beach.png",
 			"When": {
 				"Elliott": "Adarin, Adarin Variant"
 			}
@@ -69,6 +87,15 @@
 				"Harvey": "Adarin"
 			}
 		},
+
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Harvey_Beach",
+			"FromFile": "assets/Portraits/Harvey/RedK1rby_Beach.png",
+			"When": {
+				"Harvey": "Adarin"
+			}
+		},
 		
 		{
 			"Action": "EditImage",
@@ -78,11 +105,29 @@
 				"Sam": "Adarin"
 			}
 		},
+
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Sam_Beach",
+			"FromFile": "assets/Portraits/Sam/RedK1rby_Beach.png",
+			"When": {
+				"Sam": "Adarin"
+			}
+		},
 		
 		{
 			"Action": "EditImage",
 			"Target": "Portraits/Sebastian",
 			"FromFile": "assets/Portraits/Sebastian/{{Sebastian}}.png",
+			"When": {
+				"Sebastian": "Adarin, Adarin Variant"
+			}
+		},
+
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Sebastian_Beach",
+			"FromFile": "assets/Portraits/Sebastian/{{Sebastian}}_Beach.png",
 			"When": {
 				"Sebastian": "Adarin, Adarin Variant"
 			}
@@ -136,7 +181,7 @@
 				"Shane": "Exrenkon, Lydomia"
 			}
 		},
-		
+
 		{
 			"Action": "EditImage",
 			"Target": "Characters/Alex",
@@ -144,12 +189,30 @@
 			"When": {
 				"Alex": "Adarin, Adarin Variant"
 			}
-		},	
+		},
+
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Alex_Beach",
+			"FromFile": "assets/Characters/Alex/{{Alex}}_Beach.png",
+			"When": {
+				"Alex": "Adarin, Adarin Variant"
+			}
+		},
 
 		{
 			"Action": "EditImage",
 			"Target": "Characters/Elliott",
 			"FromFile": "assets/Characters/Elliott/{{Elliott}}.png",
+			"When": {
+				"Elliott": "Adarin, Adarin Variant"
+			}
+		},
+
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Elliott_Beach",
+			"FromFile": "assets/Characters/Elliott/{{Elliott}}_Beach.png",
 			"When": {
 				"Elliott": "Adarin, Adarin Variant"
 			}
@@ -163,6 +226,15 @@
 				"Harvey": "Adarin"
 			}
 		},
+
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Harvey_Beach",
+			"FromFile": "assets/Characters/Harvey/RedK1rby_Beach.png",
+			"When": {
+				"Harvey": "Adarin"
+			}
+		},
 		
 		{
 			"Action": "EditImage",
@@ -172,11 +244,29 @@
 				"Sam": "Adarin"
 			}
 		},
+
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Sam_Beach",
+			"FromFile": "assets/Characters/Sam/RedK1rby_Beach.png",
+			"When": {
+				"Sam": "Adarin"
+			}
+		},
 		
 		{
 			"Action": "EditImage",
 			"Target": "Characters/Sebastian",
 			"FromFile": "assets/Characters/Sebastian/{{Sebastian}}.png",
+			"When": {
+				"Sebastian": "Adarin, Adarin Variant"
+			}
+		},
+
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Sebastian_Beach",
+			"FromFile": "assets/Characters/Sebastian/{{Sebastian}}_Beach.png",
 			"When": {
 				"Sebastian": "Adarin, Adarin Variant"
 			}
@@ -195,6 +285,15 @@
 			"Action": "EditImage",
 			"Target": "Characters/Shane_JojaMart",
 			"FromFile": "assets/Characters/Shane/{{Shane}}_jojamart.png",
+			"When": {
+				"Shane": "Exrenkon, Lydomia"
+			}
+		},
+
+		{
+			"Action": "EditImage",
+			"Target": "Characters/KonaKona7_Beach",
+			"FromFile": "assets/Characters/Shane/{{Shane}}.png",
 			"When": {
 				"Shane": "Exrenkon, Lydomia"
 			}

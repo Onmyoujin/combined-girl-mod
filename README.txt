@@ -6,6 +6,7 @@
  * (Optional) After first launch, navigate to the mod directory using
    Open > Open Game Mods Folder > CombinedGirlMod and edit config.json to change settings as described
    in the Configuration section below.
+ * (Alternative) Download General Mod Config Menu and use that to edit the settings directly.
 
 === LEGACY INSTALLATION ===
 
@@ -36,8 +37,10 @@ https://https://www.nexusmods.com/stardewvalley/mods/5098
  * CreepyKat - Portraits and sprites for Wizard
  * exrenkon - Portraits and sprites for Shane
  * Farmer Jack - Sprites for Shane
- * komina12345 - Alternate portraits and sprites for Alex, Elliott, and Sebastian
+ * komina12345 - Portraits and sprites for Alex, Elliott, and Sebastian
+ * KonaKona7 - Portraits and sprites for Alex, Elliott, Sebastian, Shane, and Wizard
  * Lydomia - Alternate portraits and sprites for Shane
  * Onmyoujin - Content Patcher conversion of all assets; Dialogue changes
+ * RedK1rby - Portraits and sprites for Alex, Elliot, Harvey, Sam, and Sebastian
 
  
