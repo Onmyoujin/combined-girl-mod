@@ -1800,6 +1800,19 @@
 		
 		{
 			"Action": "EditData",
+			"Target": "Strings/Characters",
+			"Entries": {
+				"MovieTheater_LoveConcession_Female": "{0} is really enjoying their {1}!",
+  				"MovieTheater_LikeConcession_Female": "{0} is enjoying their {1}.",
+  				"MovieTheater_DislikeConcession_Female": "{0} hasn't touched their {1} at all...",
+  				"MovieTheater_LoveConcession_Male": "{0} is really enjoying their {1}!",
+  				"MovieTheater_LikeConcession_Male": "{0} is enjoying their {1}.",
+  				"MovieTheater_DislikeConcession_Male": "{0} hasn't touched their {1} at all..."
+			}
+		},
+
+		{
+			"Action": "EditData",
 			"Target": "Strings/Events",
 			"Entries": {
 				"BirthMessage_Adoption": "During the night, you and your spouse welcomed a baby {0}.",
@@ -1812,6 +1825,17 @@
 			}
 		},
 		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Lexicon",
+			"Entries": {
+				"Pronoun_Male": "them",
+				"Pronoun_Female": "them",
+				"Possessive_Pronoun_Male": "their",
+  				"Possessive_Pronoun_Female": "their"
+			}
+		},
+
 		{
 			"Action": "EditData",
 			"Target": "Strings/Locations",
@@ -1842,7 +1866,43 @@
 				"Elliott": "Adarin, Adarin Variant, Dialogue Only"
 			}
 		},
+
+		{
+			"Action": "EditData",
+			"Target": "Strings/Objects",
+			"Entries": {
+				"MagicInkDescription": "You've found the Wizardess' lost {0}! Better return it to her."
+			},
+			"When": {
+				"Wizard": "CreepyKat, Dialogue Only"
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Strings/SpecialOrderStrings",
+			"Entries": {
+				"Willy_Objective_1_Text": "Place the bug meat in the barrel next to Winnie's house."
+			},
+			"When": {
+				"Willy": "Bajel, Dialogue Only"
+			}
+		},
 		
+		{
+			"Action": "EditData",
+			"Target": "Strings/SpecialOrderStrings",
+			"Entries": {
+				"Wizard_Text": "I seek an extremely rare and powerful goop, known as 'ectoplasm'. It can be found in the remains of slain ghosts.      -M. Rasmodia",
+				"Wizard_Objective_0_Text": "Deliver an ectoplasm to the Wizardess",
+				"Wizard2_Text": "I require assistance in tracking down the rare and dangerous prismatic slime, within the local caves. Bring me a jar of its prismatic jelly and you will be duly rewarded.        -M. Rasmodia",
+				"Wizard2_Objective_1_Text": "Deliver a prismatic jelly to the Wizardess"
+			},
+			"When": {
+				"Wizard": "CreepyKat, Dialogue Only"
+			}
+		},
+
 		{
 			"Action": "EditData",
 			"Target": "Strings/StringsFromCSFiles",
@@ -2031,6 +2091,7 @@
 			"Target": "Strings/StringsFromMaps",
 			"Entries": {
 				"BathHouse_MensLocker.4": "There's a bunch of pictures of bodybuilders taped inside the door.",
+				"JoshHouse.1": "Momma-^If you're reading this, it means I've passed on. I'm so sorry you had to go through this. Know that I love you both.^Don't be too upset, I'm with Yoba now. ^My final request: take care of Alexa. She needs a family, something stable. She's a good girl.^ Love, ^Clara",
 				"JoshHouse.7": "You peek into Alexa's drawer. There's clothes, hair gel, and a box of gridball trading cards.",
 				"JoshHouse.8": "You peek into Alexa's drawer. There's clothes, hair gel, and a box of gridball trading cards.",
 				"JoshHouse.9": "It's Alexa's gridball helmet. Looks like she keeps it polished."
@@ -2076,7 +2137,18 @@
 				"Sam": "Adarin, Dialogue Only"
 			}
 		},
-				
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Alex",
+			"Entries": {
+				"Sun.000": "%Alexa is completely engrossed in the game. She doesn't notice your presence."
+			},
+			"When": {
+				"Alex": "Adarin, Adarin Variant, Dialogue Only"
+			}
+		},
+
 		{
 			"Action": "EditData",
 			"Target": "Strings/schedules/Caroline",
@@ -2093,6 +2165,17 @@
 			"Target": "Strings/schedules/Demetrius",
 			"Entries": {
 				"summer_25.001": "Doctor Harley, have you read the latest 'Biology and Medicine'? There's an article I think you'd be interested in."
+			},
+			"When": {
+				"Harvey": "Adarin, Dialogue Only"
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Evelyn",
+			"Entries": {
+				"23.000": "Now now, dear... It's important that Doctor Harley takes a good look at you. She's a nice young woman! Behave yourself, for your dear old wife's sake."
 			},
 			"When": {
 				"Harvey": "Adarin, Dialogue Only"
@@ -2159,7 +2242,7 @@
 			"Action": "EditData",
 			"Target": "Strings/schedules/Sam",
 			"Entries": {
-				"fall_11.000": "I gotta go visit Aunt Harley today... Great.$7"
+				"fall_11.000": "I gotta go visit Aunt Doctor today... Great.$7"
 			},
 			"When": {
 				"Harvey": "Adarin, Dialogue Only"
