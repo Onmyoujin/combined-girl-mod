@@ -154,28 +154,29 @@
 			"When": {
 				"Sebastian Genderswapped": "true"
 			}
-        },
-        
-        {
+		},
+		
+		{
 			"Action": "EditData",
 			"Target": "Data/MoviesReactions",
 			"Fields": {
 				"Sebastian": {
-					"Reactions": {
-						"love": {
+					"Reactions": [
+						{
+							"ID": "reaction_3",
 							"SpecialResponses": {
 								"DuringMovie": {
 									"Script": "/emote Sebastian 32/message \"{{Sebastian Name}} has a grin on her face.\""
 								}
 							}
 						}
-					}
+					]
 				}
 			},
 			"When": {
 				"Sebastian Genderswapped": "true"
 			}
-        },
+		},
         
         {
 			"Action": "EditData",
