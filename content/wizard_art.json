@@ -1,0 +1,21 @@
+{
+    "Changes": [
+        {
+			"Action": "EditImage",
+			"Target": "Portraits/Wizard",
+			"FromFile": "assets/Portraits/Wizard/{{Wizard Art}}.png",
+			"When": {
+				"Wizard Genderswapped": "true"
+			}
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Wizard",
+			"FromFile": "assets/Characters/Wizard/{{Wizard Art}}.png",
+			"When": {
+				"Wizard Genderswapped": "true"
+			}
+		}
+    ]
+}

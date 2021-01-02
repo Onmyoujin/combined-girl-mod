@@ -1,0 +1,221 @@
+{
+    "Changes": [
+        {
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			"Entries": {
+				"Resort_Leaving": "I'm gonna ask {{Willy Name}} if we can take the scenic route back.",
+				"Resort": "Bummer... {{Willy Name}} says we have to stay on the beach...$s#$b#And I brought my sword and everything...$s"
+			},
+			"When": {
+				"Willy Genderswapped": "true"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Caroline",
+			"Entries": {
+				"Resort_Entering": "{{Willy Name}} gave us each a piece of her fish jerky. I'm still chewing on it."
+			},
+			"When": {
+				"Willy Genderswapped": "true"
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Leah",
+			"Entries": {
+				"Resort_Entering": "Don't tell anyone, but {{Willy Name}} let me steer the boat for a few minutes.$h",
+				"Resort_Wander": "Mmm, I bet the trees around here would make for an interesting medium to work with.#$e#Though {{Willy Name}} probably wouldn't be happy with me if I dragged a bunch of logs onto her ship!$h"
+			},
+			"When": {
+				"Willy Genderswapped": "true"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			"Entries": {
+				"Resort_Entering": "{{Willy Name}} mentioned that you helped fix the boat. Thanks for doing that!",
+				"Resort_Shore": "I wonder if {{Willy Name}} would let me bring my telescope here sometime...#The sky is so clear here, I bet I could spot Pelican Town out in the horizon.#Maybe I'd even see you running around %farm Farm!"
+			},
+			"When": {
+				"Willy Genderswapped": "true"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Pam",
+			"Entries": {
+				"Resort": "Heh... {{Willy Name}} gave us each a piece of her fish jerky on the ride over. Delicious!"
+			},
+			"When": {
+				"Willy Genderswapped": "true"
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sebastian",
+			"Entries": {
+				"Resort_Shore": "You think {{Willy Name}} would let me lug a jet ski out here?#$b#...Nah.$h"
+			},
+			"When": {
+				"Willy Genderswapped": "true"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/ExtraDialogue",
+			"Entries": {
+				"PurchasedItem_1_QualityHigh_Willy": "Hey, {0}.#$b# So I stopped by {{Willy Name}}'s the other day and bought {1} {2}. I've never seen one so fresh! #$b#So I cooked it up for dinner last night, and it filled the house with a {3} smell.. It was a hit!$h#$b#She told me you caught it yourself... I'm impressed!#$e# Anyways...",
+				"PurchasedItem_1_QualityLow_Willy": "Hey, {0}.#$b# So I stopped by {{Willy Name}}'s the other day and bought {1} {2}. She said you caught it yourself! #$b#I cooked it up for dinner last night... and, uh... It filled the house with a {3} odor. I don't even want to know where you found that thing...$s#$e#Anyways...",
+				"PurchasedItem_3_QualityLow_Rude_Willy": "I went shopping last night and picked up {1} {2} on a 'chum-bucket' sale for only {3}g.#$e# It was {4}! No wonder {{Willy Name}} was practically giving that {5} away...",
+				"PurchasedItem_4_Willy": "So I was at {{Willy Name}}'s other day and she showed me {1} {2} you brought in.#$e#I cooked it up for dinner with some lemon and a side of rice pilaf. Pretty good!$h",
+				"PurchasedItem_Pierre_QualityHigh_Willy": "Ahoy! Remember that {2} you brought in the other day? Well, I sizzled it up in me cabin last night...#$b#T'was the finest fish I've had since I was a wee lass!$h"
+			},
+			"When": {
+				"Willy Genderswapped": "true"
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+				"WillyCooking": "Dear @,^I'd like to share an ol' cooking recipe my pappy used to make. It's important the fish is FRESH.  ^   -{{Willy Name}}%item cookingRecipe %%",
+				"CF_Fish": "Dear @,^ Your angling skills surpass even my ol' Pappy's... I'm impressed. ^ This stardrop's been passed down for... oh, heck. Prob'ly a thousand years.^Seein' as I don't have any kids... I want you to have it.^^ -{{Willy Name}}   ^  %item object 434 1 %%",
+				"fishing2": "I've got some new items in stock...^A deluxe fishing pole and some bait that you can attach to it!^You can use bait to make fish bite faster. Hope to see you soon! ^   -{{Willy Name}}",
+				"fishing6": "Come by the shop and check out the new rods I'm selling.^They're the best money can buy... and you can customize them with different kinds of tackle!^Hope to see you soon! ^   -{{Willy Name}}",
+				"spring_2_1": "Hello there,^Just got back from a fishing trip. You should come down to the beach some time.^I've got something for ya.^-{{Willy Name}} %item quest 13 true %%",
+				"winter_2_1": "Hey, I've got a little challenge for you:^    Catch me a squid.^You can fish them from the ocean at night. They only show up in the winter, though.^   -{{Willy Name}}%item quest 109 %%",
+				"winter_13_2": "I've got another challenge for you: Catch me a Lingcod.^They don't go down easy, but I know you can do it.^  -{{Willy Name}}%item quest 124 %%",
+				"willyBackRoomInvitation": "@,^^I've unlocked the back room of the shop.^Come by when you have a chance.^There's something I want to show you.^^-{{Willy Name}}[#]{{Willy Name}}'s Back Room Invitation",
+				"willyBugWadCutscene": "^^   -{{Willy Name}}%item craftingRecipe Quality_Bobber %%[#]{{Willy Name}}'s Thank-you",
+				"willyHours": "Good news!^^The ol' boat is seaworthy once again, thanks to you!^^Stop by the back room whenever you want a ride.^^My shop is now open at 8AM every day, so you can get an early start.^^-{{Willy Name}}[#]{{Willy Name}}'s Boat",
+				"WillyTropicalFish": "@,^^Congrats on a successful island fishing trip. I'm proud of ya!^^Here, take this special fish tank. It'll make a great piece in your house.^^-{{Willy Name}}%item furniture 2312 %%[#]{{Willy Name}}'s Tropical Challenge",
+				"passedOutIsland": "@,^^You never showed up at the boat, so I went lookin' for ya.^^Found you sprawled out in the dirt, with a couple o' parrots pulling gold out of your pockets!^^Had to drag you all the way down to the boat. Me legs feel like two freshwater shrimp...^-{{Willy Name}}",
+				"passedOutIsland_Leo": "Hi @,^^Last night, I found you slumbering in the dark.^It wasn't a very safe place, so the bird friends air-lifted you to your bed.^Please be careful from now on.^^-Leo^^P.S. {{Willy Name}} helped me write this.",
+				"LeoCooking": "@,^Here's a food from my home, that me and my family enjoy. Hope you like it. ^^  -Leo^^P.S. {{Willy Name}} helped me write this.%item cookingRecipe %%[#]Leo's Recipe"
+			},
+			"When": {
+				"Willy Genderswapped": "true"
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			"Entries": {
+				"Willy": "adult/neutral/neutral/neutral/female/not-datable/null/Town/summer 24/Elliott ''/FishShop 5 4/{{Willy Name}}"
+			},
+			"When": {
+				"Willy Genderswapped": "true"
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Data/Quests",
+			"Entries": {
+				"13": "Basic/To The Beach/Someone named {{Willy Name}} invited you to visit the beach south of town. She says she has something to give you./Visit the beach south of town before 5:00pm./-1/-1/0/-1/true",
+				"109": "ItemDelivery/Catch A Squid/{{Willy Name}} is challenging you to catch a squid. She says you can fish them from the ocean on winter nights./Bring {{Willy Name}} a squid./Willy 151/-1/800/-1/true/Hey, you did it! Not bad. Not bad at all. I'm impressed.#$b#Winter's a good time to break out the old fishing rod, isn't it?",
+				"124": "ItemDelivery/Catch a Lingcod/{{Willy Name}} is challenging you to catch a Lingcod./Bring {{Willy Name}} a Lingcod./Willy 707/-1/550/-1/true/Hey, that's a real lunker! You've certainly got the angler's blood in you.$h"
+			},
+			"When": {
+				"Willy Genderswapped": "true"
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Data/SpecialOrders",
+			"Fields": {
+				"Willy": {
+					"Requester": "{{Willy Name}}"
+				},
+				"Willy2": {
+					"Requester": "{{Willy Name}}"
+				}
+			},
+			"When": {
+				"Willy Genderswapped": "true"
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Data/Events/Beach",
+			"Entries": {
+				"711130/t 600 1710/f Willy 1500": "ocean/30 34/farmer 27 35 1 Willy 30 34 2 Gus -10 -10 0/skippable/addConversationTopic willyCrabs/showFrame Willy 24/move farmer 3 0 0/showFrame Willy 0/pause 800/speak Willy \"Ah... it's a good thing you turned up, lad.^Ah... It's a good thing you turned up, miss.#$b#I've got a... a bit of a problem I could use a hand with...\"/faceDirection Willy 3/faceDirection Willy 0/pause 1000/faceDirection Willy 3 true/pause 100/faceDirection Willy 2/speak Willy \"Er... It'd be best if I just showed ya...\"/pause 600/faceDirection Willy 3 true/pause 100/faceDirection Willy 0/speak Willy \"Take a deep breath, now.\"/pause 300/playSound doorClose/warp Willy -100 -100/move farmer 0 -1 0/pause 500/playSound doorClose/warp farmer -100 -100/fade/viewport -1000 -1000/changeLocation FishShop/specificTemporarySprite willyCrabExperiment/warp Willy 5 7/faceDirection Willy 0/playMusic ragtime/pause 500/viewport 5 7 true/pause 5000/warp farmer 5 9/playSound doorClose/pause 100/jump farmer/pause 1000/emote farmer 16/faceDirection Willy 3 true/pause 100/faceDirection Willy 2/speak Willy \"As you can see...#$b#And smell... heh...#$b#The old girls 'ran wild' last night... heh...$h#$b#My experiment needs a little work...\"/move farmer 0 -1 0/move farmer 2 0 1/emote farmer 56/warp Gus 5 9/playSound doorClose/pause 100/jump Gus/pause 1000/speak Gus \"Hooo~... Back at it again, huh {{Willy Name}}?$h\"/textAboveHead Willy \"Aye...\"/move Gus 0 -1 3/move Gus -2 0 3/pause 1000/speak Gus \"They look fresh all right...\"/faceDirection Willy 3/speak Willy \"Aye... These are the finest, meatiest crabs you'll ever set yer eyes on.$h#$b#They be a little too feisty, though...$s\"/pause 1000/emote Gus 40/pause 500/jump Gus/pause 1000/speak Gus \"I'll take the whole lot!$h#$b#With a discount for the extra labor, of course...\"/pause 2000/move farmer 1 0 0 true/move Gus -1 0 0 false/move farmer 0 -1 0 true/move Gus 0 -1 0 false/faceDirection Willy 0/pause 1000/playSound slimeHit/specificTemporarySprite removeSprite 3/pause 1000/playSound slimeHit/specificTemporarySprite removeSprite 1/pause 1000/playSound fishSlap/specificTemporarySprite removeSprite 2/pause 500/fade/viewport -1000 -1000/pause 1500/speak Gus \"Looks like we got 'em all...\"/pause 1000/speak Willy \"Goodbye, me sweet ladies...$s\"/pause 1000/speak Gus \"Psst... @... Don't tell {{Willy Name}}, but I'll be doing a special on crab cakes at the saloon for the next few days...\"/pause 1000/end position 30 34"
+			},
+			"When": {
+				"Willy Genderswapped": "true"
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Data/Events/Saloon",
+			"Entries": {
+				"3206194/n gusGiantOmelet": "distantBanjo/-1000 -1000/farmer -100 -100 02 Gus 10 21 2 Willy 13 21 3 Lewis 8 22 1 Robin 9 20 2 Pam 11 20 2 Marnie 9 23 0/skippable/specificTemporarySprite staticSprite LooseSprites\\\\Cursors2 145 193 32 28 10 20.75 8 .15/viewport 11 21 true/pause 3000/speak Gus \"Well, folks... once again, we're gathered for a very special occasion.\"/pause 500/speak Gus \"...A rare visit from a very dear friend...\"/pause 500/jump Gus/pause 400/speak Gus \"...My world-famous giant omelet!$h#$b#Zesty bell pepper, juicy tomato, rich mushroom, and tangy cheese... all enrobed in a blanket of rich, fluffy egg. Dig in, folks.\"/move Marnie 1 0 0/move Willy -1 0 3/move Lewis 1 0 1/showFrame Lewis 28/playSound coin/showFrame Willy 32/showFrame Robin 37/showFrame Pam 36/pause 600/shake Lewis 600/playSound eat/pause 600/shake Pam 600/playSound eat/pause 800/shake Robin 600/playSound eat/pause 600/shake Pam 400/playSound eat/pause 700/faceDirection Gus 1/speak Gus \"{{Willy Name}}? What do you think?\"/pause 400/textAboveHead Willy \"Hmm...\"/pause 700/shake Willy 400/playSound eat/pause 600/shake Willy 400/playSound eat/pause 600/speak Willy \"The mushrooms are a tad chewier than last year...\"/pause 400/speak Gus \"Is that a good thing?$s\"/pause 400/playSound eat/shake Willy 400/pause 600/playSound eat/shake Willy 400/pause 600/playSound eat/shake Willy 400/pause 800/playSound gulp/pause 1300/textAboveHead Willy \"Aye, lad\"/pause 300/jump Gus/pause 400/emote Gus 32/pause 1000/speak Pam \"It's great Gus. And it tastes even better because it's on the house!$h\"/faceDirection Gus 2/speak Robin \"These eggs are so rich and yellow... Marnie, are these from your place?\"/faceDirection Gus 3/speak Gus \"Nope... You can thank @ over at %farm Farm!\"/emote Lewis 20 true/emote Marnie 20 true/emote Robin 20 true/emote Pam 20 true/emote Willy 20 true/pause 1000/speak Marnie \"Mmmm... %farm eggs.\"/pause 200/textAboveHead Lewis \"Mmph..\"/faceDirection Gus 2/viewport move 1 0 7000/pause 500/playSound eat/shake Robin 400/pause 1000/playSound eat/shake Lewis 400/pause 1000/playSound eat/shake Marnie 400/pause 1000/fade/viewport -1000 -1000/end"
+			},
+			"When": {
+				"Willy Genderswapped": "true"
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Data/Events/Town",
+			"Entries": {
+				"191393/Hn ccFishTank/Hn ccBulletin/Hn ccPantry/Hn ccVault/Hn ccBoilerRoom/Hn ccCraftsRoom/Hl jojaFishTank/Hl jojaPantry/Hl jojaVault/Hl jojaBoilerRoom/Hl jojaCraftsRoom/Hl JojaMember/w sunny/H": "junimoStarSong/-1000 -1000/farmer -100 -100 0 Evelyn 56 21 0 Lewis 52 33 0 Morris -2000 -2000 0 Jas 62 16 2 Vincent 46 23 1 Emily -2000 -2000 0 Gus -2000 -2000 0 Caroline -2000 -2000 2 Robin -2000 -2000 2 Demetrius -2000 -2000 0 Clint -2000 -2000 0 Pierre -2000 -2000 1 Jodi -2000 -2000 3 Gunther -2000 -2000 0 Willy -2000 -2000 0 Pam -2000 -2000 3 George -2000 -2000 2/broadcastEvent/addConversationTopic cc_Complete/specificTemporarySprite ccCelebration/animate Jas false true 90 16 17 18 19/animate Evelyn true false 500 17 18 17 19 19 19 19/viewport 53 25 true/viewport move 0 -1 8000/move Vincent 1 0 2/move Vincent 0 1 1/move Lewis 0 -9 0 true/move Vincent 8 0 0 false/pause 1000/jump Vincent/pause 1000/speed Vincent 4/move Vincent 0 15 0/pause 3000/globalFade/viewport -1000 -1000/warp Lewis 32 22/warp Jas -2000 -2000/warp Evelyn -2000 -2000/warp Vincent -2000 -2000/warp Gunther 24 17/warp Gus 5 5 0/advancedMove Gus true -2 0 4 2000 4 0 4 3000 -2 0 4 2000/warp Pam 8 9/advancedMove Pam true 3 5000 1 0 0 -4 -1 0 4 1000 1 0 0 4 -1 0/warp Emily 16 19/advancedMove Emily true 2 0 2 8000 -2 0 4 3000/warp Pierre 23 10/warp Caroline 24 9/warp Jodi 25 10/warp Willy 40 10/advancedMove Willy true 2 0 4 3000 -3 0 4 3000 1 0 4 3000/warp George 42 18/warp Robin 10 25/advancedMove Robin false 1 0 2 2000 0 -13 16 0 0 -3/warp Clint 46 13/advancedMove Clint false -1 0 4 14000 10 0 0 6 7 0 0 -5/warp Demetrius 47 5/changeLocation CommunityCenter/viewport 7 10 true/viewport move 2 0 21500/pause 6000/move Lewis 0 -12 2/pause 10000/globalFade/viewport -1000 -1000/warp farmer 32 20/move farmer 0 -9 0 true/viewport 32 10 true/pause 5000/speak Lewis \"I'm not sure how you did it, @... but the community center has never looked better!$h#$b#You've done Pelican Town a great service. Everyone in town is pleased.$h\"/pause 800/emote Lewis 32/pause 1000/speak Lewis \"As a way of saying 'Thank You', I'd like to present you with this Town's greatest honor... The Stardew Hero Award. You've earned it!$h\"/pause 1000/awardFestivalPrize hero/null/itemAboveHead hero/null/pause 1000/faceDirection farmer 0/playMusic none/message \"VOICE: Grumble... Grumble...\"/pause 500/textAboveHead Lewis \"Who's that?\"/faceDirection farmer 2 true/move Lewis 1 0 2/move Lewis 0 1 2/pause 500/speak Morris \"Sales have been plummeting! Where have all my customers gone?$u\"/playSound doorClose/warp Morris 32 23/textAboveHead Lewis \"Ah, Morris.\"/move Morris 0 -9 2/pause 500/faceDirection Morris 1/pause 500/playSound dwop/faceDirection Morris 0 true/pause 50/faceDirection Morris 3/pause 500/showFrame Morris 19/shake Morris 1000/textAboveHead Morris \"Waa..?!\"/pause 500/speak Morris \"All my customers...Here?!?$s#$b#This isn't good...$s\"/move Pierre 0 4 1/textAboveHead Pierre \"How does it feel?\"/move Pierre 4 0 1/move Pierre 4 0 1/question fork1 \"#Let's be reasonable.#Let's settle this the old-fashioned way.\"/fork Punch/showFrame Morris 12/textAboveHead Morris \"Hmmph!\"/pause 1000/speak Morris \"It's of no consequence! I'll just run a 75%-off sale and all my customers will come crawling back to me, begging for forgiveness! You'll see!$h\"/pause 1000/speak Pierre \"No...not this time...$u\"/faceDirection Pierre 3/textAboveHead Pierre \"Gather 'round, everyone!\"/pause 1500/globalFade/viewport -1000 -1000/stopAdvancedMoves/warp Demetrius 35 14/faceDirection Clint 3/faceDirection Demetrius 3 true/warp Pam 28 15/faceDirection Pam 1 true/warp Gus 28 14/faceDirection Gus 1 true/warp Robin 36 15/faceDirection Robin 3/warp Emily 29 9/faceDirection Emily 2 true/warp Willy 35 16/faceDirection Willy 3 true/warp Jodi 36 9/faceDirection Jodi 2 true/warp Caroline 35 9/faceDirection Caroline 2 true/warp Clint 37 13/faceDirection Clint 3 true/warp Gunther 30 18/warp George 28 16/faceDirection George 1 true/viewport 32 10 true/faceDirection Pierre 2/faceDirection Pierre 3/faceDirection Pierre 0/faceDirection Pierre 3/pause 1000/speak Pierre \"I remember when I first moved to Pelican Town... This building was active and vibrant.#$b#We worked together to make the town a better place. There was a real sense of community.\"/pause 1000/playMusic musicboxsong/move Pierre 0 2 3/speak Pierre \"George, you always used to do the crossword puzzle while sipping coffee in the community kitchen. Remember?\"/pause 500/faceDirection George 2/pause 500/showFrame George 16/textAboveHead George \"The good ol' days.\"/move Pierre 0 -2 0/speak Pierre \"Emily, you wove that custom banner for the Stardew Valley Fair.#$b#I remember you working on that for years!$h\"/pause 1000/speak Emily \"It... It was a lot of fun... $s\"/move Pierre 0 1 1/textAboveHead Pierre \"{{Willy Name}}!\"/pause 500/textAboveHead Willy \"Me?\"/pause 1000/speak Pierre \"Remember when your little crab experiment got out of hand?$h\"/pause 500/speak Willy \"Hehe... That I do. We showed up one morning and the place was crawlin' with 'em.$h\"/faceDirection Pierre 3/speak Pierre \"But Gus saved the day with a brilliant idea... A crab leg feast for the entire valley!\"/speak Gus \"I still dream of that garlic butter.\"/pause 100/textAboveHead Robin \"Mmmmm...\"/faceDirection Pierre 0/playMusic none/speak Pierre \"You see, everyone? Our community is what makes Pelican Town special.#$b#When JojaMart came to town we lost sight of that.$s#$b#But now, thanks to @, we have a second chance.#$b#I'm asking that you join me in boycotting JojaMart! We have the power to reclaim our old way of life!\"/jump Morris/showFrame Morris 19/pause 1000/textAboveHead Pierre \"Who's with me?\"/pause 3000/showFrame George 0/playMusic springtown/pause 4000/move George 1 0 1/speak George \"I've lived here too long to see this town go to ruin.#$b#You can count me in!$h\"/pause 500/shake Morris 5000/textAboveHead Demetrius \"I'm in.\"/pause 250/textAboveHead Jodi \"Boycott!\"/shake Morris 5000/faceDirection Morris 0 true/jump Morris/pause 500/textAboveHead Gus \"Me too!\"/pause 500/textAboveHead Gunther \"It's about time!\"/textAboveHead Robin \"No More Joja!\"/pause 2000/speak Morris \"I'm done for...$s\"/pause 2000/speed Morris 4/shake Morris 5000/move Morris 0 9 2/warp Morris -2000 -2000/playSound doorClose/faceDirection Robin 2 true/faceDirection Demetrius 2 true/pause 20/faceDirection Gunther 2 true/pause 30/faceDirection George 2 true/globalFade/viewport -9999 -9999/pause 4000/message \"Morris and his JojaMart cronies were never heard from again...\"/pause 2000/end position 52 20"
+			},
+			"When": {
+				"Willy Genderswapped": "true"
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"Entries": {
+				"DickWin": "pause 100/jump Willy/faceDirection Elliott 3/pause 800/move Willy 0 -1 0/faceDirection Elliott 0/speak Lewis \"Here's your prize, {{Willy Name}}. Enjoy\"/pause 500/move Willy 0 -2 0/move Lewis -1 0 2/move Lewis 0 1 2/playSound coin/pause 400/move Lewis 0 -1 0/pause 500/speak Lewis \"Well, that's it for this year's Festival of Ice. Thanks for coming, everyone!#$b#Now let's release these poor fish...$s\"/move Lewis -2 0 0/pause 600/viewport move 1 0 5000/pause 2000/playMusic none/globalFade/viewport -1000 -1000/pause 1000/message \"I didn't win the competition, but it was still fun! Time to head home.\"/waitForOtherPlayers festivalEnd/end",
+				"Pam": "I plan on winning the ice fishing competition!#$e#{{Willy Name}} is gonna be pretty hard to beat, though... She does this kinda stuff day and night.$s",
+				"Elliott": "I'm entering the ice fishing competition today. Why not?#$e#It's rare that {{Willy Name}} ever loses, though."
+			},
+			"When": {
+				"Willy Genderswapped": "true"
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Strings/SpecialOrderStrings",
+			"Entries": {
+				"Willy_Objective_1_Text": "Place the bug meat in the barrel next to {{Willy Name}}'s house."
+			},
+			"When": {
+				"Willy Genderswapped": "true"
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			"Entries": {
+				"Event.cs.1871": "{{Willy Name}}, with 5 big, fresh fish!",
+				"FishingQuest.cs.13248": "Trying to keep the art o' fishing alive... I'll pay {0}g to any fisherman who catches {1} {2}. Good luck!  -{{Willy Name}}",
+				"FishingQuest.cs.13251": "Trying to keep the art o' fishing alive... I'll pay {0}g to any fishing enthusiast who catches {1} {2}. Good luck!  -{{Willy Name}}"
+			},
+			"When": {
+				"Willy Genderswapped": "true"
+			}
+		}
+    ]
+}
