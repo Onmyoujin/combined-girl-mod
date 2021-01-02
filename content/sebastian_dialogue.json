@@ -159,9 +159,8 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/MoviesReactions",
-			"Entries": [
-				{
-					"ID": "Sebastian",
+			"Fields": {
+				"Sebastian": {
 					"Reactions": [
 						{
 							"ID": "reaction_3",
@@ -173,7 +172,7 @@
 						}
 					]
 				}
-			],
+			},
 			"When": {
 				"Sebastian Genderswapped": "true"
 			}

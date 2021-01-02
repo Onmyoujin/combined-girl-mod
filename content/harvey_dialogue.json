@@ -99,8 +99,8 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/MoviesReactions",
-			"Entries": [
-				{
+			"Fields": {
+				"Harvey": {
 					"ID": "Harvey",
 					"Reactions": [
 						{
@@ -120,7 +120,7 @@
 						}
 					]
 				}
-			],
+			},
 			"When": {
 				"Harvey Genderswapped": "true"
 			}

@@ -78,9 +78,8 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/MoviesReactions",
-			"Entries": [
-				{
-					"ID": "Shane",
+			"Fields": {
+				"Shane": {
 					"Reactions": [
 						{
 							"ID": "reaction_5",
@@ -101,7 +100,7 @@
 						}
 					]
 				}
-			],
+			},
 			"When": {
 				"Shane Genderswapped": "true"
 			}
