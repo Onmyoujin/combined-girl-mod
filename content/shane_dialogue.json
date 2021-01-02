@@ -73,35 +73,39 @@
 			"When": {
 				"Shane Genderswapped": "true"
 			}
-        },
-        
-        {
+		},
+		
+		{
 			"Action": "EditData",
 			"Target": "Data/MoviesReactions",
-			"Fields": {
-				"Shane": {
-					"Reactions": {
-						"love": {
+			"Fields": [
+				{
+					"ID": "Shane",
+					"Reactions": [
+						{
+							"ID": "reaction_5",
 							"SpecialResponses": {
 								"DuringMovie": {
 									"Script": "/message \"{{Shane Name}}'s trying not to smile.\""
 								}
 							}
 						},
-						"dislike": {
+
+						{
+							"ID": "reaction_7",
 							"SpecialResponses": {
 								"DuringMovie": {
 									"Script": "/emote Shane 28/message \"{{Shane Name}}'s slumped over...\""
 								}
 							}
 						}
-					}
+					]
 				}
-			},
+			],
 			"When": {
 				"Shane Genderswapped": "true"
 			}
-        },
+		},
         
         {
 			"Action": "EditData",

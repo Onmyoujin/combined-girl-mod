@@ -95,34 +95,36 @@
 				"Harvey Genderswapped": "true"
 			}
         },
-        
-        {
+		
+		{
 			"Action": "EditData",
 			"Target": "Data/MoviesReactions",
-			"Fields": {
-				"Harvey": {
-					"Reactions": {
-						"spring_movie_1": {
+			"Fields": [
+				{
+					"ID": "Harvey",
+					"Reactions": [
+						{
+							"ID": "reaction_3",
 							"SpecialResponses": {
 								"DuringMovie": {
 									"Script": "/shake Harvey 3000/pause 500/message \"{{Harvey Name}} is shaking!\""
 								}
 							}
 						},
-						"dislike": {
+
+						{
+							"ID": "reaction_6",
 							"SpecialResponses": {
-								"DuringMovie": {
-									"Script": "/shake Harvey 3000/pause 500/message \"{{Harvey Name}}'s blood pressure is skyrocketing!\""
-								}
+								"DuringMovie": "/shake Harvey 3000/pause 500/message \"{{Harvey Name}}'s blood pressure is skyrocketing!\""
 							}
 						}
-					}
+					]
 				}
-			},
+			],
 			"When": {
 				"Harvey Genderswapped": "true"
 			}
-        },
+		},
         
         {
 			"Action": "EditData",

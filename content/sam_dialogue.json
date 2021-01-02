@@ -107,34 +107,38 @@
 				"Sam Genderswapped": "true"
 			}
         },
-        
-        {
+		
+		{
 			"Action": "EditData",
 			"Target": "Data/MoviesReactions",
-			"Fields": {
-				"Sam": {
-					"Reactions": {
-						"summer_movie_1": {
+			"Fields": [
+				{
+					"ID": "Sam",
+					"Reactions": [
+						{
+							"ID": "reaction_1",
 							"SpecialResponses": {
 								"DuringMovie": {
 									"Script": "/playSound reward/emote Sam 32/message Sam \"{{Sam Name}} can't contain her laughter!\""
 								}
 							}
 						},
-						"dislike": {
+
+						{
+							"ID": "reaction_4",
 							"SpecialResponses": {
 								"DuringMovie": {
 									"Script": "/message Sam \"{{Sam Name}} is playing her handheld video game system.\""
 								}
 							}
 						}
-					}
+					]
 				}
-			},
+			],
 			"When": {
 				"Sam Genderswapped": "true"
 			}
-        },
+		},
         
         {
 			"Action": "EditData",
