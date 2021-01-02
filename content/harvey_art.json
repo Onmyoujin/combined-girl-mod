@@ -3,9 +3,9 @@
         {
 			"Action": "EditImage",
 			"Target": "Portraits/Harvey",
-			"FromFile": "assets/Portraits/Harvey/{{Harvey}}.png",
+			"FromFile": "assets/Portraits/Harvey/{{Harvey Art}}.png",
 			"When": {
-				"Harvey": "Adarin"
+				"Harvey Genderswapped": "true"
 			}
 		},
 
@@ -14,16 +14,16 @@
 			"Target": "Portraits/Harvey_Beach",
 			"FromFile": "assets/Portraits/Harvey/RedK1rby_Beach.png",
 			"When": {
-				"Harvey": "Adarin"
+				"Harvey Genderswapped": "true"
 			}
         },
         
         {
 			"Action": "EditImage",
 			"Target": "Characters/Harvey",
-			"FromFile": "assets/Characters/Harvey/{{Harvey}}.png",
+			"FromFile": "assets/Characters/Harvey/{{Harvey Art}}.png",
 			"When": {
-				"Harvey": "Adarin"
+				"Harvey Genderswapped": "true"
 			}
 		},
 
@@ -32,7 +32,7 @@
 			"Target": "Characters/Harvey_Beach",
 			"FromFile": "assets/Characters/Harvey/RedK1rby_Beach.png",
 			"When": {
-				"Harvey": "Adarin"
+				"Harvey Genderswapped": "true"
 			}
 		}
     ]

@@ -3,18 +3,18 @@
         {
 			"Action": "EditImage",
 			"Target": "Portraits/Willy",
-			"FromFile": "assets/Portraits/Willy/{{Willy}}.png",
+			"FromFile": "assets/Portraits/Willy/{{Willy Art}}.png",
 			"When": {
-				"Willy": "Bajel"
+				"Willy Genderswapped": "true"
 			}
         },
         
         {
 			"Action": "EditImage",
 			"Target": "Characters/Willy",
-			"FromFile": "assets/Characters/Willy/{{Willy}}.png",
+			"FromFile": "assets/Characters/Willy/{{Willy Art}}.png",
 			"When": {
-				"Willy": "Bajel"
+				"Willy Genderswapped": "true"
 			}
 		}
     ]

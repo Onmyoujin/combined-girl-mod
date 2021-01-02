@@ -3,9 +3,9 @@
         {
 			"Action": "EditImage",
 			"Target": "Portraits/Shane",
-			"FromFile": "assets/Portraits/Shane/{{Shane}}.png",
+			"FromFile": "assets/Portraits/Shane/{{Shane Art}}.png",
 			"When": {
-				"Shane": "Exrenkon, Lydomia"
+				"Shane Genderswapped": "true"
 			}
         },
 
@@ -14,7 +14,7 @@
 			"Target": "Portraits/Shane_Beach",
 			"FromFile": "assets/Portraits/Shane/KonaKona7_Beach.png",
 			"When": {
-				"Shane": "Exrenkon, Lydomia"
+				"Shane Genderswapped": "true"
 			}
         },
         
@@ -25,25 +25,25 @@
 			"FromFile": "assets/LooseSprites/Shane/default.png",
 			"ToArea": { "X": 533, "Y": 1850, "Width": 26, "Height": 41 },
 			"When": {
-				"Shane": "Exrenkon, Lydomia"
+				"Shane Genderswapped": "true"
 			}
         },
         
         {
 			"Action": "EditImage",
 			"Target": "Characters/Shane",
-			"FromFile": "assets/Characters/Shane/{{Shane}}.png",
+			"FromFile": "assets/Characters/Shane/{{Shane Art}}.png",
 			"When": {
-				"Shane": "Exrenkon, Lydomia"
+				"Shane Genderswapped": "true"
 			}
 		},
 		
 		{
 			"Action": "EditImage",
 			"Target": "Characters/Shane_JojaMart",
-			"FromFile": "assets/Characters/Shane/{{Shane}}_jojamart.png",
+			"FromFile": "assets/Characters/Shane/{{Shane Art}}_jojamart.png",
 			"When": {
-				"Shane": "Exrenkon, Lydomia"
+				"Shane Genderswapped": "true"
 			}
 		},
 
@@ -52,7 +52,7 @@
 			"Target": "Characters/Shane_Beach",
 			"FromFile": "assets/Characters/Shane/KonaKona7_Beach.png",
 			"When": {
-				"Shane": "Exrenkon, Lydomia"
+				"Shane Genderswapped": "true"
 			}
 		},
 		
@@ -61,7 +61,7 @@
 			"Target": "Characters/ClothesTherapyCharacters",
 			"FromFile": "assets/Characters/ClothesTherapyCharacters/default.png",
 			"When": {
-				"Shane": "Exrenkon, Lydomia"
+				"Shane Genderswapped": "true"
 			}
 		}
     ]

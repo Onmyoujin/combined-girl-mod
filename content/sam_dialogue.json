@@ -4,14 +4,14 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Jodi",
 			"Entries": {
-				"Thu6": "Where does all the time go? *sigh*#$e#I remember when Sam was a little baby wearing diapers. She was such a cute little kid.$s#$e#Don't tell her I said that.$h#$e#You must really like talking to me, huh?",
-				"fall_Thu": "Maybe I've spoiled the kids a bit. They've never had to do any chores.#$e#I guess I want them to be able to enjoy their childhood while they still can. Well, Sam's basically a woman now, though.#$b#I hope she hasn't grown up to be lazy. That won't do.$s#$e#Being a parent isn't very easy.",
-				"fall_Thu_inlaw_Sam": "Is Sam just bumming around the farm, or is she contributing?",
-				"winter_Thu": "Sam makes a lot of noise with that music of hers. I hope it doesn't disturb the neighbors.",
-				"winter_Thu_inlaw_Sam": "How's Sam doing? I have to admit, there's less cooking and cleaning to do since she moved out..."
+				"Thu6": "Where does all the time go? *sigh*#$e#I remember when {{Sam Name}} was a little baby wearing diapers. She was such a cute little kid.$s#$e#Don't tell her I said that.$h#$e#You must really like talking to me, huh?",
+				"fall_Thu": "Maybe I've spoiled the kids a bit. They've never had to do any chores.#$e#I guess I want them to be able to enjoy their childhood while they still can. Well, {{Sam Name}}'s basically a woman now, though.#$b#I hope she hasn't grown up to be lazy. That won't do.$s#$e#Being a parent isn't very easy.",
+				"fall_Thu_inlaw_Sam": "Is {{Sam Name}} just bumming around the farm, or is she contributing?",
+				"winter_Thu": "{{Sam Name}} makes a lot of noise with that music of hers. I hope it doesn't disturb the neighbors.",
+				"winter_Thu_inlaw_Sam": "How's {{Sam Name}} doing? I have to admit, there's less cooking and cleaning to do since she moved out..."
 			},
 			"When": {
-				"Sam": "Adarin, Dialogue Only"
+				"Sam Genderswapped": "true"
 			}
 		},
 		
@@ -19,11 +19,11 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Kent",
 			"Entries": {
-				"Thu6": "#$1 Kent1#I've been up since 4 o'clock... sometimes I wonder if I'll ever get back into a normal routine.$k#$e#Sam has really grown up since I left. She's a woman now.#$e#I wish I could've been there for her.$s",
+				"Thu6": "#$1 Kent1#I've been up since 4 o'clock... sometimes I wonder if I'll ever get back into a normal routine.$k#$e#{{Sam Name}} has really grown up since I left. She's a woman now.#$e#I wish I could've been there for her.$s",
 				"Thu": "Are you friends with my daughter?#$e#You probably know her better than I do...$s"
 			},
 			"When": {
-				"Sam": "Adarin, Dialogue Only"
+				"Sam Genderswapped": "true"
 			}
         },
         
@@ -34,7 +34,7 @@
 				"winter_Sam": "I've given up on being a musician. I want to spend my time focused on our family!"
 			},
 			"When": {
-				"Sam": "Adarin, Dialogue Only"
+				"Sam Genderswapped": "true"
 			}
         },
         
@@ -46,7 +46,7 @@
 				"TwoKids_3": "I never thought I'd become the homemaker type, but I'm really satisfied with what we've built here. Life is going great.$l"
 			},
 			"When": {
-				"Sam": "Adarin, Dialogue Only"
+				"Sam Genderswapped": "true"
 			}
         },
         
@@ -54,10 +54,10 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/MarriageDialogueSebastian",
 			"Entries": {
-				"fall_15": "The Stardew Valley Fair is a little crowded for my tastes... but I'll just hang out with Sam. It'll be good to catch up with her.#$e#You should play some carnival games, though! Don't worry about me.$7"
+				"fall_15": "The Stardew Valley Fair is a little crowded for my tastes... but I'll just hang out with {{Sam Name}}. It'll be good to catch up with her.#$e#You should play some carnival games, though! Don't worry about me.$7"
 			},
 			"When": {
-				"Sam": "Adarin, Dialogue Only"
+				"Sam Genderswapped": "true"
 			}
         },
         
@@ -65,11 +65,11 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sam",
 			"Entries": {
-				"Mon8": "I'll tell you a secret... my name 'Sam' is short for 'Samantha'.$l#$e#Most people don't know that so keep it on mute.",
+				"Mon8": "I'll tell you a secret... my name '{{Sam Name}}' is short for '{{Sam First Name}}'.$l#$e#Most people don't know that so keep it on mute.",
 				"Wed10": "@. Um... I just wanted to say... You look nice today.$10^Hey girl. You look like you're full of energy today!"
 			},
 			"When": {
-				"Sam": "Adarin, Dialogue Only"
+				"Sam Genderswapped": "true"
 			}
         },
         
@@ -80,7 +80,7 @@
 				"Mon": "I wanna be just like my big sister when I grow up!$h#$e#Okay! Bye!"
 			},
 			"When": {
-				"Sam": "Adarin, Dialogue Only"
+				"Sam Genderswapped": "true"
 			}
 		},
 		
@@ -91,7 +91,7 @@
 				"Sam0": "I'm going to be really happy as your wife, @.$l#$e#I'm excited."
 			},
 			"When": {
-				"Sam": "Adarin, Dialogue Only"
+				"Sam Genderswapped": "true"
 			}
         },
         
@@ -99,12 +99,12 @@
 			"Action": "EditData",
 			"Target": "Data/NPCDispositions",
 			"Entries": {
-				"Sam": "teen/neutral/outgoing/positive/female/datable/Penny/Town/summer 17/Vincent 'little_brother' Jodi 'mom' Kent 'dad' Sebastian ''/SamHouse 22 13/Sam",
+				"Sam": "teen/neutral/outgoing/positive/female/datable/Penny/Town/summer 17/Vincent 'little_brother' Jodi 'mom' Kent 'dad' Sebastian ''/SamHouse 22 13/{{Sam Name}}",
 				"Jodi": "adult/polite/neutral/neutral/female/not-datable/Kent/Town/fall 11/Sam 'daughter' Vincent 'son' Kent 'husband'/SamHouse 4 5/Jodi",
 				"Kent": "adult/neutral/shy/negative/male/not-datable/Jodi/Town/spring 4/Jodi 'wife' Sam 'daughter' Vincent 'son'/SamHouse 22 5/Kent"
 			},
 			"When": {
-				"Sam": "Adarin, Dialogue Only"
+				"Sam Genderswapped": "true"
 			}
         },
         
@@ -117,14 +117,14 @@
 						"summer_movie_1": {
 							"SpecialResponses": {
 								"DuringMovie": {
-									"Script": "/playSound reward/emote Sam 32/message Sam \"Sam can't contain her laughter!\""
+									"Script": "/playSound reward/emote Sam 32/message Sam \"{{Sam Name}} can't contain her laughter!\""
 								}
 							}
 						},
 						"dislike": {
 							"SpecialResponses": {
 								"DuringMovie": {
-									"Script": "/message Sam \"Sam is playing her handheld video game system.\""
+									"Script": "/message Sam \"{{Sam Name}} is playing her handheld video game system.\""
 								}
 							}
 						}
@@ -132,7 +132,7 @@
 				}
 			},
 			"When": {
-				"Sam": "Adarin, Dialogue Only"
+				"Sam Genderswapped": "true"
 			}
         },
         
@@ -140,10 +140,10 @@
 			"Action": "EditData",
 			"Target": "Data/Events/Forest",
 			"Entries": {
-				"choseFarming": "pause 500/question fork0 \"#The valley's soil is ideal for growing delicious vegetables.#The valley's air and grass are perfect for raising animals.\"/fork choseAnimals/animate Vincent false true 50 16 17/playSound dwop/pause 300/faceDirection Penny 2/pause 500/stopAnimation Vincent/speak Penny \"Yes, Vincent?\"/speak Vincent \"Um, Farmer @? If I eat your veggies will I grow up strong like my big sister Sam?#$b#She's so strong, I saw her lift Miss Penny clear off the ground last night when they were climbing into a tree.$h\"/showFrame Penny 27/jump Penny/pause 800/showFrame Penny 0/faceDirection farmer 3 true/emote Penny 12/speak Penny \"Vincent! It's not good to gossip!$a\"/switchEvent fieldTripEnd/"
+				"choseFarming": "pause 500/question fork0 \"#The valley's soil is ideal for growing delicious vegetables.#The valley's air and grass are perfect for raising animals.\"/fork choseAnimals/animate Vincent false true 50 16 17/playSound dwop/pause 300/faceDirection Penny 2/pause 500/stopAnimation Vincent/speak Penny \"Yes, Vincent?\"/speak Vincent \"Um, Farmer @? If I eat your veggies will I grow up strong like my big sister {{Sam Name}}?#$b#She's so strong, I saw her lift Miss Penny clear off the ground last night when they were climbing into a tree.$h\"/showFrame Penny 27/jump Penny/pause 800/showFrame Penny 0/faceDirection farmer 3 true/emote Penny 12/speak Penny \"Vincent! It's not good to gossip!$a\"/switchEvent fieldTripEnd/"
 			},
 			"When": {
-				"Sam": "Adarin, Dialogue Only"
+				"Sam Genderswapped": "true"
 			}
         },
         
@@ -151,10 +151,10 @@
 			"Action": "EditData",
 			"Target": "Data/Events/SamHouse",
 			"Entries": {
-				"46/f Sam 1000/p Sam": "playful/7 4/farmer 7 12 0 Sam 7 5 0 Jodi 17 7 0/skippable/move farmer 0 -6 0/faceDirection Sam 2/pause 300/speak Sam \"Oh, hi @. I was just about to have a snack.\"/pause 500/speak Sam \"Here, let me get something for you.\"/faceDirection Sam 0/pause 500/playSound openBox/pause 500/faceDirection Sam 3/playSound dwop/specificTemporarySprite dropEgg/showFrame Sam 33/jump Sam/pause 1000/emote Sam 12/showFrame Sam 12/speak Sam \"Oh no... What a mess.$s\"/speed Jodi 4/move Jodi -10 0 0/speak Jodi \"What was that sound?\"/emote Jodi 16/speak Jodi \"*gasp*$s\"/move Jodi -1 0 0/move Jodi 0 -1 0/speak Jodi \"This is absolutely terrible! What happened?$u\"/speak Sam \"$q 80 null#...Tell her, @.$s#$r 80 -10 event_snack1#Sam dropped the snack as she was handing it to me.#$r 80 50 event_snack2#Sam handed me the snack and then I dropped it.#$r 81 -50 event_snack3#Sam dropped it on purpose. She thought it would be funny.\"/pause 300/speak Jodi \"$p 80#Thanks for telling me the truth, @. It's not such a big deal.|You did WHAT, Sam?! What's gotten into you?!$u\"/faceDirection Jodi 0/speak Sam \"I'm sorry about this, mom. I'll clean it up.$s\"/emote Jodi 20/speak Jodi \"Thanks, honey.$h\"/move Jodi 0 1 1/move Jodi 1 0 2 /faceDirection Sam 2 true/move Jodi 0 7 2 true/globalFade/viewport -1000 -1000/end dialogue Sam \"$p 81#I'm angry at you. I have no idea why you lied like that.$s|Sorry about what happened earlier.\""
+				"46/f Sam 1000/p Sam": "playful/7 4/farmer 7 12 0 Sam 7 5 0 Jodi 17 7 0/skippable/move farmer 0 -6 0/faceDirection Sam 2/pause 300/speak Sam \"Oh, hi @. I was just about to have a snack.\"/pause 500/speak Sam \"Here, let me get something for you.\"/faceDirection Sam 0/pause 500/playSound openBox/pause 500/faceDirection Sam 3/playSound dwop/specificTemporarySprite dropEgg/showFrame Sam 33/jump Sam/pause 1000/emote Sam 12/showFrame Sam 12/speak Sam \"Oh no... What a mess.$s\"/speed Jodi 4/move Jodi -10 0 0/speak Jodi \"What was that sound?\"/emote Jodi 16/speak Jodi \"*gasp*$s\"/move Jodi -1 0 0/move Jodi 0 -1 0/speak Jodi \"This is absolutely terrible! What happened?$u\"/speak Sam \"$q 80 null#...Tell her, @.$s#$r 80 -10 event_snack1#{{Sam Name}} dropped the snack as she was handing it to me.#$r 80 50 event_snack2#{{Sam Name}} handed me the snack and then I dropped it.#$r 81 -50 event_snack3#{{Sam Name}} dropped it on purpose. She thought it would be funny.\"/pause 300/speak Jodi \"$p 80#Thanks for telling me the truth, @. It's not such a big deal.|You did WHAT, {{Sam Name}}?! What's gotten into you?!$u\"/faceDirection Jodi 0/speak Sam \"I'm sorry about this, mom. I'll clean it up.$s\"/emote Jodi 20/speak Jodi \"Thanks, honey.$h\"/move Jodi 0 1 1/move Jodi 1 0 2 /faceDirection Sam 2 true/move Jodi 0 7 2 true/globalFade/viewport -1000 -1000/end dialogue Sam \"$p 81#I'm angry at you. I have no idea why you lied like that.$s|Sorry about what happened earlier.\""
 			},
 			"When": {
-				"Sam": "Adarin, Dialogue Only"
+				"Sam Genderswapped": "true"
 			}
         },
         
@@ -162,10 +162,10 @@
 			"Action": "EditData",
 			"Target": "Data/Events/SebastianRoom",
 			"Entries": {
-				"noFriends": "pause 500/emote Sebastian 28/speak Sebastian \"*sigh*... I like having friends, I just need a lot of time alone to balance out the social stuff.$s#$b#Sam's the opposite... she goes crazy if she's alone for too long.#$b#Maybe that's why I like computers so much... They're engaging, straightforward, and unselfish. Quite the opposite of a lot of people I know.\"/pause 600/playSound mouseClick/pause 100/playSound mouseClick/pause 300/emote Sebastian 40/speak Sebastian \"Well, I should get back to work... I need to get this module finished by tomorrow.\"/pause 300/animate Sebastian false true 100 26 27/playSound keyboardTyping/pause 500/move farmer 0 2 3/move farmer -3 0 0/move farmer 0 -2 3/move farmer -5 0 0 true/globalFade/viewport -1000 -1000/pause 1000/end"
+				"noFriends": "pause 500/emote Sebastian 28/speak Sebastian \"*sigh*... I like having friends, I just need a lot of time alone to balance out the social stuff.$s#$b#{{Sam Name}}'s the opposite... she goes crazy if she's alone for too long.#$b#Maybe that's why I like computers so much... They're engaging, straightforward, and unselfish. Quite the opposite of a lot of people I know.\"/pause 600/playSound mouseClick/pause 100/playSound mouseClick/pause 300/emote Sebastian 40/speak Sebastian \"Well, I should get back to work... I need to get this module finished by tomorrow.\"/pause 300/animate Sebastian false true 100 26 27/playSound keyboardTyping/pause 500/move farmer 0 2 3/move farmer -3 0 0/move farmer 0 -2 3/move farmer -5 0 0 true/globalFade/viewport -1000 -1000/pause 1000/end"
 			},
 			"When": {
-				"Sam": "Adarin, Dialogue Only"
+				"Sam Genderswapped": "true"
 			}
 		},
 		
@@ -173,10 +173,10 @@
 			"Action": "EditData",
 			"Target": "Data/Events/Town",
 			"Entries": {
-				"45/f Sam 1500/t 1200 1600/w sunny": "breezy/-1000 -1000/farmer 20 93 3 Sam 12 90 2 Lewis 28 78 1/skippable/showFrame Sam 25/move Lewis 0 12 3 true/viewport 22 89 true/specificTemporarySprite samSkate1/null/pause 400/faceDirection farmer 1/showFrame Lewis 24/shake Lewis 8000/jump Lewis/showFrame Sam 35/specificTemporarySprite skateboardFly/jump Sam/pause 1000/speak Lewis \"Hey! What do you think you're doing? That's private property!$4\"/textAboveHead Lewis \"Sam!\"/pause 500/speak Sam \"Uh... Er... I... I'm sorry, sir.$8\"/showFrame Sam 4/emote Lewis 12/showFrame Lewis 12/pause 800/speak Lewis \"*sigh*... The youth these days... Sometimes I wonder if this town isn't doomed.$u\"/move farmer 0 -2 1/move farmer 6 0 1/faceDirection Sam 2/pause 500/move Lewis 0 1 3/speak Lewis \"You saw what happened, @. What do you have to say about this?\"/pause 600/question null \"#You're right, sir. Sam should respect private property.#Don't blame Sam. There's nowhere else for her to ride!#I'm staying out of this.\"/pause 500/splitSpeak Sam \"Fine! I just won't ride my skateboard ever again. Happy?$a~Exactly! If there was a park in town, I could ride there and everyone would be happy.~Hmmph. Alright.$a\"/faceDirection Lewis 2/emote Lewis 12/splitSpeak Lewis \"You're being difficult, Sam. I have no problem with you riding around town, just try not to cause any damage! It's that simple.~Hmmph. I thought you were more mature than this, @.$4~I'll let it slide this time, Sam. But I don't want to see you doing this anymore.\"/faceDirection Lewis 3/splitSpeak Lewis \"Got it?~Sam... I'm sorry I yelled at you. Just please try not to damage anything in the future. Got it?~Got it?\"/faceDirection Sam 1/pause 800/faceDirection Sam 0/emote Sam 28/pause 500/faceDirection Sam 1/speak Sam \"Yes, sir.$7\"/pause 600/move Lewis 0 -16 0 true/pause 800/faceDirection Sam 2/pause 800/speak Sam \"...Did you see that trick, though? That was rad.$u\"/faceDirection farmer 0/emote farmer 16/pause 800/end"
+				"45/f Sam 1500/t 1200 1600/w sunny": "breezy/-1000 -1000/farmer 20 93 3 Sam 12 90 2 Lewis 28 78 1/skippable/showFrame Sam 25/move Lewis 0 12 3 true/viewport 22 89 true/specificTemporarySprite samSkate1/null/pause 400/faceDirection farmer 1/showFrame Lewis 24/shake Lewis 8000/jump Lewis/showFrame Sam 35/specificTemporarySprite skateboardFly/jump Sam/pause 1000/speak Lewis \"Hey! What do you think you're doing? That's private property!$4\"/textAboveHead Lewis \"{{Sam Name}}!\"/pause 500/speak Sam \"Uh... Er... I... I'm sorry, sir.$8\"/showFrame Sam 4/emote Lewis 12/showFrame Lewis 12/pause 800/speak Lewis \"*sigh*... The youth these days... Sometimes I wonder if this town isn't doomed.$u\"/move farmer 0 -2 1/move farmer 6 0 1/faceDirection Sam 2/pause 500/move Lewis 0 1 3/speak Lewis \"You saw what happened, @. What do you have to say about this?\"/pause 600/question null \"#You're right, sir. {{Sam Name}} should respect private property.#Don't blame {{Sam Name}}. There's nowhere else for her to ride!#I'm staying out of this.\"/pause 500/splitSpeak Sam \"Fine! I just won't ride my skateboard ever again. Happy?$a~Exactly! If there was a park in town, I could ride there and everyone would be happy.~Hmmph. Alright.$a\"/faceDirection Lewis 2/emote Lewis 12/splitSpeak Lewis \"You're being difficult, {{Sam Name}}. I have no problem with you riding around town, just try not to cause any damage! It's that simple.~Hmmph. I thought you were more mature than this, @.$4~I'll let it slide this time, {{Sam Name}}. But I don't want to see you doing this anymore.\"/faceDirection Lewis 3/splitSpeak Lewis \"Got it?~{{Sam Name}}... I'm sorry I yelled at you. Just please try not to damage anything in the future. Got it?~Got it?\"/faceDirection Sam 1/pause 800/faceDirection Sam 0/emote Sam 28/pause 500/faceDirection Sam 1/speak Sam \"Yes, sir.$7\"/pause 600/move Lewis 0 -16 0 true/pause 800/faceDirection Sam 2/pause 800/speak Sam \"...Did you see that trick, though? That was rad.$u\"/faceDirection farmer 0/emote farmer 16/pause 800/end"
 			},
 			"When": {
-				"Sam": "Adarin, Dialogue Only"
+				"Sam Genderswapped": "true"
 			}
         },
         
@@ -184,10 +184,10 @@
 			"Action": "EditData",
 			"Target": "Strings/animationDescriptions",
 			"Entries": {
-				"sam_work": "%Sam's on the clock... better not get her in trouble."
+				"sam_work": "%{{Sam Name}}'s on the clock... better not get her in trouble."
 			},
 			"When": {
-				"Sam": "Adarin, Dialogue Only"
+				"Sam Genderswapped": "true"
 			}
         },
         
@@ -195,10 +195,10 @@
 			"Action": "EditData",
 			"Target": "Strings/Locations",
 			"Entries": {
-				"SamHouse_Sam_Trash": "Looks like Sam cleans her trash bin regularly."
+				"SamHouse_Sam_Trash": "Looks like {{Sam Name}} cleans her trash bin regularly."
 			},
 			"When": {
-				"Sam": "Adarin, Dialogue Only"
+				"Sam Genderswapped": "true"
 			}
         },
         
@@ -209,7 +209,7 @@
 				"Event.cs.1625": "Aw, I gotta put on that dorky dress again? I thought now that we're married... Well, alright.$s"
 			},
 			"When": {
-				"Sam": "Adarin, Dialogue Only"
+				"Sam Genderswapped": "true"
 			}
         },
         
@@ -217,10 +217,10 @@
 			"Action": "EditData",
 			"Target": "Strings/StringsFromMaps",
 			"Entries": {
-				"SamHouse.11": "It's Sam's computer. She's got an extensive library of computer games."
+				"SamHouse.11": "It's {{Sam Name}}'s computer. She's got an extensive library of computer games."
 			},
 			"When": {
-				"Sam": "Adarin, Dialogue Only"
+				"Sam Genderswapped": "true"
 			}
 		},
 		
@@ -231,7 +231,7 @@
 				"fall_11.001": "I'm a healthy girl, doc. Can I go now? This is boring."
 			},
 			"When": {
-				"Sam": "Adarin, Dialogue Only"
+				"Sam Genderswapped": "true"
 			}
 		}
     ]

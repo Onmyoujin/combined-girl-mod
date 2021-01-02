@@ -21,11 +21,40 @@
 
 In config.json, the following values are accepted:
 
-Alex, Elliott, Shane, and Sebastian: Adarin, Adarin Variant, Dialogue Only, Disabled
-Harvey, Sam: Adarin, Dialogue Only, Disabled
-Shane: Exrenkon, Lydomia, Dialogue Only, Disabled
-Willy: Bajel, Dialogue Only, Disabled
-Wizard: CreepyKat, Dialogue Only, Disabled
+Alex Art: Adarin, Adarin Variant; only applies when genderswapped
+Alex Genderswapped: true, false
+Alex Name: Any string; defaults to Alexa
+
+Elliott Art: Adarin, Adarin Variant; only applies when genderswapped
+Elliott Genderswapped: true, false
+Elliott Name: Any string; defaults to Elayne; only applies when genderswapped
+
+Harvey Art: Adarin; only applies when genderswapped
+Harvey Genderswapped: true, false
+Harvey Name: Any string; defaults to Harley; only applies when genderswapped
+
+Sam Art: Adarin; only applies when genderswapped
+Sam Genderswapped: true, false
+Sam Name: Any string; defaults to Sam; only applies when genderswapped
+Sam First Name: Any string; defaults to Samantha; only applies when genderswapped
+
+Sebastian Art: Adarin, Adarin Variant; only applies when genderswapped
+Sebastian Genderswapped: true, false
+Sebastian Name: Any string; defaults to Sabrina; only applies when genderswapped
+Sebastian Nickname: Any string; defaults to Rina; only applies when genderswapped
+
+Shane Art: Exrenkon, Lydomia; only applies when genderswapped
+Shane Genderswapped: true, false
+Shane Name: Any string; defaults to Shania; only applies when genderswapped
+
+Willy Art: Bajel; only applies when genderswapped
+Willy Genderswapped: true, false
+Willy Name: Any string; defaults to Winnie; only applies when genderswapped
+
+Wizard Art: CreepyKat; only applies when genderswapped
+Wizard Genderswapped: true, false
+Wizard Title: Any string; defaults to Wizardess; only applies when genderswapped
+Wizard Name: Any string; defaults to Rasmodia; only applies when genderswapped
 
 I highly recommend using the Generic Mod Config Menu mod to edit these values:
 https://https://www.nexusmods.com/stardewvalley/mods/5098

@@ -1,45 +1,129 @@
 {
 	"Format": "1.19.0",
 	"ConfigSchema": {
-		"Alex": {
-			"AllowValues": "Adarin, Adarin Variant, Dialogue Only, Disabled",
+		"Alex Art": {
+			"AllowValues": "Adarin, Adarin Variant",
 			"Default": "Adarin",
-			"Description": "Alex's gender and portrait options."
+			"Description": "Portrait and sprite options.  Only applies when genderswapped."
 		},
-		"Elliott": {
-			"AllowValues": "Adarin, Adarin Variant, Dialogue Only, Disabled",
+		"Alex Genderswapped": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Genderswap status."
+		},
+		"Alex Name": {
+			"Default": "Alexa",
+			"Description": "NPC name."
+		},
+		"Elliott Art": {
+			"AllowValues": "Adarin, Adarin Variant",
 			"Default": "Adarin",
-			"Description": "Elliott's gender and portrait options."
+			"Description": "Portrait and sprite options.  Only applies when genderswapped."
 		},
-		"Harvey": {
-			"AllowValues": "Adarin, Dialogue Only, Disabled",
+		"Elliott Genderswapped": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Genderswap status."
+		},
+		"Elliott Name": {
+			"Default": "Elayne",
+			"Description": "NPC name."
+		},
+		"Harvey Art": {
+			"AllowValues": "Adarin",
 			"Default": "Adarin",
-			"Description": "Harvey's gender and portrait options."
+			"Description": "Portrait and sprite options.  Only applies when genderswapped."
 		},
-		"Sam": {
-			"AllowValues": "Adarin, Dialogue Only, Disabled",
+		"Harvey Genderswapped": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Genderswap status."
+		},
+		"Harvey Name": {
+			"Default": "Harley",
+			"Description": "NPC name."
+		},
+		"Sam Art": {
+			"AllowValues": "Adarin",
 			"Default": "Adarin",
-			"Description": "Sam's gender and portrait options."
+			"Description": "Portrait and sprite options.  Only applies when genderswapped."
 		},
-		"Sebastian": {
-			"AllowValues": "Adarin, Adarin Variant, Dialogue Only, Disabled",
+		"Sam Genderswapped": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Genderswap status."
+		},
+		"Sam Name": {
+			"Default": "Sam",
+			"Description": "NPC name."
+		},
+		"Sam First Name": {
+			"Default": "Samantha",
+			"Description": "Sam's secret first name."
+		},
+		"Sebastian Art": {
+			"AllowValues": "Adarin, Adarin Variant",
 			"Default": "Adarin",
-			"Description": "Sebastian's gender and portrait options."
+			"Description": "Portrait and sprite options.  Only applies when genderswapped."
 		},
-		"Shane": {
-			"AllowValues": "Exrenkon, Lydomia, Dialogue Only, Disabled",
+		"Sebastian Genderswapped": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Genderswap status."
+		},
+		"Sebastian Name": {
+			"Default": "Sabrina",
+			"Description": "NPC name."
+		},
+		"Sebastian Nickname": {
+			"Default": "Rina",
+			"Description": "Sebastian's nickname."
+		},
+		"Shane Art": {
+			"AllowValues": "Exrenkon, Lydomia",
 			"Default": "Exrenkon",
-			"Description": "Shane's gender and portrait options."
+			"Description": "Portrait and sprite options.  Only applies when genderswapped."
 		},
-		"Willy": {
-			"AllowValues": "Bajel, Dialogue Only, Disabled",
+		"Shane Genderswapped": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Genderswap status."
+		},
+		"Shane Name": {
+			"Default": "Shania",
+			"Description": "NPC name."
+		},
+		"Willy Art": {
+			"AllowValues": "Bajel",
 			"Default": "Bajel",
-			"Description": "Willy's gender and portrait options."
+			"Description": "Portrait and sprite options.  Only applies when genderswapped."
 		},
-		"Wizard": {
-			"AllowValues": "CreepyKat, Dialogue Only, Disabled",
+		"Willy Genderswapped": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Genderswap status."
+		},
+		"Willy Name": {
+			"Default": "Winnie",
+			"Description": "NPC name."
+		},
+		"Wizard Art": {
+			"AllowValues": "CreepyKat",
 			"Default": "CreepyKat",
-			"Description": "The Wizard's gender and portrait options."
+			"Description": "Portrait and sprite options.  Only applies when genderswapped."
+		},
+		"Wizard Genderswapped": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Genderswap status."
+		},
+		"Wizard Title": {
+			"Default": "Wizardess",
+			"Description": "Wizard's title."
+		},
+		"Wizard Name": {
+			"Default": "Rasmodia",
+			"Description": "Wizard's first name."
 		}
 	},
 	"Changes": [

@@ -3,36 +3,36 @@
         {
 			"Action": "EditImage",
 			"Target": "Portraits/Alex",
-			"FromFile": "assets/Portraits/Alex/{{Alex}}.png",
+			"FromFile": "assets/Portraits/Alex/{{Alex Art}}.png",
 			"When": {
-				"Alex": "Adarin, Adarin Variant"
+				"Alex Genderswapped": "true"
 			}
 		},
 
 		{
 			"Action": "EditImage",
 			"Target": "Portraits/Alex_Beach",
-			"FromFile": "assets/Portraits/Alex/{{Alex}}_Beach.png",
+			"FromFile": "assets/Portraits/Alex/{{Alex Art}}_Beach.png",
 			"When": {
-				"Alex": "Adarin, Adarin Variant"
+				"Alex Genderswapped": "true"
 			}
         },
         
         {
 			"Action": "EditImage",
 			"Target": "Characters/Alex",
-			"FromFile": "assets/Characters/Alex/{{Alex}}.png",
+			"FromFile": "assets/Characters/Alex/{{Alex Art}}.png",
 			"When": {
-				"Alex": "Adarin, Adarin Variant"
+				"Alex Genderswapped": "true"
 			}
 		},
 
 		{
 			"Action": "EditImage",
 			"Target": "Characters/Alex_Beach",
-			"FromFile": "assets/Characters/Alex/{{Alex}}_Beach.png",
+			"FromFile": "assets/Characters/Alex/{{Alex Art}}_Beach.png",
 			"When": {
-				"Alex": "Adarin, Adarin Variant"
+				"Alex Genderswapped": "true"
 			}
 		}
     ]

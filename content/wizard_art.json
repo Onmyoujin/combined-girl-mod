@@ -3,18 +3,18 @@
         {
 			"Action": "EditImage",
 			"Target": "Portraits/Wizard",
-			"FromFile": "assets/Portraits/Wizard/{{Wizard}}.png",
+			"FromFile": "assets/Portraits/Wizard/{{Wizard Art}}.png",
 			"When": {
-				"Wizard": "CreepyKat"
+				"Wizard Genderswapped": "true"
 			}
 		},
 		
 		{
 			"Action": "EditImage",
 			"Target": "Characters/Wizard",
-			"FromFile": "assets/Characters/Wizard/{{Wizard}}.png",
+			"FromFile": "assets/Characters/Wizard/{{Wizard Art}}.png",
 			"When": {
-				"Wizard": "CreepyKat"
+				"Wizard Genderswapped": "true"
 			}
 		}
     ]

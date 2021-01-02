@@ -3,9 +3,9 @@
         {
 			"Action": "EditImage",
 			"Target": "Portraits/Sam",
-			"FromFile": "assets/Portraits/Sam/{{Sam}}.png",
+			"FromFile": "assets/Portraits/Sam/{{Sam Art}}.png",
 			"When": {
-				"Sam": "Adarin"
+				"Sam Genderswapped": "true"
 			}
 		},
 
@@ -14,16 +14,16 @@
 			"Target": "Portraits/Sam_Beach",
 			"FromFile": "assets/Portraits/Sam/RedK1rby_Beach.png",
 			"When": {
-				"Sam": "Adarin"
+				"Sam Genderswapped": "true"
 			}
         },
         
         {
 			"Action": "EditImage",
 			"Target": "Characters/Sam",
-			"FromFile": "assets/Characters/Sam/{{Sam}}.png",
+			"FromFile": "assets/Characters/Sam/{{Sam Art}}.png",
 			"When": {
-				"Sam": "Adarin"
+				"Sam Genderswapped": "true"
 			}
 		},
 
@@ -32,7 +32,7 @@
 			"Target": "Characters/Sam_Beach",
 			"FromFile": "assets/Characters/Sam/RedK1rby_Beach.png",
 			"When": {
-				"Sam": "Adarin"
+				"Sam Genderswapped": "true"
 			}
 		}
     ]
