@@ -78,7 +78,7 @@
 		{
 			"Action": "EditData",
 			"Target": "Data/MoviesReactions",
-			"Fields": [
+			"Entries": [
 				{
 					"ID": "Shane",
 					"Reactions": [
