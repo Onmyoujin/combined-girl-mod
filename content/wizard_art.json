@@ -1,0 +1,21 @@
+{
+    "Changes": [
+        {
+			"Action": "EditImage",
+			"Target": "Portraits/Wizard",
+			"FromFile": "assets/Portraits/Wizard/{{Wizard}}.png",
+			"When": {
+				"Wizard": "CreepyKat"
+			}
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Wizard",
+			"FromFile": "assets/Characters/Wizard/{{Wizard}}.png",
+			"When": {
+				"Wizard": "CreepyKat"
+			}
+		}
+    ]
+}

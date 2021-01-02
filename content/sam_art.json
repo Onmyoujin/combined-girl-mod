@@ -1,0 +1,39 @@
+{
+    "Changes": [
+        {
+			"Action": "EditImage",
+			"Target": "Portraits/Sam",
+			"FromFile": "assets/Portraits/Sam/{{Sam}}.png",
+			"When": {
+				"Sam": "Adarin"
+			}
+		},
+
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Sam_Beach",
+			"FromFile": "assets/Portraits/Sam/RedK1rby_Beach.png",
+			"When": {
+				"Sam": "Adarin"
+			}
+        },
+        
+        {
+			"Action": "EditImage",
+			"Target": "Characters/Sam",
+			"FromFile": "assets/Characters/Sam/{{Sam}}.png",
+			"When": {
+				"Sam": "Adarin"
+			}
+		},
+
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Sam_Beach",
+			"FromFile": "assets/Characters/Sam/RedK1rby_Beach.png",
+			"When": {
+				"Sam": "Adarin"
+			}
+		}
+    ]
+}

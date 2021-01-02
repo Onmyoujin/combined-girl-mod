@@ -1,0 +1,21 @@
+{
+    "Changes": [
+        {
+			"Action": "EditImage",
+			"Target": "Portraits/Willy",
+			"FromFile": "assets/Portraits/Willy/{{Willy}}.png",
+			"When": {
+				"Willy": "Bajel"
+			}
+        },
+        
+        {
+			"Action": "EditImage",
+			"Target": "Characters/Willy",
+			"FromFile": "assets/Characters/Willy/{{Willy}}.png",
+			"When": {
+				"Willy": "Bajel"
+			}
+		}
+    ]
+}

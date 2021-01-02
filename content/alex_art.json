@@ -1,0 +1,39 @@
+{
+    "Changes": [
+        {
+			"Action": "EditImage",
+			"Target": "Portraits/Alex",
+			"FromFile": "assets/Portraits/Alex/{{Alex}}.png",
+			"When": {
+				"Alex": "Adarin, Adarin Variant"
+			}
+		},
+
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Alex_Beach",
+			"FromFile": "assets/Portraits/Alex/{{Alex}}_Beach.png",
+			"When": {
+				"Alex": "Adarin, Adarin Variant"
+			}
+        },
+        
+        {
+			"Action": "EditImage",
+			"Target": "Characters/Alex",
+			"FromFile": "assets/Characters/Alex/{{Alex}}.png",
+			"When": {
+				"Alex": "Adarin, Adarin Variant"
+			}
+		},
+
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Alex_Beach",
+			"FromFile": "assets/Characters/Alex/{{Alex}}_Beach.png",
+			"When": {
+				"Alex": "Adarin, Adarin Variant"
+			}
+		}
+    ]
+}

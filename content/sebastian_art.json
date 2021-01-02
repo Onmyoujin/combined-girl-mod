@@ -1,0 +1,50 @@
+{
+    "Changes": [
+        {
+			"Action": "EditImage",
+			"Target": "Portraits/Sebastian",
+			"FromFile": "assets/Portraits/Sebastian/{{Sebastian}}.png",
+			"When": {
+				"Sebastian": "Adarin, Adarin Variant"
+			}
+		},
+
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Sebastian_Beach",
+			"FromFile": "assets/Portraits/Sebastian/{{Sebastian}}_Beach.png",
+			"When": {
+				"Sebastian": "Adarin, Adarin Variant"
+			}
+        },
+        
+        {
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "assets/LooseSprites/Sebastian/default.png",
+			"ToArea": { "X": 405, "Y": 1852, "Width": 47, "Height": 35 },
+			"When": {
+				"Sebastian": "Adarin, Adarin Variant"
+			}
+        },
+        
+        {
+			"Action": "EditImage",
+			"Target": "Characters/Sebastian",
+			"FromFile": "assets/Characters/Sebastian/{{Sebastian}}.png",
+			"When": {
+				"Sebastian": "Adarin, Adarin Variant"
+			}
+		},
+
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Sebastian_Beach",
+			"FromFile": "assets/Characters/Sebastian/{{Sebastian}}_Beach.png",
+			"When": {
+				"Sebastian": "Adarin, Adarin Variant"
+			}
+		}
+    ]
+}

@@ -1,0 +1,39 @@
+{
+    "Changes": [
+        {
+			"Action": "EditImage",
+			"Target": "Portraits/Harvey",
+			"FromFile": "assets/Portraits/Harvey/{{Harvey}}.png",
+			"When": {
+				"Harvey": "Adarin"
+			}
+		},
+
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Harvey_Beach",
+			"FromFile": "assets/Portraits/Harvey/RedK1rby_Beach.png",
+			"When": {
+				"Harvey": "Adarin"
+			}
+        },
+        
+        {
+			"Action": "EditImage",
+			"Target": "Characters/Harvey",
+			"FromFile": "assets/Characters/Harvey/{{Harvey}}.png",
+			"When": {
+				"Harvey": "Adarin"
+			}
+		},
+
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Harvey_Beach",
+			"FromFile": "assets/Characters/Harvey/RedK1rby_Beach.png",
+			"When": {
+				"Harvey": "Adarin"
+			}
+		}
+    ]
+}
