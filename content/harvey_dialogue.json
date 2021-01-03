@@ -115,7 +115,9 @@
 						{
 							"ID": "reaction_6",
 							"SpecialResponses": {
-								"DuringMovie": "/shake Harvey 3000/pause 500/message \"{{Harvey Name}}'s blood pressure is skyrocketing!\""
+								"DuringMovie": {
+									"Script": "/shake Harvey 3000/pause 500/message \"{{Harvey Name}}'s blood pressure is skyrocketing!\""
+								}
 							}
 						}
 					]
