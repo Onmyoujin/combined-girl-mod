@@ -21,40 +21,56 @@
 
 In config.json, the following values are accepted:
 
-Alex Art: Adarin, Adarin Variant; only applies when genderswapped
-Alex Genderswapped: true, false
-Alex Name: Any string; defaults to Alexa
+Alex Art: Adarin, Adarin Variant
+Alex Portrait Changed: true, false
+Alex Sprites Changed: true, false
+Alex Dialogue Changed: true, false
+Alex Name: Any string; defaults to Alexa; applies only when dialogue changed
 
-Elliott Art: Adarin, Adarin Variant; only applies when genderswapped
-Elliott Genderswapped: true, false
-Elliott Name: Any string; defaults to Elayne; only applies when genderswapped
+Elliott Art: Adarin, Adarin Variant
+Elliott Portrait Changed: true, false
+Elliott Sprites Changed: true, false
+Elliott Dialogue Changed: true, false
+Elliott Name: Any string; defaults to Elayne; applies only when dialogue changed
 
-Harvey Art: Adarin; only applies when genderswapped
-Harvey Genderswapped: true, false
-Harvey Name: Any string; defaults to Harley; only applies when genderswapped
+Harvey Art: Adarin
+Harvey Portrait Changed: true, false
+Harvey Sprites Changed: true, false
+Harvey Dialogue Changed: true, false
+Harvey Name: Any string; defaults to Harley; applies only when dialogue changed
 
-Sam Art: Adarin; only applies when genderswapped
-Sam Genderswapped: true, false
-Sam Name: Any string; defaults to Sam; only applies when genderswapped
-Sam First Name: Any string; defaults to Samantha; only applies when genderswapped
+Sam Art: Adarin
+Sam Portrait Changed: true, false
+Sam Sprites Changed: true, false
+Sam Dialogue Changed: true, false
+Sam Name: Any string; defaults to Sam; applies only when dialogue changed
+Sam First Name: Any string; defaults to Samantha; applies only when dialogue changed
 
-Sebastian Art: Adarin, Adarin Variant; only applies when genderswapped
-Sebastian Genderswapped: true, false
-Sebastian Name: Any string; defaults to Sabrina; only applies when genderswapped
-Sebastian Nickname: Any string; defaults to Rina; only applies when genderswapped
+Sebastian Art: Adarin, Adarin Variant
+Sebastian Portrait Changed: true, false
+Sebastian Sprites Changed: true, false
+Sebastian Dialogue Changed: true, false
+Sebastian Name: Any string; defaults to Sabrina; applies only when dialogue changed
+Sebastian Nickname: Any string; defaults to Rina; applies only when dialogue changed
 
-Shane Art: Exrenkon, Lydomia; only applies when genderswapped
-Shane Genderswapped: true, false
-Shane Name: Any string; defaults to Shania; only applies when genderswapped
+Shane Art: Exrenkon, Lydomia
+Shane Portrait Changed: true, false
+Shane Sprites Changed: true, false
+Shane Dialogue Changed: true, false
+Shane Name: Any string; defaults to Shania; applies only when dialogue changed
 
-Willy Art: Bajel; only applies when genderswapped
+Willy Art: Bajel
+Willy Portrait Changed: true, false
+Willy Sprites Changed: true, false
 Willy Genderswapped: true, false
-Willy Name: Any string; defaults to Winnie; only applies when genderswapped
+Willy Name: Any string; defaults to Winnie; applies only when dialogue changed
 
-Wizard Art: CreepyKat; only applies when genderswapped
-Wizard Genderswapped: true, false
-Wizard Title: Any string; defaults to Wizardess; only applies when genderswapped
-Wizard Name: Any string; defaults to Rasmodia; only applies when genderswapped
+Wizard Art: CreepyKat
+Wizard Portrait Changed: true, false
+Wizard Sprites Changed: true, false
+Wizard Dialogue Changed: true, false
+Wizard Title: Any string; defaults to Wizardess; applies only when dialogue changed
+Wizard Name: Any string; defaults to Rasmodia; applies only when dialogue changed
 
 I highly recommend using the Generic Mod Config Menu mod to edit these values:
 https://https://www.nexusmods.com/stardewvalley/mods/5098
