@@ -5,7 +5,7 @@
 			"Target": "Portraits/Harvey",
 			"FromFile": "assets/Portraits/Harvey/{{Harvey Art}}.png",
 			"When": {
-				"Harvey Genderswapped": "true"
+				"Harvey Portrait Changed": "true"
 			}
 		},
 
@@ -14,7 +14,7 @@
 			"Target": "Portraits/Harvey_Beach",
 			"FromFile": "assets/Portraits/Harvey/RedK1rby_Beach.png",
 			"When": {
-				"Harvey Genderswapped": "true"
+				"Harvey Portrait Changed": "true"
 			}
         },
         
@@ -23,7 +23,7 @@
 			"Target": "Characters/Harvey",
 			"FromFile": "assets/Characters/Harvey/{{Harvey Art}}.png",
 			"When": {
-				"Harvey Genderswapped": "true"
+				"Harvey Sprites Changed": "true"
 			}
 		},
 
@@ -32,7 +32,7 @@
 			"Target": "Characters/Harvey_Beach",
 			"FromFile": "assets/Characters/Harvey/RedK1rby_Beach.png",
 			"When": {
-				"Harvey Genderswapped": "true"
+				"Harvey Sprites Changed": "true"
 			}
 		}
     ]

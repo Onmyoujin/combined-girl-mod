@@ -5,7 +5,7 @@
 			"Target": "Portraits/Wizard",
 			"FromFile": "assets/Portraits/Wizard/{{Wizard Art}}.png",
 			"When": {
-				"Wizard Genderswapped": "true"
+				"Wizard Portrait Changed": "true"
 			}
 		},
 		
@@ -14,7 +14,7 @@
 			"Target": "Characters/Wizard",
 			"FromFile": "assets/Characters/Wizard/{{Wizard Art}}.png",
 			"When": {
-				"Wizard Genderswapped": "true"
+				"Wizard Sprites Changed": "true"
 			}
 		}
     ]

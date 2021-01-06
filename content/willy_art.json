@@ -5,7 +5,7 @@
 			"Target": "Portraits/Willy",
 			"FromFile": "assets/Portraits/Willy/{{Willy Art}}.png",
 			"When": {
-				"Willy Genderswapped": "true"
+				"Willy Portrait Changed": "true"
 			}
         },
         
@@ -14,7 +14,7 @@
 			"Target": "Characters/Willy",
 			"FromFile": "assets/Characters/Willy/{{Willy Art}}.png",
 			"When": {
-				"Willy Genderswapped": "true"
+				"Willy Sprites Changed": "true"
 			}
 		}
     ]

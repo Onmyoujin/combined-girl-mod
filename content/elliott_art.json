@@ -5,7 +5,7 @@
 			"Target": "Portraits/Elliott",
 			"FromFile": "assets/Portraits/Elliott/{{Elliott Art}}.png",
 			"When": {
-				"Elliott Genderswapped": "true"
+				"Elliott Portrait Changed": "true"
 			}
 		},
 
@@ -14,7 +14,7 @@
 			"Target": "Portraits/Elliott_Beach",
 			"FromFile": "assets/Portraits/Elliott/Adarin_Beach.png",
 			"When": {
-				"Elliott Genderswapped": "true"
+				"Elliott Portrait Changed": "true"
 			}
         },
         
@@ -23,7 +23,7 @@
 			"Target": "Characters/Elliott",
 			"FromFile": "assets/Characters/Elliott/{{Elliott Art}}.png",
 			"When": {
-				"Elliott Genderswapped": "true"
+				"Elliott Sprites Changed": "true"
 			}
 		},
 
@@ -32,7 +32,7 @@
 			"Target": "Characters/Elliott_Beach",
 			"FromFile": "assets/Characters/Elliott/{{Elliott Art}}_Beach.png",
 			"When": {
-				"Elliott Genderswapped": "true"
+				"Elliott Sprites Changed": "true"
 			}
 		}
     ]

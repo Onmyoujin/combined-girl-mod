@@ -5,7 +5,7 @@
 			"Target": "Portraits/Alex",
 			"FromFile": "assets/Portraits/Alex/{{Alex Art}}.png",
 			"When": {
-				"Alex Genderswapped": "true"
+				"Alex Portrait Changed": "true"
 			}
 		},
 
@@ -14,7 +14,7 @@
 			"Target": "Portraits/Alex_Beach",
 			"FromFile": "assets/Portraits/Alex/{{Alex Art}}_Beach.png",
 			"When": {
-				"Alex Genderswapped": "true"
+				"Alex Portrait Changed": "true"
 			}
         },
         
@@ -23,7 +23,7 @@
 			"Target": "Characters/Alex",
 			"FromFile": "assets/Characters/Alex/{{Alex Art}}.png",
 			"When": {
-				"Alex Genderswapped": "true"
+				"Alex Sprites Changed": "true"
 			}
 		},
 
@@ -32,7 +32,7 @@
 			"Target": "Characters/Alex_Beach",
 			"FromFile": "assets/Characters/Alex/{{Alex Art}}_Beach.png",
 			"When": {
-				"Alex Genderswapped": "true"
+				"Alex Sprites Changed": "true"
 			}
 		}
     ]

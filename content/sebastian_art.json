@@ -5,7 +5,7 @@
 			"Target": "Portraits/Sebastian",
 			"FromFile": "assets/Portraits/Sebastian/{{Sebastian Art}}.png",
 			"When": {
-				"Sebastian Genderswapped": "true"
+				"Sebastian Portrait Changed": "true"
 			}
 		},
 
@@ -14,7 +14,7 @@
 			"Target": "Portraits/Sebastian_Beach",
 			"FromFile": "assets/Portraits/Sebastian/{{Sebastian Art}}_Beach.png",
 			"When": {
-				"Sebastian Genderswapped": "true"
+				"Sebastian Portrait Changed": "true"
 			}
         },
         
@@ -25,7 +25,7 @@
 			"FromFile": "assets/LooseSprites/Sebastian/default.png",
 			"ToArea": { "X": 405, "Y": 1852, "Width": 47, "Height": 35 },
 			"When": {
-				"Sebastian Genderswapped": "true"
+				"Sebastian Sprites Changed": "true"
 			}
         },
         
@@ -34,7 +34,7 @@
 			"Target": "Characters/Sebastian",
 			"FromFile": "assets/Characters/Sebastian/{{Sebastian Art}}.png",
 			"When": {
-				"Sebastian Genderswapped": "true"
+				"Sebastian Sprites Changed": "true"
 			}
 		},
 
@@ -43,7 +43,7 @@
 			"Target": "Characters/Sebastian_Beach",
 			"FromFile": "assets/Characters/Sebastian/{{Sebastian Art}}_Beach.png",
 			"When": {
-				"Sebastian Genderswapped": "true"
+				"Sebastian Sprites Changed": "true"
 			}
 		}
     ]

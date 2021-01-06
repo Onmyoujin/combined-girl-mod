@@ -4,58 +4,98 @@
 		"Alex Art": {
 			"AllowValues": "Adarin, Adarin Variant",
 			"Default": "Adarin",
-			"Description": "Portrait and sprite options.  Only applies when genderswapped."
+			"Description": "Portrait and sprite options."
 		},
-		"Alex Genderswapped": {
+		"Alex Portrait Changed": {
 			"AllowValues": "true, false",
 			"Default": "true",
-			"Description": "Genderswap status."
+			"Description": "Enable portrait art changes."
+		},
+		"Alex Sprites Changed": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable sprite art changes."
+		},
+		"Alex Dialogue Changed": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable dialogue changes."
 		},
 		"Alex Name": {
 			"Default": "Alexa",
-			"Description": "NPC name."
+			"Description": "NPC name.  Applied only when dialogue changes are enabled."
 		},
 		"Elliott Art": {
 			"AllowValues": "Adarin, Adarin Variant",
 			"Default": "Adarin",
-			"Description": "Portrait and sprite options.  Only applies when genderswapped."
+			"Description": "Portrait and sprite options."
 		},
-		"Elliott Genderswapped": {
+		"Elliott Portrait Changed": {
 			"AllowValues": "true, false",
 			"Default": "true",
-			"Description": "Genderswap status."
+			"Description": "Enable portrait art changes."
+		},
+		"Elliott Sprites Changed": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable sprite art changes."
+		},
+		"Elliott Dialogue Changed": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable dialogue changes."
 		},
 		"Elliott Name": {
 			"Default": "Elayne",
-			"Description": "NPC name."
+			"Description": "NPC name.  Applied only when dialogue changes are enabled."
 		},
 		"Harvey Art": {
 			"AllowValues": "Adarin",
 			"Default": "Adarin",
-			"Description": "Portrait and sprite options.  Only applies when genderswapped."
+			"Description": "Portrait and sprite options."
 		},
-		"Harvey Genderswapped": {
+		"Harvey Portrait Changed": {
 			"AllowValues": "true, false",
 			"Default": "true",
-			"Description": "Genderswap status."
+			"Description": "Enable portrait art changes."
+		},
+		"Harvey Sprites Changed": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable sprite art changes."
+		},
+		"Harvey Dialogue Changed": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable dialogue changes."
 		},
 		"Harvey Name": {
 			"Default": "Harley",
-			"Description": "NPC name."
+			"Description": "NPC name.  Applied only when dialogue changes are enabled."
 		},
 		"Sam Art": {
 			"AllowValues": "Adarin",
 			"Default": "Adarin",
-			"Description": "Portrait and sprite options.  Only applies when genderswapped."
+			"Description": "Portrait and sprite options."
 		},
-		"Sam Genderswapped": {
+		"Sam Portrait Changed": {
 			"AllowValues": "true, false",
 			"Default": "true",
-			"Description": "Genderswap status."
+			"Description": "Enable portrait art changes."
+		},
+		"Sam Sprites Changed": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable sprite art changes."
+		},
+		"Sam Dialogue Changed": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable dialogue changes."
 		},
 		"Sam Name": {
 			"Default": "Sam",
-			"Description": "NPC name."
+			"Description": "NPC name.  Applied only when dialogue changes are enabled."
 		},
 		"Sam First Name": {
 			"Default": "Samantha",
@@ -64,16 +104,26 @@
 		"Sebastian Art": {
 			"AllowValues": "Adarin, Adarin Variant",
 			"Default": "Adarin",
-			"Description": "Portrait and sprite options.  Only applies when genderswapped."
+			"Description": "Portrait and sprite options."
 		},
-		"Sebastian Genderswapped": {
+		"Sebastian Portrait Changed": {
 			"AllowValues": "true, false",
 			"Default": "true",
-			"Description": "Genderswap status."
+			"Description": "Enable portrait art changes."
+		},
+		"Sebastian Sprites Changed": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable sprite art changes."
+		},
+		"Sebastian Dialogue Changed": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable dialogue changes."
 		},
 		"Sebastian Name": {
 			"Default": "Sabrina",
-			"Description": "NPC name."
+			"Description": "NPC name.  Applied only when dialogue changes are enabled."
 		},
 		"Sebastian Nickname": {
 			"Default": "Rina",
@@ -82,40 +132,70 @@
 		"Shane Art": {
 			"AllowValues": "Exrenkon, Lydomia",
 			"Default": "Exrenkon",
-			"Description": "Portrait and sprite options.  Only applies when genderswapped."
+			"Description": "Portrait and sprite options."
 		},
-		"Shane Genderswapped": {
+		"Shane Portrait Changed": {
 			"AllowValues": "true, false",
 			"Default": "true",
-			"Description": "Genderswap status."
+			"Description": "Enable portrait art changes."
+		},
+		"Shane Sprites Changed": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable sprite art changes."
+		},
+		"Shane Dialogue Changed": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable dialogue changes."
 		},
 		"Shane Name": {
 			"Default": "Shania",
-			"Description": "NPC name."
+			"Description": "NPC name.  Applied only when dialogue changes are enabled."
 		},
 		"Willy Art": {
 			"AllowValues": "Bajel",
 			"Default": "Bajel",
-			"Description": "Portrait and sprite options.  Only applies when genderswapped."
+			"Description": "Portrait and sprite options."
 		},
-		"Willy Genderswapped": {
+		"Willy Portrait Changed": {
 			"AllowValues": "true, false",
 			"Default": "true",
-			"Description": "Genderswap status."
+			"Description": "Enable portrait art changes."
+		},
+		"Willy Sprites Changed": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable sprite art changes."
+		},
+		"Willy Dialogue Changed": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable dialogue changes."
 		},
 		"Willy Name": {
 			"Default": "Winnie",
-			"Description": "NPC name."
+			"Description": "NPC name.  Applied only when dialogue changes are enabled."
 		},
 		"Wizard Art": {
 			"AllowValues": "CreepyKat",
 			"Default": "CreepyKat",
-			"Description": "Portrait and sprite options.  Only applies when genderswapped."
+			"Description": "Portrait and sprite options."
 		},
-		"Wizard Genderswapped": {
+		"Wizard Portrait Changed": {
 			"AllowValues": "true, false",
 			"Default": "true",
-			"Description": "Genderswap status."
+			"Description": "Enable portrait art changes."
+		},
+		"Wizard Sprites Changed": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable sprite art changes."
+		},
+		"Wizard Dialogue Changed": {
+			"AllowValues": "true, false",
+			"Default": "true",
+			"Description": "Enable dialogue changes."
 		},
 		"Wizard Title": {
 			"Default": "Wizardess",
