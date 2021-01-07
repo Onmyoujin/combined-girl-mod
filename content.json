@@ -26,7 +26,7 @@
 			"Description": "NPC name.  Applied only when dialogue changes are enabled."
 		},
 		"Elliott Art": {
-			"AllowValues": "Adarin, Adarin Variant",
+			"AllowValues": "Adarin, Adarin Variant, Exrenkon",
 			"Default": "Adarin",
 			"Description": "Portrait and sprite options."
 		},
@@ -50,7 +50,7 @@
 			"Description": "NPC name.  Applied only when dialogue changes are enabled."
 		},
 		"Harvey Art": {
-			"AllowValues": "Adarin",
+			"AllowValues": "Adarin, RedK1rby",
 			"Default": "Adarin",
 			"Description": "Portrait and sprite options."
 		},
@@ -74,7 +74,7 @@
 			"Description": "NPC name.  Applied only when dialogue changes are enabled."
 		},
 		"Sam Art": {
-			"AllowValues": "Adarin",
+			"AllowValues": "Adarin, KonaKona7",
 			"Default": "Adarin",
 			"Description": "Portrait and sprite options."
 		},
@@ -178,7 +178,7 @@
 			"Description": "NPC name.  Applied only when dialogue changes are enabled."
 		},
 		"Wizard Art": {
-			"AllowValues": "CreepyKat",
+			"AllowValues": "CreepyKat, Wew69",
 			"Default": "CreepyKat",
 			"Description": "Portrait and sprite options."
 		},
