@@ -12,7 +12,7 @@
         {
 			"Action": "EditImage",
 			"Target": "Portraits/Shane_Beach",
-			"FromFile": "assets/Portraits/Shane/KonaKona7_Beach.png",
+			"FromFile": "assets/Portraits/Shane/{{Shane Art}}_Beach.png",
 			"When": {
 				"Shane Portrait Changed": "true"
 			}
@@ -50,7 +50,7 @@
 		{
 			"Action": "EditImage",
 			"Target": "Characters/Shane_Beach",
-			"FromFile": "assets/Characters/Shane/KonaKona7_Beach.png",
+			"FromFile": "assets/Characters/Shane/{{Shane Art}}_Beach.png",
 			"When": {
 				"Shane Sprites Changed": "true"
 			}

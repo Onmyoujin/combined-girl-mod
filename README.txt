@@ -27,19 +27,19 @@ Alex Sprites Changed: true, false
 Alex Dialogue Changed: true, false
 Alex Name: Any string; defaults to Alexa; applies only when dialogue changed
 
-Elliott Art: Adarin, Adarin Variant
+Elliott Art: Adarin, Adarin Variant, Exrenkon
 Elliott Portrait Changed: true, false
 Elliott Sprites Changed: true, false
 Elliott Dialogue Changed: true, false
 Elliott Name: Any string; defaults to Elayne; applies only when dialogue changed
 
-Harvey Art: Adarin
+Harvey Art: Adarin, RedK1rby
 Harvey Portrait Changed: true, false
 Harvey Sprites Changed: true, false
 Harvey Dialogue Changed: true, false
 Harvey Name: Any string; defaults to Harley; applies only when dialogue changed
 
-Sam Art: Adarin
+Sam Art: Adarin, KonaKona7
 Sam Portrait Changed: true, false
 Sam Sprites Changed: true, false
 Sam Dialogue Changed: true, false
@@ -65,7 +65,7 @@ Willy Sprites Changed: true, false
 Willy Genderswapped: true, false
 Willy Name: Any string; defaults to Winnie; applies only when dialogue changed
 
-Wizard Art: CreepyKat
+Wizard Art: CreepyKat, Wew69
 Wizard Portrait Changed: true, false
 Wizard Sprites Changed: true, false
 Wizard Dialogue Changed: true, false
@@ -80,13 +80,12 @@ https://https://www.nexusmods.com/stardewvalley/mods/5098
  * AdarinSinner - Portraits and sprites for Alex, Elliott, Harvey, Sam, and Sebastian
  * bajel - Portraits and sprites for Willy
  * CreepyKat - Portraits and sprites for Wizard
- * exrenkon - Portraits and sprites for Shane
+ * exrenkon - Portraits and sprites for Shane and Elliott
  * Farmer Jack - Sprites for Shane
  * komina12345 - Portraits and sprites for Alex, Elliott, and Sebastian
- * KonaKona7 - Portraits and sprites for Alex, Elliott, Sebastian, Shane, and Wizard
+ * KonaKona7 - Portraits and sprites for Alex, Elliott, Sam, Sebastian, Shane, and Wizard
  * Lydomia - Alternate portraits and sprites for Shane
  * Onmyoujin - Content Patcher conversion of all assets; Dialogue changes; Sprites for
                Alex, Elliott, Sebastian, Shane, and Willy
  * RedK1rby - Portraits and sprites for Alex, Elliot, Harvey, Sam, and Sebastian
-
- 
+ * Wew69 - Portraits for Wizard

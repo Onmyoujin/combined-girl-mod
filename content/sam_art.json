@@ -12,7 +12,7 @@
 		{
 			"Action": "EditImage",
 			"Target": "Portraits/Sam_Beach",
-			"FromFile": "assets/Portraits/Sam/RedK1rby_Beach.png",
+			"FromFile": "assets/Portraits/Sam/{{Sam Art}}_Beach.png",
 			"When": {
 				"Sam Portrait Changed": "true"
 			}
@@ -30,7 +30,7 @@
 		{
 			"Action": "EditImage",
 			"Target": "Characters/Sam_Beach",
-			"FromFile": "assets/Characters/Sam/RedK1rby_Beach.png",
+			"FromFile": "assets/Characters/Sam/{{Sam Art}}_Beach.png",
 			"When": {
 				"Sam Sprites Changed": "true"
 			}
