@@ -112,7 +112,7 @@
 			"Action": "EditData",
 			"Target": "Data/NPCDispositions",
 			"Entries": {
-				"Willy": "adult/neutral/neutral/neutral/female/not-datable/null/Town/summer 24/Elliott ''/FishShop 5 4/{{Willy Name}}"
+				"Willy": "adult/neutral/neutral/neutral/male/not-datable/null/Town/summer 24/Elliott ''/FishShop 5 4/{{Willy Name}}"
 			},
 			"When": {
 				"Willy Dialogue Changed": "true"

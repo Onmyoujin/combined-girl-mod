@@ -99,9 +99,7 @@
 			"Action": "EditData",
 			"Target": "Data/NPCDispositions",
 			"Entries": {
-				"Sam": "teen/neutral/outgoing/positive/female/datable/Penny/Town/summer 17/Vincent 'little_brother' Jodi 'mom' Kent 'dad' Sebastian ''/SamHouse 22 13/{{Sam Name}}",
-				"Jodi": "adult/polite/neutral/neutral/female/not-datable/Kent/Town/fall 11/Sam 'daughter' Vincent 'son' Kent 'husband'/SamHouse 4 5/Jodi",
-				"Kent": "adult/neutral/shy/negative/male/not-datable/Jodi/Town/spring 4/Jodi 'wife' Sam 'daughter' Vincent 'son'/SamHouse 22 5/Kent"
+				"Sam": "teen/neutral/outgoing/positive/male/datable/Penny/Town/summer 17/Vincent 'little_brother' Jodi 'mom' Kent 'dad' Sebastian ''/SamHouse 22 13/{{Sam Name}}"
 			},
 			"When": {
 				"Sam Dialogue Changed": "true"

@@ -78,7 +78,7 @@
 			"Action": "EditData",
 			"Target": "Data/NPCDispositions",
 			"Entries": {
-				"Harvey": "adult/polite/shy/positive/female/datable/Maru/Town/winter 14//HarveyRoom 13 4/{{Harvey Name}}"
+				"Harvey": "adult/polite/shy/positive/male/datable/Maru/Town/winter 14//HarveyRoom 13 4/{{Harvey Name}}"
 			},
 			"When": {
 				"Harvey Dialogue Changed": "true"
