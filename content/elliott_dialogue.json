@@ -62,7 +62,7 @@
 			"Action": "EditData",
 			"Target": "Data/NPCDispositions",
 			"Entries": {
-				"Elliott": "adult/polite/neutral/neutral/female/datable/Leah/Town/fall 5/Willy ''/ElliottHouse 1 5/{{Elliott Name}}"
+				"Elliott": "adult/polite/neutral/neutral/male/datable/Leah/Town/fall 5/Willy ''/ElliottHouse 1 5/{{Elliott Name}}"
 			},
 			"When": {
 				"Elliott Dialogue Changed": "true"

@@ -43,7 +43,7 @@
 			"Action": "EditData",
 			"Target": "Data/NPCDispositions",
 			"Entries": {
-				"Wizard": "adult/rude/neutral/negative/female/not-datable/null/Other/winter 17//WizardHouse 3 17/{{Wizard Title}}"
+				"Wizard": "adult/rude/neutral/negative/male/not-datable/null/Other/winter 17//WizardHouse 3 17/{{Wizard Title}}"
 			},
 			"When": {
 				"Wizard Dialogue Changed": "true"

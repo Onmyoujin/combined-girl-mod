@@ -125,9 +125,7 @@
 			"Action": "EditData",
 			"Target": "Data/NPCDispositions",
 			"Entries": {
-				"Sebastian": "teen/rude/shy/negative/female/datable/Abigail/Town/winter 10/Robin 'mom' Maru 'half-sister' Sam ''/SebastianRoom 10 9/{{Sebastian Name}}",
-				"Maru": "teen/neutral/outgoing/positive/female/datable/Harvey/Town/summer 10/Robin 'mom' Demetrius 'dad' Sebastian 'half-sister'/ScienceHouse 2 4/Maru",
-				"Robin": "adult/neutral/outgoing/positive/female/not-datable/Demetrius/Town/fall 21/Demetrius 'husband' Maru 'youngest_daughter' Sebastian 'eldest_daughter'/ScienceHouse 21 4/Robin"
+				"Sebastian": "teen/rude/shy/negative/male/datable/Abigail/Town/winter 10/Robin 'mom' Maru 'half-sister' Sam ''/SebastianRoom 10 9/{{Sebastian Name}}"
 			},
 			"When": {
 				"Sebastian Dialogue Changed": "true"
