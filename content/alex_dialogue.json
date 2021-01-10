@@ -95,9 +95,7 @@
 			"Action": "EditData",
 			"Target": "Data/NPCDispositions",
 			"Entries": {
-				"Alex": "adult/rude/outgoing/positive/male/datable/Haley/Town/summer 13/George 'grandpa' Evelyn 'grandma'/JoshHouse 19 5/{{Alex Name}}",
-				"Evelyn": "adult/polite/outgoing/positive/female/not-datable/George/Town/winter 20/George 'husband' Alex 'granddaughter'/JoshHouse 2 17/Evelyn",
-				"George": "adult/rude/neutral/negative/male/not-datable/Evelyn/Town/fall 24/Evelyn 'wife' Alex 'granddaughter'/JoshHouse 16 22/George"
+				"Alex": "adult/rude/outgoing/positive/male/datable/Haley/Town/summer 13/George 'grandpa' Evelyn 'grandma'/JoshHouse 19 5/{{Alex Name}}"
 			},
 			"When": {
 				"Alex Dialogue Changed": "true"

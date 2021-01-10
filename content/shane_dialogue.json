@@ -67,8 +67,7 @@
 			"Action": "EditData",
 			"Target": "Data/NPCDispositions",
 			"Entries": {
-				"Shane": "adult/rude/shy/negative/male/datable/null/Town/spring 20/Marnie 'aunt'/AnimalShop 25 6/{{Shane Name}}",
-				"Marnie": "adult/polite/outgoing/positive/female/not-datable/Lewis/Town/fall 18/Lewis '' Shane 'eldest_niece' Jas 'youngest_niece'/AnimalShop 12 14/Marnie"
+				"Shane": "adult/rude/shy/negative/male/datable/null/Town/spring 20/Marnie 'aunt'/AnimalShop 25 6/{{Shane Name}}"
 			},
 			"When": {
 				"Shane Dialogue Changed": "true"
