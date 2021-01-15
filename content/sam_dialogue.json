@@ -5,6 +5,8 @@
 			"Target": "Characters/Dialogue/Jodi",
 			"Entries": {
 				"Thu6": "Where does all the time go? *sigh*#$e#I remember when {{Sam Name}} was a little baby wearing diapers. She was such a cute little kid.$s#$e#Don't tell her I said that.$h#$e#You must really like talking to me, huh?",
+				"Sun8": "I had a dream that I had complete freedom, no obligation to anyone but myself...#$b#...Then I woke up and realized I had a full day of house chores ahead of me...$s#$e#But I don't regret having a family, @... {{Sam Name}} and Vincent mean everything to me!",
+				"summer_Tue_inlaw_Sam": "How's my little {{Sam Nickname}} doing on the old farm?$h",
 				"fall_Thu": "Maybe I've spoiled the kids a bit. They've never had to do any chores.#$e#I guess I want them to be able to enjoy their childhood while they still can. Well, {{Sam Name}}'s basically a woman now, though.#$b#I hope she hasn't grown up to be lazy. That won't do.$s#$e#Being a parent isn't very easy.",
 				"fall_Thu_inlaw_Sam": "Is {{Sam Name}} just bumming around the farm, or is she contributing?",
 				"winter_Thu": "{{Sam Name}} makes a lot of noise with that music of hers. I hope it doesn't disturb the neighbors.",
@@ -65,13 +67,29 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sam",
 			"Entries": {
+				"Introduction": "Hey, I'm {{Sam Name}}. Good to meet you.$h",
+				"Resort_Towel": "%{{Sam Name}} is playing a jazzy tune on his guitar.",
 				"Mon8": "I'll tell you a secret... my name '{{Sam Name}}' is short for '{{Sam First Name}}'.$l#$e#Most people don't know that so keep it on mute.",
 				"Wed10": "@. Um... I just wanted to say... You look nice today.$10^Hey girl. You look like you're full of energy today!"
 			},
 			"When": {
 				"Sam Dialogue Changed": "true"
 			}
-        },
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sebastian",
+			"Entries": {
+				"Wed2": "{{Sam Name}} is probably my only friend in this town.#$e#Well, Abby is nice too, but...$h#$e#Umm.. nevermind.",
+				"Wed2_inlaw_Abigail": "{{Sam Name}} is probably my only friend in this town, anymore...",
+				"Wed6": "You and {{Sam Name}} are probably my only friends in this town.$s",
+				"Fri8": "What's new?$h#$e#I'll be at the saloon tonight destroying {{Sam Name}} at pool again.$h"
+			},
+			"When": {
+				"Sam Dialogue Changed": "true"
+			}
+		},
         
         {
 			"Action": "EditData",
