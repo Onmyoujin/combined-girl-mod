@@ -10,6 +10,42 @@
 				"Alex Dialogue Changed": "true",
 				"Shane Dialogue Changed": "false"
 			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/SecretNotes",
+			"Entries": {
+				"2": "It's {{Sam Name}}'s holiday shopping list^^Everyone's favorites^^Sebastian: Frozen Tear, Sashimi^Penny: Emerald, Poppy^Vincent: Grape, Cranberry Candy^Mom: Crispy Bass, Pancakes^Dad: Risotto, Roasted Hazelnuts^Me: Cactus, Maple Bar, Pizza%revealtasteSebastian84%revealtasteSebastian227%revealtastePenny60%revealtastePenny376%revealtasteVincent398%revealtasteVincent612%revealtasteJodi214%revealtasteJodi211%revealtasteKent649%revealtasteKent607%revealtasteSam90%revealtasteSam731%revealtasteSam206"
+			},
+			"When": {
+				"Sam Dialogue Changed": "true",
+				"Sebastian Dialogue Changed": "false"
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/SecretNotes",
+			"Entries": {
+				"2": "It's Sam's holiday shopping list^^Everyone's favorites^^{{Sebastian Name}}: Frozen Tear, Sashimi^Penny: Emerald, Poppy^Vincent: Grape, Cranberry Candy^Mom: Crispy Bass, Pancakes^Dad: Risotto, Roasted Hazelnuts^Me: Cactus, Maple Bar, Pizza%revealtasteSebastian84%revealtasteSebastian227%revealtastePenny60%revealtastePenny376%revealtasteVincent398%revealtasteVincent612%revealtasteJodi214%revealtasteJodi211%revealtasteKent649%revealtasteKent607%revealtasteSam90%revealtasteSam731%revealtasteSam206"
+			},
+			"When": {
+				"Sam Dialogue Changed": "false",
+				"Sebastian Dialogue Changed": "true"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/SecretNotes",
+			"Entries": {
+				"2": "It's {{Sam Name}}'s holiday shopping list^^Everyone's favorites^^{{Sebastian Name}}: Frozen Tear, Sashimi^Penny: Emerald, Poppy^Vincent: Grape, Cranberry Candy^Mom: Crispy Bass, Pancakes^Dad: Risotto, Roasted Hazelnuts^Me: Cactus, Maple Bar, Pizza%revealtasteSebastian84%revealtasteSebastian227%revealtastePenny60%revealtastePenny376%revealtasteVincent398%revealtasteVincent612%revealtasteJodi214%revealtasteJodi211%revealtasteKent649%revealtasteKent607%revealtasteSam90%revealtasteSam731%revealtasteSam206"
+			},
+			"When": {
+				"Sam Dialogue Changed": "true",
+				"Sebastian Dialogue Changed": "true"
+			}
         },
 
         {

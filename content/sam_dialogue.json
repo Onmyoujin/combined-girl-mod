@@ -111,7 +111,19 @@
 			"When": {
 				"Sam Dialogue Changed": "true"
 			}
-        },
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/mail",
+			"Entries": {
+				"afterSamShow": "@,^the show was a rockin' success! I wanted to say thanks again for all your help in creating this amazing band. We couldn't have done it without you!   ^   -{{Sam Name}}[#]{{Sam Name}}'s Thank-you Note",
+				"samMessage": "@,^meet me in front of my house tonight after dark. ^   -{{Sam Name}}[#]{{Sam Name}}'s Note"
+			},
+			"When": {
+				"Sam Dialogue Changed": "true"
+			}
+		},
         
         {
 			"Action": "EditData",
@@ -149,6 +161,17 @@
 						}
 					]
 				}
+			},
+			"When": {
+				"Sam Dialogue Changed": "true"
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/weapons",
+			"Entries": {
+				"30": "{{Sam Name}}'s Old Guitar/It's seen better days./1/3/1/-6/0/0/2/-1/-1/0/.02/3"
 			},
 			"When": {
 				"Sam Dialogue Changed": "true"
