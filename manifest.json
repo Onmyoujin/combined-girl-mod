@@ -1,7 +1,7 @@
 {
    "Name": "Combined Girl Mod",
    "Author": "Onmyoujin",
-   "Version": "1.4.7",
+   "Version": "1.4.8",
    "Description": "A combination of several boy to girl genderswap mods compatible with Content Patcher.",
    "UniqueID": "Onmyoujin.CombinedGirlMod",
    "MinimumApiVersion": "3.8.3",
@@ -9,5 +9,15 @@
    "ContentPackFor": {
       "UniqueID": "Pathoschild.ContentPatcher",
 	   "MinimumVersion": "1.19.2"
-   }
+   },
+   "Dependencies": [
+      {
+         "UniqueID": "supervortex2004.LewdAbby",
+         "IsRequired": false
+      },
+      {
+         "UniqueID": "Poltergeister.CuteSprites",
+         "IsRequired": false
+      }
+   ]
 }
