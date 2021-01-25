@@ -45,6 +45,7 @@ Sam Sprites Changed: true, false
 Sam Dialogue Changed: true, false
 Sam Name: Any string; defaults to Sam; applies only when dialogue changed
 Sam First Name: Any string; defaults to Samantha; applies only when dialogue changed
+Sam Nickname: Any string; defaults to Sammy; applies only when dialogue changed
 
 Sebastian Art: Adarin, Adarin Variant
 Sebastian Portrait Changed: true, false

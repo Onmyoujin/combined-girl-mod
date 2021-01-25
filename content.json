@@ -101,6 +101,10 @@
 			"Default": "Samantha",
 			"Description": "Sam's secret first name."
 		},
+		"Sam Nickname": {
+			"Default": "Sammy",
+			"Description": "Sam's nickname."
+		},
 		"Sebastian Art": {
 			"AllowValues": "Adarin, Adarin Variant",
 			"Default": "Adarin",
