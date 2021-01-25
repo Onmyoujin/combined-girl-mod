@@ -10,6 +10,28 @@
 				"Wizard Dialogue Changed": "true"
 			}
 		},
+
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Krobus",
+			"Entries": {
+				"reject_868": "Oh, it's an arctic shard! That's a very rare magical item.#$b#I'd bring that to the {{Wizard Title}} if I were you!"
+			},
+			"When": {
+				"Wizard Dialogue Changed": "true"
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueKrobus",
+			"Entries": {
+				"Rainy_Day_3": "I wonder if the {{Wizard Title}} knows about... this? I hope she can keep a secret.$s"
+			},
+			"When": {
+				"Wizard Dialogue Changed": "true"
+			}
+		},
 		
 		{
 			"Action": "EditData",
