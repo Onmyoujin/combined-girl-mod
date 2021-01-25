@@ -122,7 +122,18 @@
 			"When": {
 				"Alex Dialogue Changed": "true"
 			}
-        },
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Farm",
+			"Entries": {
+				"3917587/f Alex 3500/O Alex/t 500 820/M 5000/d Sun/y 2": "continue/-10000 -1000/farmer -100 -100 2 Alex -100 -100 2/warp Alex -100 -100/warp farmer -100 -100/faceDirection Alex 2/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp farmer 64 15/pause 500/move farmer 0 2 2/playSound doorClose/warp Alex 64 15/pause 300/faceDirection farmer 1 true/pause 100/faceDirection farmer 0/speak Alex \"Hey, @. Before you head out...#$b#I hate to ask this... but can I have 5,000g?#$b#It's for a secret project I'm working on... I know we have a joint bank account, but I thought I should ask anyway.\"/pause 1000/question fork0 \"Give {{Alex Name}} 5,000g for her secret project?#Yes#No\"/fork giveAlexMoney/playMusic none/pause 1000/emote Alex 12/speak Alex \"Really? You won't spare a measly 5,000g to make me happy?$a#$b#I didn't know you were such a cheapskate...$s\"/pause 500/faceDirection Alex 1 true/pause 100/faceDirection Alex 0/pause 500/emote Alex 28/pause 400/speak Alex \"I just wanted to have a little fun...$s\"/pause 800/playSound doorClose/warp Alex -100 -100/pause 2000/end dialogue Alex \"I don't want to talk to you right now...$s\""
+			},
+			"When": {
+				"Alex Dialogue Changed": "true"
+			}
+		},
         
         {
 			"Action": "EditData",
