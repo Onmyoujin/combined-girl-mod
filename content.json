@@ -298,6 +298,50 @@
 			"When": {
 				"Sebastian Dialogue Changed": true
 			}
+		},
+		{
+			"Name": "shane_name",
+			"Value": "Shane"
+		},
+		{
+			"Name": "shane_name",
+			"Value": "{{Shane Name}}",
+			"When": {
+				"Shane Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "willy_name",
+			"Value": "Willy"
+		},
+		{
+			"Name": "willy_name",
+			"Value": "{{Willy Name}}",
+			"When": {
+				"Willy Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "wizard_title",
+			"Value": "Wizard"
+		},
+		{
+			"Name": "wizard_title",
+			"Value": "{{Wizard Title}}",
+			"When": {
+				"Wizard Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "wizard_name",
+			"Value": "Rasmodius"
+		},
+		{
+			"Name": "wizard_name",
+			"Value": "{{Wizard Name}}",
+			"When": {
+				"Wizard Dialogue Changed": true
+			}
 		}
 	],
 	"Changes": [

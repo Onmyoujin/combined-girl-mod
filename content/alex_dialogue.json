@@ -4,16 +4,16 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Alex",
 			"Entries": {
-				"Introduction": "Oh, hey. So you're the new guy, huh? Cool.^Hey, you're the new girl, huh? I think we're going to get along great. I'm {{Alex Name}}.#$e#I'll see you around.",
-				"Resort_Chair": "Aren't you hot in that outfit? You gotta get some ocean breeze goin'!^Aren't you hot in that outfit? C'mon, girl... It's the beach!",
-				"Resort_Towel_2": "Phew, it feels good to finally get these curves a little sunlight.#$e#Kind of a shame to have them hidden away all the time back home.",
-				"Tue": "The beach is a cool place to hang out and soak up some rays.#e#You gotta spend some time in the sun or else you'll get all pale.#$e#Hey, do you wanna hang out with me at the beach some time? Do you wear trunks or briefs?$s^*sigh*... I wish there were more guys in this town, know what I mean?",
-				"Fri": "Hey, what's up farmer guy? Did you get new pants? You're doing something right.^Hey, it's farm girl.#e#Oh, I almost forgot! It's my day for doing push-ups!#e#Every time I do push-ups I try to do one more than last time. Pretty cool strategy, huh?",
-				"Sat": "My arms are really sore, but that's the sign of progress for a girl like me.#e#I must've done a thousand push-ups yesterday.",
-				"summer_Mon": "Hey, farmer guy. You've got a nice tan going.^Hey Farmer girl. You look a little burnt.$h#$e#The more I practice this summer, the easier it'll be for me to go pro.#$e#Then you'd be able to say you knew me once. Cool, huh?",
-				"summer_Tue": "If my hair wasn't so popular with the guys, I swear I'd shave it all off in a second.#$e#*sigh*... Life can be tough.",
-				"summer_Wed": "Hey farm guy, I've got a question for you.^Hey Farm girl, I've got a question for you.#$b#$q 52/53 summer_Wed_01_old#Do you think I'll ever turn pro?#$r 52 30 summer_Wed_01_01#You're destined to be a sports legend#$r 52 0 summer_Wed_01_02#Maybe, if you practice a lot#$r 53 -50 summer_Wed_01_03#No, you'll most likely fail and become a waitress",
-				"fall_Wed": "Hey, I want to ask you something.^Hey, can I ask you something?#$e#$q 54/55 fall_Wed_01_old#What do you think about my haircut?^Do you think the guys like my haircut?#$r 54 30 fall_Wed_01_01#It looks very fashionable.#$r 55 -30 fall_Wed_01_02#It looks like some kind of fungal growth."
+				"Introduction": "{{ i18n: alex.intro | name={{alex_name}} }}",
+				"Resort_Chair": "{{ i18n: alex.resort_chair }}",
+				"Resort_Towel_2": "{{ i18n: alex.resort_towel }}",
+				"Tue": "{{ i18n: alex.tue }}",
+				"Fri": "{{ i18n: alex.fri }}",
+				"Sat": "{{ i18n: alex.sat }}",
+				"summer_Mon": "{{ i18n: alex.summer_mon }}",
+				"summer_Tue": "{{ i18n: alex.summer_tue }}",
+				"summer_Wed": "{{ i18n: alex.summer_wed }}",
+				"fall_Wed": "{{ i18n: alex_fall_wed }}"
 			},
 			"When": {
 				"Alex Dialogue Changed": "true"
@@ -24,8 +24,8 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Evelyn",
 			"Entries": {
-				"summer_Mon_inlaw_Alex": "How's my granddaughter doing? I imagine she's quite happy living on the farm.#$e#She deserves to be happy... she's a good girl.",
-				"fall_Sat": "Are you friends with {{Alex Name}}?#$e#Sometimes she worries me sick."
+				"summer_Mon_inlaw_Alex": "{{ i18n: evelyn.summer_mon_inlaw_alex }}",
+				"fall_Sat": "{{ i18n: evelyn.fall_sat | name={{alex_name}} }}"
 			},
 			"When": {
 				"Alex Dialogue Changed": "true"
@@ -36,10 +36,10 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/George",
 			"Entries": {
-				"Wed": "{{Alex Name}} is my granddaughter. Have I told you that already?#$e#Huh? Speak up.",
-				"Wed_inlaw_Alex": "You're part of the family, now. I'm glad that my granddaughter found such a nice husband.^How can two women get married? It's unnatural... Hmmph. I guess I'm just \"old fashioned\"...",
-				"Wed10_inlaw_Alex": "You're part of the family, now... and I couldn't be more proud.^I'll admit, I thought it was... strange... for two women to be together. But you're such a nice young woman, and I know you two are in love... I've changed my mind.",
-				"Wed8": "I wish my legs worked so I could play catch with {{Alex Name}}.$s#$e#That'll never happen.$s"
+				"Wed": "{{ i18n: george.wed | name={{alex_name}} }}",
+				"Wed_inlaw_Alex": "{{ i18n: george.wed_inlaw_alex }}",
+				"Wed10_inlaw_Alex": "{{ i18n: george.wed10_inlaw_alex }}",
+				"Wed8": "{{ i18n: george.wed8 | name={{alex_name}} }}"
 			},
 			"When": {
 				"Alex Dialogue Changed": "true"
@@ -50,10 +50,10 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Haley",
 			"Entries": {
-				"Event_room1": "Her? No!#$b#...Well, I guess I used to like {{Alex Name}}. But not anymore! She's immature.",
-				"summer_Fri": "I wonder what {{Alex Name}} is doing today...#$e#Huh? I didn't notice you standing there.",
-				"winter_Sun": "Will you say hi to {{Alex Name}} for me?#$e#Thanks.",
-				"winter_Sun6": "Um, if you see {{Alex Name}} could you tell her I'm busy today?#$e#Thanks."
+				"Event_room1": "{{ i18n: haley.event_room1 | name={{alex_name}} }}",
+				"summer_Fri": "{{ i18n: haley.summer_fri | name={{alex_name}} }}",
+				"winter_Sun": "{{ i18n: haley.winter_sun | name={{alex_name}} }}",
+				"winter_Sun6": "{{ i18n: haley.winter_sun6 | name={{alex_name}} }}"
 			},
 			"When": {
 				"Alex Dialogue Changed": "true"
@@ -64,16 +64,16 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/MarriageDialogueAlex",
 			"Entries": {
-				"Rainy_Day_3": "*giggle*... I just woke up and I'm hungry for some protein.$9",
-				"Rainy_Day_4": "I think I might start reading books. I don't want to become stagnant now that I'm a married girl!",
-				"Rainy_Night_1": "How's it going? I've been carrying the old gridball around with me all day. A girl can pretend...$u",
-				"Rainy_Night_2": "Oh... the smell? I've been eating garlic all day. I'm trying to stay healthy... Sorry.$l",
-				"OneKid_0": "I'm still getting used to my new life as a stay-at-home mom.$h",
-				"OneKid_1": "Little %kid1 is going to grow up strong, just like me.",
-				"OneKid_3": "I wonder what it's like for other women to be pregnant...?$h",
-				"TwoKids_2": "Maybe %kid2 will be the first professional gridball player from Pelican Town?$h",
-				"spring_23": "Oh... tomorrow's the flower dance, isn't it? I better do some extra crunches tonight.$9#$e#Those dresses are pretty tight... and everyone's going to be watching closely.",
-				"summer_1": "Summer's a very energetic time of year, and my body feels it too! I feel solid."
+				"Rainy_Day_3": "{{ i18n: married.alex.rainy_day_3 }}",
+				"Rainy_Day_4": "{{ i18n: married.alex.rainy_day_4 }}",
+				"Rainy_Night_1": "{{ i18n: married.alex.rainy_night_1 }}",
+				"Rainy_Night_2": "{{ i18n: married.alex.rainy_night_2 }}",
+				"OneKid_0": "{{ i18n: married.alex.onekid_0 }}",
+				"OneKid_1": "{{ i18n: married.alex.onekid_1 }}",
+				"OneKid_3": "{{ i18n: married.alex.onekid_3 }}",
+				"TwoKids_2": "{{ i18n: married.alex.twokids_2 }}",
+				"spring_23": "{{ i18n: married.alex.spring_23 }}",
+				"summer_1": "{{ i18n: married.alex.summer_1 }}"
 			},
 			"When": {
 				"Alex Dialogue Changed": "true"
@@ -84,7 +84,7 @@
 			"Action": "EditData",
 			"Target": "Data/mail",
 			"Entries": {
-				"joshMessage": "@,^meet me at the saloon tonight after dark. ^   -{{Alex Name}}"
+				"joshMessage": "{{ i18n: mail.joshMessage | name={{alex_name}} }}"
 			},
 			"When": {
 				"Alex Dialogue Changed": "true"
@@ -95,7 +95,7 @@
 			"Action": "EditData",
 			"Target": "Data/NPCDispositions",
 			"Entries": {
-				"Alex": "adult/rude/outgoing/positive/male/datable/Haley/Town/summer 13/George 'grandpa' Evelyn 'grandma'/JoshHouse 19 5/{{Alex Name}}"
+				"Alex": "{{ i18n: npcdisp.alex | name={{alex_name}} }}"
 			},
 			"When": {
 				"Alex Dialogue Changed": "true"
@@ -106,7 +106,7 @@
 			"Action": "EditData",
 			"Target": "Data/SecretNotes",
 			"Entries": {
-				"9": "{{Alex Name}}'s Strength Training Diet:^^*Complete Breakfast^*Salmon Dinner^^(I've learned to love this food... I can feel the protein!!)%revealtasteAlex201%revealtasteAlex212"
+				"9": "{{ i18n: secrets.9 | name={{alex_name}} }}"
 			},
 			"When": {
 				"Alex Dialogue Changed": "true"
@@ -117,7 +117,7 @@
 			"Action": "EditData",
 			"Target": "Data/weapons",
 			"Entries": {
-				"25": "{{Alex Name}}'s Bat/The sweet spot is dented from {{Alex Name}}'s famous Grand Slam./1/3/1/-8/0/0/2/-1/-1/0/.02/3"
+				"25": "{{ i18n: weapons.25 | name={{alex_name}} }}"
 			},
 			"When": {
 				"Alex Dialogue Changed": "true"
@@ -128,7 +128,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/Farm",
 			"Entries": {
-				"3917587/f Alex 3500/O Alex/t 500 820/M 5000/d Sun/y 2": "continue/-10000 -1000/farmer -100 -100 2 Alex -100 -100 2/warp Alex -100 -100/warp farmer -100 -100/faceDirection Alex 2/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp farmer 64 15/pause 500/move farmer 0 2 2/playSound doorClose/warp Alex 64 15/pause 300/faceDirection farmer 1 true/pause 100/faceDirection farmer 0/speak Alex \"Hey, @. Before you head out...#$b#I hate to ask this... but can I have 5,000g?#$b#It's for a secret project I'm working on... I know we have a joint bank account, but I thought I should ask anyway.\"/pause 1000/question fork0 \"Give {{Alex Name}} 5,000g for her secret project?#Yes#No\"/fork giveAlexMoney/playMusic none/pause 1000/emote Alex 12/speak Alex \"Really? You won't spare a measly 5,000g to make me happy?$a#$b#I didn't know you were such a cheapskate...$s\"/pause 500/faceDirection Alex 1 true/pause 100/faceDirection Alex 0/pause 500/emote Alex 28/pause 400/speak Alex \"I just wanted to have a little fun...$s\"/pause 800/playSound doorClose/warp Alex -100 -100/pause 2000/end dialogue Alex \"I don't want to talk to you right now...$s\""
+				"3917587/f Alex 3500/O Alex/t 500 820/M 5000/d Sun/y 2": "continue/-10000 -1000/farmer -100 -100 2 Alex -100 -100 2/warp Alex -100 -100/warp farmer -100 -100/faceDirection Alex 2/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp farmer 64 15/pause 500/move farmer 0 2 2/playSound doorClose/warp Alex 64 15/pause 300/faceDirection farmer 1 true/pause 100/faceDirection farmer 0/speak Alex \"{{ i18n: events.3917587.0 }}\"/pause 1000/question fork0 \"{{ i18n: events.3917587.1 | name={{alex_name}} }}\"/fork giveAlexMoney/playMusic none/pause 1000/emote Alex 12/speak Alex \"{{ i18n: events.3917587.2 }}\"/pause 500/faceDirection Alex 1 true/pause 100/faceDirection Alex 0/pause 500/emote Alex 28/pause 400/speak Alex \"{{ i18n: events.3917587.3 }}\"/pause 800/playSound doorClose/warp Alex -100 -100/pause 2000/end dialogue Alex \"{{ i18n: events.3917587.4 }}\""
 			},
 			"When": {
 				"Alex Dialogue Changed": "true"
@@ -139,7 +139,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/JoshHouse",
 			"Entries": {
-				"2119820/f Alex 1500/p Alex": "jaunty/-1000 -1000/farmer 10 10 0 Alex 13 6 2/skippable/showFrame Alex 28/animate Alex false true 100 28 29 30 31 32 32 31 30 29 28/viewport 13 6 true/pause 6500/stopAnimation Alex/pause 1000/doAction 10 9/move farmer 0 -3 1/move farmer 2 0 0/showFrame Alex 34 true/animate Alex false false 100 28 33 34/pause 600/speak Alex \"Oh! Hey... I was just doing my daily strength training routine.$6#$b#... sorry I have my workout clothes on.$6\"/pause 1000/emote Alex 40/speak Alex \"Uh... @? I've been meaning to talk to you about something...$8\"/emote farmer 8/pause 1000/speak Alex \"I've started to realize that... well, that I've been really rude towards you in the past. You know, about going pro and all that.$8\"/pause 1000/showFrame Alex 33/pause 1000/speak Alex \"I guess I might not actually be cut out for professional sports... maybe it was just a childish dream... you know?$8#$b#Anyway... I want to apologize to you for bragging and being annoying about it. I appreciate that you stayed friends with me through all that.$6\"/move farmer 1 0 0/pause 1000/jump farmer/pause 800/showFrame Alex 34/pause 800/emote Alex 32/pause 1200/showFrame Alex 29/pause 100/showFrame Alex 28/pause 100/showFrame Alex 29/pause 100/animate Alex false true 50 30 31 32 32 31 30/pause 3000/globalFade/viewport -1000 -1000/end"
+				"2119820/f Alex 1500/p Alex": "jaunty/-1000 -1000/farmer 10 10 0 Alex 13 6 2/skippable/showFrame Alex 28/animate Alex false true 100 28 29 30 31 32 32 31 30 29 28/viewport 13 6 true/pause 6500/stopAnimation Alex/pause 1000/doAction 10 9/move farmer 0 -3 1/move farmer 2 0 0/showFrame Alex 34 true/animate Alex false false 100 28 33 34/pause 600/speak Alex \"{{ i18n: events.2119820.0 }}\"/pause 1000/emote Alex 40/speak Alex \"{{ i18n: events.2119820.1 }}\"/emote farmer 8/pause 1000/speak Alex \"{{ i18n: events.2119820.2 }}\"/pause 1000/showFrame Alex 33/pause 1000/speak Alex \"{{ i18n: events.2119820.3 }}\"/move farmer 1 0 0/pause 1000/jump farmer/pause 800/showFrame Alex 34/pause 800/emote Alex 32/pause 1200/showFrame Alex 29/pause 100/showFrame Alex 28/pause 100/showFrame Alex 29/pause 100/animate Alex false true 50 30 31 32 32 31 30/pause 3000/globalFade/viewport -1000 -1000/end"
 			},
 			"When": {
 				"Alex Dialogue Changed": "true"
@@ -150,7 +150,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/Saloon",
 			"Entries": {
-				"911526/f Alex 2500/t 1900 2200/n joshMessage": "gusviolin/-1000 -1000/farmer 5 5 1 Gus 10 6 2 Alex 9 5 3 Emily 9 17 2/skippable/showFrame 117/showFrame Alex 39/positionOffset farmer 12 8/positionOffset Alex -12 0/animate Gus false true 723 16 17/viewport 7 4 true/pause 23000/stopAnimation Gus/pause 1000/faceDirection Gus 3/speak Alex \"Thanks, Gus. That was great.\"/move Gus 0 1 1/move Gus 1 0 2/move Gus 0 1 2/doAction 11 9/move Gus 0 3 1/move Gus 12 0 3 true/speak Alex \"This is nice... I've never dined in here before.\"/pause 1000/emote Alex 40/speak Alex \"Um, anyway... I reserved this private room so we could talk...$l\"/warp Emily 11 11 true/playSound woodyStep/move Emily 0 -4 3/move Emily -4 0 0/move Emily 0 -1 0/speak Emily \"I've got a linguini with mushroom cream sauce for Mr. @.^I've got a kale and walnut salad for Ms. @.#$b#...and a grilled steak for {{Alex Name}}.^And a grilled steak for {{Alex Name}}.\"/playSound woodyHit/specificTemporarySprite joshDinner/speak Alex \"Thanks.\"/move Emily 4 0 2/move Emily 0 5 1/move Emily 11 0 1 true/speak Alex \"So, what I wanted to say was...$9\"/playMusic musicboxsong/speak Alex \"*gulp*$s\"/pause 600/speak Alex \"When I first met you, I thought you were really cute.$l^Well... when we first met, I was instantly drawn to you. It was confusing... I'd never felt that way about anyone.$l#$b#Normally, when I have a crush on someone, the feeling goes away pretty quick...$l^I kept telling myself 'You can't have these kinds of feelings for another girl'.$l\"/pause 800/speak Alex \"...But with you, it kept growing.$l^...But my heart was telling me something else.\"/pause 400/emote Alex 40/pause 600/question fork1 \"#I feel the same way.#I'm sorry... I don't feel that way about you.\"/pause 400/fork rejectJosh/speak Alex \"...$l#$b#I can't believe it took this long to say that to each other.$l\"/emote Alex 32/pause 800/animate Alex false false 400 40 41 41 40 41 41 40 41 41 40 41 41 40/pause 800/playSound eat/pause 800/playSound eat/pause 800/playSound eat/pause 800/playSound gulp/pause 400/speak Alex \"Mmm... this steak is outsanding. Can you smell that fragrant sauce?$10\"/eyes 1 -4000/animate Alex false false 400 40 41 41 40 41 41 40/pause 1000/specificTemporarySprite alexDiningDog/playSound dogWhining/pause 1000/globalFade/viewport -1000 -1000/pause 6000/end dialogue Alex \"...$l\""
+				"911526/f Alex 2500/t 1900 2200/n joshMessage": "gusviolin/-1000 -1000/farmer 5 5 1 Gus 10 6 2 Alex 9 5 3 Emily 9 17 2/skippable/showFrame 117/showFrame Alex 39/positionOffset farmer 12 8/positionOffset Alex -12 0/animate Gus false true 723 16 17/viewport 7 4 true/pause 23000/stopAnimation Gus/pause 1000/faceDirection Gus 3/speak Alex \"{{ i18n: events.911526.0 }}\"/move Gus 0 1 1/move Gus 1 0 2/move Gus 0 1 2/doAction 11 9/move Gus 0 3 1/move Gus 12 0 3 true/speak Alex \"{{ i18n: events.911526.1 }}\"/pause 1000/emote Alex 40/speak Alex \"{{ i18n: events.911526.2 }}\"/warp Emily 11 11 true/playSound woodyStep/move Emily 0 -4 3/move Emily -4 0 0/move Emily 0 -1 0/speak Emily \"{{ i18n: events.911526.3 | name={{alex_name}} }}\"/playSound woodyHit/specificTemporarySprite joshDinner/speak Alex \"{{ i18n: events.911526.4 }}\"/move Emily 4 0 2/move Emily 0 5 1/move Emily 11 0 1 true/speak Alex \"{{ i18n: events.911526.5 }}\"/playMusic musicboxsong/speak Alex \"{{ i18n: events.911526.6 }}\"/pause 600/speak Alex \"{{ i18n: events.911526.7 }}\"/pause 800/speak Alex \"{{ i18n: events.911526.8 }}\"/pause 400/emote Alex 40/pause 600/question fork1 \"{{ i18n: events.911526.9 }}\"/pause 400/fork rejectJosh/speak Alex \"{{ i18n: events.911526.10 }}\"/emote Alex 32/pause 800/animate Alex false false 400 40 41 41 40 41 41 40 41 41 40 41 41 40/pause 800/playSound eat/pause 800/playSound eat/pause 800/playSound eat/pause 800/playSound gulp/pause 400/speak Alex \"{{ i18n: events.911526.11 }}\"/eyes 1 -4000/animate Alex false false 400 40 41 41 40 41 41 40/pause 1000/specificTemporarySprite alexDiningDog/playSound dogWhining/pause 1000/globalFade/viewport -1000 -1000/pause 6000/end dialogue Alex \"{{ i18n: events.911526.12 }}\""
 			},
 			"When": {
 				"Alex Dialogue Changed": "true"
@@ -161,7 +161,7 @@
 			"Action": "EditData",
 			"Target": "Data/Events/Town",
 			"Entries": {
-				"3917589/n gaveAlexMoney/O Alex/d Mon/d Tue/d Wed/d Thu/d Fri/d Sat": "continue/-1000 -1000/farmer 100 100 2/addWorldState saloonSportsRoom/addMailReceived saloonSportsRoom/message \"It's Sunday... I should swing by the saloon later and see what {{Alex Name}} has been up to!\"/end"
+				"3917589/n gaveAlexMoney/O Alex/d Mon/d Tue/d Wed/d Thu/d Fri/d Sat": "continue/-1000 -1000/farmer 100 100 2/addWorldState saloonSportsRoom/addMailReceived saloonSportsRoom/message \"{{ i18n: events.3917589.0 | name={{alex_name}} }}\"/end"
 			},
 			"When": {
 				"Alex Dialogue Changed": "true"
@@ -172,18 +172,7 @@
 			"Action": "EditData",
 			"Target": "Strings/StringsFromCSFiles",
 			"Entries": {
-				"MapPage.cs.11093": "Home of George, Evelyn & {{Alex Name}}"
-			},
-			"When": {
-				"Alex Dialogue Changed": "true"
-			}
-        },
-        
-        {
-			"Action": "EditData",
-			"Target": "Strings/StringsFromCSFiles",
-			"Entries": {
-				"MapPage.cs.11093": "Home of George, Evelyn & {{Alex Name}}"
+				"MapPage.cs.11093": "{{ i18n: strings.cs.11093 | name={{alex_name}} }}"
 			},
 			"When": {
 				"Alex Dialogue Changed": "true"
@@ -194,11 +183,11 @@
 			"Action": "EditData",
 			"Target": "Strings/StringsFromMaps",
 			"Entries": {
-				"BathHouse_MensLocker.4": "There's a bunch of pictures of bodybuilders taped inside the door.",
-				"JoshHouse.1": "Momma-^If you're reading this, it means I've passed on. I'm so sorry you had to go through this. Know that I love you both.^Don't be too upset, I'm with Yoba now. ^My final request: take care of {{Alex Name}}. She needs a family, something stable. She's a good girl.^ Love, ^Clara",
-				"JoshHouse.7": "You peek into {{Alex Name}}'s drawer. There's clothes, hair gel, and a box of gridball trading cards.",
-				"JoshHouse.8": "You peek into {{Alex Name}}'s drawer. There's clothes, hair gel, and a box of gridball trading cards.",
-				"JoshHouse.9": "It's {{Alex Name}}'s gridball helmet. Looks like she keeps it polished."
+				"BathHouse_MensLocker.4": "{{ i18n: strings.maps.bath.menslocker.4 | name={{alex_name}} }}",
+				"JoshHouse.1": "{{ i18n: strings.maps.joshhouse.1 | name={{alex_name}} }}",
+				"JoshHouse.7": "{{ i18n: strings.maps.joshhouse.7 | name={{alex_name}} }}",
+				"JoshHouse.8": "{{ i18n: strings.maps.joshhouse.8 | name={{alex_name}} }}",
+				"JoshHouse.9": "{{ i18n: strings.maps.joshhouse.9 | name={{alex_name}} }}"
 			},
 			"When": {
 				"Alex Dialogue Changed": "true"
@@ -209,7 +198,7 @@
 			"Action": "EditData",
 			"Target": "Strings/schedules/Alex",
 			"Entries": {
-				"Sun.000": "%{{Alex Name}} is completely engrossed in the game. She doesn't notice your presence."
+				"Sun.000": "{{ i18n: strings.schedules.alex.sun.000 | name={{alex_name}} }}"
 			},
 			"When": {
 				"Alex Dialogue Changed": "true"
