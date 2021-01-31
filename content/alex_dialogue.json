@@ -13,10 +13,10 @@
 				"summer_Mon": "{{ i18n: alex.summer_mon }}",
 				"summer_Tue": "{{ i18n: alex.summer_tue }}",
 				"summer_Wed": "{{ i18n: alex.summer_wed }}",
-				"fall_Wed": "{{ i18n: alex_fall_wed }}"
+				"fall_Wed": "{{ i18n: alex.fall_wed }}"
 			},
 			"When": {
-				"Alex Dialogue Changed": "true"
+				"Alex Dialogue Changed": true
 			}
         },
         
@@ -28,7 +28,7 @@
 				"fall_Sat": "{{ i18n: evelyn.fall_sat | name={{alex_name}} }}"
 			},
 			"When": {
-				"Alex Dialogue Changed": "true"
+				"Alex Dialogue Changed": true
 			}
         },
         
@@ -42,7 +42,7 @@
 				"Wed8": "{{ i18n: george.wed8 | name={{alex_name}} }}"
 			},
 			"When": {
-				"Alex Dialogue Changed": "true"
+				"Alex Dialogue Changed": true
 			}
 		},
 		
@@ -56,7 +56,7 @@
 				"winter_Sun6": "{{ i18n: haley.winter_sun6 | name={{alex_name}} }}"
 			},
 			"When": {
-				"Alex Dialogue Changed": "true"
+				"Alex Dialogue Changed": true
 			}
         },
         
@@ -76,7 +76,7 @@
 				"summer_1": "{{ i18n: married.alex.summer_1 }}"
 			},
 			"When": {
-				"Alex Dialogue Changed": "true"
+				"Alex Dialogue Changed": true
 			}
         },
         
@@ -87,7 +87,7 @@
 				"joshMessage": "{{ i18n: mail.joshMessage | name={{alex_name}} }}"
 			},
 			"When": {
-				"Alex Dialogue Changed": "true"
+				"Alex Dialogue Changed": true
 			}
         },
         
@@ -98,7 +98,7 @@
 				"Alex": "{{ i18n: npcdisp.alex | name={{alex_name}} }}"
 			},
 			"When": {
-				"Alex Dialogue Changed": "true"
+				"Alex Dialogue Changed": true
 			}
         },
         
@@ -109,7 +109,7 @@
 				"9": "{{ i18n: secrets.9 | name={{alex_name}} }}"
 			},
 			"When": {
-				"Alex Dialogue Changed": "true"
+				"Alex Dialogue Changed": true
 			}
 		},
 
@@ -120,7 +120,7 @@
 				"25": "{{ i18n: weapons.25 | name={{alex_name}} }}"
 			},
 			"When": {
-				"Alex Dialogue Changed": "true"
+				"Alex Dialogue Changed": true
 			}
 		},
 		
@@ -131,7 +131,7 @@
 				"3917587/f Alex 3500/O Alex/t 500 820/M 5000/d Sun/y 2": "continue/-10000 -1000/farmer -100 -100 2 Alex -100 -100 2/warp Alex -100 -100/warp farmer -100 -100/faceDirection Alex 2/viewport 64 15 clamp true/pause 2000/playSound doorClose/warp farmer 64 15/pause 500/move farmer 0 2 2/playSound doorClose/warp Alex 64 15/pause 300/faceDirection farmer 1 true/pause 100/faceDirection farmer 0/speak Alex \"{{ i18n: events.3917587.0 }}\"/pause 1000/question fork0 \"{{ i18n: events.3917587.1 | name={{alex_name}} }}\"/fork giveAlexMoney/playMusic none/pause 1000/emote Alex 12/speak Alex \"{{ i18n: events.3917587.2 }}\"/pause 500/faceDirection Alex 1 true/pause 100/faceDirection Alex 0/pause 500/emote Alex 28/pause 400/speak Alex \"{{ i18n: events.3917587.3 }}\"/pause 800/playSound doorClose/warp Alex -100 -100/pause 2000/end dialogue Alex \"{{ i18n: events.3917587.4 }}\""
 			},
 			"When": {
-				"Alex Dialogue Changed": "true"
+				"Alex Dialogue Changed": true
 			}
 		},
         
@@ -142,7 +142,7 @@
 				"2119820/f Alex 1500/p Alex": "jaunty/-1000 -1000/farmer 10 10 0 Alex 13 6 2/skippable/showFrame Alex 28/animate Alex false true 100 28 29 30 31 32 32 31 30 29 28/viewport 13 6 true/pause 6500/stopAnimation Alex/pause 1000/doAction 10 9/move farmer 0 -3 1/move farmer 2 0 0/showFrame Alex 34 true/animate Alex false false 100 28 33 34/pause 600/speak Alex \"{{ i18n: events.2119820.0 }}\"/pause 1000/emote Alex 40/speak Alex \"{{ i18n: events.2119820.1 }}\"/emote farmer 8/pause 1000/speak Alex \"{{ i18n: events.2119820.2 }}\"/pause 1000/showFrame Alex 33/pause 1000/speak Alex \"{{ i18n: events.2119820.3 }}\"/move farmer 1 0 0/pause 1000/jump farmer/pause 800/showFrame Alex 34/pause 800/emote Alex 32/pause 1200/showFrame Alex 29/pause 100/showFrame Alex 28/pause 100/showFrame Alex 29/pause 100/animate Alex false true 50 30 31 32 32 31 30/pause 3000/globalFade/viewport -1000 -1000/end"
 			},
 			"When": {
-				"Alex Dialogue Changed": "true"
+				"Alex Dialogue Changed": true
 			}
         },
         
@@ -153,7 +153,7 @@
 				"911526/f Alex 2500/t 1900 2200/n joshMessage": "gusviolin/-1000 -1000/farmer 5 5 1 Gus 10 6 2 Alex 9 5 3 Emily 9 17 2/skippable/showFrame 117/showFrame Alex 39/positionOffset farmer 12 8/positionOffset Alex -12 0/animate Gus false true 723 16 17/viewport 7 4 true/pause 23000/stopAnimation Gus/pause 1000/faceDirection Gus 3/speak Alex \"{{ i18n: events.911526.0 }}\"/move Gus 0 1 1/move Gus 1 0 2/move Gus 0 1 2/doAction 11 9/move Gus 0 3 1/move Gus 12 0 3 true/speak Alex \"{{ i18n: events.911526.1 }}\"/pause 1000/emote Alex 40/speak Alex \"{{ i18n: events.911526.2 }}\"/warp Emily 11 11 true/playSound woodyStep/move Emily 0 -4 3/move Emily -4 0 0/move Emily 0 -1 0/speak Emily \"{{ i18n: events.911526.3 | name={{alex_name}} }}\"/playSound woodyHit/specificTemporarySprite joshDinner/speak Alex \"{{ i18n: events.911526.4 }}\"/move Emily 4 0 2/move Emily 0 5 1/move Emily 11 0 1 true/speak Alex \"{{ i18n: events.911526.5 }}\"/playMusic musicboxsong/speak Alex \"{{ i18n: events.911526.6 }}\"/pause 600/speak Alex \"{{ i18n: events.911526.7 }}\"/pause 800/speak Alex \"{{ i18n: events.911526.8 }}\"/pause 400/emote Alex 40/pause 600/question fork1 \"{{ i18n: events.911526.9 }}\"/pause 400/fork rejectJosh/speak Alex \"{{ i18n: events.911526.10 }}\"/emote Alex 32/pause 800/animate Alex false false 400 40 41 41 40 41 41 40 41 41 40 41 41 40/pause 800/playSound eat/pause 800/playSound eat/pause 800/playSound eat/pause 800/playSound gulp/pause 400/speak Alex \"{{ i18n: events.911526.11 }}\"/eyes 1 -4000/animate Alex false false 400 40 41 41 40 41 41 40/pause 1000/specificTemporarySprite alexDiningDog/playSound dogWhining/pause 1000/globalFade/viewport -1000 -1000/pause 6000/end dialogue Alex \"{{ i18n: events.911526.12 }}\""
 			},
 			"When": {
-				"Alex Dialogue Changed": "true"
+				"Alex Dialogue Changed": true
 			}
         },
         
@@ -164,7 +164,7 @@
 				"3917589/n gaveAlexMoney/O Alex/d Mon/d Tue/d Wed/d Thu/d Fri/d Sat": "continue/-1000 -1000/farmer 100 100 2/addWorldState saloonSportsRoom/addMailReceived saloonSportsRoom/message \"{{ i18n: events.3917589.0 | name={{alex_name}} }}\"/end"
 			},
 			"When": {
-				"Alex Dialogue Changed": "true"
+				"Alex Dialogue Changed": true
 			}
         },
         
@@ -175,7 +175,7 @@
 				"MapPage.cs.11093": "{{ i18n: strings.cs.11093 | name={{alex_name}} }}"
 			},
 			"When": {
-				"Alex Dialogue Changed": "true"
+				"Alex Dialogue Changed": true
 			}
         },
         
@@ -190,7 +190,7 @@
 				"JoshHouse.9": "{{ i18n: strings.maps.joshhouse.9 | name={{alex_name}} }}"
 			},
 			"When": {
-				"Alex Dialogue Changed": "true"
+				"Alex Dialogue Changed": true
 			}
         },
         
@@ -201,7 +201,7 @@
 				"Sun.000": "{{ i18n: strings.schedules.alex.sun.000 | name={{alex_name}} }}"
 			},
 			"When": {
-				"Alex Dialogue Changed": "true"
+				"Alex Dialogue Changed": true
 			}
 		}
     ]
