@@ -223,6 +223,17 @@
 			}
 		},
 		{
+			"Name": "alex_petname",
+			"Value": "son"
+		},
+		{
+			"Name": "alex_petname",
+			"Value": "girl",
+			"When": {
+				"Alex Dialogue Changed": true
+			}
+		},
+		{
 			"Name": "elliott_name",
 			"Value": "Elliott"
 		},
