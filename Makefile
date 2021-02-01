@@ -1,7 +1,7 @@
 TOPDIR = releases/
 VERSION := $(shell eval 'jq -r .Version manifest.json')
 OUTZIP = $(TOPDIR)Combined Girl Mod-$(VERSION).7z
-DEPS = manifest.json content.json README.txt LICENSE assets content
+DEPS = manifest.json content.json README.txt LICENSE assets content i18n
 MODDIR = Combined Girl Mod
 
 $(OUTZIP): $(DEPS)
