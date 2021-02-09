@@ -83,7 +83,18 @@
 			"When": {
 				"Harvey Dialogue Changed": "true"
 			}
-        },
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/SecretNotes",
+			"Entries": {
+				"7": "{{ i18n: secrets.7 | harvey_name={{ harvey_name }} | harvey_pronoun.0={{ Lowercase:{{harvey_pronoun}} }} | harvey_spouse={{harvey_spouse}} | harvey_pronoun.1={{harvey_pronoun}} | elliott_name={{elliott_name}} | elliott_adj={{elliott_adj}} | elliott_pronoun.0={{ Lowercase:{{elliott_pronoun}} }} | elliott_feature={{elliott_feature}} | elliott_pronoun.1={{elliott_pronoun}} | shane_name={{shane_name}} | shane_possess={{shane_possess}} | shane_pronoun={{shane_pronoun}} }}"
+			},
+			"When": {
+				"Harvey Dialogue Changed": "true"
+			}
+		},
         
         {
 			"Action": "EditData",

@@ -245,12 +245,67 @@
 			}
 		},
 		{
+			"Name": "elliott_adj",
+			"Value": "foppish"
+		},
+		{
+			"Name": "elliott_adj",
+			"Value": "vain",
+			"When": {
+				"Elliott Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "elliott_pronoun",
+			"Value": "He"
+		},
+		{
+			"Name": "elliott_pronoun",
+			"Value": "She",
+			"When": {
+				"Elliott Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "elliott_feature",
+			"Value": "chin"
+		},
+		{
+			"Name": "elliott_feature",
+			"Value": "smile",
+			"When": {
+				"Elliott Dialogue Changed": true
+			}
+		},
+		{
 			"Name": "harvey_name",
 			"Value": "Harvey"
 		},
 		{
 			"Name": "harvey_name",
 			"Value": "{{Harvey Name}}",
+			"When": {
+				"Harvey Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "harvey_pronoun",
+			"Value": "He"
+		},
+		{
+			"Name": "harvey_pronoun",
+			"Value": "She",
+			"When": {
+				"Harvey Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "harvey_spouse",
+			"Value": "husband"
+		},
+		{
+			"Name": "harvey_spouse",
+			"Value": "wife",
 			"When": {
 				"Harvey Dialogue Changed": true
 			}
@@ -317,6 +372,28 @@
 		{
 			"Name": "shane_name",
 			"Value": "{{Shane Name}}",
+			"When": {
+				"Shane Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "shane_possess",
+			"Value": "his"
+		},
+		{
+			"Name": "shane_possess",
+			"Value": "her",
+			"When": {
+				"Shane Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "shane_pronoun",
+			"Value": "He"
+		},
+		{
+			"Name": "shane_pronoun",
+			"Value": "She",
 			"When": {
 				"Shane Dialogue Changed": true
 			}

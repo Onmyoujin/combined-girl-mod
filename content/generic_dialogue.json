@@ -1,5 +1,13 @@
 {
     "Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/SecretNotes",
+			"Entries": {
+				"2": "{{ i18n: secrets.2 | name.0={{ sam_name }} | name.1={{sebastian_name}} }}"
+			}
+		},
+
         {
 			"Action": "EditData",
 			"Target": "Strings/Characters",

@@ -132,11 +132,7 @@
 			"Target": "Data/Events/Farm",
 			"Fields": {
 				"3917587/f Alex 3500/O Alex/t 500 820/M 5000/d Sun/y 2": {
-					"18": "speak Alex \"{{ i18n: events.3917587.0 }}\"",
-					"20": "question fork0 \"{{ i18n: events.3917587.1 | name={{alex_name}} }}\"",
-					"25": "speak Alex \"{{ i18n: events.3917587.2 }}\"",
-					"33": "speak Alex \"{{ i18n: events.3917587.3 }}\"",
-					"38": "end dialogue Alex \"{{ i18n: events.3917587.4 }}\""
+					"20": "question fork0 \"{{ i18n: events.3917587.0 | name={{alex_name}} }}\""
 				}
 			},
 			"When": {
@@ -149,10 +145,7 @@
 			"Target": "Data/Events/JoshHouse",
 			"Fields": {
 				"2119820/f Alex 1500/p Alex": {
-					"16": "speak Alex \"{{ i18n: events.2119820.0 }}\"",
-					"19": "speak Alex \"{{ i18n: events.2119820.1 }}\"",
-					"22": "speak Alex \"{{ i18n: events.2119820.2 }}\"",
-					"26": "speak Alex \"{{ i18n: events.2119820.3 }}\""
+					"16": "speak Alex \"{{ i18n: events.2119820.0 }}\""
 				}
 			},
 			"When": {
@@ -165,19 +158,9 @@
 			"Target": "Data/Events/Saloon",
 			"Fields": {
 				"911526/f Alex 2500/t 1900 2200/n joshMessage": {
-					"14": "speak Alex \"{{ i18n: events.911526.0 }}\"",
-					"21": "speak Alex \"{{ i18n: events.911526.1 }}\"",
-					"24": "speak Alex \"{{ i18n: events.911526.2 }}\"",
-					"30": "speak Emily \"{{ i18n: events.911526.3 | name={{alex_name}} }}\"",
-					"33": "speak Alex \"{{ i18n: events.911526.4 }}\"",
-					"37": "speak Alex \"{{ i18n: events.911526.5 }}\"",
-					"39": "speak Alex \"{{ i18n: events.911526.6 }}\"",
-					"41": "speak Alex \"{{ i18n: events.911526.7 }}\"",
-					"43": "speak Alex \"{{ i18n: events.911526.8 }}\"",
-					"47": "question fork1 \"{{ i18n: events.911526.9 }}\"",
-					"50": "speak Alex \"{{ i18n: events.911526.10 }}\"",
-					"63": "speak Alex \"{{ i18n: events.911526.11 }}\"",
-					"73": "end dialogue Alex \"{{ i18n: events.911526.12 }}\""
+					"30": "speak Emily \"{{ i18n: events.911526.0 | name={{alex_name}} }}\"",
+					"41": "speak Alex \"{{ i18n: events.911526.1 }}\"",
+					"43": "speak Alex \"{{ i18n: events.911526.2 }}\""
 				}
 			},
 			"When": {
