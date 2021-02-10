@@ -164,7 +164,21 @@
 				"Sebastian Dialogue Changed": "true"
 			}
 		},
-        
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Beach",
+			"Fields": {
+				"733330/f Sam 750/w sunny/t 700 1500/z winter/y 1": {
+					"25": "speak Vincent \"{{ i18n: events.733330.0 | name={{sam_name}} }}\"",
+					"64": "speak Sam \"{{ i18n: events.733330.1 | name={{sebastian_name}} }}\""
+				}
+			},
+			"When": {
+				"Sebastian Dialogue Changed": "true"
+			}
+		},
+
         {
 			"Action": "EditData",
 			"Target": "Data/Events/Mountain",

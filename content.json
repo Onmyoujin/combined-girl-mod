@@ -344,6 +344,17 @@
 			}
 		},
 		{
+			"Name": "sam_pronoun",
+			"Value": "he"
+		},
+		{
+			"Name": "sam_pronoun",
+			"Value": "she",
+			"When": {
+				"Sam Dialogue Changed": true
+			}
+		},
+		{
 			"Name": "sebastian_name",
 			"Value": "Sebastian"
 		},
@@ -361,6 +372,39 @@
 		{
 			"Name": "sebastian_nick",
 			"Value": "{{Sebastian Nickname}}",
+			"When": {
+				"Sebastian Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "sebastian_pronoun.0",
+			"Value": "he"
+		},
+		{
+			"Name": "sebastian_pronoun.0",
+			"Value": "she",
+			"When": {
+				"Sebastian Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "sebastian_pronoun.1",
+			"Value": "him"
+		},
+		{
+			"Name": "sebastian_pronoun.1",
+			"Value": "her",
+			"When": {
+				"Sebastian Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "sebastian_possess",
+			"Value": "his"
+		},
+		{
+			"Name": "sebastian_possess",
+			"Value": "her",
 			"When": {
 				"Sebastian Dialogue Changed": true
 			}

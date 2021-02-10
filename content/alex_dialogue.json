@@ -152,7 +152,7 @@
 				"Alex Dialogue Changed": true
 			}
         },
-        
+
         {
 			"Action": "EditData",
 			"Target": "Data/Events/Saloon",
@@ -161,6 +161,13 @@
 					"30": "speak Emily \"{{ i18n: events.911526.0 | name={{alex_name}} }}\"",
 					"41": "speak Alex \"{{ i18n: events.911526.1 }}\"",
 					"43": "speak Alex \"{{ i18n: events.911526.2 }}\""
+				},
+				"3917590/n saloonSportsRoom/O Alex": {
+					"37": "speak Alex \"{{ i18n: events.3917590.0 }}\"",
+					"42": "speak George \"{{ i18n: events.3917590.1 | petname={{alex_petname}} }}\"",
+					"51": "speak Gus \"{{ i18n: events.3917590.2 | name={{shane_name}} }}\"",
+					"64": "message \"{{ i18n: events.3917590.3 }}\"",
+					"68": "end dialogue Alex \"{{ i18n: events.3917590.4 }}\""
 				}
 			},
 			"When": {

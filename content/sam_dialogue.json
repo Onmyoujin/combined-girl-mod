@@ -180,6 +180,20 @@
 
 		{
 			"Action": "EditData",
+			"Target": "Data/Events/Beach",
+			"Fields": {
+				"733330/f Sam 750/w sunny/t 700 1500/z winter/y 1": {
+					"25": "speak Vincent \"{{ i18n: events.733330.0 | name={{sam_name}} }}\"",
+					"64": "speak Sam \"{{ i18n: events.733330.1 | name={{sebastian_name}} }}\""
+				}
+			},
+			"When": {
+				"Sam Dialogue Changed": "true"
+			}
+		},
+
+		{
+			"Action": "EditData",
 			"Target": "Data/Events/FarmHouse",
 			"Entries": {
 				"3918601/e 3918600/O Sam/t 610 1700/A samJob1/p Sam/L": "distantBanjo/-1000 -1000/farmer 37 14 1 Sam 38 14 0/addConversationTopic samJob2 2/skippable/makeInvisible 37 14/animate Sam false true 400 43 51/viewport -100 -100 true unfreeze/pause 4000/stopAnimation Sam/showFrame Sam 39/pause 400/jump Sam/emote Sam 16/pause 500/speak Sam \"Hey @, listen to this!$8\"/pause 500/stopAnimation Sam/animate Sam false true 400 43 51/pause 500/speak Sam \"'Dear {{Sam Name}}, we are pleased to offer you a position as 'junior composer' at Zuzu Broadcasting Group, TV division...'$6#$b#Wow! Music for a TV show! How cool is that?!$h\"/pause 500/emote Sam 40/pause 1000/textAboveHead Sam \"Oh...\"/animate Sam false true 400 43 51/pause 1000/speak Sam \"Oh... Hold on...$s#$b#... It's a TV show for little kids... 'The Happy Junimo Show'$s\"/emote Sam 28/pause 1000/speak Sam \"Not exactly what I had in mind...$s\"/stopAnimation Sam/showFrame Sam 0/pause 300/faceDirection Sam 3/pause 1000/quickQuestion #Just think of this as a stepping stone in your career...#Just think of how happy you'll make the children!#I'm sorry...(break)pause 100\\speak Sam \"Hmm... Yeah, I guess that's one way to look at it.$7\"(break)pause 100\\speak Sam \"I mean... you're right, someone's gotta make children's music. But it's not exactly a 'dream job'...$7\"(break)pause 100\\speak Sam \"Ah well... that's okay. I'll make the best of it, like I always do.$7\"/pause 1000/faceDirection Sam 0/speak Sam \"I guess I'd better start 'thinking like a kid'...\"/quickQuestion #That should be easy for you...#You could ask your little brother for help!(break)animate Sam false true 100 33\\shake Sam 4000\\pause 500\\textAboveHead Sam \"Hey!\"\\faceDirection farmer 2 true\\animate farmer false true 200 102 103(break)pause 100\\speak Sam \"Hmm... That's not a bad idea. At the very least, I could play him my songs and see if he likes them.#$b#Thanks for the advice, @.$10\"/pause 2000/end dialogue Sam \"I'll be working on this for a few days.\"",
