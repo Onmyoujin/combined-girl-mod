@@ -2,6 +2,14 @@
     "Changes": [
 		{
 			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueElliott",
+			"Entries": {
+				"Indoor_Night_2": "{{ i18n: married.elliott.indoor_night_2 }}"
+			}
+        },
+
+		{
+			"Action": "EditData",
 			"Target": "Data/SecretNotes",
 			"Entries": {
 				"2": "{{ i18n: secrets.2 | name.0={{ sam_name }} | name.1={{sebastian_name}} }}"

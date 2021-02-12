@@ -227,6 +227,33 @@
 				"Sam Dialogue Changed": "true"
 			}
         },
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/SebastianRoom",
+			"Fields":  {
+				"enterRobin": {
+					"8": "speak Sebastian \"{{ i18n: events.enterRobin.0 | name={{sam_name}} | pronoun={{sam_pronoun}} }}\"",
+					"16": "speak Robin \"{{ i18n: events.enterRobin.1 | name={{sebastian_nick}} }}\"",
+					"31": "question fork1 \"{{ i18n: events.enterRobin.2 | pronoun.0={{sebastian_pronoun.0}} | pronoun.1={{sebastian_pronoun.1}} | possess={{sebastian_possess}} }}\""
+				},
+				"Necromancer": {
+					"22": "question fork0 \"{{ i18n: events.Necromancer.0 | sam_name={{sam_name}} | sebastian_name={{sebastian_name}} }}\""
+				},
+				"finalBossWizard": {
+					"8": "message \"{{ i18n: events.finalBossWizard.0 | sam_name={{sam_name}} | sebastian_name={{sebastian_name}} }}\""
+				},
+				"castBeam": {
+					"8": "message \"{{ i18n: events.castBeam.0 | sam_name={{sam_name}} | sebastian_name={{sebastian_name}} }}\""
+				},
+				"chargeAhead": {
+					"8": "message \"{{ i18n: events.chargeAhead.0 | sam_name={{sam_name}} | sebastian_name={{sebastian_name}} }}\""
+				}
+			},
+			"When": {
+				"Sam Dialogue Changed": true
+			}
+		},
         
         {
 			"Action": "EditData",
