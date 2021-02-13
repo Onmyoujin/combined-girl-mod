@@ -60,8 +60,10 @@
         {
 			"Action": "EditData",
 			"Target": "Data/NPCDispositions",
-			"Entries": {
-				"Elliott": "{{ i18n: npcdisp.elliott | elliott_name={{elliott_name}} }}"
+			"Fields": {
+				"Elliott": {
+					"11": "{{elliott_name}}"
+				}
 			},
 			"When": {
 				"Elliott Dialogue Changed": true
@@ -83,8 +85,10 @@
 			"Action": "EditData",
 			"Target": "Data/weapons",
 			"Fields": {
-				"0": "{{ i18n: weapons.35.0 | elliott_name={{elliott_name}} }}",
-				"1": "{{ i18n: weapons.35.1 | elliott_name={{elliott_name}} }}"
+				"35": {
+					"0": "{{ i18n: weapons.35.0 | elliott_name={{elliott_name}} }}",
+					"1": "{{ i18n: weapons.35.1 | elliott_name={{elliott_name}} }}"
+				}
 			},
 			"When": {
 				"Elliott Dialogue Changed": true

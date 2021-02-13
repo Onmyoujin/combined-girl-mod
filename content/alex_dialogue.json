@@ -94,8 +94,10 @@
         {
 			"Action": "EditData",
 			"Target": "Data/NPCDispositions",
-			"Entries": {
-				"Alex": "{{ i18n: npcdisp.alex | name={{alex_name}} }}"
+			"Fields": {
+				"Alex": {
+					"11": "{{alex_name}}"
+				}
 			},
 			"When": {
 				"Alex Dialogue Changed": true
