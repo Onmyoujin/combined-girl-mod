@@ -112,7 +112,9 @@
 			"Action": "EditData",
 			"Target": "Data/NPCDispositions",
 			"Fields": {
-				"11": "{{willy_name}}"
+				"Willy": {
+					"11": "{{willy_name}}"
+				}
 			},
 			"When": {
 				"Willy Dialogue Changed": true

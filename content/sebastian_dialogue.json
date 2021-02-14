@@ -253,7 +253,7 @@
 			"Target": "Data/Events/Town",
 			"Fields": {
 				"15389722/j 57": {
-					"68": "speak Robin \"{{ i18n: events.town.15389722.0 | sebastian_name={{sebastian_name}} }}\""
+					"52": "{{ i18n: events.town.15389722.0 | sebastian_name={{sebastian_name}} }}"
 				}
 			},
 			"When": {
@@ -265,7 +265,7 @@
 			"Action": "EditData",
 			"Target": "Data/Festivals/fall16",
 			"Entries": {
-				"Sam_spouse": "{{ i18n: festivals.fall16.sam_spouse | sebastian_name={[sebastian_name}} }}"
+				"Sam_spouse": "{{ i18n: festivals.fall16.sam_spouse | sebastian_name={{sebastian_name}} }}"
 			},
 			"When": {
 				"Sebastian Dialogue Changed": true

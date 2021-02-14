@@ -65,7 +65,9 @@
 			"Action": "EditData",
 			"Target": "Data/NPCDispositions",
 			"Fields": {
-				"11": "{{wizard_title}}"
+				"Wizard": {
+					"11": "{{wizard_title}}"
+				}
 			},
 			"When": {
 				"Wizard Dialogue Changed": true
