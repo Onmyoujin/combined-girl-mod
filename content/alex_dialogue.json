@@ -4,7 +4,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Alex",
 			"Entries": {
-				"Introduction": "{{ i18n: alex.intro | name={{alex_name}} }}",
+				"Introduction": "{{ i18n: alex.intro | alex_name={{alex_name}} }}",
 				"Resort_Chair": "{{ i18n: alex.resort_chair }}",
 				"Resort_Towel_2": "{{ i18n: alex.resort_towel }}",
 				"Tue": "{{ i18n: alex.tue }}",
@@ -25,7 +25,7 @@
 			"Target": "Characters/Dialogue/Evelyn",
 			"Entries": {
 				"summer_Mon_inlaw_Alex": "{{ i18n: evelyn.summer_mon_inlaw_alex }}",
-				"fall_Sat": "{{ i18n: evelyn.fall_sat | name={{alex_name}} }}"
+				"fall_Sat": "{{ i18n: evelyn.fall_sat | alex_name={{alex_name}} }}"
 			},
 			"When": {
 				"Alex Dialogue Changed": true
@@ -36,10 +36,10 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/George",
 			"Entries": {
-				"Wed": "{{ i18n: george.wed | name={{alex_name}} }}",
+				"Wed": "{{ i18n: george.wed | alex_name={{alex_name}} }}",
 				"Wed_inlaw_Alex": "{{ i18n: george.wed_inlaw_alex }}",
 				"Wed10_inlaw_Alex": "{{ i18n: george.wed10_inlaw_alex }}",
-				"Wed8": "{{ i18n: george.wed8 | name={{alex_name}} }}"
+				"Wed8": "{{ i18n: george.wed8 | alex_name={{alex_name}} }}"
 			},
 			"When": {
 				"Alex Dialogue Changed": true
@@ -50,10 +50,10 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Haley",
 			"Entries": {
-				"Event_room1": "{{ i18n: haley.event_room1 | name={{alex_name}} }}",
-				"summer_Fri": "{{ i18n: haley.summer_fri | name={{alex_name}} }}",
-				"winter_Sun": "{{ i18n: haley.winter_sun | name={{alex_name}} }}",
-				"winter_Sun6": "{{ i18n: haley.winter_sun6 | name={{alex_name}} }}"
+				"Event_room1": "{{ i18n: haley.event_room1 | alex_name={{alex_name}} }}",
+				"summer_Fri": "{{ i18n: haley.summer_fri | alex_name={{alex_name}} }}",
+				"winter_Sun": "{{ i18n: haley.winter_sun | alex_name={{alex_name}} }}",
+				"winter_Sun6": "{{ i18n: haley.winter_sun6 | alex_name={{alex_name}} }}"
 			},
 			"When": {
 				"Alex Dialogue Changed": true
@@ -84,7 +84,7 @@
 			"Action": "EditData",
 			"Target": "Data/mail",
 			"Entries": {
-				"joshMessage": "{{ i18n: mail.joshMessage | name={{alex_name}} }}"
+				"joshMessage": "{{ i18n: mail.joshMessage | alex_name={{alex_name}} }}"
 			},
 			"When": {
 				"Alex Dialogue Changed": true
@@ -108,7 +108,7 @@
 			"Action": "EditData",
 			"Target": "Data/SecretNotes",
 			"Entries": {
-				"9": "{{ i18n: secrets.9 | name={{alex_name}} }}"
+				"9": "{{ i18n: secrets.9 | alex_name={{alex_name}} }}"
 			},
 			"When": {
 				"Alex Dialogue Changed": true
@@ -120,8 +120,8 @@
 			"Target": "Data/weapons",
 			"Fields": {
 				"25": {
-					"0": "{{ i18n: weapons.25.0 | name={{alex_name}} }}",
-					"1": "{{ i18n: weapons.25.1 | name={{alex_name}} }}"
+					"0": "{{ i18n: weapons.25.0 | alex_name={{alex_name}} }}",
+					"1": "{{ i18n: weapons.25.1 | alex_name={{alex_name}} }}"
 				}
 			},
 			"When": {
@@ -134,7 +134,7 @@
 			"Target": "Data/Events/Farm",
 			"Fields": {
 				"3917587/f Alex 3500/O Alex/t 500 820/M 5000/d Sun/y 2": {
-					"20": "question fork0 \"{{ i18n: events.3917587.0 | name={{alex_name}} }}\""
+					"20": "question fork0 \"{{ i18n: events.farm.3917587.0 | alex_name={{alex_name}} }}\""
 				}
 			},
 			"When": {
@@ -147,7 +147,7 @@
 			"Target": "Data/Events/JoshHouse",
 			"Fields": {
 				"2119820/f Alex 1500/p Alex": {
-					"16": "speak Alex \"{{ i18n: events.2119820.0 }}\""
+					"16": "speak Alex \"{{ i18n: events.joshhouse.2119820.0 }}\""
 				}
 			},
 			"When": {
@@ -160,16 +160,16 @@
 			"Target": "Data/Events/Saloon",
 			"Fields": {
 				"911526/f Alex 2500/t 1900 2200/n joshMessage": {
-					"30": "speak Emily \"{{ i18n: events.911526.0 | name={{alex_name}} }}\"",
-					"41": "speak Alex \"{{ i18n: events.911526.1 }}\"",
-					"43": "speak Alex \"{{ i18n: events.911526.2 }}\""
+					"30": "speak Emily \"{{ i18n: events.saloon.911526.0 | alex_name={{alex_name}} }}\"",
+					"41": "speak Alex \"{{ i18n: events.saloon.911526.1 }}\"",
+					"43": "speak Alex \"{{ i18n: events.saloon.911526.2 }}\""
 				},
 				"3917590/n saloonSportsRoom/O Alex": {
-					"37": "speak Alex \"{{ i18n: events.3917590.0 }}\"",
-					"42": "speak George \"{{ i18n: events.3917590.1 | petname={{alex_petname}} }}\"",
-					"51": "speak Gus \"{{ i18n: events.3917590.2 | name={{shane_name}} }}\"",
-					"64": "message \"{{ i18n: events.3917590.3 }}\"",
-					"68": "end dialogue Alex \"{{ i18n: events.3917590.4 }}\""
+					"37": "speak Alex \"{{ i18n: events.saloon.3917590.0 }}\"",
+					"42": "speak George \"{{ i18n: events.saloon.3917590.1 | alex_petname={{alex_petname}} }}\"",
+					"51": "speak Gus \"{{ i18n: events.saloon.3917590.2 | alex_name={{shane_name}} }}\"",
+					"64": "message \"{{ i18n: events.saloon.3917590.3 }}\"",
+					"68": "end dialogue Alex \"{{ i18n: events.saloon.3917590.4 }}\""
 				}
 			},
 			"When": {
@@ -182,7 +182,7 @@
 			"Target": "Data/Events/Town",
 			"Fields": {
 				"3917589/n gaveAlexMoney/O Alex/d Mon/d Tue/d Wed/d Thu/d Fri/d Sat": {
-					"5": "message \"{{ i18n: events.3917589.0 | name={{alex_name}} }}\""
+					"5": "message \"{{ i18n: events.town.3917589.0 | alex_name={{alex_name}} }}\""
 				}
 			},
 			"When": {
@@ -194,7 +194,7 @@
 			"Action": "EditData",
 			"Target": "Strings/StringsFromCSFiles",
 			"Entries": {
-				"MapPage.cs.11093": "{{ i18n: strings.cs.11093 | name={{alex_name}} }}"
+				"MapPage.cs.11093": "{{ i18n: strings.cs.11093 | alex_name={{alex_name}} }}"
 			},
 			"When": {
 				"Alex Dialogue Changed": true
@@ -205,11 +205,11 @@
 			"Action": "EditData",
 			"Target": "Strings/StringsFromMaps",
 			"Entries": {
-				"BathHouse_MensLocker.4": "{{ i18n: strings.maps.bath.menslocker.4 | name={{alex_name}} }}",
-				"JoshHouse.1": "{{ i18n: strings.maps.joshhouse.1 | name={{alex_name}} }}",
-				"JoshHouse.7": "{{ i18n: strings.maps.joshhouse.7 | name={{alex_name}} }}",
-				"JoshHouse.8": "{{ i18n: strings.maps.joshhouse.8 | name={{alex_name}} }}",
-				"JoshHouse.9": "{{ i18n: strings.maps.joshhouse.9 | name={{alex_name}} }}"
+				"BathHouse_MensLocker.4": "{{ i18n: strings.maps.bath.menslocker.4 | alex_name={{alex_name}} }}",
+				"JoshHouse.1": "{{ i18n: strings.maps.joshhouse.1 | alex_name={{alex_name}} }}",
+				"JoshHouse.7": "{{ i18n: strings.maps.joshhouse.7 | alex_name={{alex_name}} }}",
+				"JoshHouse.8": "{{ i18n: strings.maps.joshhouse.8 | alex_name={{alex_name}} }}",
+				"JoshHouse.9": "{{ i18n: strings.maps.joshhouse.9 | alex_name={{alex_name}} }}"
 			},
 			"When": {
 				"Alex Dialogue Changed": true
@@ -220,7 +220,7 @@
 			"Action": "EditData",
 			"Target": "Strings/schedules/Alex",
 			"Entries": {
-				"Sun.000": "{{ i18n: strings.schedules.alex.sun.000 | name={{alex_name}} }}"
+				"Sun.000": "{{ i18n: strings.schedules.alex.sun.000 | alex_name={{alex_name}} }}"
 			},
 			"When": {
 				"Alex Dialogue Changed": true

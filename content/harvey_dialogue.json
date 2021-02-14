@@ -149,7 +149,7 @@
 			"Target": "Data/Events/Farm",
 			"Fields": {
 				"2118991/e 3910975/t 600 800": {
-					"16": "speak Shane \"{{ i18n: events.2118991.0 | harvey_name={{harvey_name}} }}\""
+					"16": "speak Shane \"{{ i18n: events.farm.2118991.0 | harvey_name={{harvey_name}} }}\""
 				}
 			},
 			"When": {
@@ -162,7 +162,7 @@
 			"Target": "Data/Events/FarmHouse",
 			"Fields": {
 				"3917626/f Harvey 3500/O Harvey/t 2000 2400/p Harvey/L": {
-					"126": "quickQuestion #It tastes heavenly#It tastes healthy#It tastes watery#{{ i18n: events.3917626.0 }}#It tastes like fungus(break)speak Harvey \"Heavenly, huh? That must be the 'angel hair'!$h#$b#I'm glad you like it! You deserve the best.$l\"(break)speak Harvey \"Oh yes, I forgot to mention... it's 'whole wheat' pasta. And it's brimming with fresh vegetables.#$b#It's important that you eat healthy food! I want you to live forever...$l\"(break)speak Harvey \"Oh... I see. I knew I needed to add more salt.$s#$b#Well, at least you'll be well hydrated.$s\"(break)emote Harvey 28\\speak Harvey \"Oh... I thought I gave myself the burnt one.$s#$b#Um, I lost track of one the pans and it caught fire... Sorry, dear.$s\"(break)jump Harvey\\pause 500\\speak Harvey \"{{ i18n: events.3917626.1 }}\"(break)jump Harvey\\pause 400\\speak Harvey \"Oh! Eh... Must've been the truffle oil I drizzled on top...$8#$b#You meant delicious, edible fungus... right honey? Of course... Heh.$8\""
+					"126": "{{ i18n: events.farmhouse.3917627.0 }}"
 				}
 			},
 			"When": {
@@ -175,14 +175,14 @@
 			"Target": "Data/Events/Hospital",
 			"Fields": {
 				"7/f Maru 1000/p Maru": {
-					"28": "speak Maru \"{{ i18n: events.hospital.7fmaru.0 | harvey_name={{harvey_name}} }}\"",
-					"35": "speak Maru \"{{ i18n: events.hospital.7fmaru.1 | harvey_name={{harvey_name}} }}\""
+					"28": "speak Maru \"{{ i18n: events.hospital.7.0 | harvey_name={{harvey_name}} }}\"",
+					"35": "speak Maru \"{{ i18n: events.hospital.7.1 | harvey_name={{harvey_name}} }}\""
 				},
 				"toldTruth": {
 					"5": "speak Maru \"{{ i18n: events.hospital.toldtruth.0 | harvey_name={{harvey_name}} }}\""
 				},
 				"571102/f Harvey 2000": {
-					"32": "question fork1 \"{{ i18n: events.571102.0 | harvey_name={{harvey_name}} }}\""
+					"32": "question fork1 \"{{ i18n: events.hospital.571102.0 | harvey_name={{harvey_name}} }}\""
 				}
 			},
 			"When": {
@@ -195,7 +195,7 @@
 			"Target": "Data/Events/JoshHouse",
 			"Fields": {
 				"56/f Harvey 500/p George": {
-					"26": "speak Harvey \"{{ i18n: events.56.0 | harvey_name={{harvey_name}} }}\""	
+					"26": "speak Harvey \"{{ i18n: events.joshhouse.56.0 | harvey_name={{harvey_name}} }}\""	
 				}
 			},
 			"When": {

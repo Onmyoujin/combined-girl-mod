@@ -187,8 +187,8 @@
 			"Target": "Data/Events/Beach",
 			"Fields": {
 				"733330/f Sam 750/w sunny/t 700 1500/z winter/y 1": {
-					"25": "speak Vincent \"{{ i18n: events.733330.0 | sam_name={{sam_name}} }}\"",
-					"64": "speak Sam \"{{ i18n: events.733330.1 | sebastian_name={{sebastian_name}} }}\""
+					"25": "speak Vincent \"{{ i18n: events.beach.733330.0 | sam_name={{sam_name}} }}\"",
+					"64": "speak Sam \"{{ i18n: events.beach.733330.1 | sebastian_name={{sebastian_name}} }}\""
 				}
 			},
 			"When": {
@@ -201,10 +201,10 @@
 			"Target": "Data/Events/FarmHouse",
 			"Fields": {
 				"3918601/e 3918600/O Sam/t 610 1700/A samJob1/p Sam/L": {
-					"20": "speak Sam \"{{ i18n: events.3918601.0 | sam_name={{sam_name}} }}\""
+					"20": "speak Sam \"{{ i18n: events.farmhouse.3918601.0 | sam_name={{sam_name}} }}\""
 				},
 				"3918603/e 3918602/O Sam/t 610 1700/A samJob3/p Sam/L": {
-					"10": "speak Vincent \"{{ i18n: events.3918603.0 | sam_name={{sam_name}} }}\""
+					"10": "speak Vincent \"{{ i18n: events.farmhouse.3918603.0 | sam_name={{sam_name}} }}\""
 				}
 			},
 			"When": {
@@ -230,14 +230,14 @@
 			"Target": "Data/Events/SamHouse",
 			"Fields": {
 				"95/e 93/k 94/t 1800 1950/i 136/y 2": {
-					"16": "speak Jodi \"{{ i18n: events.95.0 | sam_name={{sam_name}} }}\""
+					"16": "speak Jodi \"{{ i18n: events.samhouse.95.0 | sam_name={{sam_name}} }}\""
 				},
 				"94/e 93/k 95/t 1800 1950/i 136/y 1": {
-					"12": "speak Jodi \"{{ i18n: events.94.0 | sam_name={{sam_name}} }}\""
+					"12": "speak Jodi \"{{ i18n: events.samhouse.94.0 | sam_name={{sam_name}} }}\""
 				},
 				"46/f Sam 1000/p Sam": {
-					"31": "speak Sam \"{{ i18n: events.46.0 | sam_name={{sam_name}} }}\"",
-					"33": "speak Jodi \"{{ i18n: events.46.1 | sam_name={{sam_name}} }}\""
+					"31": "speak Sam \"{{ i18n: events.samhouse.46.0 | sam_name={{sam_name}} }}\"",
+					"33": "speak Jodi \"{{ i18n: events.samhouse.46.1 | sam_name={{sam_name}} }}\""
 				}
 			},
 			"When": {
@@ -250,27 +250,27 @@
 			"Target": "Data/Events/SebastianRoom",
 			"Fields":  {
 				"enterRobin": {
-					"8": "speak Sebastian \"{{ i18n: events.enterRobin.0 | name={{sam_name}} | pronoun={{sam_pronoun}} }}\"",
-					"16": "speak Robin \"{{ i18n: events.enterRobin.1 | name={{sebastian_nick}} }}\"",
-					"31": "question fork1 \"{{ i18n: events.enterRobin.2 | pronoun.0={{sebastian_pronoun.0}} | pronoun.1={{sebastian_pronoun.1}} | possess={{sebastian_possess}} }}\""
+					"8": "speak Sebastian \"{{ i18n: events.sebroom.enterRobin.0 | name={{sam_name}} | pronoun={{sam_pronoun}} }}\"",
+					"16": "speak Robin \"{{ i18n: events.sebroom.enterRobin.1 | name={{sebastian_nick}} }}\"",
+					"31": "question fork1 \"{{ i18n: events.sebroom.enterRobin.2 | pronoun.0={{sebastian_pronoun.0}} | pronoun.1={{sebastian_pronoun.1}} | possess={{sebastian_possess}} }}\""
 				},
 				"Necromancer": {
-					"22": "question fork0 \"{{ i18n: events.Necromancer.0 | sam_name={{sam_name}} | sebastian_name={{sebastian_name}} }}\""
+					"22": "question fork0 \"{{ i18n: events.sebroom.Necromancer.0 | sam_name={{sam_name}} | sebastian_name={{sebastian_name}} }}\""
 				},
 				"finalBossWizard": {
-					"8": "message \"{{ i18n: events.finalBossWizard.0 | sam_name={{sam_name}} | sebastian_name={{sebastian_name}} }}\""
+					"8": "message \"{{ i18n: events.sebroom.finalBossWizard.0 | sam_name={{sam_name}} | sebastian_name={{sebastian_name}} }}\""
 				},
 				"castBeam": {
-					"8": "message \"{{ i18n: events.castBeam.0 | sam_name={{sam_name}} | sebastian_name={{sebastian_name}} }}\""
+					"8": "message \"{{ i18n: events.sebroom.castBeam.0 | sam_name={{sam_name}} | sebastian_name={{sebastian_name}} }}\""
 				},
 				"chargeAhead": {
-					"8": "message \"{{ i18n: events.chargeAhead.0 | sam_name={{sam_name}} | sebastian_name={{sebastian_name}} }}\""
+					"8": "message \"{{ i18n: events.sebroom.chargeAhead.0 | sam_name={{sam_name}} | sebastian_name={{sebastian_name}} }}\""
 				},
 				"noFriends": {
 					"2": "speak Sebastian \"{{ i18n: events.sebroom.nofriends.0 | sam_name={{sam_name}} }}\""
 				},
 				"27/f Sebastian 1500/p Sebastian": {
-					"14": "speak Sebastian \"{{ i18n: events.27.0 | sam_name={{sam_name}} }}\""
+					"14": "speak Sebastian \"{{ i18n: events.sebroom.27.0 | sam_name={{sam_name}} }}\""
 				},
 				"healedSam": {
 					"6": "message \"{{ i18n: events.sebroom.healedsam.0 | sam_name={{sam_name}} }}\""
@@ -286,12 +286,12 @@
 			"Target": "Data/Events/Town",
 			"Fields": {
 				"45/f Sam 1500/t 1200 1600/w sunny": {
-					"19": "textAboveHead Lewis \"{{ i18n: events.45.0 | sam_name={{sam_name}} }}\"",
-					"34": "question null \"{{ i18n: events.45.1 | sam_name={{sam_name}} }}\""
+					"19": "textAboveHead Lewis \"{{ i18n: events.town.45.0 | sam_name={{sam_name}} }}\"",
+					"34": "question null \"{{ i18n: events.town.45.1 | sam_name={{sam_name}} }}\""
 				},
 				"233104/f Sam 2500/t 2000 2400/w sunny/n samMessage": {
-					"49": "speak Jodi \"{{ i18n: events.233104.0 | sam_name={{sam_name}} }}\"",
-					"88": "question fork1 \"{{ i18n: events.233104.1 | sam_name={{sam_name}} }}\""
+					"49": "speak Jodi \"{{ i18n: events.town.233104.0 | sam_name={{sam_name}} }}\"",
+					"88": "question fork1 \"{{ i18n: events.town.233104.1 | sam_name={{sam_name}} }}\""
 				}
 			},
 			"When": {

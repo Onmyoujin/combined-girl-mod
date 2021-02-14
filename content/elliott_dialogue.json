@@ -100,7 +100,7 @@
 			"Target": "Data/Events/ArchaeologyHouse",
 			"Fields": {
 				"1848481/f Elliott 2000/t 1300 1900/n elliottReading": {
-					"38": "speak Elliott \"{{ i18n: events.1848481.0 }}\""
+					"38": "speak Elliott \"{{ i18n: events.archhouse.1848481.0 }}\""
 				}
 			},
 			"When": {
@@ -113,8 +113,8 @@
 			"Target": "Data/Events/Saloon",
 			"Fields": {
 				"40/f Elliott 1000/p Gus/t 1500 2200": {
-					"32": "speak Elliott \"{{ i18n: events.saloon.elliott40f.0 }}\"",
-					"47": "speak Gus \"{{ i18n: events.saloon.elliott40f.1 }}\""
+					"32": "speak Elliott \"{{ i18n: events.saloon.40.0 }}\"",
+					"47": "speak Gus \"{{ i18n: events.saloon.40.1 }}\""
 				}
 			},
 			"When": {
