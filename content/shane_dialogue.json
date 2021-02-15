@@ -4,8 +4,8 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Jas",
 			"Entries": {
-				"Sun2": "{{ i18n: jas.sun2 | shane_name={{shane_name}} }}",
-				"Sun10": "{{ i18n: jas.sun10 | shane_name={{shane_name}} }}"
+				"Sun2": "{{ i18n: jas.sun2.0 | shane_name={{shane_name}} }}#$e#{{ i18n: jas.sun2.1 }}$h",
+				"Sun10": "{{ i18n: jas.sun10.0 | shane_name={{shane_name}} }}$s#$e#{{ i18n: jas.sun10.1 }}$s"
 			},
 			"When": {
 				"Shane Dialogue Changed": true
@@ -124,8 +124,8 @@
 			"Fields": {
 				"3910674/f Shane 1000": {
 					"7": "speak Marnie \"{{ i18n: events.animalshop.3910674.0 | shane_name={{shane_name}} }}\"",
-					"21": "speak Marnie \"{{ i18n: events.animalshop.3910674.1 }}\"",
-					"46": "speak Marnie \"{{ i18n: events.animalshop.3910674.2 | shane_name={{shane_name}} }}\""
+					"21": "speak Marnie \"{{ i18n: events.animalshop.3910674.1 }}$s\"",
+					"46": "speak Marnie \"{{ i18n: events.animalshop.3910674.2 | shane_name={{shane_name}} }}$s\""
 				},
 				"3910974/f Shane 1700/e 3910975/p Shane": {
 					"11": "speak Marnie \"{{ i18n: events.animalshop.3910974.0 | shane_name={{shane_name}} }}\"",
@@ -133,7 +133,7 @@
 				},
 				"3900074/f Shane 2000/e 2118991/p Shane": {
 					"12": "speak Jas \"{{ i18n: events.animalshop.3900074.0 | shane_name={{shane_name}} }}\"",
-					"76": "speak Shane \"{{ i18n: events.animalshop.3900074.1 }}\""
+					"76": "speak Shane \"{{ i18n: events.animalshop.3900074.1.0 }}$9#$b#{{ i18n: events.animalshop.3900074.1.1 }} $9#$b#{{ i18n: events.animalshop.3900074.1.2 }}$9#$b#{{ i18n: events.animalshop.3900074.1.3 }}$9#$b#...$9#$b#{{ i18n: events.animalshop.3900074.1.4 }}$8\""
 				}
 			},
 			"When": {
@@ -146,9 +146,9 @@
 			"Target": "Data/Events/Forest",
 			"Fields": {
 				"3910975/f Shane 1500/e 3910674/t 900 2000/w rainy": {
-					"21": "question shaneCliffs \"{{ i18n: events.forest.3910975.0 }}\"",
-					"46": "speak Harvey \"{{ i18n: events.forest.3910975.1 }}\"",
-					"49": "speak Harvey \"{{ i18n: events.forest.3910975.2 }}\""
+					"21": "question shaneCliffs \"#{{ i18n: events.forest.3910975.0.0 }}#{{ i18n: events.forest.3910975.0.1 }}#{{ i18n: events.forest.3910975.0.2 }}#{{ i18n: events.forest.3910975.0.3 }}\"",
+					"46": "speak Harvey \"{{ i18n: events.forest.3910975.1.0 }}#$b#{{ i18n: events.forest.3910975.1.1 }}\"",
+					"49": "speak Harvey \"{{ i18n: events.forest.3910975.2.0 }}$s#$b#{{ i18n: events.forest.3910975.2.1 }}\""
 				}
 			},
 			"When": {
@@ -161,7 +161,7 @@
 			"Target": "Data/Events/ManorHouse",
 			"Fields": {
 				"2123243/e 2111194": {
-					"60": "speak Emily \"{{ i18n: events.manorhouse.2123243.0 | shane_name={{shane_name}} }}\""
+					"60": "speak Emily \"{{ i18n: events.manorhouse.2123243.0 | shane_name={{shane_name}} }}#$b#{{ i18n: events.manorhouse.2123243.1 }}\""
 				}
 			},
 			"When": {
@@ -181,12 +181,12 @@
 					"68": "end dialogue Alex \"{{ i18n: events.saloon.3917590.4 }}\""
 				},
 				"wewereworried": {
-					"5": "speak Shane \"{{ i18n: events.saloon.wewereworried.0 }}\"",
-					"17": "end dialogue Shane \"{{ i18n: events.saloon.wewereworried.1 }}\""
+					"5": "speak Shane \"{{ i18n: events.saloon.wewereworried.0.0 }}$a#$b#{{ i18n: events.saloon.wewereworried.0.1 }}#$b#{{ i18n: events.saloon.wewereworried.0.2 }}\"",
+					"17": "end dialogue Shane \"{{ i18n: events.saloon.wewereworried.1 }}$h\""
 				},
 				"97/f Clint 750/t 1900 2300/d Tue Wed Thu Fri Sat Sun": {
-					"85": "speak Emily \"{{ i18n: events.saloon.97.0 | shane_name={{shane_name}} }}\"",
-					"96": "speak Emily \"{{ i18n: events.saloon.97.1 | shane_name={{shane_name}} }}\""
+					"85": "speak Emily \"{{ i18n: events.saloon.97.0 | shane_name={{shane_name}} }}$h\"",
+					"96": "speak Emily \"{{ i18n: events.saloon.97.1 | shane_name={{shane_name}} }}$h#$b#{{ i18n: events.saloon.97.2 }}\""
 				}
 			},
 			"When": {
@@ -199,12 +199,12 @@
 			"Target": "Data/Events/Town",
 			"Fields": {
 				"3917584/f Shane 3500/O Shane/d Fri/t 800 1700": {
-					"31": "speak Marnie \"{{ i18n: events.town.3917584.0 }}\""
+					"31": "speak Marnie \"{{ i18n: events.town.3917584.0 }}$s\""
 				},
 				"3917586/e 3917585/O Shane/A shaneSaloon2": {
-					"18": "speak Marnie \"{{ i18n: events.town.3917586.0 }}\"",
-					"101": "speak Marnie \"{{ i18n: events.town.3917586.1 | shane_name={{shane_name}} }}\"",
-					"156": "end dialogue Shane \"{{ i18n: events.town.3917586.2 }}\""
+					"18": "speak Marnie \"{{ i18n: events.town.3917586.0 }} $s\"",
+					"101": "speak Marnie \"{{ i18n: events.town.3917586.1 | shane_name={{shane_name}} }}$s\"",
+					"156": "end dialogue Shane \"{{ i18n: events.town.3917586.2 }}$h\""
 				}
 			},
 			"When": {

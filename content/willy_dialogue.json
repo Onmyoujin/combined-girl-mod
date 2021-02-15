@@ -5,7 +5,7 @@
 			"Target": "Characters/Dialogue/Abigail",
 			"Entries": {
 				"Resort_Leaving": "{{ i18n: abby.resort_leaving | willy_name={{willy_name}} }}",
-				"Resort": "{{ i18n: abby.resort | willy_name={{willy_name}} }}"
+				"Resort": "{{ i18n: abby.resort.0 | willy_name={{willy_name}} }}$s#$b#{{ i18n: abby.resort.1 }}$s"
 			},
 			"When": {
 				"Willy Dialogue Changed": true
@@ -27,8 +27,8 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Leah",
 			"Entries": {
-				"Resort_Entering": "{{ i18n: leah.resort_entering | willy_name={{willy_name}} }}",
-				"Resort_Wander": "{{ i18n: leah.resort_wander | willy_name={{willy_name}} }}"
+				"Resort_Entering": "{{ i18n: leah.resort_entering | willy_name={{willy_name}} }}$h",
+				"Resort_Wander": "{{ i18n: leah.resort_wander.0 }}#$e#{{ i18n: leah.resort_wander.1 | willy_name={{willy_name}} }}$h"
 			},
 			"When": {
 				"Willy Dialogue Changed": true
@@ -73,11 +73,11 @@
 			"Action": "EditData",
 			"Target": "Data/ExtraDialogue",
 			"Entries": {
-				"PurchasedItem_1_QualityHigh_Willy": "{{ i18n: extra.purchased1.hq.willy | willy_name={{willy_name}} }}",
-				"PurchasedItem_1_QualityLow_Willy": "{{ i18n: extra.purchased1.lq.willy | willy_name={{willy_name}} }}",
-				"PurchasedItem_3_QualityLow_Rude_Willy": "{{ i18n: extra.purchased3.lq.willy | willy_name={{willy_name}} }}",
-				"PurchasedItem_4_Willy": "{{ i18n: extra.purchased4.willy | willy_name={{willy_name}} }}",
-				"PurchasedItem_Pierre_QualityHigh_Willy": "{{ i18n: extra.purchased.pierre.hq.willy }}"
+				"PurchasedItem_1_QualityHigh_Willy": "{{ i18n: extra.purchased1.hq.willy.0 }}#$b# {{ i18n: extra.purchased1.hq.willy.1 | willy_name={{willy_name}} }} #$b#{{ i18n: extra.purchased1.hq.willy.2 }}$h#$b#{{ i18n: extra.purchased1.hq.willy.3 }}#$e# {{ i18n: extra.purchased1.hq.willy.4 }}",
+				"PurchasedItem_1_QualityLow_Willy": "{{ i18n: extra.purchased1.lq.willy.0 }}#$b# {{ i18n: extra.purchased1.lq.willy.1 | willy_name={{willy_name}} }} #$b#{{ i18n: extra.purchased1.lq.willy.2 }}$s#$e#{{ i18n: extra.purchased1.lq.willy.3 }}",
+				"PurchasedItem_3_QualityLow_Rude_Willy": "{{ i18n: extra.purchased3.lq.willy.0 }}#$e# {{ i18n: extra.purchased3.lq.willy.1 | willy_name={{willy_name}} }}",
+				"PurchasedItem_4_Willy": "{{ i18n: extra.purchased4.willy.0 | willy_name={{willy_name}} }}#$e#{{ i18n: extra.purchased4.willy.1 }}$h",
+				"PurchasedItem_Pierre_QualityHigh_Willy": "{{ i18n: extra.purchased.pierre.hq.willy.0 }}#$b#{{ i18n: extra.purchased.pierre.hq.willy.1 }}$h"
 			},
 			"When": {
 				"Willy Dialogue Changed": true
@@ -163,7 +163,7 @@
 			"Target": "Data/Events/Beach",
 			"Fields": {
 				"711130/t 600 1710/f Willy 1500": {
-					"57": "speak Gus \"{{ i18n: events.beach.711130.0 | willy_name={{willy_name}} }}\"",
+					"57": "speak Gus \"{{ i18n: events.beach.711130.0 | willy_name={{willy_name}} }}$h\"",
 					"94": "speak Gus \"{{ i18n: events.beach.711130.1 | willy_name={{willy_name}} }}\""
 				}
 			},
@@ -202,8 +202,8 @@
 			"Action": "EditData",
 			"Target": "Data/Festivals/winter8",
 			"Entries": {
-				"Pam": "{{ i18n: festivals.winter8.pam | willy_name={{willy_name}} }}",
-				"Elliott": "{{ i18n: festivals.winter8.elliott | willy_name={{willy_name}} }}"
+				"Pam": "{{ i18n: festivals.winter8.pam.0 }}#$e#{{ i18n: festivals.winter8.pam.1 | willy_name={{willy_name}} }}$s",
+				"Elliott": "{{ i18n: festivals.winter8.elliott.0 }}#$e#{{ i18n: festivals.winter8.elliott.1 | willy_name={{willy_name}} }}"
 			},
 			"Fields": {
 				"DickWin": {

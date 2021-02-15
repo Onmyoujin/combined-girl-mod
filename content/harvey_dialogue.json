@@ -15,7 +15,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Harvey",
 			"Entries": {
-				"Introduction": "{{ i18n: harvey.introduction | harvey_name={{harvey_name}} }}"
+				"Introduction": "{{ i18n: harvey.introduction.0 | harvey_name={{harvey_name}} }}#$e#{{ i18n: harvey.introduction.1 }}#$e#{{ i18n: harvey.introduction.2 }}$h"
 			},
 			"When": {
 				"Harvey Dialogue Changed": true
@@ -149,7 +149,7 @@
 			"Target": "Data/Events/Farm",
 			"Fields": {
 				"2118991/e 3910975/t 600 800": {
-					"16": "speak Shane \"{{ i18n: events.farm.2118991.0 | harvey_name={{harvey_name}} }}\""
+					"16": "speak Shane \"{{ i18n: events.farm.2118991.0 | harvey_name={{harvey_name}} }}$s\""
 				}
 			},
 			"When": {
@@ -162,7 +162,7 @@
 			"Target": "Data/Events/FarmHouse",
 			"Fields": {
 				"3917626/f Harvey 3500/O Harvey/t 2000 2400/p Harvey/L": {
-					"126": "{{ i18n: events.farmhouse.3917627.0 }}"
+					"126": "quickQuestion #{{ i18n: events.farmhouse.3917627.0 }}#{{ i18n: events.farmhouse.3917627.1 }}#{{ i18n: events.farmhouse.3917627.2 }}#{{ i18n: events.farmhouse.3917627.3 }}#{{ i18n: events.farmhouse.3917627.4 }}#{{ i18n: events.farmhouse.3917627.5 }}(break)speak Harvey \"{{ i18n: events.farmhouse.3917627.6 }}$h#$b#{{ i18n: events.farmhouse.3917627.7 }}$l\"(break)speak Harvey \"{{ i18n: events.farmhouse.3917627.8 }}#$b#{{ i18n: events.farmhouse.3917627.9 }}$l\"(break)speak Harvey \"{{ i18n: events.farmhouse.3917627.10 }}$s#$b#{{ i18n: events.farmhouse.3917627.11 }}$s\"(break)emote Harvey 28\\speak Harvey \"{{ i18n: events.farmhouse.3917627.12 }}$s#$b#{{ i18n: events.farmhouse.3917627.13 }}$s\"(break)jump Harvey\\pause 500\\speak Harvey \"{{ i18n: events.farmhouse.3917627.14 }}$8#$b#{{ i18n: events.farmhouse.3917627.15 }}$8\"(break)jump Harvey\\pause 400\\speak Harvey \"{{ i18n: events.farmhouse.3917627.16 }}$8#$b#{{ i18n: events.farmhouse.3917627.17 }}$8\""
 				}
 			},
 			"When": {
@@ -175,14 +175,14 @@
 			"Target": "Data/Events/Hospital",
 			"Fields": {
 				"7/f Maru 1000/p Maru": {
-					"28": "speak Maru \"{{ i18n: events.hospital.7.0 | harvey_name={{harvey_name}} }}\"",
-					"35": "speak Maru \"{{ i18n: events.hospital.7.1 | harvey_name={{harvey_name}} }}\""
+					"28": "speak Maru \"{{ i18n: events.hospital.7.0 | harvey_name={{harvey_name}} }}$s\"",
+					"35": "speak Maru \"$q 38 null#{{ i18n: events.hospital.7.1.0 }}#$r 38 -50 Event_Hospital_1#{{ i18n: events.hospital.7.1.1 }}#$r 39 -20 Event_Hospital_2#{{ i18n: events.hospital.7.1.2 | harvey_name={{harvey_name}} }}#$r 38 50 Event_Hospital_3#{{ i18n: events.hospital.7.1.3 | harvey_name={{harvey_name}} }}\""
 				},
 				"toldTruth": {
 					"5": "speak Maru \"{{ i18n: events.hospital.toldtruth.0 | harvey_name={{harvey_name}} }}\""
 				},
 				"571102/f Harvey 2000": {
-					"32": "question fork1 \"{{ i18n: events.hospital.571102.0 | harvey_name={{harvey_name}} }}\""
+					"32": "question fork1 \"#{{ i18n: events.hospital.571102.0 | harvey_name={{harvey_name}} }}#{{ i18n: events.hospital.571102.1 }}\""
 				}
 			},
 			"When": {
@@ -195,7 +195,7 @@
 			"Target": "Data/Events/JoshHouse",
 			"Fields": {
 				"56/f Harvey 500/p George": {
-					"26": "speak Harvey \"{{ i18n: events.joshhouse.56.0 | harvey_name={{harvey_name}} }}\""	
+					"26": "speak Harvey \"$q 84 null#{{ i18n: events.joshhouse.56.0 }}#$r 84 40 event_george1#{{ i18n: events.joshhouse.56.1 | harvey_name={{harvey_name}} }}#$r 85 -40 event_george2#{{ i18n: events.joshhouse.56.2 }}\""	
 				}
 			},
 			"When": {

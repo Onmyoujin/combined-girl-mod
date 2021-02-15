@@ -4,9 +4,9 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Elliott",
 			"Entries": {
-				"Introduction": "{{ i18n: elliott.introduction | elliott_name={{elliott_name}} }}",
-				"Wed8": "{{ i18n: elliott.wed8 }}",
-				"event_boat1": "{{ i18n: elliott.event_boat1 }}"
+				"Introduction": "{{ i18n: elliott.introduction.0 }}#$b#{{ i18n: elliott.introduction.1 | elliott_name={{elliott_name}} }}",
+				"Wed8": "{{ i18n: elliott.wed8.0 }}$s#$e#{{ i18n: elliott.wed8.1 }}$s#$e#{{ i18n: elliott.wed8.2 }}$s",
+				"event_boat1": "{{ i18n: elliott.event_boat1.0 }}$l^{{ i18n: elliott.event_boat1.1 }}$l"
 			},
 			"When": {
 				"Elliott Dialogue Changed": true
@@ -100,7 +100,7 @@
 			"Target": "Data/Events/ArchaeologyHouse",
 			"Fields": {
 				"1848481/f Elliott 2000/t 1300 1900/n elliottReading": {
-					"38": "speak Elliott \"{{ i18n: events.archhouse.1848481.0 }}\""
+					"38": "speak Elliott \"{{ i18n: events.archhouse.1848481.0 }}#$b#{{ i18n: events.archhouse.1848481.1 }}\""
 				}
 			},
 			"When": {
@@ -113,8 +113,8 @@
 			"Target": "Data/Events/Saloon",
 			"Fields": {
 				"40/f Elliott 1000/p Gus/t 1500 2200": {
-					"32": "speak Elliott \"{{ i18n: events.saloon.40.0 }}\"",
-					"47": "speak Gus \"{{ i18n: events.saloon.40.1 }}\""
+					"32": "speak Elliott \"{{ i18n: events.saloon.40.0 }}^{{ i18n: events.saloon.40.1 }}\"",
+					"47": "speak Gus \"{{ i18n: events.saloon.40.2 }}$u\""
 				}
 			},
 			"When": {

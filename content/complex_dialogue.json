@@ -9,15 +9,15 @@
 					"36": "message \"{{ i18n: events.saloon.195099.1 | sebastian_name={{sebastian_name}} }}\""
 				},
 				"195013/f Shane 2500/f Sebastian 2500/f Sam 2500/f Harvey 2500/f Alex 2500/f Elliott 2500/o Abigail/o Penny/o Leah/o Emily/o Maru/o Haley/o Shane/o Harvey/o Sebastian/o Sam/o Elliott/o Alex/e 911526/e 528052/e 9581348/e 43/e 384882/e 233104/k 195099": {
-					"38": "speak Sam \"{{ i18n: events.saloon.195013.0 }}\"",
-					"54": "question fork1 \"{{ i18n: events.saloon.195013.1 }}\"",
-					"62": "speak Sam \"{{ i18n: events.saloon.195013.2 }}\""
+					"38": "speak Sam \"{{ i18n: events.saloon.195013.0 }}$a\"",
+					"54": "question fork1 \"#{{ i18n: events.saloon.195013.1.0 }}#{{ i18n: events.saloon.195013.1.1 }}\"",
+					"62": "speak Sam \"{{ i18n: events.saloon.195013.2 }}$u\""
 				},
 				"choseToExplain": {
-					"13": "speak Sam \"{{ i18n: events.saloon.choseToExplain.0 }}\""
+					"13": "speak Sam \"{{ i18n: events.saloon.choseToExplain.0 }}$u\""
 				},
 				"crying": {
-					"17": "speak Sam \"{{ i18n: events.saloon.choseToExplain.0 }}\""
+					"17": "speak Sam \"{{ i18n: events.saloon.choseToExplain.0 }}$u\""
 				}
 			}
 		},
@@ -30,15 +30,15 @@
 					"34": "message \"{{ i18n: events.saloon.195099.2 }}\""
 				},
 				"195013/f Shane 2500/f Sebastian 2500/f Sam 2500/f Harvey 2500/f Alex 2500/f Elliott 2500/o Abigail/o Penny/o Leah/o Emily/o Maru/o Haley/o Shane/o Harvey/o Sebastian/o Sam/o Elliott/o Alex/e 911526/e 528052/e 9581348/e 43/e 384882/e 233104/k 195099": {
-					"38": "speak Sam \"{{ i18n: events.saloon.195013.3 }}\"",
-					"54": "question fork1 \"{{ i18n: events.saloon.195013.4 }}\"",
-					"62": "speak Sam \"{{ i18n: events.saloon.195013.5 }}\""
+					"38": "speak Sam \"{{ i18n: events.saloon.195013.3 }}$a\"",
+					"54": "question fork1 \"#{{ i18n: events.saloon.195013.4.0 }}#{{ i18n: events.saloon.195013.4.1 }}\"",
+					"62": "speak Sam \"{{ i18n: events.saloon.195013.5 }}$u\""
 				},
 				"choseToExplain": {
-					"13": "speak Sam \"{{ i18n: events.saloon.choseToExplain.1 }}\""
+					"13": "speak Sam \"{{ i18n: events.saloon.choseToExplain.1 }}$u\""
 				},
 				"crying": {
-					"17": "speak Sam \"{{ i18n: events.saloon.choseToExplain.1 }}\""
+					"17": "speak Sam \"{{ i18n: events.saloon.choseToExplain.1 }}$u\""
 				}
 			},
 			"When": {

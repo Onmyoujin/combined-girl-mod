@@ -4,7 +4,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Caroline",
 			"Entries": {
-				"Mon8": "{{ i18n: caroline.mon8 | wizard_title={{wizard_title}} }}"
+				"Mon8": "#$1 Caroline23#{{ i18n: caroline.mon8.0 | wizard_title={{wizard_title}} }}#$e#{{ i18n: caroline.mon8.1 }}"
 			},
 			"When": {
 				"Wizard Dialogue Changed": true
@@ -15,7 +15,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Krobus",
 			"Entries": {
-				"reject_868": "{{ i18n: krobus.reject_868 | wizard_title={{wizard_title}} }}"
+				"reject_868": "{{ i18n: krobus.reject_868.0 }}#$b#{{ i18n: krobus.reject_868.1 | wizard_title={{wizard_title}} }}"
 			},
 			"When": {
 				"Wizard Dialogue Changed": true
@@ -134,7 +134,7 @@
 			"Target": "Data/Events/WizardHouse",
 			"Fields": {
 				"112/n seenJunimoNote": {
-					"18": "speak Wizard \"{{ i18n: events.wizhouse.112.0 | wizard_name={{wizard_name}} }}\""
+					"18": "speak Wizard \"{{ i18n: events.wizhouse.112.0 | wizard_name={{wizard_name}} }}#$b#{{ i18n: events.wizhouse.112.1 }}#$b#{{ i18n: events.wizhouse.112.2 }}#$b#{{ i18n: events.wizhouse.112.3 }}\""
 				}
 			},
 			"When": {
@@ -146,7 +146,7 @@
 			"Action": "EditData",
 			"Target": "Data/Festivals/fall27",
 			"Entries": {
-				"Lewis": "{{ i18n: festivals.fall27.lewis }}"
+				"Lewis": "{{ i18n: festivals.fall27.lewis.0 }}#$e#{{ i18n: festivals.fall27.lewis.1 }}"
 			},
 			"When": {
 				"Wizard Dialogue Changed": true

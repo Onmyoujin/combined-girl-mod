@@ -4,16 +4,16 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Alex",
 			"Entries": {
-				"Introduction": "{{ i18n: alex.intro | alex_name={{alex_name}} }}",
-				"Resort_Chair": "{{ i18n: alex.resort_chair }}",
-				"Resort_Towel_2": "{{ i18n: alex.resort_towel }}",
-				"Tue": "{{ i18n: alex.tue }}",
-				"Fri": "{{ i18n: alex.fri }}",
-				"Sat": "{{ i18n: alex.sat }}",
-				"summer_Mon": "{{ i18n: alex.summer_mon }}",
-				"summer_Tue": "{{ i18n: alex.summer_tue }}",
-				"summer_Wed": "{{ i18n: alex.summer_wed }}",
-				"fall_Wed": "{{ i18n: alex.fall_wed }}"
+				"Introduction": "{{ i18n: alex.intro.0 | alex_name={{alex_name}} }}^{{ i18n: alex.intro.1 }}#$e#{{ i18n: alex.intro.2 }}",
+				"Resort_Chair": "{{ i18n: alex.resort_chair.0 }}^{{ i18n: alex.resort_chair.1 }}",
+				"Resort_Towel_2": "{{ i18n: alex.resort_towel.0 }}#$e#{{ i18n: alex.resort_towel.1 }}",
+				"Tue": "{{ i18n: alex.tue.0 }}#e#{{ i18n: alex.tue.1 }}#$e#{{ i18n: alex.tue.2 }}$s^{{ i18n: alex.tue.3 }}",
+				"Fri": "{{ i18n: alex.fri.0 }}^{{ i18n: alex.fri.1 }}#e#{{ i18n: alex.fri.2 }}#e#{{ i18n: alex.fri.3 }}",
+				"Sat": "{{ i18n: alex.sat.0 }}#e#{{ i18n: alex.sat.1 }}",
+				"summer_Mon": "{{ i18n: alex.summer_mon.0 }}^{{ i18n: alex.summer_mon.1 }}$h#$e#{{ i18n: alex.summer_mon.2 }}#$e#{{ i18n: alex.summer_mon.3 }}",
+				"summer_Tue": "{{ i18n: alex.summer_tue.0 }}#$e#{{ i18n: alex.summer_tue.1 }}",
+				"summer_Wed": "{{ i18n: alex.summer_wed.0 }}^{{ i18n: alex.summer_wed.1 }}#$b#$q 52/53 summer_Wed_01_old#{{ i18n: alex.summer_wed.2 }}#$r 52 30 summer_Wed_01_01#{{ i18n: alex.summer_wed.3 }}#$r 52 0 summer_Wed_01_02#{{ i18n: alex.summer_wed.4 }}#$r 53 -50 summer_Wed_01_03#{{ i18n: alex.summer_wed.5 }}",
+				"fall_Wed": "{{ i18n: alex.fall_wed.0 }}^{{ i18n: alex.fall_wed.1 }}#$e#$q 54/55 fall_Wed_01_old#{{ i18n: alex.fall_wed.2 }}^{{ i18n: alex.fall_wed.3 }}#$r 54 30 fall_Wed_01_01#{{ i18n: alex.fall_wed.4 }}#$r 55 -30 fall_Wed_01_02#{{ i18n: alex.fall_wed.5 }}"
 			},
 			"When": {
 				"Alex Dialogue Changed": true
@@ -24,8 +24,8 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Evelyn",
 			"Entries": {
-				"summer_Mon_inlaw_Alex": "{{ i18n: evelyn.summer_mon_inlaw_alex }}",
-				"fall_Sat": "{{ i18n: evelyn.fall_sat | alex_name={{alex_name}} }}"
+				"summer_Mon_inlaw_Alex": "{{ i18n: evelyn.summer_mon_inlaw_alex.0 }}#$e#{{ i18n: evelyn.summer_mon_inlaw_alex.1 }}",
+				"fall_Sat": "{{ i18n: evelyn.fall_sat.0 | alex_name={{alex_name}} }}#$e#{{ i18n: evelyn.fall_sat.1 }}"
 			},
 			"When": {
 				"Alex Dialogue Changed": true
@@ -36,10 +36,10 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/George",
 			"Entries": {
-				"Wed": "{{ i18n: george.wed | alex_name={{alex_name}} }}",
-				"Wed_inlaw_Alex": "{{ i18n: george.wed_inlaw_alex }}",
-				"Wed10_inlaw_Alex": "{{ i18n: george.wed10_inlaw_alex }}",
-				"Wed8": "{{ i18n: george.wed8 | alex_name={{alex_name}} }}"
+				"Wed": "{{ i18n: george.wed.0 | alex_name={{alex_name}} }}#$e#{{ i18n: george.wed.1 }}",
+				"Wed_inlaw_Alex": "{{ i18n: george.wed_inlaw_alex.0 }}^{{ i18n: george.wed_inlaw_alex.1 }}",
+				"Wed10_inlaw_Alex": "{{ i18n: george.wed10_inlaw_alex.0 }}^{{ i18n: george.wed10_inlaw_alex.1 }}",
+				"Wed8": "{{ i18n: george.wed8.0 | alex_name={{alex_name}} }}$s#$e#{{ i18n: george.wed8.1 | alex_name={{alex_name}} }}$s"
 			},
 			"When": {
 				"Alex Dialogue Changed": true
@@ -50,10 +50,10 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Haley",
 			"Entries": {
-				"Event_room1": "{{ i18n: haley.event_room1 | alex_name={{alex_name}} }}",
-				"summer_Fri": "{{ i18n: haley.summer_fri | alex_name={{alex_name}} }}",
-				"winter_Sun": "{{ i18n: haley.winter_sun | alex_name={{alex_name}} }}",
-				"winter_Sun6": "{{ i18n: haley.winter_sun6 | alex_name={{alex_name}} }}"
+				"Event_room1": "{{ i18n: haley.event_room1.0 }}#$b#{{ i18n: haley.event_room1.1 | alex_name={{alex_name}} }}",
+				"summer_Fri": "{{ i18n: haley.summer_fri.0 | alex_name={{alex_name}} }}#$e#{{ i18n: haley.summer_fri.1 }}",
+				"winter_Sun": "{{ i18n: haley.winter_sun.0 | alex_name={{alex_name}} }}#$e#{{ i18n: haley.winter_sun.1 }}",
+				"winter_Sun6": "{{ i18n: haley.winter_sun6.0 | alex_name={{alex_name}} }}#$e#{{ i18n: haley.winter_sun6.1 }}"
 			},
 			"When": {
 				"Alex Dialogue Changed": true
@@ -134,7 +134,7 @@
 			"Target": "Data/Events/Farm",
 			"Fields": {
 				"3917587/f Alex 3500/O Alex/t 500 820/M 5000/d Sun/y 2": {
-					"20": "question fork0 \"{{ i18n: events.farm.3917587.0 | alex_name={{alex_name}} }}\""
+					"20": "question fork0 \"{{ i18n: events.farm.3917587.0 | alex_name={{alex_name}} }}#{{ i18n: events.farm.3917587.1 }}#{{ i18n: events.farm.3917587.2 }}\""
 				}
 			},
 			"When": {
@@ -147,7 +147,7 @@
 			"Target": "Data/Events/JoshHouse",
 			"Fields": {
 				"2119820/f Alex 1500/p Alex": {
-					"16": "speak Alex \"{{ i18n: events.joshhouse.2119820.0 }}\""
+					"16": "speak Alex \"{{ i18n: events.joshhouse.2119820.0 }}$6#$b#{{ i18n: events.joshhouse.2119820.1 }}$6\""
 				}
 			},
 			"When": {
@@ -160,14 +160,14 @@
 			"Target": "Data/Events/Saloon",
 			"Fields": {
 				"911526/f Alex 2500/t 1900 2200/n joshMessage": {
-					"30": "speak Emily \"{{ i18n: events.saloon.911526.0 | alex_name={{alex_name}} }}\"",
-					"41": "speak Alex \"{{ i18n: events.saloon.911526.1 }}\"",
-					"43": "speak Alex \"{{ i18n: events.saloon.911526.2 }}\""
+					"30": "speak Emily \"{{ i18n: events.saloon.911526.0.0 }}^{{ i18n: events.saloon.911526.0.1 }}#$b#{{ i18n: events.saloon.911526.0.2 | alex_name={{alex_name}} }}^{{ i18n: events.saloon.911526.0.3 | alex_name={{alex_name}} }}\"",
+					"41": "speak Alex \"{{ i18n: events.saloon.911526.1.0 }}$l^{{ i18n: events.saloon.911526.1.1 }}$l#$b#{{ i18n: events.saloon.911526.1.2 }}$l^{{ i18n: events.saloon.911526.1.3 }}$l\"",
+					"43": "speak Alex \"{{ i18n: events.saloon.911526.2 }}$l^{{ i18n: events.saloon.911526.3 }}\""
 				},
 				"3917590/n saloonSportsRoom/O Alex": {
-					"37": "speak Alex \"{{ i18n: events.saloon.3917590.0 }}\"",
-					"42": "speak George \"{{ i18n: events.saloon.3917590.1 | alex_petname={{alex_petname}} }}\"",
-					"51": "speak Gus \"{{ i18n: events.saloon.3917590.2 | alex_name={{shane_name}} }}\"",
+					"37": "speak Alex \"{{ i18n: events.saloon.3917590.0.0 }}#$b#{{ i18n: events.saloon.3917590.0.1 }} $9#$b#{{ i18n: events.saloon.3917590.0.2 }}$h#$b#{{ i18n: events.saloon.3917590.0.3 }}#$b#{{ i18n: events.saloon.3917590.0.4 }}\"",
+					"42": "speak George \"{{ i18n: events.saloon.3917590.1 | alex_petname={{alex_petname}} }}$h\"",
+					"51": "speak Gus \"{{ i18n: events.saloon.3917590.2.0 }}$h#$b#{{ i18n: events.saloon.3917590.2.1 | shane_name={{shane_name}} }}$s\"",
 					"64": "message \"{{ i18n: events.saloon.3917590.3 }}\"",
 					"68": "end dialogue Alex \"{{ i18n: events.saloon.3917590.4 }}\""
 				}

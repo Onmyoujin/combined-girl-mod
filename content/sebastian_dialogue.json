@@ -4,7 +4,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Alex",
 			"Entries": {
-				"winter_Sat": "{{ i18n: alex.winter_sat | sebastian_name={{sebastian_name}} }}"
+				"winter_Sat": "{{ i18n: alex.winter_sat.0 }}#$e#{{ i18n: alex.winter_sat.1 | sebastian_name={{sebastian_name}} }}#$e#{{ i18n: alex.winter_sat.2 }}"
 			},
 			"When": {
 				"Sebastian Dialogue Changed": true
@@ -189,7 +189,7 @@
 			"Target": "Data/Events/Mountain",
 			"Fields": {
 				"384882/f Sebastian 2500/t 2000 2400": {
-					"52": "speak Sebastian \"{{ i18n: events.mountain.384882.0 }}\""
+					"52": "speak Sebastian \"{{ i18n: events.mountain.384882.0 }}$l^@...?$s#$b#{{ i18n: events.mountain.384882.1 }}$l#$b#{{ i18n: events.mountain.384882.2 }}$l\""
 				}
 			},
 			"When": {
@@ -204,7 +204,7 @@
 				"44/f Sam 500/p Sam": {
 					"19": "speak Sam \"{{ i18n: events.samhouse.44.0 | sebastian_name={{sebastian_name}} }}\"",
 					"32": "speak Sam \"{{ i18n: events.samhouse.44.1 | sebastian_name={{sebastian_name}} }}\"",
-					"41": "speak Sam \"{{ i18n: events.samhouse.44.2 | sebastian_name={{sebastian_name}} }}\""
+					"41": "speak Sam \"{{ i18n: events.samhouse.44.2 | sebastian_name={{sebastian_name}} }}$h\""
 				}
 			},
 			"When": {
@@ -217,12 +217,12 @@
 			"Target": "Data/Events/SebastianRoom",
 			"Fields":  {
 				"enterRobin": {
-					"8": "speak Sebastian \"{{ i18n: events.sebroom.enterRobin.0 | name={{sam_name}} | pronoun={{sam_pronoun}} }}\"",
+					"8": "speak Sebastian \"{{ i18n: events.sebroom.enterRobin.0.0 | sam_name={{sam_name}} | sam_pronoun={{sam_pronoun}} }}#$b#{{ i18n: events.sebroom.enterRobin.0.1 }}\"",
 					"16": "speak Robin \"{{ i18n: events.sebroom.enterRobin.1 | name={{sebastian_nick}} }}\"",
-					"31": "question fork1 \"{{ i18n: events.sebroom.enterRobin.2 | pronoun.0={{sebastian_pronoun.0}} | pronoun.1={{sebastian_pronoun.1}} | possess={{sebastian_possess}} }}\""
+					"31": "question fork1 \"#{{ i18n: events.sebroom.enterRobin.2.0 | sebastian_pronoun.1={{sebastian_pronoun.1}} | sebastian_possess={{sebastian_possess}} }}#{{ i18n: events.sebroom.enterRobin.2.1 | sebastian_pronoun.0={{sebastian_pronoun.0}} | sebastian_pronoun.1={{sebastian_pronoun.1}} | sebastian_possess={{sebastian_possess}} }}\""
 				},
 				"Necromancer": {
-					"22": "question fork0 \"{{ i18n: events.sebroom.Necromancer.0 | sam_name={{sam_name}} | sebastian_name={{sebastian_name}} }}\""
+					"22": "question fork0 \"{{ i18n: events.sebroom.Necromancer.0 }}#{{ i18n: events.sebroom.Necromancer.1 | sam_name={{sam_name}} }}#{{ i18n: events.sebroom.Necromancer.2 | sebastian_name={{sebastian_name}} }}\""
 				},
 				"finalBossWizard": {
 					"8": "message \"{{ i18n: events.sebroom.finalBossWizard.0 | sam_name={{sam_name}} | sebastian_name={{sebastian_name}} }}\""
@@ -234,10 +234,10 @@
 					"8": "message \"{{ i18n: events.sebroom.chargeAhead.0 | sam_name={{sam_name}} | sebastian_name={{sebastian_name}} }}\""
 				},
 				"2794460/f Sebastian 500/p Sebastian": {
-					"18": "question fork1 \"{{ i18n: events.sebroom.2794460.0 }}\""
+					"18": "question fork1 \"#{{ i18n: events.sebroom.2794460.0 }}#{{ i18n: events.sebroom.2794460.1 }}\""
 				},
 				"sebastianRoom": {
-					"10": "question fork1 \"{{ i18n: events.sebroom.sebastianroom.0 }}\""
+					"10": "question fork1 \"#{{ i18n: events.sebroom.sebastianroom.0 }}#{{ i18n: events.sebroom.sebastianroom.1 }}\""
 				},
 				"finalBossWarrior": {
 					"7": "message \"{{ i18n: events.sebroom.finalbosswarrior.0 | sebastian_name={{sebastian_name}} }}\""	
@@ -253,7 +253,7 @@
 			"Target": "Data/Events/Town",
 			"Fields": {
 				"15389722/j 57": {
-					"52": "{{ i18n: events.town.15389722.0 | sebastian_name={{sebastian_name}} }}"
+					"52": "quickQuestion #{{ i18n: events.town.15389722.0 }}#{{ i18n: events.town.15389722.1 }}(break)faceDirection Lewis 3\\speak Lewis \"{{ i18n: events.town.15389722.2 }}\"\\emote Robin 20\\speak Robin \"{{ i18n: events.town.15389722.3 }}$4\"\\pause 400\\showFrame Lewis 27\\shake Lewis 200\\pause 400\\textAboveHead Lewis \"{{ i18n: events.town.15389722.4 }}\"\\animate Robin false true 150 32 33\\pause 1200\\showFrame Lewis 0\\faceDirection Lewis 3\\speak Lewis \"{{ i18n: events.town.15389722.5 }}#$b#{{ i18n: events.town.15389722.6 }}$h#$b#{{ i18n: events.town.15389722.7 }}\"(break)faceDirection Lewis 3\\emote Lewis 28\\speak Lewis \"{{ i18n: events.town.15389722.8 }}$s\"\\pause 400\\speak Robin \"{{ i18n: events.town.15389722.9 }}$5#$b#{{ i18n: events.town.15389722.10 | sebastian_name={{sebastian_name}} }}\"\\playMusic none\\pause 500\\speak Lewis \"{{ i18n: events.town.15389722.11 }}$u#$b#{{ i18n: events.town.15389722.12 }}$u\"\\faceDirection Lewis 1(break)"
 				}
 			},
 			"When": {
@@ -276,7 +276,7 @@
 			"Action": "EditData",
 			"Target": "Data/Festivals/summer28",
 			"Entries": {
-				"Sam": "{{ i18n: festivals.summer28.sam | sebastian_name={{sebastian_name}} }}"
+				"Sam": "{{ i18n: festivals.summer28.sam.0 }}#$e#{{ i18n: festivals.summer28.sam.0 | sebastian_name={{sebastian_name}} }}$h"
 			},
 			"When": {
 				"Sebastian Dialogue Changed": true
