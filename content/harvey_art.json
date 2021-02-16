@@ -3,36 +3,36 @@
         {
 			"Action": "EditImage",
 			"Target": "Portraits/Harvey",
-			"FromFile": "assets/Portraits/Harvey/{{Harvey Art}}.png",
+			"FromFile": "assets/Portraits/Harvey/{{Harvey Portraits}}.png",
 			"When": {
-				"Harvey Portrait Changed": "true"
+				"Harvey Portraits |contains=Disabled": false
 			}
 		},
 
 		{
 			"Action": "EditImage",
 			"Target": "Portraits/Harvey_Beach",
-			"FromFile": "assets/Portraits/Harvey/{{Harvey Art}}_Beach.png",
+			"FromFile": "assets/Portraits/Harvey/{{Harvey Portraits}}_Beach.png",
 			"When": {
-				"Harvey Portrait Changed": "true"
+				"Harvey Portraits |contains=Disabled": false
 			}
         },
         
         {
 			"Action": "EditImage",
 			"Target": "Characters/Harvey",
-			"FromFile": "assets/Characters/Harvey/{{Harvey Art}}.png",
+			"FromFile": "assets/Characters/Harvey/{{Harvey Sprites}}.png",
 			"When": {
-				"Harvey Sprites Changed": "true"
+				"Harvey Sprites |contains=Disabled": false
 			}
 		},
 
 		{
 			"Action": "EditImage",
 			"Target": "Characters/Harvey_Beach",
-			"FromFile": "assets/Characters/Harvey/{{Harvey Art}}_Beach.png",
+			"FromFile": "assets/Characters/Harvey/{{Harvey Sprites}}_Beach.png",
 			"When": {
-				"Harvey Sprites Changed": "true"
+				"Harvey Sprites |contains=Disabled": false
 			}
 		}
     ]

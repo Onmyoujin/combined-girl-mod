@@ -3,18 +3,18 @@
         {
 			"Action": "EditImage",
 			"Target": "Portraits/Wizard",
-			"FromFile": "assets/Portraits/Wizard/{{Wizard Art}}.png",
+			"FromFile": "assets/Portraits/Wizard/{{Wizard Portraits}}.png",
 			"When": {
-				"Wizard Portrait Changed": "true"
+				"Wizard Portraits |contains=Disabled": false
 			}
 		},
 		
 		{
 			"Action": "EditImage",
 			"Target": "Characters/Wizard",
-			"FromFile": "assets/Characters/Wizard/{{Wizard Art}}.png",
+			"FromFile": "assets/Characters/Wizard/{{Wizard Sprites}}.png",
 			"When": {
-				"Wizard Sprites Changed": "true"
+				"Wizard Sprites |contains=Disabled": false
 			}
 		}
     ]

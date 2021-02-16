@@ -3,18 +3,18 @@
         {
 			"Action": "EditImage",
 			"Target": "Portraits/Sebastian",
-			"FromFile": "assets/Portraits/Sebastian/{{Sebastian Art}}.png",
+			"FromFile": "assets/Portraits/Sebastian/{{Sebastian Portraits}}.png",
 			"When": {
-				"Sebastian Portrait Changed": "true"
+				"Sebastian Portraits |contains=Disabled": false
 			}
 		},
 
 		{
 			"Action": "EditImage",
 			"Target": "Portraits/Sebastian_Beach",
-			"FromFile": "assets/Portraits/Sebastian/{{Sebastian Art}}_Beach.png",
+			"FromFile": "assets/Portraits/Sebastian/{{Sebastian Portraits}}_Beach.png",
 			"When": {
-				"Sebastian Portrait Changed": "true"
+				"Sebastian Portraits |contains=Disabled": false
 			}
         },
         
@@ -25,25 +25,25 @@
 			"FromFile": "assets/LooseSprites/Sebastian/default.png",
 			"ToArea": { "X": 405, "Y": 1852, "Width": 47, "Height": 35 },
 			"When": {
-				"Sebastian Sprites Changed": "true"
+				"Sebastian Sprites |contains=Disabled": false
 			}
         },
         
         {
 			"Action": "EditImage",
 			"Target": "Characters/Sebastian",
-			"FromFile": "assets/Characters/Sebastian/{{Sebastian Art}}.png",
+			"FromFile": "assets/Characters/Sebastian/{{Sebastian Sprites}}.png",
 			"When": {
-				"Sebastian Sprites Changed": "true"
+				"Sebastian Sprites |contains=Disabled": false
 			}
 		},
 
 		{
 			"Action": "EditImage",
 			"Target": "Characters/Sebastian_Beach",
-			"FromFile": "assets/Characters/Sebastian/{{Sebastian Art}}_Beach.png",
+			"FromFile": "assets/Characters/Sebastian/{{Sebastian Sprites}}_Beach.png",
 			"When": {
-				"Sebastian Sprites Changed": "true"
+				"Sebastian Sprites |contains=Disabled": false
 			}
 		}
     ]

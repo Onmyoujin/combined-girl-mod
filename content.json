@@ -1,20 +1,15 @@
 {
 	"Format": "1.20.0",
 	"ConfigSchema": {
-		"Alex Art": {
-			"AllowValues": "Adarin, Adarin Variant",
+		"Alex Portraits": {
+			"AllowValues": "Adarin, Adarin Variant, Disabled",
 			"Default": "Adarin",
 			"Description": "Portrait and sprite options."
 		},
-		"Alex Portrait Changed": {
-			"AllowValues": "true, false",
-			"Default": true,
-			"Description": "Enable portrait art changes."
-		},
-		"Alex Sprites Changed": {
-			"AllowValues": "true, false",
-			"Default": true,
-			"Description": "Enable sprite art changes."
+		"Alex Sprites": {
+			"AllowValues": "Adarin, Adarin Variant, Disabled",
+			"Default": "Adarin",
+			"Description": "Portrait and sprite options."
 		},
 		"Alex Dialogue Changed": {
 			"AllowValues": "true, false",
@@ -25,20 +20,15 @@
 			"Default": "Alexa",
 			"Description": "NPC name.  Applied only when dialogue changes are enabled."
 		},
-		"Elliott Art": {
-			"AllowValues": "Adarin, Adarin Variant, Exrenkon",
+		"Elliott Portraits": {
+			"AllowValues": "Adarin, Adarin Variant, Exrenkon, Disabled",
 			"Default": "Adarin",
 			"Description": "Portrait and sprite options."
 		},
-		"Elliott Portrait Changed": {
-			"AllowValues": "true, false",
-			"Default": true,
-			"Description": "Enable portrait art changes."
-		},
-		"Elliott Sprites Changed": {
-			"AllowValues": "true, false",
-			"Default": true,
-			"Description": "Enable sprite art changes."
+		"Elliott Sprites": {
+			"AllowValues": "Adarin, Adarin Variant, Exrenkon, Disabled",
+			"Default": "Adarin",
+			"Description": "Portrait and sprite options."
 		},
 		"Elliott Dialogue Changed": {
 			"AllowValues": "true, false",
@@ -49,20 +39,15 @@
 			"Default": "Elayne",
 			"Description": "NPC name.  Applied only when dialogue changes are enabled."
 		},
-		"Harvey Art": {
-			"AllowValues": "Adarin, RedK1rby",
+		"Harvey Portraits": {
+			"AllowValues": "Adarin, RedK1rby, Disabled",
 			"Default": "Adarin",
 			"Description": "Portrait and sprite options."
 		},
-		"Harvey Portrait Changed": {
-			"AllowValues": "true, false",
-			"Default": true,
-			"Description": "Enable portrait art changes."
-		},
-		"Harvey Sprites Changed": {
-			"AllowValues": "true, false",
-			"Default": true,
-			"Description": "Enable sprite art changes."
+		"Harvey Sprites": {
+			"AllowValues": "Adarin, RedK1rby, Disabled",
+			"Default": "Adarin",
+			"Description": "Portrait and sprite options."
 		},
 		"Harvey Dialogue Changed": {
 			"AllowValues": "true, false",
@@ -73,20 +58,15 @@
 			"Default": "Harley",
 			"Description": "NPC name.  Applied only when dialogue changes are enabled."
 		},
-		"Sam Art": {
-			"AllowValues": "Adarin, KonaKona7",
+		"Sam Portraits": {
+			"AllowValues": "Adarin, KonaKona7, Disabled",
 			"Default": "Adarin",
 			"Description": "Portrait and sprite options."
 		},
-		"Sam Portrait Changed": {
-			"AllowValues": "true, false",
-			"Default": true,
-			"Description": "Enable portrait art changes."
-		},
-		"Sam Sprites Changed": {
-			"AllowValues": "true, false",
-			"Default": true,
-			"Description": "Enable sprite art changes."
+		"Sam Sprites": {
+			"AllowValues": "Adarin, KonaKona7, Disabled",
+			"Default": "Adarin",
+			"Description": "Portrait and sprite options."
 		},
 		"Sam Dialogue Changed": {
 			"AllowValues": "true, false",
@@ -105,20 +85,15 @@
 			"Default": "Sammy",
 			"Description": "Sam's nickname."
 		},
-		"Sebastian Art": {
-			"AllowValues": "Adarin, Adarin Variant",
+		"Sebastian Portraits": {
+			"AllowValues": "Adarin, Adarin Variant, Disabled",
 			"Default": "Adarin",
 			"Description": "Portrait and sprite options."
 		},
-		"Sebastian Portrait Changed": {
-			"AllowValues": "true, false",
-			"Default": true,
-			"Description": "Enable portrait art changes."
-		},
-		"Sebastian Sprites Changed": {
-			"AllowValues": "true, false",
-			"Default": true,
-			"Description": "Enable sprite art changes."
+		"Sebastian Sprites": {
+			"AllowValues": "Adarin, Adarin Variant, Disabled",
+			"Default": "Adarin",
+			"Description": "Portrait and sprite options."
 		},
 		"Sebastian Dialogue Changed": {
 			"AllowValues": "true, false",
@@ -133,20 +108,15 @@
 			"Default": "Rina",
 			"Description": "Sebastian's nickname."
 		},
-		"Shane Art": {
-			"AllowValues": "Exrenkon, Lydomia",
+		"Shane Portraits": {
+			"AllowValues": "Exrenkon, Lydomia, Disabled",
 			"Default": "Exrenkon",
 			"Description": "Portrait and sprite options."
 		},
-		"Shane Portrait Changed": {
-			"AllowValues": "true, false",
-			"Default": true,
-			"Description": "Enable portrait art changes."
-		},
-		"Shane Sprites Changed": {
-			"AllowValues": "true, false",
-			"Default": true,
-			"Description": "Enable sprite art changes."
+		"Shane Sprites": {
+			"AllowValues": "Exrenkon, Lydomia, Disabled",
+			"Default": "Exrenkon",
+			"Description": "Portrait and sprite options."
 		},
 		"Shane Dialogue Changed": {
 			"AllowValues": "true, false",
@@ -157,20 +127,15 @@
 			"Default": "Shania",
 			"Description": "NPC name.  Applied only when dialogue changes are enabled."
 		},
-		"Willy Art": {
-			"AllowValues": "Bajel",
+		"Willy Portraits": {
+			"AllowValues": "Bajel, Disabled",
 			"Default": "Bajel",
 			"Description": "Portrait and sprite options."
 		},
-		"Willy Portrait Changed": {
-			"AllowValues": "true, false",
-			"Default": true,
-			"Description": "Enable portrait art changes."
-		},
-		"Willy Sprites Changed": {
-			"AllowValues": "true, false",
-			"Default": true,
-			"Description": "Enable sprite art changes."
+		"Willy Sprites": {
+			"AllowValues": "Bajel, Disabled",
+			"Default": "Bajel",
+			"Description": "Portrait and sprite options."
 		},
 		"Willy Dialogue Changed": {
 			"AllowValues": "true, false",
@@ -181,20 +146,15 @@
 			"Default": "Winnie",
 			"Description": "NPC name.  Applied only when dialogue changes are enabled."
 		},
-		"Wizard Art": {
-			"AllowValues": "CreepyKat, Wew69",
-			"Default": "CreepyKat",
+		"Wizard Portraits": {
+			"AllowValues": "CreepyKat, Wew69, Disabled",
+			"Default": "Wew69",
 			"Description": "Portrait and sprite options."
 		},
-		"Wizard Portrait Changed": {
-			"AllowValues": "true, false",
-			"Default": true,
-			"Description": "Enable portrait art changes."
-		},
-		"Wizard Sprites Changed": {
-			"AllowValues": "true, false",
-			"Default": true,
-			"Description": "Enable sprite art changes."
+		"Wizard Sprites": {
+			"AllowValues": "CreepyKat, Wew69, Disabled",
+			"Default": "Wew69",
+			"Description": "Portrait and sprite options."
 		},
 		"Wizard Dialogue Changed": {
 			"AllowValues": "true, false",

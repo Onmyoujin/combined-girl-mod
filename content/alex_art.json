@@ -3,36 +3,36 @@
         {
 			"Action": "EditImage",
 			"Target": "Portraits/Alex",
-			"FromFile": "assets/Portraits/Alex/{{Alex Art}}.png",
+			"FromFile": "assets/Portraits/Alex/{{Alex Portraits}}.png",
 			"When": {
-				"Alex Portrait Changed": "true"
+				"Alex Portraits |contains=Disabled": false
 			}
 		},
 
 		{
 			"Action": "EditImage",
 			"Target": "Portraits/Alex_Beach",
-			"FromFile": "assets/Portraits/Alex/{{Alex Art}}_Beach.png",
+			"FromFile": "assets/Portraits/Alex/{{Alex Portraits}}_Beach.png",
 			"When": {
-				"Alex Portrait Changed": "true"
+				"Alex Portraits |contains=Disabled": false
 			}
         },
         
         {
 			"Action": "EditImage",
 			"Target": "Characters/Alex",
-			"FromFile": "assets/Characters/Alex/{{Alex Art}}.png",
+			"FromFile": "assets/Characters/Alex/{{Alex Sprites}}.png",
 			"When": {
-				"Alex Sprites Changed": "true"
+				"Alex Sprites |contains=Disabled": false
 			}
 		},
 
 		{
 			"Action": "EditImage",
 			"Target": "Characters/Alex_Beach",
-			"FromFile": "assets/Characters/Alex/{{Alex Art}}_Beach.png",
+			"FromFile": "assets/Characters/Alex/{{Alex Sprites}}_Beach.png",
 			"When": {
-				"Alex Sprites Changed": "true"
+				"Alex Sprites |contains=Disabled": false
 			}
 		}
     ]

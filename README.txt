@@ -7,6 +7,7 @@
    Open > Open Game Mods Folder > CombinedGirlMod and edit config.json to change settings as described
    in the Configuration section below.
  * (Alternative) Download General Mod Config Menu and use that to edit the settings directly.
+   Restart the game after making any changes and saving.
 
 === LEGACY INSTALLATION ===
 
@@ -21,54 +22,46 @@
 
 In config.json, the following values are accepted:
 
-Alex Art: Adarin, Adarin Variant
-Alex Portrait Changed: true, false
-Alex Sprites Changed: true, false
+Alex Portraits: Adarin, Adarin Variant, Disabled
+Alex Sprites: Adarin, Adarin Variant, Disabled
 Alex Dialogue Changed: true, false
 Alex Name: Any string; defaults to Alexa; applies only when dialogue changed
 
-Elliott Art: Adarin, Adarin Variant, Exrenkon
-Elliott Portrait Changed: true, false
-Elliott Sprites Changed: true, false
+Elliott Portraits: Adarin, Adarin Variant, Exrenkon, Disabled
+Elliott Sprites: Adarin, Adarin Variant, Exrenkon, Disabled
 Elliott Dialogue Changed: true, false
 Elliott Name: Any string; defaults to Elayne; applies only when dialogue changed
 
-Harvey Art: Adarin, RedK1rby
-Harvey Portrait Changed: true, false
-Harvey Sprites Changed: true, false
+Harvey Portraits: Adarin, RedK1rby, Disabled
+Harvey Sprites: Adarin, RedK1rby, Disabled
 Harvey Dialogue Changed: true, false
 Harvey Name: Any string; defaults to Harley; applies only when dialogue changed
 
-Sam Art: Adarin, KonaKona7
-Sam Portrait Changed: true, false
-Sam Sprites Changed: true, false
+Sam Portraits: Adarin, KonaKona7, Disabled
+Sam Sprites: Adarin, KonaKona7, Disabled
 Sam Dialogue Changed: true, false
 Sam Name: Any string; defaults to Sam; applies only when dialogue changed
 Sam First Name: Any string; defaults to Samantha; applies only when dialogue changed
 Sam Nickname: Any string; defaults to Sammy; applies only when dialogue changed
 
-Sebastian Art: Adarin, Adarin Variant
-Sebastian Portrait Changed: true, false
-Sebastian Sprites Changed: true, false
+Sebastian Portraits: Adarin, Adarin Variant, Disabled
+Sebastian Sprites: Adarin, Adarin Variant, Disabled
 Sebastian Dialogue Changed: true, false
 Sebastian Name: Any string; defaults to Sabrina; applies only when dialogue changed
 Sebastian Nickname: Any string; defaults to Rina; applies only when dialogue changed
 
-Shane Art: Exrenkon, Lydomia
-Shane Portrait Changed: true, false
-Shane Sprites Changed: true, false
+Shane Portraits: Exrenkon, Lydomia, Disabled
+Shane Sprites: Exrenkon, Lydomia, Disabled
 Shane Dialogue Changed: true, false
 Shane Name: Any string; defaults to Shania; applies only when dialogue changed
 
-Willy Art: Bajel
-Willy Portrait Changed: true, false
-Willy Sprites Changed: true, false
+Willy Portraits: Bajel, Disabled
+Willy Sprites: Bajel, Disabled
 Willy Genderswapped: true, false
 Willy Name: Any string; defaults to Winnie; applies only when dialogue changed
 
-Wizard Art: CreepyKat, Wew69
-Wizard Portrait Changed: true, false
-Wizard Sprites Changed: true, false
+Wizard Portraits: CreepyKat, Wew69, Disabled
+Wizard Sprites: CreepyKat, Wew69, Disabled
 Wizard Dialogue Changed: true, false
 Wizard Title: Any string; defaults to Wizardess; applies only when dialogue changed
 Wizard Name: Any string; defaults to Rasmodia; applies only when dialogue changed
