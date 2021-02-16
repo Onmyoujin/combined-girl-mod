@@ -44,8 +44,8 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/MarriageDialogueSam",
 			"Entries": {
-				"OneKid_1": "{{ i18n: married.sam.onekid_1 }}",
-				"TwoKids_3": "{{ i18n: married.sam.twokids_3 }}"
+				"OneKid_1": "{{ i18n: married.sam.onekid_1 }}$h",
+				"TwoKids_3": "{{ i18n: married.sam.twokids_3 }}$l"
 			},
 			"When": {
 				"Sam Dialogue Changed": true
@@ -56,7 +56,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/MarriageDialogueSebastian",
 			"Entries": {
-				"fall_15": "{{ i18n: married.sebastian.fall_15 | sam_name={{sam_name}} }}"
+				"fall_15": "{{ i18n: married.sebastian.fall_15.0 | sam_name={{sam_name}} }}#$e#{{ i18n: married.sebastian.fall_15.1 }}$7"
 			},
 			"When": {
 				"Sam Dialogue Changed": true
@@ -67,10 +67,10 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sam",
 			"Entries": {
-				"Introduction": "{{ i18n: sam.introduction | sam_name={{sam_name}} }}",
-				"Resort_Towel": "{{ i18n: sam.resort_towel | sam_name={{sam_name}} }}",
-				"Mon8": "{{ i18n: sam.mon8 | sam_name={{sam_name}} | sam_first={{sam_first}} }}",
-				"Wed10": "{{ i18n: sam.wed10 }}"
+				"Introduction": "{{ i18n: sam.introduction | sam_name={{sam_name}} }}$h",
+				"Resort_Towel": "%{{ i18n: sam.resort_towel | sam_name={{sam_name}} }}",
+				"Mon8": "{{ i18n: sam.mon8.0 | sam_name={{sam_name}} | sam_first={{sam_first}} }}$l#$e#{{ i18n: sam.mon8.1 }}",
+				"Wed10": "{{ i18n: sam.wed10.0 }}$10^{{ i18n: sam.wed10.1 }}"
 			},
 			"When": {
 				"Sam Dialogue Changed": true
@@ -81,10 +81,10 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sebastian",
 			"Entries": {
-				"Wed2": "{{ i18n: sebastian.wed2 | sam_name={{sam_name}} }}",
+				"Wed2": "{{ i18n: sebastian.wed2.0 | sam_name={{sam_name}} }}#$e#{{ i18n: sebastian.wed2.1 }}$h#$e#{{ i18n: sebastian.wed2.2 }}",
 				"Wed2_inlaw_Abigail": "{{ i18n: sebastian.wed2_inlaw_abigail | sam_name={{sam_name}} }}",
-				"Wed6": "{{ i18n: sebastian.wed6 | sam_name={{sam_name}} }}",
-				"Fri8": "{{ i18n: sebastian.fri8 | sam_name={{sam_name}} }}"
+				"Wed6": "{{ i18n: sebastian.wed6 | sam_name={{sam_name}} }}$s",
+				"Fri8": "{{ i18n: sebastian.fri8.0 }}$h#$e#{{ i18n: sebastian.fri8.1 | sam_name={{sam_name}} }}$h"
 			},
 			"When": {
 				"Sam Dialogue Changed": true
@@ -95,7 +95,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Vincent",
 			"Entries": {
-				"Mon": "{{ i18n: vincent.mon }}"
+				"Mon": "{{ i18n: vincent.mon.0 }}$h#$e#{{ i18n: vincent.mon.1 }}"
 			},
 			"When": {
 				"Sam Dialogue Changed": true
@@ -314,9 +314,9 @@
 			"Action": "EditData",
 			"Target": "Strings/animationDescriptions",
 			"Entries": {
-				"sam_guitar": "{{ i18n: strings.animation.sam_guitar | sam_name={{sam_name}} }}",
-				"sam_skateboarding": "{{ i18n: strings.animation.sam_skateboarding | sam_name={{sam_name}} }}",
-				"sam_work": "{{ i18n: strings.animation.sam_work | sam_name={{sam_name}} }}"
+				"sam_guitar": "%{{ i18n: strings.animation.sam_guitar | sam_name={{sam_name}} }}",
+				"sam_skateboarding": "%{{ i18n: strings.animation.sam_skateboarding | sam_name={{sam_name}} }}",
+				"sam_work": "%{{ i18n: strings.animation.sam_work | sam_name={{sam_name}} }}"
 			},
 			"When": {
 				"Sam Dialogue Changed": true
@@ -338,7 +338,7 @@
 			"Action": "EditData",
 			"Target": "Strings/StringsFromCSFiles",
 			"Entries": {
-				"Event.cs.1625": "{{ i18n: strings.cs.1625 }}",
+				"Event.cs.1625": "{{ i18n: strings.cs.1625 }}$s",
 				"Utility.cs.5792": "{{ i18n: strings.cs.5792 | sam_name={{sam_name}} }}",
 				"Utility.cs.5794": "{{ i18n: strings.cs.5794 | sam_name={{sam_name}} }}",
 				"Utility.cs.5806": "{{ i18n: strings.cs.5806 | sam_name={{sam_name}} }}",
@@ -381,8 +381,8 @@
 			"Action": "EditData",
 			"Target": "Strings/schedules/Sebastian",
 			"Entries": {
-				"Fri.000": "{{ i18n: strings.schedules.sebastian.fri.000 | sam_name={{sam_name}} }}",
-				"marriage_Fri.001": "{{ i18n: strings.schedules.sebastian.marriage_fri.001 | sam_name={{sam_name}} }}"
+				"Fri.000": "{{ i18n: strings.schedules.sebastian.fri.000 | sam_name={{sam_name}} }}$h",
+				"marriage_Fri.001": "{{ i18n: strings.schedules.sebastian.marriage_fri.001 | sam_name={{sam_name}} }}$h"
 			},
 			"When": {
 				"Sam Dialogue Changed": true

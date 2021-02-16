@@ -17,7 +17,7 @@
 			"Target": "Characters/Dialogue/Marnie",
 			"Entries": {
 				"Tue": "{{ i18n: marnie.tue | shane_name={{shane_name}} }}",
-				"Fri4": "{{ i18n: marnie.fri4 | shane_name={{shane_name}} }}"
+				"Fri4": "#$1 marnieLike#{{ i18n: marnie.fri4.0 }}$k$h#$e#{{ i18n: marnie.fri4.1 | shane_name={{shane_name}} }}"
 			},
 			"When": {
 				"Shane Dialogue Changed": true
@@ -28,11 +28,11 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/MarriageDialogueShane",
 			"Entries": {
-				"Indoor_Day_4": "{{ i18n: married.shane.indoor_day_4 }}",
-				"Indoor_Night_3": "{{ i18n: married.shane.indoor_night_3 }}",
-				"OneKid_3": "{{ i18n: married.shane.onekid_3 | shane_name={{shane_name}} }}",
+				"Indoor_Day_4": "{{ i18n: married.shane.indoor_day_4 }}$6",
+				"Indoor_Night_3": "{{ i18n: married.shane.indoor_night_3.0 }}#$e#{{ i18n: married.shane.indoor_night_3.1 }}",
+				"OneKid_3": "{{ i18n: married.shane.onekid_3.0 | shane_name={{shane_name}} }}$6#$e#{{ i18n: married.shane.onekid_3.1 }}",
 				"Good_2": "{{ i18n: married.shane.good_2 | shane_name={{shane_name}} }}",
-				"Good_6": "{{ i18n: married.shane.good_6 }}"
+				"Good_6": "{{ i18n: married.shane.good_6 }}$h"
 			},
 			"When": {
 				"Shane Dialogue Changed": true
@@ -43,8 +43,8 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Shane",
 			"Entries": {
-				"dumped_Guys": "{{ i18n: shane.dumped_guys | shane_name={{shane_name}} }}",
-				"JojaMart": "{{ i18n: shane.jojamart | shane_name={{shane_name}} }}"
+				"dumped_Guys": "%{{ i18n: shane.dumped_guys | shane_name={{shane_name}} }}",
+				"JojaMart": "%{{ i18n: shane.jojamart | shane_name={{shane_name}} }}"
 			},
 			"When": {
 				"Shane Dialogue Changed": true
@@ -80,7 +80,7 @@
 			"Action": "EditData",
 			"Target": "Data/SecretNotes",
 			"Entries": {
-				"7": "{{ i18n: secrets.7 | harvey_name={{ harvey_name }} | harvey_pronoun.0={{ Lowercase:{{harvey_pronoun}} }} | harvey_spouse={{harvey_spouse}} | harvey_pronoun.1={{harvey_pronoun}} | elliott_name={{elliott_name}} | elliott_adj={{elliott_adj}} | elliott_pronoun.0={{ Lowercase:{{elliott_pronoun}} }} | elliott_feature={{elliott_feature}} | elliott_pronoun.1={{elliott_pronoun}} | shane_name={{shane_name}} | shane_possess={{shane_possess}} | shane_pronoun={{shane_pronoun}} }}"
+				"7": "{{ i18n: secrets.7 | harvey_name={{ harvey_name }} | harvey_pronoun.0={{ Lowercase:{{harvey_pronoun}} }} | harvey_spouse={{harvey_spouse}} | harvey_pronoun.1={{harvey_pronoun}} | elliott_name={{elliott_name}} | elliott_adj={{elliott_adj}} | elliott_pronoun.0={{ Lowercase:{{elliott_pronoun}} }} | elliott_feature={{elliott_feature}} | elliott_pronoun.1={{elliott_pronoun}} | shane_name={{shane_name}} | shane_possess={{shane_possess}} | shane_pronoun={{shane_pronoun}} }}%revealtasteHarvey395%revealtasteHarvey342%revealtasteElliott732%revealtasteElliott637%revealtasteShane346%revealtasteShane206%revealtasteShane215"
 			},
 			"When": {
 				"Shane Dialogue Changed": true
@@ -216,7 +216,7 @@
 			"Action": "EditData",
 			"Target": "Strings/animationDescriptions",
 			"Entries": {
-				"shane_work": "{{ i18n: strings.animation.shane_work | shane_name={{shane_name}} }}"
+				"shane_work": "%{{ i18n: strings.animation.shane_work | shane_name={{shane_name}} }}"
 			},
 			"When": {
 				"Shane Dialogue Changed": true

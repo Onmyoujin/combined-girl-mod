@@ -26,10 +26,10 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/MarriageDialogueHarvey",
 			"Entries": {
-				"Outdoor_2": "{{ i18n: married.harvey.outdoor_2 }}",
-				"OneKid_3": "{{ i18n: married.harvey.onekid_3 }}",
-				"TwoKids_3": "{{ i18n: married.harvey.twokids_3 }}",
-				"summer_1": "{{ i18n: married.harvey.summer_1 }}"
+				"Outdoor_2": "{{ i18n: married.harvey.outdoor_2 }}$l",
+				"OneKid_3": "{{ i18n: married.harvey.onekid_3 }}$h",
+				"TwoKids_3": "{{ i18n: married.harvey.twokids_3.0 }}$l#$e#{{ i18n: married.harvey.twokids_3.1 }}$l",
+				"summer_1": "{{ i18n: married.harvey.summer_1.0 }}$8#$e#{{ i18n: married.harvey.summer_1.1 }}"
 			},
 			"When": {
 				"Harvey Dialogue Changed": true
@@ -40,7 +40,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/MarriageDialoguePenny",
 			"Entries": {
-				"Rainy_Day_1": "{{ i18n: married.penny.rainy_day_1 | harvey_name={{harvey_name}} }}"
+				"Rainy_Day_1": "{{ i18n: married.penny.rainy_day_1.0 | harvey_name={{harvey_name}} }}#$e3#{{ i18n: married.penny.rainy_day_1.1 }}$h"
 			},
 			"When": {
 				"Harvey Dialogue Changed": true
@@ -51,10 +51,10 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Maru",
 			"Entries": {
-				"Wed": "{{ i18n: maru.wed | harvey_name={{harvey_name}} }}",
-				"Wed8": "{{ i18n: maru.wed8 | harvey_name={{harvey_name}} }}",
-				"Event_Hospital_1": "{{ i18n: maru.event_hospital_1 }}",
-				"Event_Hospital_3": "{{ i18n: maru.event_hospital_3 }}"
+				"Wed": "{{ i18n: maru.wed.0 | harvey_name={{harvey_name}} }}#$b#{{ i18n: maru.wed.1 }}$h#$e#{{ i18n: maru.wed.2 }}",
+				"Wed8": "{{ i18n: maru.wed8.0 | harvey_name={{harvey_name}} }}#$e#{{ i18n: maru.wed8.1 }}",
+				"Event_Hospital_1": "{{ i18n: maru.event_hospital_1 }}%fork$s",
+				"Event_Hospital_3": "{{ i18n: maru.event_hospital_3 }}%fork$u"
 			},
 			"When": {
 				"Harvey Dialogue Changed": true
@@ -91,7 +91,7 @@
 			"Action": "EditData",
 			"Target": "Data/SecretNotes",
 			"Entries": {
-				"7": "{{ i18n: secrets.7 | harvey_name={{ harvey_name }} | harvey_pronoun.0={{ Lowercase:{{harvey_pronoun}} }} | harvey_spouse={{harvey_spouse}} | harvey_pronoun.1={{harvey_pronoun}} | elliott_name={{elliott_name}} | elliott_adj={{elliott_adj}} | elliott_pronoun.0={{ Lowercase:{{elliott_pronoun}} }} | elliott_feature={{elliott_feature}} | elliott_pronoun.1={{elliott_pronoun}} | shane_name={{shane_name}} | shane_possess={{shane_possess}} | shane_pronoun={{shane_pronoun}} }}"
+				"7": "{{ i18n: secrets.7 | harvey_name={{ harvey_name }} | harvey_pronoun.0={{ Lowercase:{{harvey_pronoun}} }} | harvey_spouse={{harvey_spouse}} | harvey_pronoun.1={{harvey_pronoun}} | elliott_name={{elliott_name}} | elliott_adj={{elliott_adj}} | elliott_pronoun.0={{ Lowercase:{{elliott_pronoun}} }} | elliott_feature={{elliott_feature}} | elliott_pronoun.1={{elliott_pronoun}} | shane_name={{shane_name}} | shane_possess={{shane_possess}} | shane_pronoun={{shane_pronoun}} }}%revealtasteHarvey395%revealtasteHarvey342%revealtasteElliott732%revealtasteElliott637%revealtasteShane346%revealtasteShane206%revealtasteShane215"
 			},
 			"When": {
 				"Harvey Dialogue Changed": true
@@ -218,7 +218,7 @@
 			"Action": "EditData",
 			"Target": "Strings/animationDescriptions",
 			"Entries": {
-				"harvey_radio": "{{ i18n: strings.animation.harvey_radio | harvey_name={{harvey_name}} }}"
+				"harvey_radio": "%{{ i18n: strings.animation.harvey_radio | harvey_name={{harvey_name}} }}"
 			},
 			"When": {
 				"Harvey Dialogue Changed": true
@@ -256,7 +256,7 @@
 			"Action": "EditData",
 			"Target": "Strings/schedules/Caroline",
 			"Entries": {
-				"fall_25.002": "{{ i18n: strings.schedules.caroline.fall_25.002 | harvey_name={{harvey_name}} }}"
+				"fall_25.002": "{{ i18n: strings.schedules.caroline.fall_25.002 | harvey_name={{harvey_name}} }}$u"
 			},
 			"When": {
 				"Harvey Dialogue Changed": true
@@ -345,7 +345,7 @@
 			"Action": "EditData",
 			"Target": "Strings/schedules/Sam",
 			"Entries": {
-				"fall_11.000": "{{ i18n: strings.schedules.sam.fall_11.000 }}"
+				"fall_11.000": "{{ i18n: strings.schedules.sam.fall_11.000 }}$7"
 			},
 			"When": {
 				"Harvey Dialogue Changed": true

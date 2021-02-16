@@ -15,7 +15,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/MarriageDialogue",
 			"Entries": {
-				"Indoor_Night_Sebastian": "{{ i18n: married.indoor_night_sebastian }}"
+				"Indoor_Night_Sebastian": "#$c .5#{{ i18n: married.indoor_night_sebastian.0 }}$h#$e#{{ i18n: married.indoor_night_sebastian.1 }}$h"
 			},
 			"When": {
 				"Sebastian Dialogue Changed": true
@@ -26,7 +26,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/MarriageDialogueAbigail",
 			"Entries": {
-				"Bad_9": "{{ i18n: married.abby.bad_9 | sebastian_name={{sebastian_name}} }}"
+				"Bad_9": "{{ i18n: married.abby.bad_9 | sebastian_name={{sebastian_name}} }}$s"
 			},
 			"When": {
 				"Sebastian Dialogue Changed": true
@@ -49,7 +49,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/MarriageDialogueSam",
 			"Entries": {
-				"Rainy_Day_1": "{{ i18n: married.sam.rainy_day_1 | sebastian_name={{sebastian_name}} }}",
+				"Rainy_Day_1": "{{ i18n: married.sam.rainy_day_1.0 | sebastian_name={{sebastian_name}} }}#$e#{{ i18n: married.sam.rainy_day_1.1 }}",
 				"spring_12": "{{ i18n: married.sam.spring_12 | sebastian_name={{sebastian_name}} }}"
 			},
 			"When": {
@@ -61,10 +61,10 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/MarriageDialogueSebastian",
 			"Entries": {
-				"Outdoor_3": "{{ i18n: married.sebastian.outdoor_3 }}",
+				"Outdoor_3": "{{ i18n: married.sebastian.outdoor_3.0 }}#$e#{{ i18n: married.sebastian.outdoor_3.1 }}$h",
 				"OneKid_0": "{{ i18n: married.sebastian.onekid_0 }}",
-				"Good_3": "{{ i18n: married.sebastian.good_3 }}",
-				"spring_23": "{{ i18n: married.sebastian.spring_23 }}"
+				"Good_3": "{{ i18n: married.sebastian.good_3 }}$l",
+				"spring_23": "{{ i18n: married.sebastian.spring_23.0 }}#$e#{{ i18n: married.sebastian.spring_23.1 }}$s"
 			},
 			"When": {
 				"Sebastian Dialogue Changed": true
@@ -75,8 +75,8 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Maru",
 			"Entries": {
-				"summer_Tue": "{{ i18n: maru.summer_tue | sebastian_name={{sebastian_name}} }}",
-				"summer_Tue4": "{{ i18n: maru.summer_tue4 | sebastian_name={{sebastian_name}} }}"
+				"summer_Tue": "{{ i18n: maru.summer_tue.0 | sebastian_name={{sebastian_name}} }}#$e#{{ i18n: maru.summer_tue.1 }}",
+				"summer_Tue4": "{{ i18n: maru.summer_tue4.0 | sebastian_name={{sebastian_name}} }}#$e#{{ i18n: maru.summer_tue4.1 }}"
 			},
 			"When": {
 				"Sebastian Dialogue Changed": true
@@ -87,9 +87,9 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Robin",
 			"Entries": {
-				"Fri": "{{ i18n: robin.fri | sebastian_name={{sebastian_name}} }}",
+				"Fri": "{{ i18n: robin.fri.0 | sebastian_name={{sebastian_name}} }}#$e#{{ i18n: robin.fri.1 }}",
 				"Fri_inlaw_Sebastian": "{{ i18n: robin.fri_inlaw_sebastian | sebastian_nick={{sebastian_nick}} }}",
-				"Fri4": "{{ i18n: robin.fri4 | sebastian_name={{sebastian_name}} }}",
+				"Fri4": "#$1 RobinSeb#{{ i18n: robin.fri4.0 | sebastian_name={{sebastian_name}} }}#$e#{{ i18n: robin.fri4.1 | sebastian_name={{sebastian_name}} }}#$e#{{ i18n: robin.fri4.2 }}",
 				"Fri4_inlaw_Sebastian": "{{ i18n: robin.fri4_inlaw_sebastian | sebastian_name={{sebastian_name}} }}",
 				"winter_Fri_inlaw_Sebastian": "{{ i18n: robin.winter_fri_inlaw_sebastian | sebastian_nick={{sebastian_nick}} }}"
 			},
@@ -102,8 +102,8 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sam",
 			"Entries": {
-				"Resort_Towel_2": "{{ i18n: sam.resort_towel_2 | sebastian_name={{sebastian_name}} }}",
-				"Wed6": "{{ i18n: sam.wed6 | sebastian_name={{sebastian_name}} }}"
+				"Resort_Towel_2": "{{ i18n: sam.resort_towel_2.0 }}#$e#{{ i18n: sam.resort_towel_2.1 | sebastian_name={{sebastian_name}} }}$s#$e#{{ i18n: sam.resort_towel_2.2 }}$h",
+				"Wed6": "{{ i18n: sam.wed6.0 | sebastian_name={{sebastian_name}} }}#$e#{{ i18n: sam.wed6.1 }}"
 			},
 			"When": {
 				"Sebastian Dialogue Changed": true
@@ -114,7 +114,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sebastian",
 			"Entries": {
-				"winter_Wed": "{{ i18n: sebastian.winter_wed | sebastian_name={{sebastian_name}} }}"
+				"winter_Wed": "%{{ i18n: sebastian.winter_wed | sebastian_name={{sebastian_name}} }}"
 			},
 			"When": {
 				"Sebastian Dialogue Changed": true

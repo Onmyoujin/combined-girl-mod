@@ -26,7 +26,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/MarriageDialogueKrobus",
 			"Entries": {
-				"Rainy_Day_3": "{{ i18n: married.krobus.rainy_day_3 | wizard_title={{wizard_title}} }}"
+				"Rainy_Day_3": "{{ i18n: married.krobus.rainy_day_3 | wizard_title={{wizard_title}} }}$s"
 			},
 			"When": {
 				"Wizard Dialogue Changed": true

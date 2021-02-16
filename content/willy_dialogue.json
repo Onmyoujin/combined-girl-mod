@@ -40,7 +40,7 @@
 			"Target": "Characters/Dialogue/Maru",
 			"Entries": {
 				"Resort_Entering": "{{ i18n: maru.resort_entering | willy_name={{willy_name}} }}",
-				"Resort_Shore": "{{ i18n: maru.resort_shore | willy_name={{willy_name}} }}"
+				"Resort_Shore": "{{ i18n: maru.resort_shore.0 | willy_name={{willy_name}} }}#{{ i18n: maru.resort_shore.1 }}#{{ i18n: maru.resort_shore.2 }}"
 			},
 			"When": {
 				"Willy Dialogue Changed": true
@@ -62,7 +62,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sebastian",
 			"Entries": {
-				"Resort_Shore": "{{ i18n: sebastian.resort_shore | willy_name={{willy_name}} }}"
+				"Resort_Shore": "{{ i18n: sebastian.resort_shore.0 | willy_name={{willy_name}} }}#$b#{{ i18n: sebastian.resort_shore.1 }}$h"
 			},
 			"When": {
 				"Willy Dialogue Changed": true

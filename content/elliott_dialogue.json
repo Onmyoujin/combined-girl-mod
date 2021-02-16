@@ -20,7 +20,7 @@
 				"Rainy_Night_3": "{{ i18n: married.elliott.rainy_night_3 }}",
 				"Indoor_Day_0": "{{ i18n: married.elliott.indoor_day_0 }}",
 				"OneKid_3": "{{ i18n: married.elliott.onekid_3 }}",
-				"TwoKids_1": "{{ i18n: married.elliott.twokids_1 }}",
+				"TwoKids_1": "{{ i18n: married.elliott.twokids_1 }}$h",
 				"fall_26": "{{ i18n: married.elliott.fall_26 }}"
 			},
 			"When": {
@@ -32,7 +32,7 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Shane",
 			"Entries": {
-				"event_room1": "{{ i18n: shane.event_room1 | elliott_name={{elliott_name}} }}"
+				"event_room1": "{{ i18n: shane.event_room1 | elliott_name={{elliott_name}} }}$s"
 			},
 			"When": {
 				"Elliott Dialogue Changed": true
@@ -74,7 +74,7 @@
 			"Action": "EditData",
 			"Target": "Data/SecretNotes",
 			"Entries": {
-				"7": "{{ i18n: secrets.7 | harvey_name={{ harvey_name }} | harvey_pronoun.0={{ Lowercase:{{harvey_pronoun}} }} | harvey_spouse={{harvey_spouse}} | harvey_pronoun.1={{harvey_pronoun}} | elliott_name={{elliott_name}} | elliott_adj={{elliott_adj}} | elliott_pronoun.0={{ Lowercase:{{elliott_pronoun}} }} | elliott_feature={{elliott_feature}} | elliott_pronoun.1={{elliott_pronoun}} | shane_name={{shane_name}} | shane_possess={{shane_possess}} | shane_pronoun={{shane_pronoun}} }}"
+				"7": "{{ i18n: secrets.7 | harvey_name={{ harvey_name }} | harvey_pronoun.0={{ Lowercase:{{harvey_pronoun}} }} | harvey_spouse={{harvey_spouse}} | harvey_pronoun.1={{harvey_pronoun}} | elliott_name={{elliott_name}} | elliott_adj={{elliott_adj}} | elliott_pronoun.0={{ Lowercase:{{elliott_pronoun}} }} | elliott_feature={{elliott_feature}} | elliott_pronoun.1={{elliott_pronoun}} | shane_name={{shane_name}} | shane_possess={{shane_possess}} | shane_pronoun={{shane_pronoun}} }}%revealtasteHarvey395%revealtasteHarvey342%revealtasteElliott732%revealtasteElliott637%revealtasteShane346%revealtasteShane206%revealtasteShane215"
 			},
 			"When": {
 				"Elliott Dialogue Changed": true

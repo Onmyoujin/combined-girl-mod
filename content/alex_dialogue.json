@@ -64,14 +64,14 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/MarriageDialogueAlex",
 			"Entries": {
-				"Rainy_Day_3": "{{ i18n: married.alex.rainy_day_3 }}",
+				"Rainy_Day_3": "{{ i18n: married.alex.rainy_day_3 }}$9",
 				"Rainy_Day_4": "{{ i18n: married.alex.rainy_day_4 }}",
-				"Rainy_Night_1": "{{ i18n: married.alex.rainy_night_1 }}",
-				"Rainy_Night_2": "{{ i18n: married.alex.rainy_night_2 }}",
-				"OneKid_0": "{{ i18n: married.alex.onekid_0 }}",
+				"Rainy_Night_1": "{{ i18n: married.alex.rainy_night_1 }}$u",
+				"Rainy_Night_2": "{{ i18n: married.alex.rainy_night_2 }}$l",
+				"OneKid_0": "{{ i18n: married.alex.onekid_0 }}$h",
 				"OneKid_1": "{{ i18n: married.alex.onekid_1 }}",
-				"OneKid_3": "{{ i18n: married.alex.onekid_3 }}",
-				"TwoKids_2": "{{ i18n: married.alex.twokids_2 }}",
+				"OneKid_3": "{{ i18n: married.alex.onekid_3 }}$h",
+				"TwoKids_2": "{{ i18n: married.alex.twokids_2 }}$h",
 				"spring_23": "{{ i18n: married.alex.spring_23 }}",
 				"summer_1": "{{ i18n: married.alex.summer_1 }}"
 			},
@@ -108,7 +108,7 @@
 			"Action": "EditData",
 			"Target": "Data/SecretNotes",
 			"Entries": {
-				"9": "{{ i18n: secrets.9 | alex_name={{alex_name}} }}"
+				"9": "{{ i18n: secrets.9 | alex_name={{alex_name}} }}%revealtasteAlex201%revealtasteAlex212"
 			},
 			"When": {
 				"Alex Dialogue Changed": true
@@ -220,7 +220,7 @@
 			"Action": "EditData",
 			"Target": "Strings/schedules/Alex",
 			"Entries": {
-				"Sun.000": "{{ i18n: strings.schedules.alex.sun.000 | alex_name={{alex_name}} }}"
+				"Sun.000": "%{{ i18n: strings.schedules.alex.sun.000 | alex_name={{alex_name}} }}"
 			},
 			"When": {
 				"Alex Dialogue Changed": true
