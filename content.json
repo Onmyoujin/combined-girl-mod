@@ -1,96 +1,76 @@
 {
-	"Format": "1.19.0",
+	"Format": "1.20.0",
 	"ConfigSchema": {
-		"Alex Art": {
-			"AllowValues": "Adarin, Adarin Variant",
+		"Alex Portraits": {
+			"AllowValues": "Adarin, Adarin Variant, Disabled",
 			"Default": "Adarin",
 			"Description": "Portrait and sprite options."
 		},
-		"Alex Portrait Changed": {
-			"AllowValues": "true, false",
-			"Default": "true",
-			"Description": "Enable portrait art changes."
-		},
-		"Alex Sprites Changed": {
-			"AllowValues": "true, false",
-			"Default": "true",
-			"Description": "Enable sprite art changes."
+		"Alex Sprites": {
+			"AllowValues": "Adarin, Adarin Variant, Disabled",
+			"Default": "Adarin",
+			"Description": "Portrait and sprite options."
 		},
 		"Alex Dialogue Changed": {
 			"AllowValues": "true, false",
-			"Default": "true",
+			"Default": true,
 			"Description": "Enable dialogue changes."
 		},
 		"Alex Name": {
 			"Default": "Alexa",
 			"Description": "NPC name.  Applied only when dialogue changes are enabled."
 		},
-		"Elliott Art": {
-			"AllowValues": "Adarin, Adarin Variant, Exrenkon",
+		"Elliott Portraits": {
+			"AllowValues": "Adarin, Adarin Variant, Exrenkon, Disabled",
 			"Default": "Adarin",
 			"Description": "Portrait and sprite options."
 		},
-		"Elliott Portrait Changed": {
-			"AllowValues": "true, false",
-			"Default": "true",
-			"Description": "Enable portrait art changes."
-		},
-		"Elliott Sprites Changed": {
-			"AllowValues": "true, false",
-			"Default": "true",
-			"Description": "Enable sprite art changes."
+		"Elliott Sprites": {
+			"AllowValues": "Adarin, Adarin Variant, Exrenkon, Disabled",
+			"Default": "Adarin",
+			"Description": "Portrait and sprite options."
 		},
 		"Elliott Dialogue Changed": {
 			"AllowValues": "true, false",
-			"Default": "true",
+			"Default": true,
 			"Description": "Enable dialogue changes."
 		},
 		"Elliott Name": {
 			"Default": "Elayne",
 			"Description": "NPC name.  Applied only when dialogue changes are enabled."
 		},
-		"Harvey Art": {
-			"AllowValues": "Adarin, RedK1rby",
+		"Harvey Portraits": {
+			"AllowValues": "Adarin, RedK1rby, Disabled",
 			"Default": "Adarin",
 			"Description": "Portrait and sprite options."
 		},
-		"Harvey Portrait Changed": {
-			"AllowValues": "true, false",
-			"Default": "true",
-			"Description": "Enable portrait art changes."
-		},
-		"Harvey Sprites Changed": {
-			"AllowValues": "true, false",
-			"Default": "true",
-			"Description": "Enable sprite art changes."
+		"Harvey Sprites": {
+			"AllowValues": "Adarin, RedK1rby, Disabled",
+			"Default": "Adarin",
+			"Description": "Portrait and sprite options."
 		},
 		"Harvey Dialogue Changed": {
 			"AllowValues": "true, false",
-			"Default": "true",
+			"Default": true,
 			"Description": "Enable dialogue changes."
 		},
 		"Harvey Name": {
 			"Default": "Harley",
 			"Description": "NPC name.  Applied only when dialogue changes are enabled."
 		},
-		"Sam Art": {
-			"AllowValues": "Adarin, KonaKona7",
+		"Sam Portraits": {
+			"AllowValues": "Adarin, KonaKona7, Disabled",
 			"Default": "Adarin",
 			"Description": "Portrait and sprite options."
 		},
-		"Sam Portrait Changed": {
-			"AllowValues": "true, false",
-			"Default": "true",
-			"Description": "Enable portrait art changes."
-		},
-		"Sam Sprites Changed": {
-			"AllowValues": "true, false",
-			"Default": "true",
-			"Description": "Enable sprite art changes."
+		"Sam Sprites": {
+			"AllowValues": "Adarin, KonaKona7, Disabled",
+			"Default": "Adarin",
+			"Description": "Portrait and sprite options."
 		},
 		"Sam Dialogue Changed": {
 			"AllowValues": "true, false",
-			"Default": "true",
+			"Default": true,
 			"Description": "Enable dialogue changes."
 		},
 		"Sam Name": {
@@ -105,24 +85,19 @@
 			"Default": "Sammy",
 			"Description": "Sam's nickname."
 		},
-		"Sebastian Art": {
-			"AllowValues": "Adarin, Adarin Variant",
+		"Sebastian Portraits": {
+			"AllowValues": "Adarin, Adarin Variant, Disabled",
 			"Default": "Adarin",
 			"Description": "Portrait and sprite options."
 		},
-		"Sebastian Portrait Changed": {
-			"AllowValues": "true, false",
-			"Default": "true",
-			"Description": "Enable portrait art changes."
-		},
-		"Sebastian Sprites Changed": {
-			"AllowValues": "true, false",
-			"Default": "true",
-			"Description": "Enable sprite art changes."
+		"Sebastian Sprites": {
+			"AllowValues": "Adarin, Adarin Variant, Disabled",
+			"Default": "Adarin",
+			"Description": "Portrait and sprite options."
 		},
 		"Sebastian Dialogue Changed": {
 			"AllowValues": "true, false",
-			"Default": "true",
+			"Default": true,
 			"Description": "Enable dialogue changes."
 		},
 		"Sebastian Name": {
@@ -133,72 +108,57 @@
 			"Default": "Rina",
 			"Description": "Sebastian's nickname."
 		},
-		"Shane Art": {
-			"AllowValues": "Exrenkon, Lydomia",
+		"Shane Portraits": {
+			"AllowValues": "Exrenkon, Lydomia, Disabled",
 			"Default": "Exrenkon",
 			"Description": "Portrait and sprite options."
 		},
-		"Shane Portrait Changed": {
-			"AllowValues": "true, false",
-			"Default": "true",
-			"Description": "Enable portrait art changes."
-		},
-		"Shane Sprites Changed": {
-			"AllowValues": "true, false",
-			"Default": "true",
-			"Description": "Enable sprite art changes."
+		"Shane Sprites": {
+			"AllowValues": "Exrenkon, Lydomia, Disabled",
+			"Default": "Exrenkon",
+			"Description": "Portrait and sprite options."
 		},
 		"Shane Dialogue Changed": {
 			"AllowValues": "true, false",
-			"Default": "true",
+			"Default": true,
 			"Description": "Enable dialogue changes."
 		},
 		"Shane Name": {
 			"Default": "Shania",
 			"Description": "NPC name.  Applied only when dialogue changes are enabled."
 		},
-		"Willy Art": {
-			"AllowValues": "Bajel",
+		"Willy Portraits": {
+			"AllowValues": "Bajel, Disabled",
 			"Default": "Bajel",
 			"Description": "Portrait and sprite options."
 		},
-		"Willy Portrait Changed": {
-			"AllowValues": "true, false",
-			"Default": "true",
-			"Description": "Enable portrait art changes."
-		},
-		"Willy Sprites Changed": {
-			"AllowValues": "true, false",
-			"Default": "true",
-			"Description": "Enable sprite art changes."
+		"Willy Sprites": {
+			"AllowValues": "Bajel, Disabled",
+			"Default": "Bajel",
+			"Description": "Portrait and sprite options."
 		},
 		"Willy Dialogue Changed": {
 			"AllowValues": "true, false",
-			"Default": "true",
+			"Default": true,
 			"Description": "Enable dialogue changes."
 		},
 		"Willy Name": {
 			"Default": "Winnie",
 			"Description": "NPC name.  Applied only when dialogue changes are enabled."
 		},
-		"Wizard Art": {
-			"AllowValues": "CreepyKat, Wew69",
-			"Default": "CreepyKat",
+		"Wizard Portraits": {
+			"AllowValues": "CreepyKat, Wew69, Disabled",
+			"Default": "Wew69",
 			"Description": "Portrait and sprite options."
 		},
-		"Wizard Portrait Changed": {
-			"AllowValues": "true, false",
-			"Default": "true",
-			"Description": "Enable portrait art changes."
-		},
-		"Wizard Sprites Changed": {
-			"AllowValues": "true, false",
-			"Default": "true",
-			"Description": "Enable sprite art changes."
+		"Wizard Sprites": {
+			"AllowValues": "CreepyKat, Wew69, Disabled",
+			"Default": "Wew69",
+			"Description": "Portrait and sprite options."
 		},
 		"Wizard Dialogue Changed": {
 			"AllowValues": "true, false",
-			"Default": "true",
+			"Default": true,
 			"Description": "Enable dialogue changes."
 		},
 		"Wizard Title": {
@@ -210,6 +170,272 @@
 			"Description": "Wizard's first name."
 		}
 	},
+	"DynamicTokens": [
+		{
+			"Name": "alex_name",
+			"Value": "Alex"
+		},
+		{
+			"Name": "alex_name",
+			"Value": "{{Alex Name}}",
+			"When": {
+				"Alex Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "alex_petname",
+			"Value": "son"
+		},
+		{
+			"Name": "alex_petname",
+			"Value": "girl",
+			"When": {
+				"Alex Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "elliott_name",
+			"Value": "Elliott"
+		},
+		{
+			"Name": "elliott_name",
+			"Value": "{{Elliott Name}}",
+			"When": {
+				"Elliott Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "elliott_adj",
+			"Value": "foppish"
+		},
+		{
+			"Name": "elliott_adj",
+			"Value": "vain",
+			"When": {
+				"Elliott Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "elliott_pronoun",
+			"Value": "He"
+		},
+		{
+			"Name": "elliott_pronoun",
+			"Value": "She",
+			"When": {
+				"Elliott Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "elliott_feature",
+			"Value": "chin"
+		},
+		{
+			"Name": "elliott_feature",
+			"Value": "smile",
+			"When": {
+				"Elliott Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "harvey_name",
+			"Value": "Harvey"
+		},
+		{
+			"Name": "harvey_name",
+			"Value": "{{Harvey Name}}",
+			"When": {
+				"Harvey Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "harvey_pronoun",
+			"Value": "He"
+		},
+		{
+			"Name": "harvey_pronoun",
+			"Value": "She",
+			"When": {
+				"Harvey Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "harvey_spouse",
+			"Value": "husband"
+		},
+		{
+			"Name": "harvey_spouse",
+			"Value": "wife",
+			"When": {
+				"Harvey Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "sam_name",
+			"Value": "Sam"
+		},
+		{
+			"Name": "sam_name",
+			"Value": "{{Sam Name}}",
+			"When": {
+				"Sam Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "sam_first",
+			"Value": "Samson"
+		},
+		{
+			"Name": "sam_first",
+			"Value": "{{Sam First Name}}",
+			"When": {
+				"Sam Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "sam_nick",
+			"Value": "Sammy"
+		},
+		{
+			"Name": "sam_nick",
+			"Value": "{{Sam Nickname}}",
+			"When": {
+				"Sam Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "sam_pronoun",
+			"Value": "he"
+		},
+		{
+			"Name": "sam_pronoun",
+			"Value": "she",
+			"When": {
+				"Sam Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "sebastian_name",
+			"Value": "Sebastian"
+		},
+		{
+			"Name": "sebastian_name",
+			"Value": "{{Sebastian Name}}",
+			"When": {
+				"Sebastian Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "sebastian_nick",
+			"Value": "Sebby"
+		},
+		{
+			"Name": "sebastian_nick",
+			"Value": "{{Sebastian Nickname}}",
+			"When": {
+				"Sebastian Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "sebastian_pronoun.0",
+			"Value": "he"
+		},
+		{
+			"Name": "sebastian_pronoun.0",
+			"Value": "she",
+			"When": {
+				"Sebastian Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "sebastian_pronoun.1",
+			"Value": "him"
+		},
+		{
+			"Name": "sebastian_pronoun.1",
+			"Value": "her",
+			"When": {
+				"Sebastian Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "sebastian_possess",
+			"Value": "his"
+		},
+		{
+			"Name": "sebastian_possess",
+			"Value": "her",
+			"When": {
+				"Sebastian Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "shane_name",
+			"Value": "Shane"
+		},
+		{
+			"Name": "shane_name",
+			"Value": "{{Shane Name}}",
+			"When": {
+				"Shane Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "shane_possess",
+			"Value": "his"
+		},
+		{
+			"Name": "shane_possess",
+			"Value": "her",
+			"When": {
+				"Shane Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "shane_pronoun",
+			"Value": "He"
+		},
+		{
+			"Name": "shane_pronoun",
+			"Value": "She",
+			"When": {
+				"Shane Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "willy_name",
+			"Value": "Willy"
+		},
+		{
+			"Name": "willy_name",
+			"Value": "{{Willy Name}}",
+			"When": {
+				"Willy Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "wizard_title",
+			"Value": "Wizard"
+		},
+		{
+			"Name": "wizard_title",
+			"Value": "{{Wizard Title}}",
+			"When": {
+				"Wizard Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "wizard_name",
+			"Value": "Rasmodius"
+		},
+		{
+			"Name": "wizard_name",
+			"Value": "{{Wizard Name}}",
+			"When": {
+				"Wizard Dialogue Changed": true
+			}
+		}
+	],
 	"Changes": [
 		{
 			"Action": "Include",

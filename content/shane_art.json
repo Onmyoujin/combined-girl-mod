@@ -3,18 +3,18 @@
         {
 			"Action": "EditImage",
 			"Target": "Portraits/Shane",
-			"FromFile": "assets/Portraits/Shane/{{Shane Art}}.png",
+			"FromFile": "assets/Portraits/Shane/{{Shane Portraits}}.png",
 			"When": {
-				"Shane Portrait Changed": "true"
+				"Shane Portraits |contains=Disabled": false
 			}
         },
 
         {
 			"Action": "EditImage",
 			"Target": "Portraits/Shane_Beach",
-			"FromFile": "assets/Portraits/Shane/{{Shane Art}}_Beach.png",
+			"FromFile": "assets/Portraits/Shane/{{Shane Portraits}}_Beach.png",
 			"When": {
-				"Shane Portrait Changed": "true"
+				"Shane Portraits |contains=Disabled": false
 			}
         },
         
@@ -25,34 +25,34 @@
 			"FromFile": "assets/LooseSprites/Shane/default.png",
 			"ToArea": { "X": 533, "Y": 1850, "Width": 26, "Height": 41 },
 			"When": {
-				"Shane Sprites Changed": "true"
+				"Shane Sprites |contains=Disabled": false
 			}
         },
         
         {
 			"Action": "EditImage",
 			"Target": "Characters/Shane",
-			"FromFile": "assets/Characters/Shane/{{Shane Art}}.png",
+			"FromFile": "assets/Characters/Shane/{{Shane Sprites}}.png",
 			"When": {
-				"Shane Sprites Changed": "true"
+				"Shane Sprites |contains=Disabled": false
 			}
 		},
 		
 		{
 			"Action": "EditImage",
 			"Target": "Characters/Shane_JojaMart",
-			"FromFile": "assets/Characters/Shane/{{Shane Art}}_jojamart.png",
+			"FromFile": "assets/Characters/Shane/{{Shane Sprites}}_jojamart.png",
 			"When": {
-				"Shane Sprites Changed": "true"
+				"Shane Sprites |contains=Disabled": false
 			}
 		},
 
 		{
 			"Action": "EditImage",
 			"Target": "Characters/Shane_Beach",
-			"FromFile": "assets/Characters/Shane/{{Shane Art}}_Beach.png",
+			"FromFile": "assets/Characters/Shane/{{Shane Sprites}}_Beach.png",
 			"When": {
-				"Shane Sprites Changed": "true"
+				"Shane Sprites |contains=Disabled": false
 			}
 		},
 		
@@ -61,7 +61,7 @@
 			"Target": "Characters/ClothesTherapyCharacters",
 			"FromFile": "assets/Characters/ClothesTherapyCharacters/default.png",
 			"When": {
-				"Shane Sprites Changed": "true"
+				"Shane Sprites |contains=Disabled": false
 			}
 		}
     ]

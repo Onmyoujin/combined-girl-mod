@@ -4,16 +4,16 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Jodi",
 			"Entries": {
-				"Thu6": "Where does all the time go? *sigh*#$e#I remember when {{Sam Name}} was a little baby wearing diapers. She was such a cute little kid.$s#$e#Don't tell her I said that.$h#$e#You must really like talking to me, huh?",
-				"Sun8": "I had a dream that I had complete freedom, no obligation to anyone but myself...#$b#...Then I woke up and realized I had a full day of house chores ahead of me...$s#$e#But I don't regret having a family, @... {{Sam Name}} and Vincent mean everything to me!",
-				"summer_Tue_inlaw_Sam": "How's my little {{Sam Nickname}} doing on the old farm?$h",
-				"fall_Thu": "Maybe I've spoiled the kids a bit. They've never had to do any chores.#$e#I guess I want them to be able to enjoy their childhood while they still can. Well, {{Sam Name}}'s basically a woman now, though.#$b#I hope she hasn't grown up to be lazy. That won't do.$s#$e#Being a parent isn't very easy.",
-				"fall_Thu_inlaw_Sam": "Is {{Sam Name}} just bumming around the farm, or is she contributing?",
-				"winter_Thu": "{{Sam Name}} makes a lot of noise with that music of hers. I hope it doesn't disturb the neighbors.",
-				"winter_Thu_inlaw_Sam": "How's {{Sam Name}} doing? I have to admit, there's less cooking and cleaning to do since she moved out..."
+				"Thu6": "{{ i18n: jodi.thu6.0 }}#$e#{{ i18n: jodi.thu6.1 | sam_name={{sam_name}} }}$s#$e#{{ i18n: jodi.thu6.2 }}$h#$e#{{ i18n: jodi.thu6.3 }}",
+				"Sun8": "{{ i18n: jodi.sun8.0 }}#$b#{{ i18n: jodi.sun8.1 }}$s#$e#{{ i18n: jodi.sun8.2 | sam_name={{sam_name}} }}",
+				"summer_Tue_inlaw_Sam": "{{ i18n: jodi.summer_tue_inlaw_sam | sam_nick={{sam_nick}} }}$h",
+				"fall_Thu": "{{ i18n: jodi.fall_thu.0 }}#$e#{{ i18n: jodi.fall_thu.1 | sam_name={{sam_name}} }}#$b#{{ i18n: jodi.fall_thu.2 }}$s#$e#{{ i18n: jodi.fall_thu.3 }}",
+				"fall_Thu_inlaw_Sam": "{{ i18n: jodi.fall_thu_inlaw_sam | sam_name={{sam_name}} }}",
+				"winter_Thu": "{{ i18n: jodi.winter_thu | sam_name={{sam_name}} }}",
+				"winter_Thu_inlaw_Sam": "{{ i18n: jodi.winter_thu_inlaw_sam | sam_name={{sam_name}} }}"
 			},
 			"When": {
-				"Sam Dialogue Changed": "true"
+				"Sam Dialogue Changed": true
 			}
 		},
 		
@@ -21,11 +21,11 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Kent",
 			"Entries": {
-				"Thu6": "#$1 Kent1#I've been up since 4 o'clock... sometimes I wonder if I'll ever get back into a normal routine.$k#$e#{{Sam Name}} has really grown up since I left. She's a woman now.#$e#I wish I could've been there for her.$s",
-				"Thu": "Are you friends with my daughter?#$e#You probably know her better than I do...$s"
+				"Thu6": "#$1 Kent1#{{ i18n: kent.thu6.0 }}$k#$e#{{ i18n: kent.thu6.1 | sam_name={{sam_name}} }}#$e#{{ i18n: kent.thu6.2 }}$s",
+				"Thu": "{{ i18n: kent.thu.0 }}#$e#{{ i18n: kent.thu.1 }}$s"
 			},
 			"When": {
-				"Sam Dialogue Changed": "true"
+				"Sam Dialogue Changed": true
 			}
         },
         
@@ -33,10 +33,10 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/MarriageDialogue",
 			"Entries": {
-				"winter_Sam": "I've given up on being a musician. I want to spend my time focused on our family!"
+				"winter_Sam": "{{ i18n: married.winter_sam }}"
 			},
 			"When": {
-				"Sam Dialogue Changed": "true"
+				"Sam Dialogue Changed": true
 			}
         },
         
@@ -44,11 +44,11 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/MarriageDialogueSam",
 			"Entries": {
-				"OneKid_1": "It's weird, but I really like being a mother!$h",
-				"TwoKids_3": "I never thought I'd become the homemaker type, but I'm really satisfied with what we've built here. Life is going great.$l"
+				"OneKid_1": "{{ i18n: married.sam.onekid_1 }}$h",
+				"TwoKids_3": "{{ i18n: married.sam.twokids_3 }}$l"
 			},
 			"When": {
-				"Sam Dialogue Changed": "true"
+				"Sam Dialogue Changed": true
 			}
         },
         
@@ -56,10 +56,10 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/MarriageDialogueSebastian",
 			"Entries": {
-				"fall_15": "The Stardew Valley Fair is a little crowded for my tastes... but I'll just hang out with {{Sam Name}}. It'll be good to catch up with her.#$e#You should play some carnival games, though! Don't worry about me.$7"
+				"fall_15": "{{ i18n: married.sebastian.fall_15.0 | sam_name={{sam_name}} }}#$e#{{ i18n: married.sebastian.fall_15.1 }}$7"
 			},
 			"When": {
-				"Sam Dialogue Changed": "true"
+				"Sam Dialogue Changed": true
 			}
         },
         
@@ -67,13 +67,13 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sam",
 			"Entries": {
-				"Introduction": "Hey, I'm {{Sam Name}}. Good to meet you.$h",
-				"Resort_Towel": "%{{Sam Name}} is playing a jazzy tune on his guitar.",
-				"Mon8": "I'll tell you a secret... my name '{{Sam Name}}' is short for '{{Sam First Name}}'.$l#$e#Most people don't know that so keep it on mute.",
-				"Wed10": "@. Um... I just wanted to say... You look nice today.$10^Hey girl. You look like you're full of energy today!"
+				"Introduction": "{{ i18n: sam.introduction | sam_name={{sam_name}} }}$h",
+				"Resort_Towel": "%{{ i18n: sam.resort_towel | sam_name={{sam_name}} }}",
+				"Mon8": "{{ i18n: sam.mon8.0 | sam_name={{sam_name}} | sam_first={{sam_first}} }}$l#$e#{{ i18n: sam.mon8.1 }}",
+				"Wed10": "{{ i18n: sam.wed10.0 }}$10^{{ i18n: sam.wed10.1 }}"
 			},
 			"When": {
-				"Sam Dialogue Changed": "true"
+				"Sam Dialogue Changed": true
 			}
 		},
 		
@@ -81,13 +81,13 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Sebastian",
 			"Entries": {
-				"Wed2": "{{Sam Name}} is probably my only friend in this town.#$e#Well, Abby is nice too, but...$h#$e#Umm.. nevermind.",
-				"Wed2_inlaw_Abigail": "{{Sam Name}} is probably my only friend in this town, anymore...",
-				"Wed6": "You and {{Sam Name}} are probably my only friends in this town.$s",
-				"Fri8": "What's new?$h#$e#I'll be at the saloon tonight destroying {{Sam Name}} at pool again.$h"
+				"Wed2": "{{ i18n: sebastian.wed2.0 | sam_name={{sam_name}} }}#$e#{{ i18n: sebastian.wed2.1 }}$h#$e#{{ i18n: sebastian.wed2.2 }}",
+				"Wed2_inlaw_Abigail": "{{ i18n: sebastian.wed2_inlaw_abigail | sam_name={{sam_name}} }}",
+				"Wed6": "{{ i18n: sebastian.wed6 | sam_name={{sam_name}} }}$s",
+				"Fri8": "{{ i18n: sebastian.fri8.0 }}$h#$e#{{ i18n: sebastian.fri8.1 | sam_name={{sam_name}} }}$h"
 			},
 			"When": {
-				"Sam Dialogue Changed": "true"
+				"Sam Dialogue Changed": true
 			}
 		},
         
@@ -95,10 +95,10 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Vincent",
 			"Entries": {
-				"Mon": "I wanna be just like my big sister when I grow up!$h#$e#Okay! Bye!"
+				"Mon": "{{ i18n: vincent.mon.0 }}$h#$e#{{ i18n: vincent.mon.1 }}"
 			},
 			"When": {
-				"Sam Dialogue Changed": "true"
+				"Sam Dialogue Changed": true
 			}
 		},
 		
@@ -106,10 +106,10 @@
 			"Action": "EditData",
 			"Target": "Data/EngagementDialogue",
 			"Entries": {
-				"Sam0": "I'm going to be really happy as your wife, @.$l#$e#I'm excited."
+				"Sam0": "{{ i18n: engagement.sam0.0 }}$l#$e#{{ i18n: engagement.sam0.1 }}"
 			},
 			"When": {
-				"Sam Dialogue Changed": "true"
+				"Sam Dialogue Changed": true
 			}
 		},
 		
@@ -117,22 +117,24 @@
 			"Action": "EditData",
 			"Target": "Data/mail",
 			"Entries": {
-				"afterSamShow": "@,^the show was a rockin' success! I wanted to say thanks again for all your help in creating this amazing band. We couldn't have done it without you!   ^   -{{Sam Name}}[#]{{Sam Name}}'s Thank-you Note",
-				"samMessage": "@,^meet me in front of my house tonight after dark. ^   -{{Sam Name}}[#]{{Sam Name}}'s Note"
+				"afterSamShow": "{{ i18n: mail.aftersamshow | sam_name={{sam_name}} }}",
+				"samMessage": "{{ i18n: mail.sammessage | sam_name={{sam_name}} }}"
 			},
 			"When": {
-				"Sam Dialogue Changed": "true"
+				"Sam Dialogue Changed": true
 			}
 		},
         
         {
 			"Action": "EditData",
 			"Target": "Data/NPCDispositions",
-			"Entries": {
-				"Sam": "teen/neutral/outgoing/positive/male/datable/Penny/Town/summer 17/Vincent 'little_brother' Jodi 'mom' Kent 'dad' Sebastian ''/SamHouse 22 13/{{Sam Name}}"
+			"Fields": {
+				"Sam": {
+					"11": "{{sam_name}}"
+				}
 			},
 			"When": {
-				"Sam Dialogue Changed": "true"
+				"Sam Dialogue Changed": true
 			}
         },
 		
@@ -146,7 +148,7 @@
 							"ID": "reaction_1",
 							"SpecialResponses": {
 								"DuringMovie": {
-									"Script": "/playSound reward/emote Sam 32/message Sam \"{{Sam Name}} can't contain her laughter!\""
+									"Script": "/playSound reward/emote Sam 32/message Sam \"{{ i18n: mreact.sam.r1.script | sam_name={{sam_name}} }}\""
 								}
 							}
 						},
@@ -155,7 +157,7 @@
 							"ID": "reaction_4",
 							"SpecialResponses": {
 								"DuringMovie": {
-									"Script": "/message Sam \"{{Sam Name}} is playing her handheld video game system.\""
+									"Script": "/message Sam \"{{ i18n: mreact.sam.r4.script | sam_name={{sam_name}} }}\""
 								}
 							}
 						}
@@ -163,79 +165,137 @@
 				}
 			},
 			"When": {
-				"Sam Dialogue Changed": "true"
+				"Sam Dialogue Changed": true
 			}
 		},
 
 		{
 			"Action": "EditData",
 			"Target": "Data/weapons",
-			"Entries": {
-				"30": "{{Sam Name}}'s Old Guitar/It's seen better days./1/3/1/-6/0/0/2/-1/-1/0/.02/3"
+			"Fields": {
+				"30": {
+					"0": "{{ i18n: weapons.30.0 | sam_name={{sam_name}} }}"
+				}
 			},
 			"When": {
-				"Sam Dialogue Changed": "true"
+				"Sam Dialogue Changed": true
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/Events/Beach",
+			"Fields": {
+				"733330/f Sam 750/w sunny/t 700 1500/z winter/y 1": {
+					"25": "speak Vincent \"{{ i18n: events.beach.733330.0 | sam_name={{sam_name}} }}$u\"",
+					"64": "speak Sam \"{{ i18n: events.beach.733330.1 }}#$b#{{ i18n: events.beach.733330.2 | sebastian_name={{sebastian_name}} }}$h\""
+				}
+			},
+			"When": {
+				"Sam Dialogue Changed": true
 			}
 		},
 
 		{
 			"Action": "EditData",
 			"Target": "Data/Events/FarmHouse",
-			"Entries": {
-				"3918601/e 3918600/O Sam/t 610 1700/A samJob1/p Sam/L": "distantBanjo/-1000 -1000/farmer 37 14 1 Sam 38 14 0/addConversationTopic samJob2 2/skippable/makeInvisible 37 14/animate Sam false true 400 43 51/viewport -100 -100 true unfreeze/pause 4000/stopAnimation Sam/showFrame Sam 39/pause 400/jump Sam/emote Sam 16/pause 500/speak Sam \"Hey @, listen to this!$8\"/pause 500/stopAnimation Sam/animate Sam false true 400 43 51/pause 500/speak Sam \"'Dear {{Sam Name}}, we are pleased to offer you a position as 'junior composer' at Zuzu Broadcasting Group, TV division...'$6#$b#Wow! Music for a TV show! How cool is that?!$h\"/pause 500/emote Sam 40/pause 1000/textAboveHead Sam \"Oh...\"/animate Sam false true 400 43 51/pause 1000/speak Sam \"Oh... Hold on...$s#$b#... It's a TV show for little kids... 'The Happy Junimo Show'$s\"/emote Sam 28/pause 1000/speak Sam \"Not exactly what I had in mind...$s\"/stopAnimation Sam/showFrame Sam 0/pause 300/faceDirection Sam 3/pause 1000/quickQuestion #Just think of this as a stepping stone in your career...#Just think of how happy you'll make the children!#I'm sorry...(break)pause 100\\speak Sam \"Hmm... Yeah, I guess that's one way to look at it.$7\"(break)pause 100\\speak Sam \"I mean... you're right, someone's gotta make children's music. But it's not exactly a 'dream job'...$7\"(break)pause 100\\speak Sam \"Ah well... that's okay. I'll make the best of it, like I always do.$7\"/pause 1000/faceDirection Sam 0/speak Sam \"I guess I'd better start 'thinking like a kid'...\"/quickQuestion #That should be easy for you...#You could ask your little brother for help!(break)animate Sam false true 100 33\\shake Sam 4000\\pause 500\\textAboveHead Sam \"Hey!\"\\faceDirection farmer 2 true\\animate farmer false true 200 102 103(break)pause 100\\speak Sam \"Hmm... That's not a bad idea. At the very least, I could play him my songs and see if he likes them.#$b#Thanks for the advice, @.$10\"/pause 2000/end dialogue Sam \"I'll be working on this for a few days.\"",
-				"3918603/e 3918602/O Sam/t 610 1700/A samJob3/p Sam/L": "distantBanjo/-1000 -1000/farmer 36 17 0 Sam 36 14 2 Jas 38 17 0 Vincent 37 17 0/skippable/makeInvisible 37 17/makeInvisible 38 17/makeInvisible 36 17/specificTemporarySprite samTV/viewport -100 -100 true unfreeze/pause 2000/speak Vincent \"I'm really excited, {{Sam Name}}!\"/jump Vincent/pause 1000/speak Sam \"Okay, okay, Vince... I'm gonna put the song on right away.$h#$b#Now, you gotta listen really close, so you can tell me if you like it afterwards. Okay?\"/pause 500/jump Vincent/textAboveHead Vincent \"OK!\"/pause 1500/playMusic none/faceDirection Sam 1/pause 3000/playSound openBox/pause 2000/playMusic sam_acoustic1/pause 1000/specificTemporarySprite junimoShow/pause 2000/faceDirection Sam 2 true/pause 9000/animate Vincent false true 100 8 21 8 20/pause 11000/animate Jas false true 100 8 9 10 11/pause 23000/stopAnimation Jas/stopAnimation Vincent/jump Vincent/pause 800/jump Jas/pause 500/jump Vincent/pause 800/jump Jas/pause 500/jump Vincent/pause 800/jump Jas/pause 500/speak Jas \"I loved it!$h\"/textAboveHead Vincent \"Me too!\"/pause 1500/jump Sam/pause 1000/emote Sam 20/pause 500/speak Sam \"Wow! I wasn't expecting such an overwhelming response!$8#$b#That's great! This is really fun!$h\"/pause 50/faceDirection Vincent 1 true/faceDirection Jas 3 true/move Sam 0 2 2/move Sam -1 0 2/move Sam 0 1 1/faceDirection farmer 3/speak Sam \"Hey, thanks for all the support with this.#$b#You know... I kind of like making children's music. It's not very glamorous, but I'm making these kids really happy. That's important!$h\"/pause 100/emote farmer 20/pause 500/speak Sam \"Here, I wanted to give you this. It's a boombox with the song on it... So you can listen to it whenever you want.\"/pause 500/faceDirection farmer 2/itemAboveHead samBoombox/pause 4200/awardFestivalPrize samBoombox/pause 1500/end dialogue Sam \"I'm just glad to know that my music makes people happy...\""
+			"Fields": {
+				"3918601/e 3918600/O Sam/t 610 1700/A samJob1/p Sam/L": {
+					"20": "speak Sam \"{{ i18n: events.farmhouse.3918601.0 | sam_name={{sam_name}} }}$6#$b#{{ i18n: events.farmhouse.3918601.1 }}$h\""
+				},
+				"3918603/e 3918602/O Sam/t 610 1700/A samJob3/p Sam/L": {
+					"10": "speak Vincent \"{{ i18n: events.farmhouse.3918603.0 | sam_name={{sam_name}} }}\""
+				}
 			},
 			"When": {
-				"Sam Dialogue Changed": "true"
+				"Sam Dialogue Changed": true
 			}
 		},
 
         {
 			"Action": "EditData",
 			"Target": "Data/Events/Forest",
-			"Entries": {
-				"choseFarming": "pause 500/question fork0 \"#The valley's soil is ideal for growing delicious vegetables.#The valley's air and grass are perfect for raising animals.\"/fork choseAnimals/animate Vincent false true 50 16 17/playSound dwop/pause 300/faceDirection Penny 2/pause 500/stopAnimation Vincent/speak Penny \"Yes, Vincent?\"/speak Vincent \"Um, Farmer @? If I eat your veggies will I grow up strong like my big sister {{Sam Name}}?#$b#She's so strong, I saw her lift Miss Penny clear off the ground last night when they were climbing into a tree.$h\"/showFrame Penny 27/jump Penny/pause 800/showFrame Penny 0/faceDirection farmer 3 true/emote Penny 12/speak Penny \"Vincent! It's not good to gossip!$a\"/switchEvent fieldTripEnd/"
+			"Fields": {
+				"choseFarming": {
+					"10": "speak Vincent \"{{ i18n: events.forest.chosefarming.0 | sam_name={{sam_name}} }}#$b#{{ i18n: events.forest.chosefarming.1 }}$h\""
+				}
 			},
 			"When": {
-				"Sam Dialogue Changed": "true"
+				"Sam Dialogue Changed": true
 			}
         },
         
         {
 			"Action": "EditData",
 			"Target": "Data/Events/SamHouse",
-			"Entries": {
-				"95/e 93/k 94/t 1800 1950/i 136/y 2": "50s/6 15/farmer 4 19 0 Sam 17 13 0 Jodi 7 4 0 Kent 3 15 1/removeItem 136/removeQuest 22/pause 300/faceDirection Kent 2/speak Kent \"Hi @. Please, come in.\"/move farmer 0 -3 0/speed Jodi 4/move Jodi 0 10 2/speak Jodi \"Ah, I'm so glad you came, @! And you brought the fish! Wonderful.\"/move farmer 2 0 0/move farmer 0 -1 1/faceDirection Kent 1/faceDirection Jodi 1/speak Jodi \"{{Sam Name}}! Could you come in here and help clean this fish?\"/pause 300/speak Sam \"...Yes, ma'am.$a\"/move Sam -5 0 3 true/proceedPosition Sam/stopAnimation farmer/doAction 12 14/move Sam 0 2 3 false/move Sam -4 0 3/faceDirection Jodi 2/pause 500/showFrame 35/addObject 7 15 136/playSound fishSlap/pause 800/stopAnimation farmer/speak Jodi \"Wow, it looks wonderful... and it smells so fresh! Thanks so much for doing this, @.#$b#Kent caught a fish, too, but he eats about a whole fish to himself!$u\"/pause 200/faceDirection farmer 3/pause 1000/speak Kent \"Heh heh.$h\"/globalFade/viewport -1000 -1000/pause 1000/message \"Mmm... that crispy bass was delicious! The breading was to die for...\"/pause 500/message \"I almost feel like part of the family, now.\"/pause 1500/end warpOut",
-				"94/e 93/k 95/t 1800 1950/i 136/y 1": "50s/6 15/farmer 4 19 0 Sam 17 13 0 Jodi 7 4 0/removeItem 136/removeQuest 22/speed Jodi 4/move Jodi 0 10 2/speak Jodi \"Oh hi, @! Come in! Do I smell fresh fish?\"/move farmer 0 -3 1/move farmer 2 0 0/move farmer 0 -1 1/faceDirection Jodi 1/speak Jodi \"{{Sam Name}}! Could you come in here and help with dinner?\"/pause 300/speak Sam \"...Yes, ma'am.$a\"/move Sam -5 0 3 true/proceedPosition Sam/stopAnimation farmer/doAction 12 14/move Sam 0 2 3 false/move Sam -4 0 3/faceDirection Jodi 2/pause 300/showFrame 35/addObject 7 15 136/playSound fishSlap/pause 800/stopAnimation farmer/pause 400/speak Jodi \"Wow, this looks like quality bass, @. Thank so much for bringing this.$h\"/pause 1000/globalFade/viewport -1000 -1000/pause 1000/message \"Mmm... that crispy bass was delicious! The breading was out of this world...\"/pause 500/message \"I almost feel like part of the family, now.\"/pause 1500/end warpOut",
-				"46/f Sam 1000/p Sam": "playful/7 4/farmer 7 12 0 Sam 7 5 0 Jodi 17 7 0/skippable/move farmer 0 -6 0/faceDirection Sam 2/pause 300/speak Sam \"Oh, hi @. I was just about to have a snack.\"/pause 500/speak Sam \"Here, let me get something for you.\"/faceDirection Sam 0/pause 500/playSound openBox/pause 500/faceDirection Sam 3/playSound dwop/specificTemporarySprite dropEgg/showFrame Sam 33/jump Sam/pause 1000/emote Sam 12/showFrame Sam 12/speak Sam \"Oh no... What a mess.$s\"/speed Jodi 4/move Jodi -10 0 0/speak Jodi \"What was that sound?\"/emote Jodi 16/speak Jodi \"*gasp*$s\"/move Jodi -1 0 0/move Jodi 0 -1 0/speak Jodi \"This is absolutely terrible! What happened?$u\"/speak Sam \"$q 80 null#...Tell her, @.$s#$r 80 -10 event_snack1#{{Sam Name}} dropped the snack as she was handing it to me.#$r 80 50 event_snack2#{{Sam Name}} handed me the snack and then I dropped it.#$r 81 -50 event_snack3#{{Sam Name}} dropped it on purpose. She thought it would be funny.\"/pause 300/speak Jodi \"$p 80#Thanks for telling me the truth, @. It's not such a big deal.|You did WHAT, {{Sam Name}}?! What's gotten into you?!$u\"/faceDirection Jodi 0/speak Sam \"I'm sorry about this, mom. I'll clean it up.$s\"/emote Jodi 20/speak Jodi \"Thanks, honey.$h\"/move Jodi 0 1 1/move Jodi 1 0 2 /faceDirection Sam 2 true/move Jodi 0 7 2 true/globalFade/viewport -1000 -1000/end dialogue Sam \"$p 81#I'm angry at you. I have no idea why you lied like that.$s|Sorry about what happened earlier.\""
+			"Fields": {
+				"95/e 93/k 94/t 1800 1950/i 136/y 2": {
+					"16": "speak Jodi \"{{ i18n: events.samhouse.95.0 | sam_name={{sam_name}} }}\""
+				},
+				"94/e 93/k 95/t 1800 1950/i 136/y 1": {
+					"12": "speak Jodi \"{{ i18n: events.samhouse.94.0 | sam_name={{sam_name}} }}\""
+				},
+				"46/f Sam 1000/p Sam": {
+					"31": "speak Sam \"$q 80 null#{{ i18n: events.samhouse.46.0.0 }}$s#$r 80 -10 event_snack1#{{ i18n: events.samhouse.46.0.1 | sam_name={{sam_name}} }}#$r 80 50 event_snack2#{{ i18n: events.samhouse.46.0.2 | sam_name={{sam_name}} }}#$r 81 -50 event_snack3#{{ i18n: events.samhouse.46.0.3 | sam_name={{sam_name}} }}\"",
+					"33": "speak Jodi \"$p 80#{{ i18n: events.samhouse.46.1.0 | sam_name={{sam_name}} }}|{{ i18n: events.samhouse.46.1.1 | sam_name={{sam_name}} }}$u\""
+				}
 			},
 			"When": {
-				"Sam Dialogue Changed": "true"
+				"Sam Dialogue Changed": true
 			}
         },
-        
-        {
+
+		{
 			"Action": "EditData",
 			"Target": "Data/Events/SebastianRoom",
-			"Entries": {
-				"noFriends": "pause 500/emote Sebastian 28/speak Sebastian \"*sigh*... I like having friends, I just need a lot of time alone to balance out the social stuff.$s#$b#{{Sam Name}}'s the opposite... she goes crazy if she's alone for too long.#$b#Maybe that's why I like computers so much... They're engaging, straightforward, and unselfish. Quite the opposite of a lot of people I know.\"/pause 600/playSound mouseClick/pause 100/playSound mouseClick/pause 300/emote Sebastian 40/speak Sebastian \"Well, I should get back to work... I need to get this module finished by tomorrow.\"/pause 300/animate Sebastian false true 100 26 27/playSound keyboardTyping/pause 500/move farmer 0 2 3/move farmer -3 0 0/move farmer 0 -2 3/move farmer -5 0 0 true/globalFade/viewport -1000 -1000/pause 1000/end",
-				"27/f Sebastian 1500/p Sebastian": "jaunty/-1000 -1000/farmer 1 1 2 Sebastian 5 9 3 Sam 3 7 2/skippable/showFrame Sam 24/showFrame Sebastian 28/doAction 1 3/viewport 5 5 true/move farmer 0 6 1/pause 500/showFrame Sebastian 29/pause 500/speak Sebastian \"Hey, @. $7\"/pause 500/speak Sebastian \"{{Sam Name}} and I were about to play 'Solarion Chronicles: The Game'... Why don't you join us?  It's better with three players anyway.$7\"/move farmer 0 1 2/pause 500/playSound thudStep/faceDirection farmer 1 true/showFrame 117/positionOffset farmer 16 80/pause 600/speak Sebastian \"Okay, here we go... Let me draw the scenario card.$7\"/pause 900/showFrame Sebastian 30/playSound dwoop/pause 500/showFrame Sebastian 28/pause 500/speak Sebastian \"Hmm... It looks like today's quest will take us into the Necromancer's Tower... to try and reclaim the Solarion Staff from the clutches of Dreadlord Xarth.\"/pause 600/speak Sam \"Cool... @, are you ready to choose your character?\"/pause 500/question chooseCharacter \"Choose your character:#Warrior. I like a direct approach.#Healer. I prefer to help others.#Wizard. A sharp mind is the most powerful blade of all.\"/pause 500/speak Sebastian \"Hey! That's what I was going to pick!$h#$b#I guess I'll be the healer then.\"/pause 500/speak Sam \"Cool. Warrior's my favorite anyway.\"/addMailReceived choseWizard/switchEvent opening",
-				"healedSam": "playSound healSound/pause 500/speak Sam \"Thanks, @.\"/speak Sebastian \"...$s\"/pause 1000/playMusic none/message \"{{Sam Name}} charges ahead and strikes down Xarth, freeing the Solarion Staff from his clutches and restoring peace and order to the world.\"/pause 500/playSound swordswipe/pause 400/playSound killAnimal/updateMinigame 9/updateMinigame -1/pause 1000/playSound getNewSpecialItem/updateMinigame -2/switchEvent end"
+			"Fields":  {
+				"enterRobin": {
+					"8": "speak Sebastian \"{{ i18n: events.sebroom.enterRobin.0.0 | sam_name={{sam_name}} | sam_pronoun={{sam_pronoun}} }}#$b#{{ i18n: events.sebroom.enterRobin.0.1 }}\"",
+					"16": "speak Robin \"{{ i18n: events.sebroom.enterRobin.1 | name={{sebastian_nick}} }}\"",
+					"31": "question fork1 \"#{{ i18n: events.sebroom.enterRobin.2.0 | sebastian_pronoun.1={{sebastian_pronoun.1}} | sebastian_possess={{sebastian_possess}} }}#{{ i18n: events.sebroom.enterRobin.2.1 | sebastian_pronoun.0={{sebastian_pronoun.0}} | sebastian_pronoun.1={{sebastian_pronoun.1}} | sebastian_possess={{sebastian_possess}} }}\""
+				},
+				"Necromancer": {
+					"22": "question fork0 \"{{ i18n: events.sebroom.Necromancer.0 }}#{{ i18n: events.sebroom.Necromancer.1 | sam_name={{sam_name}} }}#{{ i18n: events.sebroom.Necromancer.2 | sebastian_name={{sebastian_name}} }}\""
+				},
+				"finalBossWizard": {
+					"8": "message \"{{ i18n: events.sebroom.finalBossWizard.0 | sam_name={{sam_name}} | sebastian_name={{sebastian_name}} }}\""
+				},
+				"castBeam": {
+					"8": "message \"{{ i18n: events.sebroom.castBeam.0 | sam_name={{sam_name}} | sebastian_name={{sebastian_name}} }}\""
+				},
+				"chargeAhead": {
+					"8": "message \"{{ i18n: events.sebroom.chargeAhead.0 | sam_name={{sam_name}} | sebastian_name={{sebastian_name}} }}\""
+				},
+				"noFriends": {
+					"2": "speak Sebastian \"{{ i18n: events.sebroom.nofriends.0 }}$s#$b#{{ i18n: events.sebroom.nofriends.1 | sam_name={{sam_name}} }}#$b#{{ i18n: events.sebroom.nofriends.2 }}\""
+				},
+				"27/f Sebastian 1500/p Sebastian": {
+					"14": "speak Sebastian \"{{ i18n: events.sebroom.27.0 | sam_name={{sam_name}} }}$7\""
+				},
+				"healedSam": {
+					"6": "message \"{{ i18n: events.sebroom.healedsam.0 | sam_name={{sam_name}} }}\""
+				}
 			},
 			"When": {
-				"Sam Dialogue Changed": "true"
+				"Sam Dialogue Changed": true
 			}
 		},
 		
 		{
 			"Action": "EditData",
 			"Target": "Data/Events/Town",
-			"Entries": {
-				"45/f Sam 1500/t 1200 1600/w sunny": "breezy/-1000 -1000/farmer 20 93 3 Sam 12 90 2 Lewis 28 78 1/skippable/showFrame Sam 25/move Lewis 0 12 3 true/viewport 22 89 true/specificTemporarySprite samSkate1/null/pause 400/faceDirection farmer 1/showFrame Lewis 24/shake Lewis 8000/jump Lewis/showFrame Sam 35/specificTemporarySprite skateboardFly/jump Sam/pause 1000/speak Lewis \"Hey! What do you think you're doing? That's private property!$4\"/textAboveHead Lewis \"{{Sam Name}}!\"/pause 500/speak Sam \"Uh... Er... I... I'm sorry, sir.$8\"/showFrame Sam 4/emote Lewis 12/showFrame Lewis 12/pause 800/speak Lewis \"*sigh*... The youth these days... Sometimes I wonder if this town isn't doomed.$u\"/move farmer 0 -2 1/move farmer 6 0 1/faceDirection Sam 2/pause 500/move Lewis 0 1 3/speak Lewis \"You saw what happened, @. What do you have to say about this?\"/pause 600/question null \"#You're right, sir. {{Sam Name}} should respect private property.#Don't blame {{Sam Name}}. There's nowhere else for her to ride!#I'm staying out of this.\"/pause 500/splitSpeak Sam \"Fine! I just won't ride my skateboard ever again. Happy?$a~Exactly! If there was a park in town, I could ride there and everyone would be happy.~Hmmph. Alright.$a\"/faceDirection Lewis 2/emote Lewis 12/splitSpeak Lewis \"You're being difficult, {{Sam Name}}. I have no problem with you riding around town, just try not to cause any damage! It's that simple.~Hmmph. I thought you were more mature than this, @.$4~I'll let it slide this time, {{Sam Name}}. But I don't want to see you doing this anymore.\"/faceDirection Lewis 3/splitSpeak Lewis \"Got it?~{{Sam Name}}... I'm sorry I yelled at you. Just please try not to damage anything in the future. Got it?~Got it?\"/faceDirection Sam 1/pause 800/faceDirection Sam 0/emote Sam 28/pause 500/faceDirection Sam 1/speak Sam \"Yes, sir.$7\"/pause 600/move Lewis 0 -16 0 true/pause 800/faceDirection Sam 2/pause 800/speak Sam \"...Did you see that trick, though? That was rad.$u\"/faceDirection farmer 0/emote farmer 16/pause 800/end",
-				"233104/f Sam 2500/t 2000 2400/w sunny/n samMessage": "nightTime/-1000 -1000/farmer 5 90 1 Sam 12 87 2 Vincent 8 22 3 Jodi 6 13 0/viewport 10 86 clamp true/skippable/move farmer 7 0 0/move farmer 0 -2 0/pause 500/speak Sam \"Hi @.#$b#I wanted to talk to you in private...\"/faceDirection Sam 1/faceDirection Sam 3/faceDirection Sam 2/shake Sam 1000/speak Sam \"It's kinda cold out here though... let's sneak into my room.$u\"/pause 800/move Sam 0 -1 0 true/move farmer 0 -1 0 true/globalFade/viewport -1000 -1000/changeLocation SamHouse/playSound thudStep/pause 500/playSound woodyStep/pause 200/playSound Ship/pause 500/playSound woodyStep/pause 400/playSound Ship/warp farmer 20 18/warp Sam 20 17/viewport 18 14 true/move Sam 0 -3 2 true/move farmer 0 -3 0 false/pause 1000/faceDirection Sam 3/faceDirection Sam 2/speak Sam \"So... @.$10#$b#I know I've been talking about nothing but the band for a while now... But I don't want you to think that's all I'm interested in.#$b#Um... Er... What I mean is...$8#$b#Well, I'm really happy that we've grown so close... Heh.$10\"/move Jodi 0 2 1 true/emote Sam 40/pause 400/speak Sam \"@... do you think of me as... just a friend?$l\"/move Jodi 6 0 0/playSound woodyStep/faceDirection Sam 3/playSound woodyStep/showFrame Sam 33/jump Sam/pause 800/speak Jodi \"{{Sam Name}}? I'm coming in!\"/move Sam -1 0 3/speak Sam \"Quick! Hide in the bed!$8\"/speed farmer 4/move farmer 0 -2 1/speed farmer 4/move farmer 2 0 1 true/doAction 12 14/faceDirection Sam 3 true/move Jodi 0 -2 1 false/move Jodi 2 0 1/speak Jodi \"What's wrong, Honey? Were you doing something... bad?#$b#I thought I heard some weird sounds coming from your room...\"/move Sam 0 -1 3/speak Sam \"No Mom! I was just... doing push-ups! I wanna beat Dad at arm-wrestling some day! ...heh.$8\"/emote Jodi 16/pause 300/speak Jodi \"Oh! *giggle*... That explains why you're all red and sweaty.$h#$b#Okay, well good luck. I'll see you in the morning.\"/pause 1000/speak Sam \"Goodnight, Mom.$10\"/move Jodi -2 0 2/move Jodi 0 2 0/move Jodi -10 0 2 true/faceDirection Sam 1/emote Sam 28/speak Sam \"Whew... That was close.$h\"/faceDirection farmer 3/speak Sam \"...@?\"/pause 800/question fork1 \"#Get out of the bed.#Stay put.\"/fork stayPut/move farmer -2 0 3/pause 600/faceDirection Sam 2/faceDirection Sam 1/speak Sam \"Earlier, I was trying to say... that I really like you, @. I think we could really have something special together... Know what I mean?\"/pause 900/speak Sam \"Alright, I said it.$7\"/resetVariable/emote Sam 40/question fork1 \"#Move closer to {{Sam Name}}.#Head for the window.\"/fork rejectSam/playMusic musicboxsong/pause 2000/animate farmer true true 150 6 7 6 8/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 100/positionOffset farmer -2 0/pause 100/stopAnimation farmer/showFrame Sam 35/pause 1000/showFrame Sam 38 /positionOffset Sam 4 0/animate farmer true true 100 101/pause 3000/speak Sam \"I'm going to be thinking about this night for a long time...\"/pause 1000/globalFade/viewport -1000 -1000/pause 6000/end dialogue Sam \"...$l\""
+			"Fields": {
+				"45/f Sam 1500/t 1200 1600/w sunny": {
+					"19": "textAboveHead Lewis \"{{ i18n: events.town.45.0 | sam_name={{sam_name}} }}\"",
+					"34": "question null \"#{{ i18n: events.town.45.1 | sam_name={{sam_name}} }}#{{ i18n: events.town.45.2 | sam_name={{sam_name}} }}#{{ i18n: events.town.45.3 }}\""
+				},
+				"233104/f Sam 2500/t 2000 2400/w sunny/n samMessage": {
+					"49": "speak Jodi \"{{ i18n: events.town.233104.0 | sam_name={{sam_name}} }}\"",
+					"88": "question fork1 \"#{{ i18n: events.town.233104.1 | sam_name={{sam_name}} }}#{{ i18n: events.town.233104.2 }}\""
+				}
 			},
 			"When": {
-				"Sam Dialogue Changed": "true"
+				"Sam Dialogue Changed": true
 			}
 		},
 		
@@ -243,10 +303,10 @@
 			"Action": "EditData",
 			"Target": "Data/Festivals/summer11",
 			"Entries": {
-				"Sebastian": "One year {{Sam Name}} put a pound of anchovies in the potluck soup.#$e#Ever wondered why {{Sam Name}} leads the town in community service hours?$h"
+				"Sebastian": "{{ i18n: festivals.summer11.sebastian.0 | sam_name={{sam_name}} }}#$e#{{ i18n: festivals.summer11.sebastian.1 | sam_name={{sam_name}} }}$h"
 			},
 			"When": {
-				"Sam Dialogue Changed": "true"
+				"Sam Dialogue Changed": true
 			}
 		},
         
@@ -254,12 +314,12 @@
 			"Action": "EditData",
 			"Target": "Strings/animationDescriptions",
 			"Entries": {
-				"sam_guitar": "%{{Sam Name}} is busy practicing the guitar.",
-				"sam_skateboarding": "%{{Sam Name}}'s trying to do a kickflip.",
-				"sam_work": "%{{Sam Name}}'s on the clock... better not get her in trouble."
+				"sam_guitar": "%{{ i18n: strings.animation.sam_guitar | sam_name={{sam_name}} }}",
+				"sam_skateboarding": "%{{ i18n: strings.animation.sam_skateboarding | sam_name={{sam_name}} }}",
+				"sam_work": "%{{ i18n: strings.animation.sam_work | sam_name={{sam_name}} }}"
 			},
 			"When": {
-				"Sam Dialogue Changed": "true"
+				"Sam Dialogue Changed": true
 			}
         },
         
@@ -267,10 +327,10 @@
 			"Action": "EditData",
 			"Target": "Strings/Locations",
 			"Entries": {
-				"SamHouse_Sam_Trash": "Looks like {{Sam Name}} cleans her trash bin regularly."
+				"SamHouse_Sam_Trash": "{{ i18n: strings.locations.samhouse_sam_trash | sam_name={{sam_name}} }}"
 			},
 			"When": {
-				"Sam Dialogue Changed": "true"
+				"Sam Dialogue Changed": true
 			}
         },
         
@@ -278,19 +338,19 @@
 			"Action": "EditData",
 			"Target": "Strings/StringsFromCSFiles",
 			"Entries": {
-				"Event.cs.1625": "Aw, I gotta put on that dorky dress again? I thought now that we're married... Well, alright.$s",
-				"Utility.cs.5792": "{{Sam Name}}'s Band (Electronic)",
-				"Utility.cs.5794": "{{Sam Name}}'s Band (heavy)",
-				"Utility.cs.5806": "{{Sam Name}}'s Band (poppy)",
-				"Utility.cs.5831": "{{Sam Name}}'s Band (Bluegrass)",
-				"MapPage.cs.11072": "Home of Jodi, Kent & {{Sam Name}}",
-				"ItemDeliveryQuest.cs.13568": "Need {0} for a project I'm working on.    -{{Sam Name}}",
-  				"ItemDeliveryQuest.cs.13571": "Looking for a cute guy to bring me {0}.  (^_-)     -{{Sam Name}}",
-				"ItemDeliveryQuest.cs.13574": "I would like a friend to bring me {0}.        -{{Sam Name}}",
-				"sam_acoustic2": "{{Sam Name}}'s Acoustic Noodling"
+				"Event.cs.1625": "{{ i18n: strings.cs.1625 }}$s",
+				"Utility.cs.5792": "{{ i18n: strings.cs.5792 | sam_name={{sam_name}} }}",
+				"Utility.cs.5794": "{{ i18n: strings.cs.5794 | sam_name={{sam_name}} }}",
+				"Utility.cs.5806": "{{ i18n: strings.cs.5806 | sam_name={{sam_name}} }}",
+				"Utility.cs.5831": "{{ i18n: strings.cs.5831 | sam_name={{sam_name}} }}",
+				"MapPage.cs.11072": "{{ i18n: strings.cs.11072 | sam_name={{sam_name}} }}",
+				"ItemDeliveryQuest.cs.13568": "{{ i18n: strings.cs.13568 | sam_name={{sam_name}} }}",
+  				"ItemDeliveryQuest.cs.13571": "{{ i18n: strings.cs.13571 | sam_name={{sam_name}} }}",
+				"ItemDeliveryQuest.cs.13574": "{{ i18n: strings.cs.13574 | sam_name={{sam_name}} }}",
+				"sam_acoustic2": "{{ i18n: strings.cs.sam_acoustic2 | sam_name={{sam_name}} }}"
 			},
 			"When": {
-				"Sam Dialogue Changed": "true"
+				"Sam Dialogue Changed": true
 			}
         },
         
@@ -298,11 +358,11 @@
 			"Action": "EditData",
 			"Target": "Strings/StringsFromMaps",
 			"Entries": {
-				"SamHouse.9": "{{Sam Name}}'s electric guitar. It has a pair of active pickups and a whammy bar.",
-				"SamHouse.11": "It's {{Sam Name}}'s computer. She's got an extensive library of computer games."
+				"SamHouse.9": "{{ i18n: strings.maps.samhouse.9 | sam_name={{sam_name}} }}",
+				"SamHouse.11": "{{ i18n: strings.maps.samhouse.11 | sam_name={{sam_name}} }}"
 			},
 			"When": {
-				"Sam Dialogue Changed": "true"
+				"Sam Dialogue Changed": true
 			}
 		},
 		
@@ -310,10 +370,10 @@
 			"Action": "EditData",
 			"Target": "Strings/schedules/Sam",
 			"Entries": {
-				"fall_11.001": "I'm a healthy girl, doc. Can I go now? This is boring."
+				"fall_11.001": "{{ i18n: strings.schedules.sam.fall_11.001 }}"
 			},
 			"When": {
-				"Sam Dialogue Changed": "true"
+				"Sam Dialogue Changed": true
 			}
 		},
 
@@ -321,11 +381,11 @@
 			"Action": "EditData",
 			"Target": "Strings/schedules/Sebastian",
 			"Entries": {
-				"Fri.000": "Should I let {{Sam Name}} win for once? ...nah.$h",
-				"marriage_Fri.001": "My skills haven't declined... {{Sam Name}}'s still just as easy to beat.$h"
+				"Fri.000": "{{ i18n: strings.schedules.sebastian.fri.000 | sam_name={{sam_name}} }}$h",
+				"marriage_Fri.001": "{{ i18n: strings.schedules.sebastian.marriage_fri.001 | sam_name={{sam_name}} }}$h"
 			},
 			"When": {
-				"Sam Dialogue Changed": "true"
+				"Sam Dialogue Changed": true
 			}
 		}
     ]

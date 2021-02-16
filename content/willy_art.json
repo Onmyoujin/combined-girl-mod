@@ -3,18 +3,18 @@
         {
 			"Action": "EditImage",
 			"Target": "Portraits/Willy",
-			"FromFile": "assets/Portraits/Willy/{{Willy Art}}.png",
+			"FromFile": "assets/Portraits/Willy/{{Willy Portraits}}.png",
 			"When": {
-				"Willy Portrait Changed": "true"
+				"Willy Portraits |contains=Disabled": false
 			}
         },
         
         {
 			"Action": "EditImage",
 			"Target": "Characters/Willy",
-			"FromFile": "assets/Characters/Willy/{{Willy Art}}.png",
+			"FromFile": "assets/Characters/Willy/{{Willy Sprites}}.png",
 			"When": {
-				"Willy Sprites Changed": "true"
+				"Willy Sprites |contains=Disabled": false
 			}
 		}
     ]

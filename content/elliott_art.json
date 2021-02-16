@@ -3,36 +3,36 @@
         {
 			"Action": "EditImage",
 			"Target": "Portraits/Elliott",
-			"FromFile": "assets/Portraits/Elliott/{{Elliott Art}}.png",
+			"FromFile": "assets/Portraits/Elliott/{{Elliott Portraits}}.png",
 			"When": {
-				"Elliott Portrait Changed": "true"
+				"Elliott Portraits |contains=Disabled": false
 			}
 		},
 
 		{
 			"Action": "EditImage",
 			"Target": "Portraits/Elliott_Beach",
-			"FromFile": "assets/Portraits/Elliott/{{Elliott Art}}_Beach.png",
+			"FromFile": "assets/Portraits/Elliott/{{Elliott Portraits}}_Beach.png",
 			"When": {
-				"Elliott Portrait Changed": "true"
+				"Elliott Portraits |contains=Disabled": false
 			}
         },
         
         {
 			"Action": "EditImage",
 			"Target": "Characters/Elliott",
-			"FromFile": "assets/Characters/Elliott/{{Elliott Art}}.png",
+			"FromFile": "assets/Characters/Elliott/{{Elliott Sprites}}.png",
 			"When": {
-				"Elliott Sprites Changed": "true"
+				"Elliott Sprites |contains=Disabled": false
 			}
 		},
 
 		{
 			"Action": "EditImage",
 			"Target": "Characters/Elliott_Beach",
-			"FromFile": "assets/Characters/Elliott/{{Elliott Art}}_Beach.png",
+			"FromFile": "assets/Characters/Elliott/{{Elliott Sprites}}_Beach.png",
 			"When": {
-				"Elliott Sprites Changed": "true"
+				"Elliott Sprites |contains=Disabled": false
 			}
 		}
     ]
