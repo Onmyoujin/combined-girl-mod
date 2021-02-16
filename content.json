@@ -1,5 +1,5 @@
 {
-	"Format": "1.19.0",
+	"Format": "1.20.0",
 	"ConfigSchema": {
 		"Alex Art": {
 			"AllowValues": "Adarin, Adarin Variant",
@@ -8,17 +8,17 @@
 		},
 		"Alex Portrait Changed": {
 			"AllowValues": "true, false",
-			"Default": "true",
+			"Default": true,
 			"Description": "Enable portrait art changes."
 		},
 		"Alex Sprites Changed": {
 			"AllowValues": "true, false",
-			"Default": "true",
+			"Default": true,
 			"Description": "Enable sprite art changes."
 		},
 		"Alex Dialogue Changed": {
 			"AllowValues": "true, false",
-			"Default": "true",
+			"Default": true,
 			"Description": "Enable dialogue changes."
 		},
 		"Alex Name": {
@@ -32,17 +32,17 @@
 		},
 		"Elliott Portrait Changed": {
 			"AllowValues": "true, false",
-			"Default": "true",
+			"Default": true,
 			"Description": "Enable portrait art changes."
 		},
 		"Elliott Sprites Changed": {
 			"AllowValues": "true, false",
-			"Default": "true",
+			"Default": true,
 			"Description": "Enable sprite art changes."
 		},
 		"Elliott Dialogue Changed": {
 			"AllowValues": "true, false",
-			"Default": "true",
+			"Default": true,
 			"Description": "Enable dialogue changes."
 		},
 		"Elliott Name": {
@@ -56,17 +56,17 @@
 		},
 		"Harvey Portrait Changed": {
 			"AllowValues": "true, false",
-			"Default": "true",
+			"Default": true,
 			"Description": "Enable portrait art changes."
 		},
 		"Harvey Sprites Changed": {
 			"AllowValues": "true, false",
-			"Default": "true",
+			"Default": true,
 			"Description": "Enable sprite art changes."
 		},
 		"Harvey Dialogue Changed": {
 			"AllowValues": "true, false",
-			"Default": "true",
+			"Default": true,
 			"Description": "Enable dialogue changes."
 		},
 		"Harvey Name": {
@@ -80,17 +80,17 @@
 		},
 		"Sam Portrait Changed": {
 			"AllowValues": "true, false",
-			"Default": "true",
+			"Default": true,
 			"Description": "Enable portrait art changes."
 		},
 		"Sam Sprites Changed": {
 			"AllowValues": "true, false",
-			"Default": "true",
+			"Default": true,
 			"Description": "Enable sprite art changes."
 		},
 		"Sam Dialogue Changed": {
 			"AllowValues": "true, false",
-			"Default": "true",
+			"Default": true,
 			"Description": "Enable dialogue changes."
 		},
 		"Sam Name": {
@@ -112,17 +112,17 @@
 		},
 		"Sebastian Portrait Changed": {
 			"AllowValues": "true, false",
-			"Default": "true",
+			"Default": true,
 			"Description": "Enable portrait art changes."
 		},
 		"Sebastian Sprites Changed": {
 			"AllowValues": "true, false",
-			"Default": "true",
+			"Default": true,
 			"Description": "Enable sprite art changes."
 		},
 		"Sebastian Dialogue Changed": {
 			"AllowValues": "true, false",
-			"Default": "true",
+			"Default": true,
 			"Description": "Enable dialogue changes."
 		},
 		"Sebastian Name": {
@@ -140,17 +140,17 @@
 		},
 		"Shane Portrait Changed": {
 			"AllowValues": "true, false",
-			"Default": "true",
+			"Default": true,
 			"Description": "Enable portrait art changes."
 		},
 		"Shane Sprites Changed": {
 			"AllowValues": "true, false",
-			"Default": "true",
+			"Default": true,
 			"Description": "Enable sprite art changes."
 		},
 		"Shane Dialogue Changed": {
 			"AllowValues": "true, false",
-			"Default": "true",
+			"Default": true,
 			"Description": "Enable dialogue changes."
 		},
 		"Shane Name": {
@@ -164,17 +164,17 @@
 		},
 		"Willy Portrait Changed": {
 			"AllowValues": "true, false",
-			"Default": "true",
+			"Default": true,
 			"Description": "Enable portrait art changes."
 		},
 		"Willy Sprites Changed": {
 			"AllowValues": "true, false",
-			"Default": "true",
+			"Default": true,
 			"Description": "Enable sprite art changes."
 		},
 		"Willy Dialogue Changed": {
 			"AllowValues": "true, false",
-			"Default": "true",
+			"Default": true,
 			"Description": "Enable dialogue changes."
 		},
 		"Willy Name": {
@@ -188,17 +188,17 @@
 		},
 		"Wizard Portrait Changed": {
 			"AllowValues": "true, false",
-			"Default": "true",
+			"Default": true,
 			"Description": "Enable portrait art changes."
 		},
 		"Wizard Sprites Changed": {
 			"AllowValues": "true, false",
-			"Default": "true",
+			"Default": true,
 			"Description": "Enable sprite art changes."
 		},
 		"Wizard Dialogue Changed": {
 			"AllowValues": "true, false",
-			"Default": "true",
+			"Default": true,
 			"Description": "Enable dialogue changes."
 		},
 		"Wizard Title": {
@@ -210,6 +210,272 @@
 			"Description": "Wizard's first name."
 		}
 	},
+	"DynamicTokens": [
+		{
+			"Name": "alex_name",
+			"Value": "Alex"
+		},
+		{
+			"Name": "alex_name",
+			"Value": "{{Alex Name}}",
+			"When": {
+				"Alex Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "alex_petname",
+			"Value": "son"
+		},
+		{
+			"Name": "alex_petname",
+			"Value": "girl",
+			"When": {
+				"Alex Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "elliott_name",
+			"Value": "Elliott"
+		},
+		{
+			"Name": "elliott_name",
+			"Value": "{{Elliott Name}}",
+			"When": {
+				"Elliott Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "elliott_adj",
+			"Value": "foppish"
+		},
+		{
+			"Name": "elliott_adj",
+			"Value": "vain",
+			"When": {
+				"Elliott Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "elliott_pronoun",
+			"Value": "He"
+		},
+		{
+			"Name": "elliott_pronoun",
+			"Value": "She",
+			"When": {
+				"Elliott Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "elliott_feature",
+			"Value": "chin"
+		},
+		{
+			"Name": "elliott_feature",
+			"Value": "smile",
+			"When": {
+				"Elliott Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "harvey_name",
+			"Value": "Harvey"
+		},
+		{
+			"Name": "harvey_name",
+			"Value": "{{Harvey Name}}",
+			"When": {
+				"Harvey Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "harvey_pronoun",
+			"Value": "He"
+		},
+		{
+			"Name": "harvey_pronoun",
+			"Value": "She",
+			"When": {
+				"Harvey Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "harvey_spouse",
+			"Value": "husband"
+		},
+		{
+			"Name": "harvey_spouse",
+			"Value": "wife",
+			"When": {
+				"Harvey Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "sam_name",
+			"Value": "Sam"
+		},
+		{
+			"Name": "sam_name",
+			"Value": "{{Sam Name}}",
+			"When": {
+				"Sam Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "sam_first",
+			"Value": "Samson"
+		},
+		{
+			"Name": "sam_first",
+			"Value": "{{Sam First Name}}",
+			"When": {
+				"Sam Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "sam_nick",
+			"Value": "Sammy"
+		},
+		{
+			"Name": "sam_nick",
+			"Value": "{{Sam Nickname}}",
+			"When": {
+				"Sam Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "sam_pronoun",
+			"Value": "he"
+		},
+		{
+			"Name": "sam_pronoun",
+			"Value": "she",
+			"When": {
+				"Sam Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "sebastian_name",
+			"Value": "Sebastian"
+		},
+		{
+			"Name": "sebastian_name",
+			"Value": "{{Sebastian Name}}",
+			"When": {
+				"Sebastian Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "sebastian_nick",
+			"Value": "Sebby"
+		},
+		{
+			"Name": "sebastian_nick",
+			"Value": "{{Sebastian Nickname}}",
+			"When": {
+				"Sebastian Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "sebastian_pronoun.0",
+			"Value": "he"
+		},
+		{
+			"Name": "sebastian_pronoun.0",
+			"Value": "she",
+			"When": {
+				"Sebastian Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "sebastian_pronoun.1",
+			"Value": "him"
+		},
+		{
+			"Name": "sebastian_pronoun.1",
+			"Value": "her",
+			"When": {
+				"Sebastian Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "sebastian_possess",
+			"Value": "his"
+		},
+		{
+			"Name": "sebastian_possess",
+			"Value": "her",
+			"When": {
+				"Sebastian Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "shane_name",
+			"Value": "Shane"
+		},
+		{
+			"Name": "shane_name",
+			"Value": "{{Shane Name}}",
+			"When": {
+				"Shane Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "shane_possess",
+			"Value": "his"
+		},
+		{
+			"Name": "shane_possess",
+			"Value": "her",
+			"When": {
+				"Shane Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "shane_pronoun",
+			"Value": "He"
+		},
+		{
+			"Name": "shane_pronoun",
+			"Value": "She",
+			"When": {
+				"Shane Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "willy_name",
+			"Value": "Willy"
+		},
+		{
+			"Name": "willy_name",
+			"Value": "{{Willy Name}}",
+			"When": {
+				"Willy Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "wizard_title",
+			"Value": "Wizard"
+		},
+		{
+			"Name": "wizard_title",
+			"Value": "{{Wizard Title}}",
+			"When": {
+				"Wizard Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "wizard_name",
+			"Value": "Rasmodius"
+		},
+		{
+			"Name": "wizard_name",
+			"Value": "{{Wizard Name}}",
+			"When": {
+				"Wizard Dialogue Changed": true
+			}
+		}
+	],
 	"Changes": [
 		{
 			"Action": "Include",

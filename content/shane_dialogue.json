@@ -4,11 +4,11 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Jas",
 			"Entries": {
-				"Sun2": "{{Shane Name}}'s gone a lot, and Aunt Marnie is busy all the time... so I have to invent my own games.#$e#I'm thankful for all my toys.$h",
-				"Sun10": "Did you know {{Shane Name}}'s my godmother? She was a friend of my parents.$s#$e#...they died.*sniff*$s"
+				"Sun2": "{{ i18n: jas.sun2.0 | shane_name={{shane_name}} }}#$e#{{ i18n: jas.sun2.1 }}$h",
+				"Sun10": "{{ i18n: jas.sun10.0 | shane_name={{shane_name}} }}$s#$e#{{ i18n: jas.sun10.1 }}$s"
 			},
 			"When": {
-				"Shane Dialogue Changed": "true"
+				"Shane Dialogue Changed": true
 			}
         },
         
@@ -16,11 +16,11 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Marnie",
 			"Entries": {
-				"Tue": "My niece {{Shane Name}} has been staying at my place the last few months.#$e#She helps me out with the chickens, so I'm not complaining.",
-				"Fri4": "#$1 marnieLike#I think someone in town has taken a liking to me. *teehee*$k$h#$e#I would be so lonely if {{Shane Name}} ever moved out."
+				"Tue": "{{ i18n: marnie.tue | shane_name={{shane_name}} }}",
+				"Fri4": "#$1 marnieLike#{{ i18n: marnie.fri4.0 }}$k$h#$e#{{ i18n: marnie.fri4.1 | shane_name={{shane_name}} }}"
 			},
 			"When": {
-				"Shane Dialogue Changed": "true"
+				"Shane Dialogue Changed": true
 			}
 		},
 		
@@ -28,14 +28,14 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/MarriageDialogueShane",
 			"Entries": {
-				"Indoor_Day_4": "I may keep to myself a lot, and I may seem unhappy sometimes... but I do appreciate all the work you do. I'm a lucky girl.$6",
-				"Indoor_Night_3": "Buh... I wish I was ten pounds lighter and a whole lot smarter...#$e#You like me for who I am? I still have a hard time understanding that...",
-				"OneKid_3": "Mama {{Shane Name}} reporting for duty...$6#$e#Buh... I've become corny in my old age.",
-				"Good_2": "The name '{{Shane Name}}' means 'Gift from Yoba'... What a joke.",
-				"Good_6": "Ah... this is the life. No responsibilities, Tunnelers game tonight, fridge stocked with all the goodies a girl could need.$h"
+				"Indoor_Day_4": "{{ i18n: married.shane.indoor_day_4 }}$6",
+				"Indoor_Night_3": "{{ i18n: married.shane.indoor_night_3.0 }}#$e#{{ i18n: married.shane.indoor_night_3.1 }}",
+				"OneKid_3": "{{ i18n: married.shane.onekid_3.0 | shane_name={{shane_name}} }}$6#$e#{{ i18n: married.shane.onekid_3.1 }}",
+				"Good_2": "{{ i18n: married.shane.good_2 | shane_name={{shane_name}} }}",
+				"Good_6": "{{ i18n: married.shane.good_6 }}$h"
 			},
 			"When": {
-				"Shane Dialogue Changed": "true"
+				"Shane Dialogue Changed": true
 			}
         },
         
@@ -43,11 +43,11 @@
 			"Action": "EditData",
 			"Target": "Characters/Dialogue/Shane",
 			"Entries": {
-				"dumped_Guys": "%{{Shane Name}} has a glazed look in her eye. She won't speak to you.",
-				"JojaMart": "%{{Shane Name}}'s hard at work. She doesn't seem interested in talking."
+				"dumped_Guys": "%{{ i18n: shane.dumped_guys | shane_name={{shane_name}} }}",
+				"JojaMart": "%{{ i18n: shane.jojamart | shane_name={{shane_name}} }}"
 			},
 			"When": {
-				"Shane Dialogue Changed": "true"
+				"Shane Dialogue Changed": true
 			}
         },
         
@@ -55,22 +55,35 @@
 			"Action": "EditData",
 			"Target": "Data/mail",
 			"Entries": {
-				"Shane": "Hey,^I thought it would be fun to send you a letter. I don't really know what to write, though.^ Here, I've enclosed a treat for you. Don't tell anyone, but I snagged this from the back room of JojaMart ages ago.^Okay, see you soon. ^   -{{Shane Name}} %item object 215 1 206 1 %%",
-				"ShaneCooking": "@,^I found this recipe in a magazine and I thought it sounded interesting. Feel free to give me a taste if you make it. hehe. ^   -{{Shane Name}}%item cookingRecipe %%"
+				"Shane": "{{ i18n: mail.shane | shane_name={{shane_name}} }} %item object 215 1 206 1 %%",
+				"ShaneCooking": "{{ i18n: mail.shanecooking | shane_name={{shane_name}} }}%item cookingRecipe %%"
 			},
 			"When": {
-				"Shane Dialogue Changed": "true"
+				"Shane Dialogue Changed": true
 			}
         },
         
         {
 			"Action": "EditData",
 			"Target": "Data/NPCDispositions",
-			"Entries": {
-				"Shane": "adult/rude/shy/negative/male/datable/null/Town/spring 20/Marnie 'aunt'/AnimalShop 25 6/{{Shane Name}}"
+			"Fields": {
+				"Shane": {
+					"11": "{{shane_name}}"
+				}
 			},
 			"When": {
-				"Shane Dialogue Changed": "true"
+				"Shane Dialogue Changed": true
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/SecretNotes",
+			"Entries": {
+				"7": "{{ i18n: secrets.7 | harvey_name={{ harvey_name }} | harvey_pronoun.0={{ Lowercase:{{harvey_pronoun}} }} | harvey_spouse={{harvey_spouse}} | harvey_pronoun.1={{harvey_pronoun}} | elliott_name={{elliott_name}} | elliott_adj={{elliott_adj}} | elliott_pronoun.0={{ Lowercase:{{elliott_pronoun}} }} | elliott_feature={{elliott_feature}} | elliott_pronoun.1={{elliott_pronoun}} | shane_name={{shane_name}} | shane_possess={{shane_possess}} | shane_pronoun={{shane_pronoun}} }}%revealtasteHarvey395%revealtasteHarvey342%revealtasteElliott732%revealtasteElliott637%revealtasteShane346%revealtasteShane206%revealtasteShane215"
+			},
+			"When": {
+				"Shane Dialogue Changed": true
 			}
 		},
 		
@@ -84,7 +97,7 @@
 							"ID": "reaction_5",
 							"SpecialResponses": {
 								"DuringMovie": {
-									"Script": "/message \"{{Shane Name}}'s trying not to smile.\""
+									"Script": "/message \"{{ i18n: mreact.shane.r5.script | shane_name={{shane_name}} }}\""
 								}
 							}
 						},
@@ -93,7 +106,7 @@
 							"ID": "reaction_7",
 							"SpecialResponses": {
 								"DuringMovie": {
-									"Script": "/emote Shane 28/message \"{{Shane Name}}'s slumped over...\""
+									"Script": "/emote Shane 28/message \"{{ i18n: mreact.shane.r7.script | shane_name={{shane_name}} }}\""
 								}
 							}
 						}
@@ -101,76 +114,101 @@
 				}
 			},
 			"When": {
-				"Shane Dialogue Changed": "true"
+				"Shane Dialogue Changed": true
 			}
 		},
         
         {
 			"Action": "EditData",
 			"Target": "Data/Events/AnimalShop",
-			"Entries": {
-				"3910674/f Shane 1000": "shaneTheme/-2000 -2000/farmer 18 18 1 Marnie 21 14 0 Jas 25 16 2 Shane -1000 -1000 2/skippable/specificTemporarySprite shanePassedOut/viewport 22 8 true/pause 2000/speak Marnie \"{{Shane Name}}?\"/pause 2000/doAction 21 13/pause 500/move Marnie 0 -7 1/textAboveHead Marnie \"Oh dear...\"/doAction 21 13/removeTile 21 13 Buildings/removeTile 21 12 Front/move farmer 3 0 0/faceDirection Jas 3 true/move farmer 0 -10 1/faceDirection Marnie 2/pause 500/speak Marnie \"@... Can you do something? She's out cold.$s\"/pause 500/faceDirection farmer 0/pause 500/faceDirection farmer 1/move farmer 3 0 0/faceDirection Marnie 1 true/move farmer 0 -1 1/pause 1000/speak Shane \"buhhh...$7\"/pause 2000/specificTemporarySprite waterShane/pause 250/playSound wateringCan/pause 1000/specificTemporarySprite waterShaneDone/warp Shane 25 7/textAboveHead Shane \"Whaa..?!\"/jump Shane/shake Shane 2000/showFrame Shane 18/pause 3000/showFrame Shane 0/move farmer -1 0 1/faceDirection Shane 3/speak Marnie \"{{Shane Name}}! What's the matter with you? All you do anymore is mope around your room and drink beer!$s\"/move Jas -4 0 0 true/pause 200/faceDirection Shane 2 true/pause 50/faceDirection Shane 1/emote Shane 12/shake Shane 1000/textAboveHead Shane \"...\"/pause 1500/speak Shane \"You wouldn't understand...\"/pause 1000/textAboveHead Marnie \"I'm worried...\"/move Jas 0 -8 1/speak Marnie \"What's your plan? Don't you ever think about the future?\"/faceDirection Shane 0/textAboveHead Shane \"Plan?\"/pause 2000/speak Shane \"Hopefully I won't be around long enough to need a 'plan'...\"/jump Jas/pause 500/shake Jas 10000/speed Jas 4/textAboveHead Jas \"...*sob*...\"/move Jas 0 10 2 true/faceDirection Marnie 2/emote Marnie 28 true/faceDirection farmer 3/faceDirection Shane 1 true/pause 50/faceDirection Shane 2/pause 600/move Marnie 0 10 2 true/pause 1000/textAboveHead Shane \"Jas...\"/pause 500/faceDirection farmer 1/pause 400/showFrame Shane 19/pause 1000/textAboveHead Shane \"I'm sorry...\"/pause 3000/faceDirection Shane 1 true/showFrame Shane 4/pause 500/showFrame Shane 35/playSound thudStep/shake Shane 4000/pause 2000/end",
-				"3910974/f Shane 1700/e 3910975/p Shane": "shaneTheme/-2000 -2000/farmer -1000 -1000 1 Marnie 12 14 2 Jas 25 16 3 Shane -1000 -1000 0/skippable/showFrame Jas 22/viewport 13 14 clamp true/pause 2000/playSound doorClose/warp Shane 13 19/move Shane 0 -3 0/pause 500/speak Marnie \"Hi {{Shane Name}}... you look unusually happy today.\"/pause 1000/speak Shane \"You're right... I haven't felt this light since I was a kid.$h\"/emote Marnie 8/move Marnie 1 0 2/speak Marnie \"Let me guess... Gus had a clearance sale on canned beer?$u\"/pause 500/playSound shwip/faceDirection Shane 1 true/pause 50/faceDirection Shane 2 true/pause 500/textAboveHead Shane \"Good one...\"/pause 500/showFrame Shane 19/pause 1000/speak Shane \"No, actually. I've been drinking sparkling water instead of beer... and I feel great!$h\"/pause 500/showFrame Shane 0/pause 200/faceDirection Shane 1 true/pause 50/faceDirection Shane 0/speak Shane \"You know, I sometimes forget that I really do have friends, people that care about me.#$b#And it's okay for me to rely on them... it doesn't make me weak.\"/pause 500/emote Marnie 32/viewport move 1 0 6000/move Shane 4 0 2/textAboveHead Marnie \"She looks sharp!\"/move Shane 0 2 1/move Shane 4 0 0/move Shane 0 -2 1/speak Shane \"Hi Jas. I've got something for you.$6\"/pause 500/showFrame Shane 26/specificTemporarySprite jasGift/playSound coin/pause 500/showFrame Shane 4/emote Jas 8 true/move Jas -2 0 3/pause 800/playSound woodWhack/specificTemporarySprite jasGiftOpen/pause 500/showFrame Jas 24/playSound yoba/pause 2000/speak Jas \"Th... These are real bunny-jewel slippers!!$h\"/pause 200/speed Jas 6/jump Jas/move Jas -1 0 3/showFrame Jas 23/positionOffset Jas -2 1/pause 10/positionOffset Jas -2 0/pause 10/positionOffset Jas -2 0/pause 10/positionOffset Jas -2 0/showFrame Shane 18/pause 10/positionOffset Jas -2 0/pause 10/positionOffset Jas -2 0/pause 10/positionOffset Jas -2 0/pause 10/positionOffset Jas -2 0/pause 10/positionOffset Jas -2 0/pause 10/positionOffset Jas -2 0/pause 10/positionOffset Jas -2 0/pause 10/positionOffset Jas -2 0/pause 10/positionOffset Jas -2 0/pause 10/positionOffset Jas -2 0/pause 10/positionOffset Jas -2 0/pause 10/positionOffset Jas -2 1/pause 2000/viewport -2000 -2000/playMusic none/pause 1000/speak Jas \"B... But these are so expensive!$3#$b#How did you afford them?$3\"/pause 1000/speak Shane \"I've cut back on an expensive habit. I have a lot more spending money now!$h\"/pause 1000/end",
-				"3900074/f Shane 2000/e 2118991/p Shane": "distantBanjo/27 14/farmer 22 15 1 Jas 30 14 2 Shane -1000 -1000 0/skippable/pause 1000/faceDirection Jas 3/pause 400/jump Jas/pause 1500/move farmer 8 0 0/faceDirection Jas 2/pause 500/speak Jas \"Aunt {{Shane Name}}'s in the barn. She said... Uh... She said to tell you she wants to show you something.\"/pause 500/faceDirection Jas 0/pause 500/playSound doorClose/warp Jas -1000 -1000/pause 800/move farmer 0 -1 0/playSound doorClose/warp farmer -1000 -1000/pause 1600/globalFade/viewport -2000 -2000/changeToTemporaryMap MarnieBarn false/viewport -2000 -2000/addTemporaryActor White_Chicken 16 16 8 5 2 false Animal chicken1/addTemporaryActor Blue_Chicken 16 16 8 9 3 false Animal chicken2/addTemporaryActor Blue_Chicken 16 16 7 7 1 false Animal chicken3/addTemporaryActor Blue_Chicken 16 16 14 11 3 false Animal chicken4/addTemporaryActor Blue_Chicken 16 16 9 11 2 false Animal chicken5/warp Shane 5 3/faceDirection Shane 0/animate Shane false true 500 32 33/viewport 7 3 true/pause 500/move chicken5 -1 0 2 true/pause 1000/move chicken2 3 0 1 true/pause 1500/move chicken4 0 1 2 true/pause 1000/speak Shane \"That should do it...$6\"/pause 500/stopAnimation Shane/pause 500/faceDirection Shane 3 true/pause 50/faceDirection Shane 2/pause 1000/move Shane 0 1 2/move Shane 3 0 2/pause 1000/showFrame Shane 30/pause 500/playSound coin/showFrame Shane 29/warp chicken1 -100 -100/pause 500/showFrame Shane 28/move chicken3 0 -1 0 true/pause 1000/move chicken4 0 -1 0/pause 1000/speak Shane \"It's the perfect home for you hens...$8#$b#We'll have the best eggs in the whole valley!$8#$b#Fresh and healthy, with rich golden yolks. Not like those pale, sickly Joja eggs...$8\"/move chicken2 -1 0 2/pause 1000/move chicken3 0 1 2/emote Shane 28/pause 1500/move chicken4 -1 0 3 true/pause 500/move chicken3 1 0 1 true/move chicken2 1 0 1 true/pause 500/speak Shane \"...*sigh*...$9#$b#...You know, Charlie... I was thinking... $9#$b#A girl like me is always teetering on the edge of despair... know what I mean?$9#$b#...But you and the other hens are going to keep me upright from now on... I know it.$9#$b#...$9#$b#What's wrong... too much pressure? *chuckle*$8\"/pause 500/playSound doorClose/warp Jas 3 8/move Jas 0 -1 0/move Jas 0 -3 1 true/pause 500/warp farmer 3 8/playSound doorClose/move farmer 0 -3 1 false/pause 1000/showFrame Shane 29/pause 500/move chicken2 0 -1 0 true/showFrame Shane 30/warp chicken1 8 5/playSound thudStep/pause 500/move chicken3 -1 0 3/showFrame Shane 0/faceDirection chicken3 2/pause 1000/faceDirection Shane 3/speak Shane \"Hey, @... so, what do you think?$h\"/animate chicken1 false true 500 16 17/pause 500/animate chicken4 false true 700 16 17/advancedMove chicken2 false 0 -4 -2 0/move farmer 2 0 1/advancedMove chicken3 false -1 0 0 -2/move farmer 0 -1 1/move farmer 2 0 2/faceDirection Shane 2/speak Shane \"My special blue hens... I've been raising them in secret for the last few months.$6\"/faceDirection Shane 3/speak Shane \"I... Well, I won't be living here forever, and I wanted to pass something on to Jas. I've been teaching her how to care for them.$6#$b#...I want to feel like I'm not just a leech on the world. I want to contribute somehow, even in a small way like this.\"/move Jas 3 0 2/faceDirection Shane 2/pause 2000/showFrame Shane 19/pause 500/pause 1000/end"
+			"Fields": {
+				"3910674/f Shane 1000": {
+					"7": "speak Marnie \"{{ i18n: events.animalshop.3910674.0 | shane_name={{shane_name}} }}\"",
+					"21": "speak Marnie \"{{ i18n: events.animalshop.3910674.1 }}$s\"",
+					"46": "speak Marnie \"{{ i18n: events.animalshop.3910674.2 | shane_name={{shane_name}} }}$s\""
+				},
+				"3910974/f Shane 1700/e 3910975/p Shane": {
+					"11": "speak Marnie \"{{ i18n: events.animalshop.3910974.0 | shane_name={{shane_name}} }}\"",
+					"39": "textAboveHead Marnie \"{{ i18n: events.animalshop.3910974.1 }}\""
+				},
+				"3900074/f Shane 2000/e 2118991/p Shane": {
+					"12": "speak Jas \"{{ i18n: events.animalshop.3900074.0 | shane_name={{shane_name}} }}\"",
+					"76": "speak Shane \"{{ i18n: events.animalshop.3900074.1.0 }}$9#$b#{{ i18n: events.animalshop.3900074.1.1 }} $9#$b#{{ i18n: events.animalshop.3900074.1.2 }}$9#$b#{{ i18n: events.animalshop.3900074.1.3 }}$9#$b#...$9#$b#{{ i18n: events.animalshop.3900074.1.4 }}$8\""
+				}
 			},
 			"When": {
-				"Shane Dialogue Changed": "true"
+				"Shane Dialogue Changed": true
 			}
         },
         
         {
 			"Action": "EditData",
 			"Target": "Data/Events/Forest",
-			"Entries": {
-				"3910975/f Shane 1500/e 3910674/t 900 2000/w rainy": "echos/-2000 -2000/farmer 83 92 2 Shane -3000 -3000 2 Harvey -3000 -3000 2/skippable/specificTemporarySprite shaneCliffs/viewport 83 99 clamp true/pause 1000/move farmer 0 5 2/pause 500/speak Shane \"...$7#$b#@...$7\"/pause 1000/showFrame farmer 4/pause 1000/speak Shane \"I... I'm sorry...*hic*$7#$b#...$7#$b#M... My life...$7#$b#It's a pathetic joke...$7#$b#Look at me...$7#$b#...$7#$b#Why do I even try? ...*sob*$7#$b#I'm too small and stupid to... to take control of my life...$7#$b#I'm just a p... piece of soiled garbage flittering in the wind... *bluurp*$7#$b#.........$7#$b#I've been coming here often lately... looking down... $7#$b#Here's a chance to finally take control of my life... These cliffs...$7#$b#...$7#$b#B... bu... *blaap*... but I'm too scared, too anxious. Just like always... $7\"/pause 1000/showFrame farmer 0/pause 2000/speak Shane \"@... All I do is work, sleep, and drink ...t... to dull the feelings of self-hatred.$7#$b#Why should I even go on? Tell me... T... Tell me why I shouldn't roll off this cliff right now...$7\"/pause 1000/showFrame farmer 0/pause 1000/question shaneCliffs \"#Because there's so much to live for!#Jas needs you. You're like a mother to her.#It would be a sin.#The decision is your own. Just know that I'm here for you.\"/pause 500/pause 500/pause 500/pause 1000/speak Shane \"@...$7\"/pause 500/showFrame farmer 4/pause 1000/speak Shane \"...I think you should take me to the hospital now.$7\"/pause 500/showFrame farmer 0/jump farmer/pause 1500/globalFade/viewport -1000 -1000/playMusic none/changeLocation Hospital/warp farmer 16 7/playMusic Hospital_Ambient/warp Harvey 16 6/faceDirection farmer 0/specificTemporarySprite shaneHospital/viewport 16 6 true/pause 2000/speak Harvey \"...I've pumped her stomach and re-hydrated her body. She's going to be okay.#$b#It's good that you brought her in, though.\"/faceDirection Harvey 1/emote Harvey 28/speak Harvey \"Too much alcohol is terrible for the body... but right now I'm most worried about her mental health...$s#$b#When she comes to, I'll have a chat with her about her treatment options. I know an excellent counselor in Zuzu City...\"/pause 500/faceDirection farmer 1/pause 1000/speak Harvey \"Life can be painful, sometimes...#$b#But there's always hope for a better future. You've got to believe in that.\"/pause 2000/end invisible Shane"
+			"Fields": {
+				"3910975/f Shane 1500/e 3910674/t 900 2000/w rainy": {
+					"21": "question shaneCliffs \"#{{ i18n: events.forest.3910975.0.0 }}#{{ i18n: events.forest.3910975.0.1 }}#{{ i18n: events.forest.3910975.0.2 }}#{{ i18n: events.forest.3910975.0.3 }}\"",
+					"46": "speak Harvey \"{{ i18n: events.forest.3910975.1.0 }}#$b#{{ i18n: events.forest.3910975.1.1 }}\"",
+					"49": "speak Harvey \"{{ i18n: events.forest.3910975.2.0 }}$s#$b#{{ i18n: events.forest.3910975.2.1 }}\""
+				}
 			},
 			"When": {
-				"Shane Dialogue Changed": "true"
+				"Shane Dialogue Changed": true
 			}
 		},
 		
 		{
 			"Action": "EditData",
 			"Target": "Data/Events/ManorHouse",
-			"Entries": {
-				"2123243/e 2111194": "EmilyTheme/-1000 -1000/farmer -2000 -2000 0 Emily 7 6 2 Lewis 3 7 1 Clint 11 9 3 Shane 8 8 0 Abigail 7 8 0 Robin 2 9 1/skippable/specificTemporarySprite ClothingTherapy/viewport 5 7 true/pause 2000/speak Emily \"Welcome to clothing therapy!\"/faceDirection Abigail 1/emote Robin 8 true/faceDirection Shane 3/pause 500/faceDirection Shane 0/faceDirection Abigail 0/pause 500/speak Emily \"You're probably wondering... what is clothing therapy?#$b#I'll try to explain.\"/move Emily 0 1 2/speak Emily \"So many of us are struggling with personal issues... things holding us back from living how we want.$u#$b#It's important to me that everyone has a free and happy life... so I came up with a new kind of therapy to help people achieve that.$u\"/move Emily 0 -1 2/pause 500/speak Emily \"It's based on the amazing power of self-expression. Self-expression is a wonderful healing tool, did you know that?\"/faceDirection Emily 3/pause 1000/speak Emily \"Behind this curtain, you'll find racks and racks of clothes. There's endless options to choose from.\"/faceDirection Emily 2/speak Emily \"Your job is simple: find the outfit that truly speaks to you, and put it on.#$b#Feel confident in yourself and your choice. You all have a unique style to share with the world!#$b#Shane, you're up first!$h\"/specificTemporarySprite curtainOpen/pause 1500/showFrame Shane 18/jump Shane/pause 1400/showFrame Shane 0/pause 1000/textAboveHead Shane \"Okay\"/move Shane 0 -1 0/move Shane -3 0 0/move Shane 0 -2 2/pause 1000/specificTemporarySprite curtainClose/pause 1000/playSound doorClose/warp farmer 4 11/move farmer 0 -1 0/speak Emily \"Ah, @. You're just in time. Just observe and keep an open mind... okay?\"/pause 1000/move farmer -1 0 0/warp Shane -1000 -1000/addTemporaryActor ClothesTherapyCharacters 16 32 5 5 2 true character/pause 3000/specificTemporarySprite curtainOpen/pause 1000/faceDirection Emily 3/move ClothesTherapyCharacters 0 2 2/textAboveHead Robin \"Wow...\"/pause 1000/move ClothesTherapyCharacters 0 2 2/faceDirection Abigail 3/textAboveHead Abigail \"Cool\"/pause 1000/faceDirection Emily 2/speak Emily \"{{Shane Name}}, it's a new side of you we've never known about. That's great!#$b#Now, go outside with confidence and show the world!\"/pause 1000/emote ClothesTherapyCharacters 40/pause 500/textAboveHead ClothesTherapyCharacters \"Sure\"/move ClothesTherapyCharacters 0 2 2/warp ClothesTherapyCharacters -1000 -1000/playSound doorClose/pause 2000/speak Emily \"Okay, everyone gets a turn!\"/faceDirection Abigail 0 true/move Robin 3 0 0/faceDirection Clint 2 true/textAboveHead Clint \"Oh no...\"/move Robin 0 -4 2/pause 1000/specificTemporarySprite curtainClose/pause 3000/warp Robin -1000 -1000/warp ClothesTherapyCharacters 5 5/changeYSourceRectOffset ClothesTherapyCharacters 128/textAboveHead ClothesTherapyCharacters \"Heehee\"/pause 1000/specificTemporarySprite curtainOpen/pause 1000/textAboveHead Lewis \"Oh my!\"/move ClothesTherapyCharacters 0 3 2/textAboveHead Emily \"Beautiful!\"/pause 1000/showFrame ClothesTherapyCharacters 5/specificTemporarySprite heart 5 8/pause 2000/textAboveHead ClothesTherapyCharacters \"Let's see what Demetrius thinks...\"/pause 1000/move ClothesTherapyCharacters 0 3 2/warp ClothesTherapyCharacters -1000 -1000/playSound doorClose/pause 2000/textAboveHead Lewis \"Why not...\"/move Lewis 2 0 0/move Lewis 0 -2 2/pause 1000/specificTemporarySprite curtainClose/faceDirection Emily 3/pause 2000/warp Lewis -1000 -1000/playSound shwip/warp ClothesTherapyCharacters 5 5/changeYSourceRectOffset ClothesTherapyCharacters 64/pause 1000/textAboveHead ClothesTherapyCharacters \"Hehe... not bad!\"/pause 2000/specificTemporarySprite curtainOpen/pause 1000/move ClothesTherapyCharacters 0 3 2/textAboveHead Emily \"Lookin' sharp!\"/faceDirection Emily 2/pause 3000/move ClothesTherapyCharacters 0 3 2/playSound doorClose/warp ClothesTherapyCharacters -1000 -1000/textAboveHead Abigail \"Me next!\"/move Abigail -2 0 0/move Abigail 0 -3 2/pause 2000/specificTemporarySprite curtainClose/pause 2000/warp Abigail -1000 -1000/warp ClothesTherapyCharacters 5 5/changeYSourceRectOffset ClothesTherapyCharacters 32/pause 3000/specificTemporarySprite curtainOpen/pause 1000/move ClothesTherapyCharacters 0 3 2/textAboveHead Emily \"Very nice!\"/pause 2000/showFrame ClothesTherapyCharacters 16/playSound clank/pause 1000/textAboveHead ClothesTherapyCharacters \"It's sweaty in here...\"/pause 3000/move ClothesTherapyCharacters 0 3 2/warp ClothesTherapyCharacters -1000 -1000/playSound doorClose/pause 1000/faceDirection Emily 3/pause 500/faceDirection Emily 2/pause 1000/speak Emily \"Clint? You're up!\"/pause 500/jump Clint/shake Clint 4000/pause 1000/textAboveHead Clint \"M...Me?\"/pause 2000/speak Clint \"*gulp*... Okay, Emily. I'll do it.$4\"/pause 1000/move Clint -6 0 0/move Clint 0 -4 2/pause 1000/faceDirection Emily 3/specificTemporarySprite curtainClose/pause 4000/warp Clint -1000 -1000/warp ClothesTherapyCharacters 5 5/changeYSourceRectOffset ClothesTherapyCharacters 96/pause 1000/specificTemporarySprite curtainOpen/pause 2000/move ClothesTherapyCharacters 0 3 2/faceDirection Emily 2/textAboveHead Emily \"Awww, cute!\"/pause 1600/showFrame ClothesTherapyCharacters 10/pause 800/speak Clint \"Aww? Cute? ...*sigh*...$7\"/pause 2000/move ClothesTherapyCharacters 0 3 2/warp ClothesTherapyCharacters -1000 -1000/playSound doorClose/move Emily 0 3 3/move farmer 0 -1 1/move farmer 1 0 1/speak Emily \"Well, that went very well!#$b#I just hope this experience helps everyone break out of their shells a bit.\"/move Emily -2 0 3 true/pause 200/positionOffset Emily 0 4/pause 300/positionOffset Emily 0 4/pause 300/positionOffset Emily 0 4/pause 300/positionOffset Emily 0 4/pause 2500/speak Emily \"@... um...$4\"/showFrame ClothesTherapyCharacters 11/playSound doorClose/warp ClothesTherapyCharacters 5 11/speak Clint \"I couldn't do it! I don't wanna break out of my shell!$6\"/faceDirection Emily 2 true/jump Emily/showFrame Emily 26/faceDirection farmer 2 true/pause 1600/showFrame Emily 0/speak Clint \"...Oh. I... I guess I'm interrupting something here, aren't I?$7\"/pause 1000/showFrame ClothesTherapyCharacters 0/pause 1500/showFrame ClothesTherapyCharacters 10/pause 1700/speak Clint \"I understand. I'll leave now... Congrats, @.$7\"/pause 1000/playSound doorClose/warp ClothesTherapyCharacters -1000 -1000/pause 1000/faceDirection Emily 3/emote Emily 8/pause 2000/end"
+			"Fields": {
+				"2123243/e 2111194": {
+					"60": "speak Emily \"{{ i18n: events.manorhouse.2123243.0 | shane_name={{shane_name}} }}#$b#{{ i18n: events.manorhouse.2123243.1 }}\""
+				}
 			},
 			"When": {
-				"Shane Dialogue Changed": "true"
-			}
-        },
-        
-        {
-			"Action": "EditData",
-			"Target": "Data/Events/Saloon",
-			"Entries": {
-				"97/f Clint 750/t 1900 2300/d Tue Wed Thu Fri Sat Sun": "none/4 18/farmer 14 24 0 Clint 4 19 2 Emily 10 11 0 Gus 15 18 1 Shane 7 18 1/skippable/move farmer 0 -3 3/emote Clint 28/pause 500/move Clint 0 -1 3/move Clint -3 0 0/pause 500/playSound openBox/pause 150/playSound shiny4/pause 400/playMusic desolate/move Clint 3 0 2/move Clint 0 1 2/move farmer -3 0 0/move farmer 0 -1 3/faceDirection Shane 2 true/move farmer -3 0 3/faceDirection Shane 1 true/move farmer -3 0 3/faceDirection Clint 1/speak Clint \"Hello, @... care to join me?\"/pause 400/faceDirection farmer 0/pause 800/faceDirection farmer 3/faceDirection Clint 2/speak Clint \"Let me just go ahead and tell you what's on my mind.$u#$b#I have terrible luck with women, @...*sigh*$s#$b#I'm a nice guy if you get to know me, I swear!$u\"/pause 500/faceDirection farmer 0/emote farmer 28/pause 500/faceDirection farmer 3/speak Clint \"The girls all seem to like you, @...^You're a girl, @...\"/speak Clint \"$q 211 null#Got any tips?^What advice can you give me?#$r 211 25 event_advice1#Impress women with your strength and charm#$r 211 25 event_advice1#Act crazy, to keep people guessing#$r 211 0 event_advice2#Just act natural... be yourself#$r 211 50 event_advice1#Treat women the same as men\"/speed Emily 4/move Emily -6 0 2/speed Emily 2/move Emily 0 4 2/doAction 4 16/playSound openBox/stopMusic/move Emily 0 3 1/move Emily 1 0 2/move Emily 0 1 3/pause 400/pause 700/speak Emily \"Hi Clint, what can I get for you tonight?$h\"/pause 600/faceDirection Clint 1/pause 200/speak Clint \"Yes!\"/pause 300/speak Clint \"Er.. I mean, I'll have the Big n' Cheesy. With extra sauce, please.$s#$b#...$u\"/faceDirection Clint 3/faceDirection Emily 2/pause 300/faceDirection Clint 2/speak Emily \"Hi @.\"/pause 300/faceDirection farmer 0/faceDirection Clint 1/speak Clint \"Er... *ahem* Th...Thanks, Emily. For... taking my order.#$b#Um, Emily? I was...*gulp*... I was wondering...$h\"/pause 300/faceDirection Emily 3/emote Emily 8/pause 400/speak Emily \"Yes, Clint?$u\"/pause 500/emote Clint 28/pause 1200/speak Clint \"... nevermind.$s\"/faceDirection Clint 0/playMusic sadpiano/pause 300/faceDirection Emily 2/pause 300/faceDirection Emily 3/pause 500/move Emily 0 -1 1/move Emily 1 0 1/faceDirection Shane 3/speak Emily \"Hi, {{Shane Name}}! Here's your beverage.$h\"/pause 300/faceDirection Shane 1/pause 400/addObject 8 17 346 1/playSound woodyStep/pause 400/faceDirection Shane 3/pause 300/faceDirection Clint 1/speak Shane \"Thanks, Emily!$h#$b#So... How's your shift coming along?\"/speak Emily \"It's fine! Thanks for asking, {{Shane Name}}!$h#$b#Do you have any new chicken stories for me?\"/pause 600/emote Clint 28/pause 500/faceDirection Clint 2/pause 800/speak Clint \"*sigh*$s#$b#I'm doomed...$s\"/end warpOut"
-			},
-			"When": {
-				"Shane Dialogue Changed": "true"
-			}
-        },
-        
-        {
-			"Action": "EditData",
-			"Target": "Data/Events/Saloon",
-			"Entries": {
-				"wewereworried": "emote farmer 40/faceDirection Marnie 1/pause 1000/faceDirection Shane 2/emote Shane 12/speak Shane \"I'm your wife... you should trust me. I've always been honest with you about my problems.$a#$b#Look... I know I haven't been able to quit cold turkey... but, I'm trying my best... and I'm getting a lot healthier.#$b#My life is better now than it's ever been. I'm not in such a dark place anymore...\"/pause 500/emote Marnie 20 true/emote farmer 20 true/pause 1300/faceDirection Shane 0/speak Shane \"You know, when I'm playing this game, I become so focused that I can't think about anything else. It really helps when I've got 'the urge'...\"/faceDirection Shane 2/speak Shane \"Anyway... I'll just... eh... play ONE more round and head home. Okay?\"/pause 500/emote farmer 32/pause 1000/end dialogue Shane \"You guys must have been really confused when you came in and saw me in front of the arcade machine!$h\""
-			},
-			"When": {
-				"Shane Dialogue Changed": "true"
+				"Shane Dialogue Changed": true
 			}
 		},
         
         {
 			"Action": "EditData",
-			"Target": "Data/Events/Town",
-			"Entries": {
-				"3917584/f Shane 3500/O Shane/d Fri/t 800 1700": "distantBanjo/45 71/farmer 48 67 2 Marnie 52 71 0 Jas 51 71 0 Shane -100 -100 2/addConversationTopic shaneSaloon1 0/skippable/move farmer 0 3 2/warp Shane 45 71/playSound doorClose/faceDirection Marnie 3 true/faceDirection Jas 3 true/move Shane 0 1 2/pause 500/speak Shane \"Phew... that was fun.$h#$b#Haven't had a session like that in a while... *urp*\"/pause 500/emote Marnie 28 true/emote Jas 28 true/emote farmer 28 true/pause 1000/speak Shane \"Welp... I'm all sweaty. Better head back home.\"/advancedMove Shane false -10 0 0 -14 -10 0 0 -3 -10 0/move farmer 0 2 3 true/pause 3000/speak Marnie \"Oh no... this doesn't look good.$s\"/pause 500/faceDirection Jas 1/emote Jas 28/move Marnie 0 1 3 false/faceDirection Jas 2 true/move Marnie -3 0 3/faceDirection Jas 3 true/faceDirection farmer 1/speak Marnie \"@? You'd better keep your eye on her... next time you catch her coming out of the Saloon, you should say something...$s\"/pause 1000/faceDirection farmer 2 true/pause 100/faceDirection farmer 3/pause 1000/end dialogue Shane \"Is everything alright, @? You seem worried...\"",
-				"3917586/e 3917585/O Shane/A shaneSaloon2": "spring_day_ambient/45 71/farmer 47 71 1 Shane 37 72 1 Marnie 48 70 2/addWorldState shanePK/skippable/emote Shane 56 true/move Shane 8 0 0/pause 500/speak Shane \"Okay... I'm ready for another round!\"/pause 500/move Shane 0 -1 0/playSound doorClose/warp Shane -100 -100/pause 1000/faceDirection farmer 2 true/showFrame 0/emote farmer 12 true/emote Marnie 12/speak Marnie \"Alright... we've caught her in the act. Now let's confront her. Take a deep breath... $s\"/move farmer 0 1 3/move farmer -2 0 0/move farmer 0 -1 0/playSound doorClose/warp farmer -100 -100/move Marnie 0 2 3/move Marnie -3 0 0/move Marnie 0 -1 0/playSound doorClose/warp Marnie -100 -100/fade/viewport -1000 -1000/changeLocation Saloon/warp Shane 33 18/warp Marnie 18 21/warp farmer 19 21/faceDirection Marnie 1 true/faceDirection farmer 1 true/positionOffset farmer 0 16/advancedMove farmer false 6 0 0 -2 8 0 4 10/advancedMove Marnie false 6 0 0 -2 8 0 4 10/specificTemporarySprite shaneSaloonCola/playMusic none/pause 3000/viewport 33 18 true/pause 800/playSound Cowboy_gunshot/pause 200/emote Shane 52 true/playSound Cowboy_gunshot/pause 200/playSound Cowboy_gunshot/pause 200/playSound Cowboy_gunshot/pause 160/playSound cowboy_monsterhit/pause 140/playSound Cowboy_gunshot/pause 170/shake Shane 500/playSound cowboy_monsterhit/pause 200/playSound Cowboy_monsterDie/pause 500/playSound cowboy_gunload/pause 700/playSound Cowboy_gunshot/shake Shane 500/pause 200/playSound Cowboy_gunshot/pause 160/playSound cowboy_monsterhit/pause 140/playSound Cowboy_gunshot/pause 170/playSound cowboy_monsterhit/jump Shane/pause 200/playSound Cowboy_monsterDie/pause 500/playSound cowboy_dead/jump Shane/pause 500/textAboveHead Shane \"Arrgh!\"/pause 2000/playMusic distantBanjo/textAboveHead Shane \"So close...\"/pause 3000/faceDirection Shane 1 true/pause 100/faceDirection Shane 2/animate Shane false true 100 18/jump Shane/pause 500/stopAnimation Shane/showFrame Shane 0/emote Shane 16/speak Shane \"Oh, hey! Didn't know I had an audience.$h\"/faceDirection Marnie 1 true/faceDirection farmer 3/faceDirection Marnie 0 true/faceDirection farmer 0/speak Marnie \"{{Shane Name}}... this is what you've been doing in here?$s\"/pause 500/speak Shane \"Yeah! What did you think?$h\"/faceDirection Shane 1 true/pause 100/faceDirection Shane 0/speak Shane \"I'm completely addicted to this game...#$b#I can't help but play round after round...\"/pause 500/faceDirection Shane 1 true/pause 100/faceDirection Shane 2/pause 500/animate Shane false true 100 34/pause 500/speak Shane \"I've even reached the number three spot in the global leaderboards... you might say I'm one of the best.$h\"/pause 500/stopAnimation Shane/pause 100/move Marnie 0 -1 1/speak Marnie \"But... these cans...$s\"/pause 500/faceDirection Shane 3/pause 200/emote Shane 8/speak Shane \"Oh, that's just Joja Cola... Yeah, yeah, I know... It's bad for the teeth. But it helps me focus...\"/pause 1000/faceDirection Shane 2/pause 200/faceDirection Shane 3/faceDirection Shane 2/faceDirection Shane 3/speak Shane \"Wait... did you guys think I was drinking beer?$a\"/faceDirection Marnie 2/emote Marnie 28/faceDirection Shane 2/speak Shane \"@? I told you I hadn't been drinking...$a\"/question fork0 \"#We were worried...#I'm sorry, I should've believed you\"/fork wewereworried/emote farmer 40/faceDirection Marnie 1/pause 1000/faceDirection Shane 2/emote Shane 40/speak Shane \"...That's alright, @. You're just looking out for me. I get it.#$b#Look... I know I haven't been perfect... but, I'm trying my best... and I'm gonna keep trying. So you don't have to worry about me.#$b#My life is better now than it's ever been. I'm not in such a dark place anymore...\"/pause 500/emote Marnie 20 true/emote farmer 20 true/pause 1300/faceDirection Shane 0/speak Shane \"You know, when I'm playing this game, I become so focused that I can't think about anything else. It really helps when I've got 'the urge'...\"/faceDirection Shane 2/speak Shane \"Anyway... I'll just... eh... play ONE more round and head home. Okay?\"/pause 1000/emote farmer 32/pause 1000/end dialogue Shane \"You guys must have been really confused when you came in and saw me in front of the arcade machine!$h\""
+			"Target": "Data/Events/Saloon",
+			"Fields": {
+				"3917590/n saloonSportsRoom/O Alex": {
+					"37": "speak Alex \"{{ i18n: events.saloon.3917590.0 }}\"",
+					"42": "speak George \"{{ i18n: events.saloon.3917590.1 | alex_petname={{alex_petname}} }}\"",
+					"51": "speak Gus \"{{ i18n: events.saloon.3917590.2 | shane_name={{shane_name}} }}\"",
+					"64": "message \"{{ i18n: events.saloon.3917590.3 }}\"",
+					"68": "end dialogue Alex \"{{ i18n: events.saloon.3917590.4 }}\""
+				},
+				"wewereworried": {
+					"5": "speak Shane \"{{ i18n: events.saloon.wewereworried.0.0 }}$a#$b#{{ i18n: events.saloon.wewereworried.0.1 }}#$b#{{ i18n: events.saloon.wewereworried.0.2 }}\"",
+					"17": "end dialogue Shane \"{{ i18n: events.saloon.wewereworried.1 }}$h\""
+				},
+				"97/f Clint 750/t 1900 2300/d Tue Wed Thu Fri Sat Sun": {
+					"85": "speak Emily \"{{ i18n: events.saloon.97.0 | shane_name={{shane_name}} }}$h\"",
+					"96": "speak Emily \"{{ i18n: events.saloon.97.1 | shane_name={{shane_name}} }}$h#$b#{{ i18n: events.saloon.97.2 }}\""
+				}
 			},
 			"When": {
-				"Shane Dialogue Changed": "true"
+				"Shane Dialogue Changed": true
+			}
+        },
+        
+        {
+			"Action": "EditData",
+			"Target": "Data/Events/Town",
+			"Fields": {
+				"3917584/f Shane 3500/O Shane/d Fri/t 800 1700": {
+					"31": "speak Marnie \"{{ i18n: events.town.3917584.0 }}$s\""
+				},
+				"3917586/e 3917585/O Shane/A shaneSaloon2": {
+					"18": "speak Marnie \"{{ i18n: events.town.3917586.0 }} $s\"",
+					"101": "speak Marnie \"{{ i18n: events.town.3917586.1 | shane_name={{shane_name}} }}$s\"",
+					"156": "end dialogue Shane \"{{ i18n: events.town.3917586.2 }}$h\""
+				}
+			},
+			"When": {
+				"Shane Dialogue Changed": true
 			}
         },
         
@@ -178,10 +216,10 @@
 			"Action": "EditData",
 			"Target": "Strings/animationDescriptions",
 			"Entries": {
-				"shane_work": "%{{Shane Name}}'s hard at work. She doesn't seem interested in talking."
+				"shane_work": "%{{ i18n: strings.animation.shane_work | shane_name={{shane_name}} }}"
 			},
 			"When": {
-				"Shane Dialogue Changed": "true"
+				"Shane Dialogue Changed": true
 			}
         },
         
@@ -189,10 +227,10 @@
 			"Action": "EditData",
 			"Target": "Strings/StringsFromCSFiles",
 			"Entries": {
-				"Utility.cs.5864_3": "{{Shane Name}}'s Theme"
+				"Utility.cs.5864_3": "{{ i18n: strings.cs.5864_3 | shane_name={{shane_name}} }}"
 			},
 			"When": {
-				"Shane Dialogue Changed": "true"
+				"Shane Dialogue Changed": true
 			}
         },
         
@@ -200,10 +238,10 @@
 			"Action": "EditData",
 			"Target": "Strings/StringsFromMaps",
 			"Entries": {
-				"AnimalShop.8": "Looks like she's using the radio as an alarm clock."
+				"AnimalShop.8": "{{ i18n: strings.maps.animalshop.8 }}"
 			},
 			"When": {
-				"Shane Dialogue Changed": "true"
+				"Shane Dialogue Changed": true
 			}
 		}
     ]
