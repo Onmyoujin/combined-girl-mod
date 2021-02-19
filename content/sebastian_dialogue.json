@@ -218,7 +218,7 @@
 			"Fields":  {
 				"enterRobin": {
 					"8": "speak Sebastian \"{{ i18n: events.sebroom.enterRobin.0.0 | sam_name={{sam_name}} | sam_pronoun={{sam_pronoun}} }}#$b#{{ i18n: events.sebroom.enterRobin.0.1 }}\"",
-					"16": "speak Robin \"{{ i18n: events.sebroom.enterRobin.1 | name={{sebastian_nick}} }}\"",
+					"16": "speak Robin \"{{ i18n: events.sebroom.enterRobin.1 | sebastian_nick={{sebastian_nick}} }}\"",
 					"31": "question fork1 \"#{{ i18n: events.sebroom.enterRobin.2.0 | sebastian_pronoun.1={{sebastian_pronoun.1}} | sebastian_possess={{sebastian_possess}} }}#{{ i18n: events.sebroom.enterRobin.2.1 | sebastian_pronoun.0={{sebastian_pronoun.0}} | sebastian_pronoun.1={{sebastian_pronoun.1}} | sebastian_possess={{sebastian_possess}} }}\""
 				},
 				"Necromancer": {
