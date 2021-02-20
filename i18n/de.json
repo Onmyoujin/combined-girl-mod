@@ -1,7 +1,7 @@
 {
-    "abby.resort.0": "Bummer... {{willy_name}} says we have to stay on the beach...",
-    "abby.resort.1": "And I brought my sword and everything...",
-    "abby.resort_leaving": "I'm gonna ask {{willy_name}} if we can take the scenic route back.",
+    "abby.resort.0": "Schade... {{willy_name}} sagt, wir müssen am Strand bleiben...",
+    "abby.resort.1": "Und ich habe mein Schwert und alles dabei...",
+    "abby.resort_leaving": "Ich werde {{willy_name}} fragen, ob wir die landschaftlich reizvolle Rückfahrt machen können.",
     "alex.intro.0": "Hey, you're the new guy, huh? I think we're going to get along great. I'm {{alex_name}}.",
     "alex.intro.1": "Oh, hey. So you're the new girl, huh? Cool.",
     "alex.intro.2:": "I'll see you around.",
