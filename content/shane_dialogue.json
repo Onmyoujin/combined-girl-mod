@@ -161,7 +161,8 @@
 			"Target": "Data/Events/ManorHouse",
 			"Fields": {
 				"2123243/e 2111194": {
-					"60": "speak Emily \"{{ i18n: events.manorhouse.2123243.0 | shane_name={{shane_name}} }}#$b#{{ i18n: events.manorhouse.2123243.1 }}\""
+					"60": "speak Emily \"{{ i18n: events.manorhouse.2123243.0 | shane_name={{shane_name}} }}#$b#{{ i18n: events.manorhouse.2123243.1 }}\"",
+					"25": "speak Emily \"{{ i18n: events.manorhouse.2123243.2 }}#$b#{{ i18n: events.manorhouse.2123243.3 }}#$b#{{ i18n: events.manorhouse.2123243.4 | shane_name={{shane_name}} }}$h\""
 				}
 			},
 			"When": {
