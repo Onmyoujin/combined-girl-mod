@@ -57,7 +57,7 @@ Shane Name: Any string; defaults to Shania; applies only when dialogue changed
 
 Willy Portraits: Bajel, Disabled
 Willy Sprites: Bajel, Disabled
-Willy Genderswapped: true, false
+Willy Dialogue Changed: true, false
 Willy Name: Any string; defaults to Winnie; applies only when dialogue changed
 
 Wizard Portraits: CreepyKat, Wew69, Disabled
