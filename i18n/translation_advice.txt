@@ -3,3 +3,4 @@ A little help for translators:
 2. Keep in mind that genders have changed, so sometimes you need to change the content according to the situation (girl talking to boy or girl talking to girl).
 3. Normal dialogues can be found in Stardew Valley\Content\Characters\Dialogue
 4. Engagement dialogues can be found in Stardew Valley\Content\Data\EngagementDialogue.XX-XX.xnb
+5. Event dialogues can be founf in Stardew Valley\Content\Data\Events
