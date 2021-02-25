@@ -1,0 +1,5 @@
+A little help for translators:
+1. If you want to stick close to the original translations, unpack the xnb files and get your translations from there.
+2. Keep in mind that genders have changed, so sometimes you need to change the content according to the situation (girl talking to boy or girl talking to girl).
+3. Normal dialogues can be found in Stardew Valley\Content\Characters\Dialogue
+4. Engagement dialogues can be found in Stardew Valley\Content\Data\EngagementDialogue.XX-XX.xnb
