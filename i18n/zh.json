@@ -195,8 +195,8 @@
     "events.sebroom.enterRobin.0.0": "是{{sam_name}}的短信……看来她是想找我出去玩……",
     "events.sebroom.enterRobin.0.1": "呃，我今天不太想出门。",
     "events.sebroom.enterRobin.1": "{{sebastian_nick}}，我知道你不想让我进来……但我今天遇到了阿比盖尔，她说她在找你。",
-    "events.sebroom.enterRobin.2.0": "Ask {{sebastian_pronoun.1}} about {{sebastian_possess}} career goals.",   //TODO
-    "events.sebroom.enterRobin.2.1": "Ask {{sebastian_pronoun.1}} why {{sebastian_pronoun.0}} doesn't want to see {{sebastian_possess}} friends.",  //TODO
+    "events.sebroom.enterRobin.2.0": "问问她的工作目标。",
+    "events.sebroom.enterRobin.2.1": "问问她为什么不想见到朋友。",
     "events.sebroom.finalbosswarrior.0": "萨尔斯对{{sebastian_name}}施放了“暗影箭”……但你及时举起了盾牌，弹开了攻击！",
     "events.sebroom.finalBossWizard.0": "你给{{sam_name}}和{{sebastian_name}}施加了“护盾术”。",
     "events.sebroom.healedsam.0": "{{sam_name}}冲上去砍倒了萨尔斯，将索拉里昂法杖从他手中夺回，和平与秩序重返人间。",
@@ -474,7 +474,15 @@
     "sebastian.wed6": "你跟{{sam_name}}是我在这镇上唯一的朋友",
     "sebastian.winter_wed": "{{sebastian_name}}好像陷入了沉思……",
     "secrets.2": "这是{{sam_name}}的假日购物清单^^每个人的最爱^^{{sebastian_name}}：泪晶、生鱼片^潘妮：绿宝石、虞美人花^文森特：葡萄、蔓越莓糖果^妈妈：香酥鲈鱼、薄煎饼^爸爸：意式蕨菜炖饭、烤榛子^我：仙人掌果子、枫糖棒、披萨",
-    "secrets.7": "这是某人日记中的一页……^^……镇里只有少数几个单身姑娘，她们都并不完美！{{harvey_name}}确实焦虑而软弱，但我知道她会成为一个忠诚专一的妻子。她喜欢咖啡和腌菜。^^{{elliott_name}}有些浮夸和矫情，但她的下巴确实很好看。她喜欢蟹黄糕和石榴。^^{{shane_name}}邋遢且反社会。但我认为她粗鲁的外在是一种保护机制，将她内心的柔软与世界隔离开来。她喜欢啤酒、披萨和爆炒青椒。",   //DynamicTokens might be a bad idea after all
+    "secrets.7.0": "这是某人日记中的一页……",
+    "secrets.7.1": "……镇里只有少数几个“老”单身汉，他们都并不完美！",
+    "secrets.7.2": "哈维确实焦虑而软弱，但我知道他会成为一个忠诚专一的丈夫。他喜欢咖啡和腌菜。",
+    "secrets.7.3": "艾利欧特有些浮夸和矫情，但他的下巴确实很好看。他喜欢蟹黄糕和石榴。",
+    "secrets.7.4": "谢恩邋遢且反社会。但我认为他粗鲁的外在是一种保护机制，将他内心的柔软与世界隔离开来。他喜欢啤酒、披萨和爆炒青椒。",
+    "secrets.7.5": "……镇里只有少数几个单身姑娘，她们都并不完美！",
+    "secrets.7.6": "{{harvey_name}}确实焦虑而软弱，但我知道她会成为一个忠诚专一的妻子。她喜欢咖啡和腌菜。",
+    "secrets.7.7": "{{elliott_name}}有些浮夸和矫情，但她的下巴确实很好看。她喜欢蟹黄糕和石榴。",
+    "secrets.7.8": "{{shane_name}}邋遢且反社会。但我认为她粗鲁的外在是一种保护机制，将她内心的柔软与世界隔离开来。她喜欢啤酒、披萨和爆炒青椒。",
     "secrets.9": "{{alex_name}}的力量训练食谱：^^*完美早餐^*鲑鱼晚餐^^（我已学会爱上这些食物……我感受到了蛋白质的力量！！）",
     "shane.dumped_guys": "{{shane_name}}的眼中闪闪发光。她不会跟你说话。",
     "shane.event_room1": "嗯……这可得有个好剧本才行。也许下次再在酒吧见到{{elliott_name}}的时候，向她请教下吧。",
