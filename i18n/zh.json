@@ -125,6 +125,9 @@
     "events.hospital.toldtruth.0": "谢谢你对我的包容，{{harvey_name}}医生。",
     "events.manorhouse.2123243.0": "{{shane_name}}，我们从来没有看过你这一面。太棒了！",
     "events.manorhouse.2123243.1": "现在走出去，自信点展示给这个世界看！",
+    "events.manorhouse.2123243.2": "Your job is simple: find the outfit that truly speaks to you, and put it on.",  //TODO
+    "events.manorhouse.2123243.3": "Feel confident in yourself and your choice. You all have a unique style to share with the world!",  //TODO
+    "events.manorhouse.2123243.4": "{{shane_name}}, you're up first!",  //TODO
     "events.mountain.384882.0": "我很少带人来这里……其实，你是唯一一个。",
     "events.mountain.384882.1": "呃……我从来没对……别人有过这种感觉……但你与众不同。",
     "events.mountain.384882.2": "你知道我想说什么，对不对？",
