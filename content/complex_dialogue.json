@@ -49,6 +49,97 @@
 				"Sebastian Dialogue Changed": false,
 				"Shane Dialogue Changed": false
 			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/SecretNotes",
+			"Entries": {
+				"7": "{{ i18n: secrets.7.0 }}^^{{ i18n: secrets.7.1 }} {{ i18n: secrets.7.6 | harvey_name={{harvey_name}} }}^^{{ i18n: secrets.7.7 | elliott_name={{elliott_name}} }}^^{{ i18n: secrets.7.8 | shane_name={{shane_name}} }}%revealtasteHarvey395%revealtasteHarvey342%revealtasteElliott732%revealtasteElliott637%revealtasteShane346%revealtasteShane206%revealtasteShane215"
+			},
+			"When": {
+				"Harvey Dialogue Changed": true,
+				"Elliott Dialogue Changed": true,
+				"Shane Dialogue Changed": true
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/SecretNotes",
+			"Entries": {
+				"7": "{{ i18n: secrets.7.0 }}^^{{ i18n: secrets.7.1 }} {{ i18n: secrets.7.2 | harvey_name={{harvey_name}} }}^^{{ i18n: secrets.7.7 | elliott_name={{elliott_name}} }}^^{{ i18n: secrets.7.8 | shane_name={{shane_name}} }}%revealtasteHarvey395%revealtasteHarvey342%revealtasteElliott732%revealtasteElliott637%revealtasteShane346%revealtasteShane206%revealtasteShane215"
+			},
+			"When": {
+				"Harvey Dialogue Changed": false,
+				"Elliott Dialogue Changed": true,
+				"Shane Dialogue Changed": true
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/SecretNotes",
+			"Entries": {
+				"7": "{{ i18n: secrets.7.0 }}^^{{ i18n: secrets.7.1 }} {{ i18n: secrets.7.6 | harvey_name={{harvey_name}} }}^^{{ i18n: secrets.7.3 | elliott_name={{elliott_name}} }}^^{{ i18n: secrets.7.8 | shane_name={{shane_name}} }}%revealtasteHarvey395%revealtasteHarvey342%revealtasteElliott732%revealtasteElliott637%revealtasteShane346%revealtasteShane206%revealtasteShane215"
+			},
+			"When": {
+				"Harvey Dialogue Changed": true,
+				"Elliott Dialogue Changed": false,
+				"Shane Dialogue Changed": true
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/SecretNotes",
+			"Entries": {
+				"7": "{{ i18n: secrets.7.0 }}^^{{ i18n: secrets.7.1 }} {{ i18n: secrets.7.6 | harvey_name={{harvey_name}} }}^^{{ i18n: secrets.7.7 | elliott_name={{elliott_name}} }}^^{{ i18n: secrets.7.4 | shane_name={{shane_name}} }}%revealtasteHarvey395%revealtasteHarvey342%revealtasteElliott732%revealtasteElliott637%revealtasteShane346%revealtasteShane206%revealtasteShane215"
+			},
+			"When": {
+				"Harvey Dialogue Changed": true,
+				"Elliott Dialogue Changed": true,
+				"Shane Dialogue Changed": false
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/SecretNotes",
+			"Entries": {
+				"7": "{{ i18n: secrets.7.0 }}^^{{ i18n: secrets.7.1 }} {{ i18n: secrets.7.2 | harvey_name={{harvey_name}} }}^^{{ i18n: secrets.7.3 | elliott_name={{elliott_name}} }}^^{{ i18n: secrets.7.8 | shane_name={{shane_name}} }}%revealtasteHarvey395%revealtasteHarvey342%revealtasteElliott732%revealtasteElliott637%revealtasteShane346%revealtasteShane206%revealtasteShane215"
+			},
+			"When": {
+				"Harvey Dialogue Changed": false,
+				"Elliott Dialogue Changed": false,
+				"Shane Dialogue Changed": true
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/SecretNotes",
+			"Entries": {
+				"7": "{{ i18n: secrets.7.0 }}^^{{ i18n: secrets.7.1 }} {{ i18n: secrets.7.2 | harvey_name={{harvey_name}} }}^^{{ i18n: secrets.7.7 | elliott_name={{elliott_name}} }}^^{{ i18n: secrets.7.4 | shane_name={{shane_name}} }}%revealtasteHarvey395%revealtasteHarvey342%revealtasteElliott732%revealtasteElliott637%revealtasteShane346%revealtasteShane206%revealtasteShane215"
+			},
+			"When": {
+				"Harvey Dialogue Changed": false,
+				"Elliott Dialogue Changed": true,
+				"Shane Dialogue Changed": false
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Data/SecretNotes",
+			"Entries": {
+				"7": "{{ i18n: secrets.7.0 }}^^{{ i18n: secrets.7.1 }} {{ i18n: secrets.7.6 | harvey_name={{harvey_name}} }}^^{{ i18n: secrets.7.3 | elliott_name={{elliott_name}} }}^^{{ i18n: secrets.7.4 | shane_name={{shane_name}} }}%revealtasteHarvey395%revealtasteHarvey342%revealtasteElliott732%revealtasteElliott637%revealtasteShane346%revealtasteShane206%revealtasteShane215"
+			},
+			"When": {
+				"Harvey Dialogue Changed": true,
+				"Elliott Dialogue Changed": false,
+				"Shane Dialogue Changed": false
+			}
 		}
     ]
 }
