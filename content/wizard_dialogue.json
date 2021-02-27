@@ -52,8 +52,8 @@
 				"wizardJunimoNote": "{{ i18n: mail.wizardjunimonote | wizard_title={{wizard_title}} | wizard_name={{wizard_name}} }} %item quest 1 true %%",
 				"winter_12_1": "{{ i18n: mail.winter_12_1 | wizard_title={{wizard_title}} | wizard_name={{wizard_name}} }} %item quest 111 %%",
 				"winter_5_2": "{{ i18n: mail.winter_5_2 | wizard_title={{wizard_title}} | wizard_name={{wizard_name}} }} %item quest 123 %%",
-				"KrobusCrafting": "{{ i18n: mail,krobuscrafting | wizard_title={{wizard_title}} }}",
-				"WizardReward": "{{ i18n:mail.wizardreward | wizard_title={{wizard_title}} | wizard_name={{wizard_name}} }}",
+				"KrobusCrafting": "{{ i18n: mail.krobuscrafting | wizard_title={{wizard_title}} }}",
+				"WizardReward": "{{ i18n: mail.wizardreward | wizard_title={{wizard_title}} | wizard_name={{wizard_name}} }}",
 				"WizardReward2": "{{ i18n: mail.wizardreward2 | wizard_title={{wizard_title}} | wizard_name={{wizard_name}} }}"
 			},
 			"When": {
