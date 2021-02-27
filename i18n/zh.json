@@ -338,7 +338,7 @@
     "mail.fishing6": "快来看一看瞧一瞧，新品鱼竿上市咯。^货真价实，你还可以装备不同的钓具！^欢迎前来选购！^-{{willy_name}}",
     "mail.harveyBalloon": "@,^我想给你一个惊喜。在铁轨旁等我。 ^-{{harvey_name}}",
     "mail.joshMessage": "@,^天黑后到酒馆见我。 ^-{{alex_name}}",
-    "mail,krobuscrafting": "@，我不知道人类的信是怎么写的，所以我请{{wizard_title}}帮我写了这封信。^^希望你一切都好。^^我想给你看看这个……是我的同族人制作一样东西的笔记……^^——科罗布斯%item craftingRecipe Dark_Sign %%[#]来自科罗布斯的信",
+    "mail.krobuscrafting": "@，我不知道人类的信是怎么写的，所以我请{{wizard_title}}帮我写了这封信。^^希望你一切都好。^^我想给你看看这个……是我的同族人制作一样东西的笔记……^^——科罗布斯%item craftingRecipe Dark_Sign %%[#]来自科罗布斯的信",
     "mail.leocooking": "@：^这是我从家里拿来的食物，我和我的亲属都很喜欢，希望你也能喜欢。^^——雷欧^^P.S. 是{{willy_name}}帮我写的。%item cookingRecipe %%[#]雷欧的食谱",
     "mail.passedout3_billed": "@,^昨晚有人将你送到诊所了。你因中暑而晕倒！^你要照顾好自己，并在合适的时间及时睡觉。^你的医疗费是 {0}金。^^-{{harvey_name}}医生",
     "mail.passedout3_notbilled": "@,^昨晚有人将你送到诊所了。你因中暑而晕倒！^你要照顾好自己，并在合适的时间及时睡觉。^由于你没有钱，我想你提供免费的医疗服务。^^-{{harvey_name}}医生",
