@@ -158,7 +158,7 @@
 							"ID": "reaction_3",
 							"SpecialResponses": {
 								"DuringMovie": {
-									"Script": "/emote Sebastian 32/message \"{{ i18n: mreact.sebastian.r3.script | sebastian_name={{sebatian_name}} }}\""
+									"Script": "/emote Sebastian 32/message \"{{ i18n: mreact.sebastian.r3.script | sebastian_name={{sebastian_name}} }}\""
 								}
 							}
 						}
