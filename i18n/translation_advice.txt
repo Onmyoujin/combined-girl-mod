@@ -10,5 +10,6 @@ Locations of original texts:
 - Festivals can be found in Stardew Valley\Content\Data\Festivals
 - Mail can be found in Stardew Valley\Content\Data\mail.xnb
 - Quests can be found in Stardew Valley\Content\Data\Quests.xnb
-- Strings.cs can be found in Stardew Valley\Content\Strings\StringsFromCSFiles.zh-CN.xnb
+- Strings.cs can be found in Stardew Valley\Content\Strings\StringsFromCSFiles.xnb
+- Strings.animation can be found in Stardew Valley\Content\Strings\animationDescriptions.xnb
 
