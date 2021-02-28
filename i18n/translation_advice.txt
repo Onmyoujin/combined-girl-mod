@@ -12,4 +12,5 @@ Locations of original texts:
 - Quests can be found in Stardew Valley\Content\Data\Quests.xnb
 - Strings.cs can be found in Stardew Valley\Content\Strings\StringsFromCSFiles.xnb
 - Strings.animation can be found in Stardew Valley\Content\Strings\animationDescriptions.xnb
+- Strings.char can be found in Stardew Valley\Content\Strings\Characters.xnb
 
