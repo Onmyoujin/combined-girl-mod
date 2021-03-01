@@ -84,6 +84,7 @@ I highly recommend using [Generic Mod Config Menu](https://https://www.nexusmods
  * **Farmer Jack** - Sprites for Shane
  * **komina12345** - Portraits and sprites for Alex, Elliott, and Sebastian
  * **KonaKona7** - Portraits and sprites for Alex, Elliott, Sam, Sebastian, Shane, and Wizard
+ * **KuroameEdamame** - Chinese translation
  * **Lydomia** - Alternate portraits and sprites for Shane
  * **Onmyoujin** - Content Patcher conversion of all assets; English dialogue changes; Sprites for Alex, Elliott, Sebastian, Shane, and Willy
  * **RedK1rby** - Portraits and sprites for Alex, Elliot, Harvey, Sam, and Sebastian
