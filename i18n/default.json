@@ -486,7 +486,7 @@
     "shane.dumped_guys": "{{shane_name}} has a glazed look in her eye. She won't speak to you.",
     "shane.event_room1": "Okay... that'll require a great script. Maybe I'll ask {{elliott_name}} for advice next time I see her at the saloon.",
     "shane.jojamart": "{{shane_name}}'s hard at work. She doesn't seem interested in talking.",
-    "strings.animation.harvey_radio": "{{harvey_Name}} looks busy right now.",
+    "strings.animation.harvey_radio": "{{harvey_name}} looks busy right now.",
     "strings.animation.sam_guitar": "{{sam_name}} is busy practicing the guitar.",
     "strings.animation.sam_skateboarding": "{{sam_name}}'s trying to do a kickflip.",
     "strings.animation.sam_work": "{{sam_name}}'s on the clock... better not get her in trouble.",

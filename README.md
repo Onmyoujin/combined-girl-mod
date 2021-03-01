@@ -5,11 +5,8 @@
  * Ensure SMAPI and Content Patcher are installed.
  * Download the mod using the "Download with Manager" link on Nexus Mods.
  * Install and activate the mod in Nexus Vortex.
- * _(Optional)_ After first launch, navigate to the mod directory using
-   Open > Open Game Mods Folder > CombinedGirlMod and edit config.json to change settings as described
-   in the Configuration section below.
- * _(Alternative)_ Download General Mod Config Menu and use that to edit the settings directly.
-   **Restart the game after making any changes and saving.**
+ * _(Optional)_ After first launch, navigate to the mod directory using Open > Open Game Mods Folder > CombinedGirlMod and edit config.json to change settings as described in the Configuration section below.
+ * _(Alternative)_ Download General Mod Config Menu and use that to edit the settings directly. **Restart the game after making any changes and saving.**
 
 ### LEGACY INSTALLATION
 
@@ -87,8 +84,9 @@ I highly recommend using [Generic Mod Config Menu](https://https://www.nexusmods
  * **Farmer Jack** - Sprites for Shane
  * **komina12345** - Portraits and sprites for Alex, Elliott, and Sebastian
  * **KonaKona7** - Portraits and sprites for Alex, Elliott, Sam, Sebastian, Shane, and Wizard
+ * **KuroameEdamame** - Chinese translation
  * **Lydomia** - Alternate portraits and sprites for Shane
- * **Onmyoujin** - Content Patcher conversion of all assets; Dialogue changes; Sprites for
-               Alex, Elliott, Sebastian, Shane, and Willy
+ * **Onmyoujin** - Content Patcher conversion of all assets; English dialogue changes; Sprites for Alex, Elliott, Sebastian, Shane, and Willy
  * **RedK1rby** - Portraits and sprites for Alex, Elliot, Harvey, Sam, and Sebastian
  * **Wew69** - Portraits for Wizard
+ * **Zhanglan1999** - Chinese translation
