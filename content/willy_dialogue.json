@@ -89,7 +89,7 @@
 			"Target": "Data/mail",
 			"Entries": {
 				"WillyCooking": "{{ i18n: mail.willycooking | willy_name={{willy_name}} }}%item cookingRecipe %%",
-				"CF_Fish": "{{ i18n: mail.cf_fish | willy_name={{willy_name}} }}   ^  %item object 434 1 %%",
+				"CF_Fish": "{{ i18n: mail.cf_fish.0 | willy_name={{willy_name}} }}   ^  %item object 434 1 %%[#]{{ i18n: mail.cf_fish.1 | willy_name={{willy_name}} }}",
 				"fishing2": "{{ i18n: mail.fishing2 | willy_name={{willy_name}} }}",
 				"fishing6": "{{ i18n: mail.fishing6 | willy_name={{willy_name}} }}",
 				"spring_2_1": "{{ i18n: mail.spring_2_1 | willy_name={{willy_name}} }} %item quest 13 true %%",
