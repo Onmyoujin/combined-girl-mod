@@ -1,0 +1,23 @@
+A little help for translators:
+1. If you want to stick close to the original translations, unpack the xnb files and get your translations from there.
+2. Keep in mind that genders have changed, so sometimes you need to change the content according to the situation (girl talking to boy or girl talking to girl).
+
+Locations of original texts:
+- Normal dialogues can be found in Stardew Valley\Content\Characters\Dialogue
+- Engagement dialogues can be found in Stardew Valley\Content\Data\EngagementDialogue.xnb
+- Event dialogues can be founf in Stardew Valley\Content\Data\Events
+- Extra can be found in Stardew Valley\Content\Data\ExtraDialogue.xnb
+- Festivals can be found in Stardew Valley\Content\Data\Festivals
+- Mail can be found in Stardew Valley\Content\Data\mail.xnb
+- Quests can be found in Stardew Valley\Content\Data\Quests.xnb
+- Strings.cs and Strings.titlemenu can be found in Stardew Valley\Content\Strings\StringsFromCSFiles.xnb
+- Strings.animation can be found in Stardew Valley\Content\Strings\animationDescriptions.xnb
+- Strings.char can be found in Stardew Valley\Content\Strings\Characters.xnb
+- Strings.events can be found in Stardew Valley\Content\Strings\Events.xnb
+- Strings.maps can be found in Stardew Valley\Content\Strings\StringsFromMaps.xnb
+- Strings.objects can be found in Stardew Valley\Content\Strings\Objects.xnb
+- Strings.schedules can be found in Stardew Valley\Content\Strings\schedules
+- Strings.specialorder can be found in Stardew Valley\Content\Strings\SpecialOrderStrings.xnb
+- Secrets can be found in Stardew Valley\Content\Data\SecretNotes.xnb
+- Weapons can be found in Stardew Valley\Content\Data\Weapons.xnb
+- Mreact can be found in Stardew Valley\Content\Data\MoviesReactions.xnb
