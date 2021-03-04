@@ -66,7 +66,7 @@
 			"Target": "Data/NPCDispositions",
 			"Fields": {
 				"Wizard": {
-					"11": "{{wizard_title}}"
+					"11": "道姑"
 				}
 			},
 			"When": {
