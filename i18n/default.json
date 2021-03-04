@@ -432,6 +432,7 @@
     "mreact.sebastian.r3.script": "{{sebastian_name}} has a grin on her face.",
     "mreact.shane.r5.script": "{{shane_name}}'s trying not to smile.",
     "mreact.shane.r7.script": "{{shane_name}}'s slumped over...",
+    "npcdisp.wizard": "{{ wizard_title }}",
     "pam.resort": "Heh... {{willy_name}} gave us each a piece of her fish jerky on the ride over. Delicious!",
     "quests.1.0": "Meet The {{wizard_title}}",
     "quests.1.1": "You received a letter from the local {{wizard_title}}. She claims to have information regarding the old community center.",
