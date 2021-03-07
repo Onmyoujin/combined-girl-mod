@@ -18,6 +18,10 @@
       {
          "UniqueID": "Poltergeister.CuteSprites",
          "IsRequired": false
+      },
+      {
+         "UniqueID": "Tanpoponoko.SeasonalOutfits",
+         "IsRequired": false
       }
    ]
 }
