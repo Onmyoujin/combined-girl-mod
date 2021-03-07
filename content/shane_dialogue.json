@@ -55,8 +55,8 @@
 			"Action": "EditData",
 			"Target": "Data/mail",
 			"Entries": {
-				"Shane": "{{ i18n: mail.shane | shane_name={{shane_name}} }} %item object 215 1 206 1 %%",
-				"ShaneCooking": "{{ i18n: mail.shanecooking | shane_name={{shane_name}} }}%item cookingRecipe %%"
+				"Shane": "{{ i18n: mail.shane.0 | shane_name={{shane_name}} }} %item object 215 1 206 1 %%[#]{{ i18n: mail.shane.1 | shane_name={{shane_name}} }}",
+				"ShaneCooking": "{{ i18n: mail.shanecooking.0 | shane_name={{shane_name}} }}%item cookingRecipe %%[#]{{ i18n: mail.shanecooking.1 | shane_name={{shane_name}} }}"
 			},
 			"When": {
 				"Shane Dialogue Changed": true
