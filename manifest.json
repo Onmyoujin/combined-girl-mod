@@ -1,7 +1,7 @@
 {
    "Name": "Combined Girl Mod",
    "Author": "Onmyoujin",
-   "Version": "1.6.2",
+   "Version": "1.6.3",
    "Description": "A combination of several boy to girl genderswap mods compatible with Content Patcher.",
    "UniqueID": "Onmyoujin.CombinedGirlMod",
    "MinimumApiVersion": "3.9.0",
@@ -17,6 +17,10 @@
       },
       {
          "UniqueID": "Poltergeister.CuteSprites",
+         "IsRequired": false
+      },
+      {
+         "UniqueID": "Tanpoponoko.SeasonalOutfits",
          "IsRequired": false
       }
    ]

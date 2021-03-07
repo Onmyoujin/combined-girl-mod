@@ -55,8 +55,8 @@
 			"Action": "EditData",
 			"Target": "Data/mail",
 			"Entries": {
-				"Shane": "{{ i18n: mail.shane | shane_name={{shane_name}} }} %item object 215 1 206 1 %%",
-				"ShaneCooking": "{{ i18n: mail.shanecooking | shane_name={{shane_name}} }}%item cookingRecipe %%"
+				"Shane": "{{ i18n: mail.shane.0 | shane_name={{shane_name}} }} %item object 215 1 206 1 %%[#]{{ i18n: mail.shane.1 | shane_name={{shane_name}} }}",
+				"ShaneCooking": "{{ i18n: mail.shanecooking.0 | shane_name={{shane_name}} }}%item cookingRecipe %%[#]{{ i18n: mail.shanecooking.1 | shane_name={{shane_name}} }}"
 			},
 			"When": {
 				"Shane Dialogue Changed": true
@@ -70,17 +70,6 @@
 				"Shane": {
 					"11": "{{shane_name}}"
 				}
-			},
-			"When": {
-				"Shane Dialogue Changed": true
-			}
-		},
-
-		{
-			"Action": "EditData",
-			"Target": "Data/SecretNotes",
-			"Entries": {
-				"7": "{{ i18n: secrets.7 | harvey_name={{ harvey_name }} | harvey_pronoun.0={{ Lowercase:{{harvey_pronoun}} }} | harvey_spouse={{harvey_spouse}} | harvey_pronoun.1={{harvey_pronoun}} | elliott_name={{elliott_name}} | elliott_adj={{elliott_adj}} | elliott_pronoun.0={{ Lowercase:{{elliott_pronoun}} }} | elliott_feature={{elliott_feature}} | elliott_pronoun.1={{elliott_pronoun}} | shane_name={{shane_name}} | shane_possess={{shane_possess}} | shane_pronoun={{shane_pronoun}} }}%revealtasteHarvey395%revealtasteHarvey342%revealtasteElliott732%revealtasteElliott637%revealtasteShane346%revealtasteShane206%revealtasteShane215"
 			},
 			"When": {
 				"Shane Dialogue Changed": true
@@ -161,7 +150,8 @@
 			"Target": "Data/Events/ManorHouse",
 			"Fields": {
 				"2123243/e 2111194": {
-					"60": "speak Emily \"{{ i18n: events.manorhouse.2123243.0 | shane_name={{shane_name}} }}#$b#{{ i18n: events.manorhouse.2123243.1 }}\""
+					"60": "speak Emily \"{{ i18n: events.manorhouse.2123243.0 | shane_name={{shane_name}} }}#$b#{{ i18n: events.manorhouse.2123243.1 }}\"",
+					"25": "speak Emily \"{{ i18n: events.manorhouse.2123243.2 }}#$b#{{ i18n: events.manorhouse.2123243.3 }}#$b#{{ i18n: events.manorhouse.2123243.4 | shane_name={{shane_name}} }}$h\""
 				}
 			},
 			"When": {
