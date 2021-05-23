@@ -38,6 +38,7 @@ In config.json, the following values are accepted:
 * **Harvey Sprites:** Adarin, RedK1rby, Disabled
 * **Harvey Dialogue Changed:** true, false
 * **Harvey Name:** Any string; defaults to Harley; applies only when dialogue changed
+* **Harvey Callsign:** Any string; defaults to Dr. H; applies only when dialogue changed
 
 #### Sam Options
 * **Sam Portraits:** Adarin, KonaKona7, Disabled
