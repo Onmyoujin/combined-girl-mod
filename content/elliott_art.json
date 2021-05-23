@@ -34,6 +34,20 @@
 			"When": {
 				"Elliott Sprites |contains=Disabled": false
 			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+			"Entries": {
+				"Elliott": {
+					"MarkerCropOffset": 2
+				}
+			},
+			"When": {
+				"Elliott Sprites |contains=Disabled": false,
+				"HasMod": "Bouhm.NPCMapLocations"
+			}
 		}
     ]
 }

@@ -34,6 +34,20 @@
 			"When": {
 				"Alex Sprites |contains=Disabled": false
 			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+			"Entries": {
+				"Alex": {
+					"MarkerCropOffset": 3
+				}
+			},
+			"When": {
+				"Alex Sprites |contains=Disabled": false,
+				"HasMod": "Bouhm.NPCMapLocations"
+			}
 		}
     ]
 }

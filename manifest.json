@@ -22,6 +22,11 @@
       {
          "UniqueID": "Tanpoponoko.SeasonalOutfits",
          "IsRequired": false
+      },
+      {
+         "UniqueID": "Bouhm.NPCMapLocations",
+         "IsRequired": false,
+         "MinimumVersion": "2.6.2"
       }
    ]
 }

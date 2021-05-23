@@ -34,6 +34,20 @@
 			"When": {
 				"Sam Sprites |contains=Disabled": false
 			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+			"Entries": {
+				"Sam": {
+					"MarkerCropOffset": 2
+				}
+			},
+			"When": {
+				"Sam Sprites |contains=Disabled": false,
+				"HasMod": "Bouhm.NPCMapLocations"
+			}
 		}
     ]
 }

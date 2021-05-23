@@ -63,6 +63,20 @@
 			"When": {
 				"Shane Sprites |contains=Disabled": false
 			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+			"Entries": {
+				"Shane": {
+					"MarkerCropOffset": 3
+				}
+			},
+			"When": {
+				"Shane Sprites |contains=Disabled": false,
+				"HasMod": "Bouhm.NPCMapLocations"
+			}
 		}
     ]
 }

@@ -16,6 +16,20 @@
 			"When": {
 				"Willy Sprites |contains=Disabled": false
 			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+			"Entries": {
+				"Willy": {
+					"MarkerCropOffset": 2
+				}
+			},
+			"When": {
+				"Willy Sprites |contains=Disabled": false,
+				"HasMod": "Bouhm.NPCMapLocations"
+			}
 		}
     ]
 }

@@ -34,6 +34,20 @@
 			"When": {
 				"Harvey Sprites |contains=Disabled": false
 			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+			"Entries": {
+				"Harvey": {
+					"MarkerCropOffset": 5
+				}
+			},
+			"When": {
+				"Harvey Sprites |contains=Disabled": false,
+				"HasMod": "Bouhm.NPCMapLocations"
+			}
 		}
     ]
 }
