@@ -1,0 +1,55 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Mods/Bouhm.NPCMapLocations/Locations",
+            "Entries": {
+                "Beach1": {
+	                "MapTooltip": {
+	                "X": 836,
+	                "Y": 552,
+	                "Width": 32,
+	                "Height": 36,
+	                "PrimaryText": "Elliott's House"
+                    }
+	            },
+	            "Beach2": {
+                    "MapTooltip": {
+                    "X": 792,
+                    "Y": 616,
+                    "Width": 32,
+                    "Height": 36,
+                    "PrimaryText": "Willy's House"
+                    }
+                }
+            }
+        },  
+	
+        {
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "harveyBalloon": "@,^I have a surprise for you. Meet me in Grampleton Fields, across Shearwater Bridge!^   -Harvey[#]Harvey's Surprise"
+            }
+        },
+
+        {
+            "Action": "EditData",
+            "Target": "data/festivals/winter8",
+            "Entries": {
+              "Victor": "I must say, I'm looking forward to seeing Willy show off his fishing skills.$1#$b#You can tell how talented he is. He's been fishing all of his life!$3"
+            }
+        },
+        
+        {
+            "Action": "EditData",
+            "Target": "data/festivals/winter8",
+            "Entries": {
+              "Victor": "Good luck in the fishing contest, sweetheart. You're going to do great!$4#$e#I'll be cheering for you!$1"
+            },
+            "When": {
+              "Spouse": "Victor"
+            }
+        }
+    ]
+}

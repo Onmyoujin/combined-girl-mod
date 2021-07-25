@@ -27,6 +27,11 @@
          "UniqueID": "Bouhm.NPCMapLocations",
          "IsRequired": false,
          "MinimumVersion": "2.6.2"
+      },
+      {
+         "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+         "IsRequired": false,
+         "MinimumVersion": "1.12.18"
       }
    ]
 }
