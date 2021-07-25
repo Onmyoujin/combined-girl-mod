@@ -73,10 +73,12 @@ https://https://www.nexusmods.com/stardewvalley/mods/5098
 === CREDITS ===
 
  * AdarinSinner - Portraits and sprites for Alex, Elliott, Harvey, Sam, and Sebastian
+ * Azurys - French translation
  * bajel - Portraits and sprites for Willy
  * CreepyKat - Portraits and sprites for Wizard
  * exrenkon - Portraits and sprites for Shane and Elliott
  * Farmer Jack - Sprites for Shane
+ * Kadomine - Portuguese translation
  * komina12345 - Portraits and sprites for Alex, Elliott, and Sebastian
  * KonaKona7 - Portraits and sprites for Alex, Elliott, Sam, Sebastian, Shane, and Wizard
  * KuroameEdamame - Chinese translation
