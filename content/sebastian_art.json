@@ -45,6 +45,20 @@
 			"When": {
 				"Sebastian Sprites |contains=Disabled": false
 			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+			"Entries": {
+				"Sebastian": {
+					"MarkerCropOffset": 3
+				}
+			},
+			"When": {
+				"Sebastian Sprites |contains=Disabled": false,
+				"HasMod": "Bouhm.NPCMapLocations"
+			}
 		}
     ]
 }

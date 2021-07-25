@@ -171,6 +171,9 @@
 					"5": "speak Maru \"{{ i18n: events.hospital.toldtruth.0 | harvey_name={{harvey_name}} }}\""
 				},
 				"571102/f Harvey 2000": {
+					"11": "speak Harvey \"{{ i18n: events.hospital.571102.2 | harvey_callsign={{harvey_callsign}} }}$9\"",
+					"16": "message \"{{ i18n: events.hospital.571102.3 | harvey_callsign={{harvey_callsign}} }}\"",
+					"20": "speak Harvey \"{{ i18n: events.hospital.571102.4 }}$10#$b#{{ i18n: events.hospital.571102.5 | harvey_callsign={{harvey_callsign}} }}$10\"",
 					"32": "question fork1 \"#{{ i18n: events.hospital.571102.0 | harvey_name={{harvey_name}} }}#{{ i18n: events.hospital.571102.1 }}\""
 				}
 			},

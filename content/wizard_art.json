@@ -16,6 +16,20 @@
 			"When": {
 				"Wizard Sprites |contains=Disabled": false
 			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+			"Entries": {
+				"Wizard": {
+					"MarkerCropOffset": 2
+				}
+			},
+			"When": {
+				"Wizard Sprites |contains=Disabled": false,
+				"HasMod": "Bouhm.NPCMapLocations"
+			}
 		}
     ]
 }

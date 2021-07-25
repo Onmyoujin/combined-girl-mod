@@ -58,6 +58,10 @@
 			"Default": "Harley",
 			"Description": "NPC name.  Applied only when dialogue changes are enabled."
 		},
+		"Harvey Callsign": {
+			"Default": "Dr. H",
+			"Description": "Harvey's radio callsign."
+		},
 		"Sam Portraits": {
 			"AllowValues": "Adarin, KonaKona7, Disabled",
 			"Default": "Adarin",
@@ -211,6 +215,13 @@
 		{
 			"Name": "harvey_name",
 			"Value": "{{Harvey Name}}",
+			"When": {
+				"Harvey Dialogue Changed": true
+			}
+		},
+		{
+			"Name": "harvey_callsign",
+			"Value": "{{Harvey Callsign}}",
 			"When": {
 				"Harvey Dialogue Changed": true
 			}

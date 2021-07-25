@@ -36,6 +36,7 @@ Harvey Portraits: Adarin, RedK1rby, Disabled
 Harvey Sprites: Adarin, RedK1rby, Disabled
 Harvey Dialogue Changed: true, false
 Harvey Name: Any string; defaults to Harley; applies only when dialogue changed
+Harvey Callsign: Any string; defaults to Dr. H; applies only when dialogue changed
 
 Sam Portraits: Adarin, KonaKona7, Disabled
 Sam Sprites: Adarin, KonaKona7, Disabled
@@ -72,10 +73,12 @@ https://https://www.nexusmods.com/stardewvalley/mods/5098
 === CREDITS ===
 
  * AdarinSinner - Portraits and sprites for Alex, Elliott, Harvey, Sam, and Sebastian
+ * Azurys - French translation
  * bajel - Portraits and sprites for Willy
  * CreepyKat - Portraits and sprites for Wizard
  * exrenkon - Portraits and sprites for Shane and Elliott
  * Farmer Jack - Sprites for Shane
+ * Kadomine - Portuguese translation
  * komina12345 - Portraits and sprites for Alex, Elliott, and Sebastian
  * KonaKona7 - Portraits and sprites for Alex, Elliott, Sam, Sebastian, Shane, and Wizard
  * KuroameEdamame - Chinese translation
