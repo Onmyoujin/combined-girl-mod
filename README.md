@@ -84,6 +84,7 @@ I highly recommend using [Generic Mod Config Menu](https://https://www.nexusmods
  * **CreepyKat** - Portraits and sprites for Wizard
  * **exrenkon** - Portraits and sprites for Shane and Elliott
  * **Farmer Jack** - Sprites for Shane
+ * **Intermarche** - Spanish translation
  * **Kadomine** - Portuguese translation
  * **komina12345** - Portraits and sprites for Alex, Elliott, and Sebastian
  * **KonaKona7** - Portraits and sprites for Alex, Elliott, Sam, Sebastian, Shane, and Wizard
