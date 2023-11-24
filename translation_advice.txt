@@ -5,7 +5,7 @@ A little help for translators:
 Locations of original texts:
 - Normal dialogues can be found in Stardew Valley\Content\Characters\Dialogue
 - Engagement dialogues can be found in Stardew Valley\Content\Data\EngagementDialogue.xnb
-- Event dialogues can be founf in Stardew Valley\Content\Data\Events
+- Event dialogues can be found in Stardew Valley\Content\Data\Events
 - Extra can be found in Stardew Valley\Content\Data\ExtraDialogue.xnb
 - Festivals can be found in Stardew Valley\Content\Data\Festivals
 - Mail can be found in Stardew Valley\Content\Data\mail.xnb

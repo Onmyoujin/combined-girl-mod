@@ -88,5 +88,6 @@ https://https://www.nexusmods.com/stardewvalley/mods/5098
                Alex, Elliott, Sebastian, Shane, and Willy
  * Psychochicken80 - German translation
  * RedK1rby - Portraits and sprites for Alex, Elliot, Harvey, Sam, and Sebastian
+ * theRealDuda - Russian translation
  * Wew69 - Portraits for Wizard
  * Zhanglan1999 - Chinese translation
