@@ -78,6 +78,7 @@ https://https://www.nexusmods.com/stardewvalley/mods/5098
  * CreepyKat - Portraits and sprites for Wizard
  * exrenkon - Portraits and sprites for Shane and Elliott
  * Farmer Jack - Sprites for Shane
+ * Intermarche - Spanish translation
  * Kadomine - Portuguese translation
  * komina12345 - Portraits and sprites for Alex, Elliott, and Sebastian
  * KonaKona7 - Portraits and sprites for Alex, Elliott, Sam, Sebastian, Shane, and Wizard
@@ -87,5 +88,6 @@ https://https://www.nexusmods.com/stardewvalley/mods/5098
                Alex, Elliott, Sebastian, Shane, and Willy
  * Psychochicken80 - German translation
  * RedK1rby - Portraits and sprites for Alex, Elliot, Harvey, Sam, and Sebastian
+ * theRealDuda - Russian translation
  * Wew69 - Portraits for Wizard
  * Zhanglan1999 - Chinese translation

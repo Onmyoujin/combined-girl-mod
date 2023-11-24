@@ -275,7 +275,7 @@
 			"Action": "EditData",
 			"Target": "Data/Festivals/summer28",
 			"Entries": {
-				"Sam": "{{ i18n: festivals.summer28.sam.0 }}#$e#{{ i18n: festivals.summer28.sam.0 | sebastian_name={{sebastian_name}} }}$h"
+				"Sam": "{{ i18n: festivals.summer28.sam.0 }}#$e#{{ i18n: festivals.summer28.sam.1 | sebastian_name={{sebastian_name}} }}$h"
 			},
 			"When": {
 				"Sebastian Dialogue Changed": true
