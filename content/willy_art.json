@@ -8,10 +8,28 @@
 				"Willy Portraits |contains=Disabled": false
 			}
         },
+
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Willy_Winter",
+			"FromFile": "assets/Portraits/Willy/{{Willy Portraits}}.png",
+			"When": {
+				"Willy Portraits |contains=Disabled": false
+			}
+        },
         
         {
 			"Action": "EditImage",
 			"Target": "Characters/Willy",
+			"FromFile": "assets/Characters/Willy/{{Willy Sprites}}.png",
+			"When": {
+				"Willy Sprites |contains=Disabled": false
+			}
+		},
+
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Willy_Winter",
 			"FromFile": "assets/Characters/Willy/{{Willy Sprites}}.png",
 			"When": {
 				"Willy Sprites |contains=Disabled": false
