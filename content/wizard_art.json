@@ -8,10 +8,28 @@
 				"Wizard Portraits |contains=Disabled": false
 			}
 		},
+
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Wizard_Winter",
+			"FromFile": "assets/Portraits/Wizard/{{Wizard Portraits}}.png",
+			"When": {
+				"Wizard Portraits |contains=Disabled": false
+			}
+		},
 		
 		{
 			"Action": "EditImage",
 			"Target": "Characters/Wizard",
+			"FromFile": "assets/Characters/Wizard/{{Wizard Sprites}}.png",
+			"When": {
+				"Wizard Sprites |contains=Disabled": false
+			}
+		},
+
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Wizard_Winter",
 			"FromFile": "assets/Characters/Wizard/{{Wizard Sprites}}.png",
 			"When": {
 				"Wizard Sprites |contains=Disabled": false
