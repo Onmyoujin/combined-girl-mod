@@ -17,6 +17,15 @@
 				"Sebastian Portraits |contains=Disabled": false
 			}
         },
+
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Sebastian_Winter",
+			"FromFile": "assets/Portraits/Sebastian/{{Sebastian Portraits}}.png",
+			"When": {
+				"Sebastian Portraits |contains=Disabled": false
+			}
+        },
         
         {
 			"Action": "EditImage",
@@ -42,6 +51,15 @@
 			"Action": "EditImage",
 			"Target": "Characters/Sebastian_Beach",
 			"FromFile": "assets/Characters/Sebastian/{{Sebastian Sprites}}_Beach.png",
+			"When": {
+				"Sebastian Sprites |contains=Disabled": false
+			}
+		},
+
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Sebastian_Winter",
+			"FromFile": "assets/Characters/Sebastian/{{Sebastian Sprites}}.png",
 			"When": {
 				"Sebastian Sprites |contains=Disabled": false
 			}

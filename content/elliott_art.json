@@ -17,6 +17,15 @@
 				"Elliott Portraits |contains=Disabled": false
 			}
         },
+
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Elliott_Winter",
+			"FromFile": "assets/Portraits/Elliott/{{Elliott Portraits}}.png",
+			"When": {
+				"Elliott Portraits |contains=Disabled": false
+			}
+        },
         
         {
 			"Action": "EditImage",
@@ -31,6 +40,15 @@
 			"Action": "EditImage",
 			"Target": "Characters/Elliott_Beach",
 			"FromFile": "assets/Characters/Elliott/{{Elliott Sprites}}_Beach.png",
+			"When": {
+				"Elliott Sprites |contains=Disabled": false
+			}
+		},
+
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Elliott_Winter",
+			"FromFile": "assets/Characters/Elliott/{{Elliott Sprites}}.png",
 			"When": {
 				"Elliott Sprites |contains=Disabled": false
 			}

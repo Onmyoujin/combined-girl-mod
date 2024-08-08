@@ -93,6 +93,7 @@ I highly recommend using [Generic Mod Config Menu](https://https://www.nexusmods
  * **Onmyoujin** - Content Patcher conversion of all assets; English dialogue changes; Sprites for Alex, Elliott, Sebastian, Shane, and Willy
  * **Psychochicken80** - German translation
  * **RedK1rby** - Portraits and sprites for Alex, Elliot, Harvey, Sam, and Sebastian
+ * **Sicarus254** - Fix winter outfit
  * **theRealDuda** - Russian translation
  * **Wew69** - Portraits for Wizard
  * **Zhanglan1999** - Chinese translation

@@ -17,6 +17,15 @@
 				"Sam Portraits |contains=Disabled": false
 			}
         },
+
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Sam_Winter",
+			"FromFile": "assets/Portraits/Sam/{{Sam Portraits}}.png",
+			"When": {
+				"Sam Portraits |contains=Disabled": false
+			}
+        },
         
         {
 			"Action": "EditImage",
@@ -31,6 +40,15 @@
 			"Action": "EditImage",
 			"Target": "Characters/Sam_Beach",
 			"FromFile": "assets/Characters/Sam/{{Sam Sprites}}_Beach.png",
+			"When": {
+				"Sam Sprites |contains=Disabled": false
+			}
+		},
+
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Sam_Winter",
+			"FromFile": "assets/Characters/Sam/{{Sam Sprites}}.png",
 			"When": {
 				"Sam Sprites |contains=Disabled": false
 			}
