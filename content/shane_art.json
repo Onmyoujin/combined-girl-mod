@@ -21,7 +21,7 @@
 		{
 			"Action": "EditImage",
 			"Target": "Portraits/Shane_Winter",
-			"FromFile": "assets/Portraits/Shane/{{Shane Portraits}}.png",
+			"FromFile": "assets/Portraits/Shane/{{Shane Portraits}}_Winter.png",
 			"When": {
 				"Shane Portraits |contains=Disabled": false
 			}
@@ -77,7 +77,7 @@
 		{
 			"Action": "EditImage",
 			"Target": "Characters/Shane_Winter",
-			"FromFile": "assets/Characters/Shane/{{Shane Sprites}}.png",
+			"FromFile": "assets/Characters/Shane/{{Shane Sprites}}_Winter.png",
 			"When": {
 				"Shane Sprites |contains=Disabled": false
 			}

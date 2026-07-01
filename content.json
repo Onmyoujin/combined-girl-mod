@@ -11,6 +11,11 @@
 			"Default": "Adarin",
 			"Description": "Portrait and sprite options."
 		},
+		"Alex Winter Ear Muff": {
+			"AllowValues": "true, false",
+			"Default": true,
+			"Description": "Alex will now wear ear muff."
+		},
 		"Alex Dialogue Changed": {
 			"AllowValues": "true, false",
 			"Default": true,
@@ -30,6 +35,11 @@
 			"Default": "Adarin",
 			"Description": "Portrait and sprite options."
 		},
+		"Elliott Winter Red Ribbon": {
+			"AllowValues": "true, false",
+			"Default": false,
+			"Description": "Elliot's ribbon will be red and not green'."
+		},
 		"Elliott Dialogue Changed": {
 			"AllowValues": "true, false",
 			"Default": true,
@@ -48,6 +58,11 @@
 			"AllowValues": "Adarin, RedK1rby, Disabled",
 			"Default": "Adarin",
 			"Description": "Portrait and sprite options."
+		},
+		"Harvey Winter Accessories": {
+			"AllowValues": "Cap, Scarf, CapAndScarf, Disabled",
+			"Default": "CapAndScarf",
+			"Description": "Harvey winter outfit accessories."
 		},
 		"Harvey Dialogue Changed": {
 			"AllowValues": "true, false",

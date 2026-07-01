@@ -21,9 +21,20 @@
 		{
 			"Action": "EditImage",
 			"Target": "Portraits/Alex_Winter",
-			"FromFile": "assets/Portraits/Alex/{{Alex Portraits}}.png",
+			"FromFile": "assets/Portraits/Alex/{{Alex Portraits}}_Winter.png",
 			"When": {
-				"Alex Portraits |contains=Disabled": false
+				"Alex Portraits |contains=Disabled": false,
+				"Alex Winter Ear Muff": false
+			}
+        },
+
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Alex_Winter",
+			"FromFile": "assets/Portraits/Alex/{{Alex Portraits}}_Winter_EarMuff.png",
+			"When": {
+				"Alex Portraits |contains=Disabled": false,
+				"Alex Winter Ear Muff": true
 			}
         },
         
@@ -48,9 +59,20 @@
 		{
 			"Action": "EditImage",
 			"Target": "Characters/Alex_Winter",
-			"FromFile": "assets/Characters/Alex/{{Alex Sprites}}.png",
+			"FromFile": "assets/Characters/Alex/{{Alex Sprites}}_Winter.png",
 			"When": {
-				"Alex Sprites |contains=Disabled": false
+				"Alex Sprites |contains=Disabled": false,
+				"Alex Winter Ear Muff": false
+			}
+		},
+
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Alex_Winter",
+			"FromFile": "assets/Characters/Alex/{{Alex Sprites}}_Winter_EarMuff.png",
+			"When": {
+				"Alex Sprites |contains=Disabled": false,
+				"Alex Winter Ear Muff": true
 			}
 		},
 

@@ -21,7 +21,7 @@
 		{
 			"Action": "EditImage",
 			"Target": "Portraits/Sam_Winter",
-			"FromFile": "assets/Portraits/Sam/{{Sam Portraits}}.png",
+			"FromFile": "assets/Portraits/Sam/{{Sam Portraits}}_Winter.png",
 			"When": {
 				"Sam Portraits |contains=Disabled": false
 			}
@@ -48,7 +48,7 @@
 		{
 			"Action": "EditImage",
 			"Target": "Characters/Sam_Winter",
-			"FromFile": "assets/Characters/Sam/{{Sam Sprites}}.png",
+			"FromFile": "assets/Characters/Sam/{{Sam Sprites}}_Winter.png",
 			"When": {
 				"Sam Sprites |contains=Disabled": false
 			}

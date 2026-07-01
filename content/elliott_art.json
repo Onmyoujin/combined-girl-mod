@@ -21,9 +21,19 @@
 		{
 			"Action": "EditImage",
 			"Target": "Portraits/Elliott_Winter",
-			"FromFile": "assets/Portraits/Elliott/{{Elliott Portraits}}.png",
+			"FromFile": "assets/Portraits/Elliott/{{Elliott Portraits}}_Winter.png",
 			"When": {
-				"Elliott Portraits |contains=Disabled": false
+				"Elliott Portraits |contains=Disabled": false,
+				"Elliott Winter Red Ribbon": false
+			}
+        },
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Elliott_Winter",
+			"FromFile": "assets/Portraits/Elliott/{{Elliott Portraits}}_Winter_RedRibbon.png",
+			"When": {
+				"Elliott Portraits |contains=Disabled": false,
+				"Elliott Winter Red Ribbon": true
 			}
         },
         
@@ -48,9 +58,19 @@
 		{
 			"Action": "EditImage",
 			"Target": "Characters/Elliott_Winter",
-			"FromFile": "assets/Characters/Elliott/{{Elliott Sprites}}.png",
+			"FromFile": "assets/Characters/Elliott/{{Elliott Sprites}}_Winter.png",
 			"When": {
-				"Elliott Sprites |contains=Disabled": false
+				"Elliott Sprites |contains=Disabled": false,
+				"Elliott Winter Red Ribbon": false
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Elliott_Winter",
+			"FromFile": "assets/Characters/Elliott/{{Elliott Sprites}}_Winter_RedRibbon.png",
+			"When": {
+				"Elliott Sprites |contains=Disabled": false,
+				"Elliott Winter Red Ribbon": true
 			}
 		},
 

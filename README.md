@@ -24,18 +24,21 @@ In config.json, the following values are accepted:
 #### Alex Options
 * **Alex Portraits:** Adarin, Adarin Variant, Disabled
 * **Alex Sprites:** Adarin, Adarin Variant, Disabled
+* **Alex Winter Ear Muff:** true, false
 * **Alex Dialogue Changed:** true, false
 * **Alex Name:** Any string; defaults to Alexa; applies only when dialogue changed
 
 #### Elliott Options
 * **Elliott Portraits:** Adarin, Adarin Variant, Exrenkon, Disabled
 * **Elliott Sprites:** Adarin, Adarin Variant, Exrenkon, Disabled
+* **Elliott Winter Red Ribbon:** true, false
 * **Elliott Dialogue Changed:** true, false
 * **Elliott Name:** Any string; defaults to Elayne; applies only when dialogue changed
 
 #### Harvey Options
 * **Harvey Portraits:** Adarin, RedK1rby, Disabled
 * **Harvey Sprites:** Adarin, RedK1rby, Disabled
+* **Harvey Winter Accessories:** Cap, Scarf, CapAndScarf, Disabled
 * **Harvey Dialogue Changed:** true, false
 * **Harvey Name:** Any string; defaults to Harley; applies only when dialogue changed
 * **Harvey Callsign:** Any string; defaults to Dr. H; applies only when dialogue changed
@@ -92,7 +95,7 @@ I highly recommend using [Generic Mod Config Menu](https://https://www.nexusmods
  * **Lydomia** - Alternate portraits and sprites for Shane
  * **Onmyoujin** - Content Patcher conversion of all assets; English dialogue changes; Sprites for Alex, Elliott, Sebastian, Shane, and Willy
  * **Psychochicken80** - German translation
- * **RedK1rby** - Portraits and sprites for Alex, Elliot, Harvey, Sam, and Sebastian
+ * **RedK1rby** - Beach outfit for Alex, Elliot, Harvey, Sam, and Sebastian | Winter outfit for Alex, Elliot, Harvey, Sam, Sebastian and Shane
  * **Sicarus254** - Fix winter outfit
  * **theRealDuda** - Russian translation
  * **Wew69** - Portraits for Wizard

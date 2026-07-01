@@ -21,9 +21,19 @@
 		{
 			"Action": "EditImage",
 			"Target": "Portraits/Harvey_Winter",
-			"FromFile": "assets/Portraits/Harvey/{{Harvey Portraits}}.png",
+			"FromFile": "assets/Portraits/Harvey/{{Harvey Portraits}}_Winter.png",
 			"When": {
-				"Harvey Portraits |contains=Disabled": false
+				"Harvey Portraits |contains=Disabled": false,
+				"Harvey Winter Accessories |contains=Disabled": true
+			}
+        },
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Harvey_Winter",
+			"FromFile": "assets/Portraits/Harvey/{{Harvey Portraits}}_Winter_{{Harvey Winter Accessories}}.png",
+			"When": {
+				"Harvey Portraits |contains=Disabled": false,
+				"Harvey Winter Accessories |contains=Disabled": false
 			}
         },
         
@@ -48,9 +58,19 @@
 		{
 			"Action": "EditImage",
 			"Target": "Characters/Harvey_Winter",
-			"FromFile": "assets/Characters/Harvey/{{Harvey Sprites}}.png",
+			"FromFile": "assets/Characters/Harvey/{{Harvey Sprites}}_Winter.png",
 			"When": {
-				"Harvey Sprites |contains=Disabled": false
+				"Harvey Sprites |contains=Disabled": false,
+				"Harvey Winter Accessories |contains=Disabled": true
+			}
+		},
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Harvey_Winter",
+			"FromFile": "assets/Characters/Harvey/{{Harvey Sprites}}_Winter_{{Harvey Winter Accessories}}.png",
+			"When": {
+				"Harvey Sprites |contains=Disabled": false,
+				"Harvey Winter Accessories |contains=Disabled": false
 			}
 		},
 
